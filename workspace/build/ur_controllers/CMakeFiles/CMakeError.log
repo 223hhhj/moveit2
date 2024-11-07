@@ -1,0 +1,11 @@
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/bin/ld: cannot open output file a.out: 沒有此一檔案或目錄
+collect2: error: ld returned 1 exit status
+
+

@@ -1,0 +1,83 @@
+[0.005s] Invoking command in '/home/steven/ws_moveit2/build/rviz_marker_tools': AMENT_PREFIX_PATH=/home/steven/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/steven/ws_moveit2/install/moveit_common:/opt/ros/humble /usr/bin/cmake /home/steven/ws_moveit2/src/moveit_task_constructor/rviz_marker_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/steven/ws_moveit2/install/rviz_marker_tools
+[0.031s] -- The C compiler identification is GNU 11.4.0
+[0.056s] -- The CXX compiler identification is GNU 11.4.0
+[0.059s] -- Detecting C compiler ABI info
+[0.091s] -- Detecting C compiler ABI info - done
+[0.096s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.096s] -- Detecting C compile features
+[0.096s] -- Detecting C compile features - done
+[0.098s] -- Detecting CXX compiler ABI info
+[0.138s] -- Detecting CXX compiler ABI info - done
+[0.143s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.143s] -- Detecting CXX compile features
+[0.143s] -- Detecting CXX compile features - done
+[0.144s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.215s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.254s] -- Found moveit_common: 2.5.5 (/home/steven/ws_moveit2/install/moveit_common/share/moveit_common/cmake)
+[0.286s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[0.288s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.288s] -- BACKWARD_HAS_UNWIND=1
+[0.289s] -- BACKWARD_HAS_BACKTRACE=0
+[0.289s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.289s] -- BACKWARD_HAS_DW=1
+[0.289s] -- BACKWARD_HAS_BFD=0
+[0.289s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0.290s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.293s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.293s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.306s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.308s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.312s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.318s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.326s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.379s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.404s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.405s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.451s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.461s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.483s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.487s] -- Looking for pthread.h
+[0.533s] -- Looking for pthread.h - found
+[0.533s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.582s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.583s] -- Found Threads: TRUE  
+[0.639s] -- Found tf2_eigen: 0.25.6 (/opt/ros/humble/share/tf2_eigen/cmake)
+[0.799s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.899s] -- Configuring done
+[0.904s] -- Generating done
+[0.905s] -- Build files have been written to: /home/steven/ws_moveit2/build/rviz_marker_tools
+[0.911s] Invoked command in '/home/steven/ws_moveit2/build/rviz_marker_tools' returned '0': AMENT_PREFIX_PATH=/home/steven/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/steven/ws_moveit2/install/moveit_common:/opt/ros/humble /usr/bin/cmake /home/steven/ws_moveit2/src/moveit_task_constructor/rviz_marker_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/steven/ws_moveit2/install/rviz_marker_tools
+[0.912s] Invoking command in '/home/steven/ws_moveit2/build/rviz_marker_tools': AMENT_PREFIX_PATH=/home/steven/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/steven/ws_moveit2/install/moveit_common:/opt/ros/humble /usr/bin/cmake --build /home/steven/ws_moveit2/build/rviz_marker_tools -- -j32 -l32
+[0.943s] [ 50%] [32mBuilding CXX object CMakeFiles/rviz_marker_tools.dir/src/marker_creation.cpp.o[0m
+[3.913s] [100%] [32m[1mLinking CXX shared library librviz_marker_tools.so[0m
+[3.976s] [100%] Built target rviz_marker_tools
+[3.982s] Invoked command in '/home/steven/ws_moveit2/build/rviz_marker_tools' returned '0': AMENT_PREFIX_PATH=/home/steven/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/steven/ws_moveit2/install/moveit_common:/opt/ros/humble /usr/bin/cmake --build /home/steven/ws_moveit2/build/rviz_marker_tools -- -j32 -l32
+[3.991s] Invoking command in '/home/steven/ws_moveit2/build/rviz_marker_tools': AMENT_PREFIX_PATH=/home/steven/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/steven/ws_moveit2/install/moveit_common:/opt/ros/humble /usr/bin/cmake --install /home/steven/ws_moveit2/build/rviz_marker_tools
+[3.995s] -- Install configuration: "Release"
+[3.995s] -- Installing: /home/steven/ws_moveit2/install/rviz_marker_tools/include
+[3.995s] -- Installing: /home/steven/ws_moveit2/install/rviz_marker_tools/include/rviz_marker_tools
+[3.995s] -- Installing: /home/steven/ws_moveit2/install/rviz_marker_tools/include/rviz_marker_tools/marker_creation.h
+[3.995s] -- Installing: /home/steven/ws_moveit2/install/rviz_marker_tools/lib/librviz_marker_tools.so
+[3.995s] -- Set runtime path of "/home/steven/ws_moveit2/install/rviz_marker_tools/lib/librviz_marker_tools.so" to ""
+[3.995s] -- Installing: /home/steven/ws_moveit2/install/rviz_marker_tools/share/rviz_marker_tools/environment/library_path.sh
+[3.996s] -- Installing: /home/steven/ws_moveit2/install/rviz_marker_tools/share/rviz_marker_tools/environment/library_path.dsv
+[3.996s] -- Installing: /home/steven/ws_moveit2/install/rviz_marker_tools/share/ament_index/resource_index/package_run_dependencies/rviz_marker_tools
+[3.996s] -- Installing: /home/steven/ws_moveit2/install/rviz_marker_tools/share/ament_index/resource_index/parent_prefix_path/rviz_marker_tools
+[3.996s] -- Installing: /home/steven/ws_moveit2/install/rviz_marker_tools/share/rviz_marker_tools/environment/ament_prefix_path.sh
+[3.996s] -- Installing: /home/steven/ws_moveit2/install/rviz_marker_tools/share/rviz_marker_tools/environment/ament_prefix_path.dsv
+[3.996s] -- Installing: /home/steven/ws_moveit2/install/rviz_marker_tools/share/rviz_marker_tools/environment/path.sh
+[3.996s] -- Installing: /home/steven/ws_moveit2/install/rviz_marker_tools/share/rviz_marker_tools/environment/path.dsv
+[3.996s] -- Installing: /home/steven/ws_moveit2/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.bash
+[3.996s] -- Installing: /home/steven/ws_moveit2/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.sh
+[3.996s] -- Installing: /home/steven/ws_moveit2/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.zsh
+[3.996s] -- Installing: /home/steven/ws_moveit2/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.dsv
+[3.996s] -- Installing: /home/steven/ws_moveit2/install/rviz_marker_tools/share/rviz_marker_tools/package.dsv
+[3.996s] -- Installing: /home/steven/ws_moveit2/install/rviz_marker_tools/share/ament_index/resource_index/packages/rviz_marker_tools
+[3.996s] -- Installing: /home/steven/ws_moveit2/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsTargetsExport.cmake
+[3.996s] -- Installing: /home/steven/ws_moveit2/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsTargetsExport-release.cmake
+[3.997s] -- Installing: /home/steven/ws_moveit2/install/rviz_marker_tools/share/rviz_marker_tools/cmake/ament_cmake_export_targets-extras.cmake
+[3.997s] -- Installing: /home/steven/ws_moveit2/install/rviz_marker_tools/share/rviz_marker_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.997s] -- Installing: /home/steven/ws_moveit2/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsConfig.cmake
+[3.997s] -- Installing: /home/steven/ws_moveit2/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsConfig-version.cmake
+[3.997s] -- Installing: /home/steven/ws_moveit2/install/rviz_marker_tools/share/rviz_marker_tools/package.xml
+[3.997s] Invoked command in '/home/steven/ws_moveit2/build/rviz_marker_tools' returned '0': AMENT_PREFIX_PATH=/home/steven/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/steven/ws_moveit2/install/moveit_common:/opt/ros/humble /usr/bin/cmake --install /home/steven/ws_moveit2/build/rviz_marker_tools

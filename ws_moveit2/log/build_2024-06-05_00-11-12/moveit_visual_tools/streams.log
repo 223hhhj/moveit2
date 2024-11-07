@@ -1,0 +1,143 @@
+[0.011s] Invoking command in '/home/steven/ws_moveit2/build/moveit_visual_tools': AMENT_PREFIX_PATH=/home/steven/ws_moveit2/install/moveit_ros_planning:/home/steven/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/steven/ws_moveit2/install/moveit_core:/home/steven/ws_moveit2/install/srdfdom:/home/steven/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/steven/ws_moveit2/install/moveit_ros_planning:/home/steven/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/steven/ws_moveit2/install/moveit_core:/home/steven/ws_moveit2/install/srdfdom:/home/steven/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/steven/ws_moveit2/install/moveit_ros_planning/lib:/home/steven/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/steven/ws_moveit2/install/moveit_core/lib:/home/steven/ws_moveit2/install/srdfdom/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.3/lib64 PATH=/home/steven/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/steven/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/steven/ws_moveit2/src/moveit_visual_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/steven/ws_moveit2/install/moveit_visual_tools
+[0.032s] -- The C compiler identification is GNU 11.4.0
+[0.055s] -- The CXX compiler identification is GNU 11.4.0
+[0.059s] -- Detecting C compiler ABI info
+[0.087s] -- Detecting C compiler ABI info - done
+[0.090s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.090s] -- Detecting C compile features
+[0.090s] -- Detecting C compile features - done
+[0.092s] -- Detecting CXX compiler ABI info
+[0.126s] -- Detecting CXX compiler ABI info - done
+[0.129s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.129s] -- Detecting CXX compile features
+[0.129s] -- Detecting CXX compile features - done
+[0.129s] -- Found moveit_common: 2.5.5 (/home/steven/ws_moveit2/install/moveit_common/share/moveit_common/cmake)
+[0.130s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.197s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.269s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[0.272s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.272s] -- BACKWARD_HAS_UNWIND=1
+[0.272s] -- BACKWARD_HAS_BACKTRACE=0
+[0.272s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.272s] -- BACKWARD_HAS_DW=1
+[0.272s] -- BACKWARD_HAS_BFD=0
+[0.272s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0.277s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system 
+[0.280s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.294s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.296s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.300s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.306s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.315s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.366s] -- Found graph_msgs: 0.2.0 (/opt/ros/humble/share/graph_msgs/cmake)
+[0.404s] -- Found moveit_core: 2.5.5 (/home/steven/ws_moveit2/install/moveit_core/share/moveit_core/cmake)
+[0.505s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.522s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.551s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.552s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.594s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.605s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.625s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.630s] -- Found Threads: TRUE  
+[0.696s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.697s] -- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.719s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[0.757s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[0.897s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.378s] -- Found moveit_ros_planning: 2.5.5 (/home/steven/ws_moveit2/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[1.380s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[1.573s] -- Found rviz_visual_tools: 4.1.4 (/opt/ros/humble/share/rviz_visual_tools/cmake)
+[1.637s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[1.638s] -- Found OGRE
+[1.638s] --   static     : OFF
+[1.638s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[1.638s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.638s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[1.638s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[1.638s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[1.638s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.638s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[1.638s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.638s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.638s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.638s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.639s] -- Could not find freeimage library
+[1.648s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[1.650s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[1.692s] -- Found X11: /usr/include   
+[1.693s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.740s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.740s] -- Looking for gethostbyname
+[1.787s] -- Looking for gethostbyname - found
+[1.787s] -- Looking for connect
+[1.838s] -- Looking for connect - found
+[1.838s] -- Looking for remove
+[1.893s] -- Looking for remove - found
+[1.893s] -- Looking for shmat
+[1.947s] -- Looking for shmat - found
+[1.947s] -- Looking for IceConnectionNumber in ICE
+[2.034s] -- Looking for IceConnectionNumber in ICE - found
+[2.036s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[2.036s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[2.998s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.030s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.031s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.032s] -- Added test 'lint_cmake' to check CMake code style
+[3.032s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.033s] -- Added test 'xmllint' to check XML markup files
+[3.049s] -- Configuring done
+[3.143s] -- Generating done
+[3.162s] -- Build files have been written to: /home/steven/ws_moveit2/build/moveit_visual_tools
+[3.202s] Invoked command in '/home/steven/ws_moveit2/build/moveit_visual_tools' returned '0': AMENT_PREFIX_PATH=/home/steven/ws_moveit2/install/moveit_ros_planning:/home/steven/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/steven/ws_moveit2/install/moveit_core:/home/steven/ws_moveit2/install/srdfdom:/home/steven/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/steven/ws_moveit2/install/moveit_ros_planning:/home/steven/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/steven/ws_moveit2/install/moveit_core:/home/steven/ws_moveit2/install/srdfdom:/home/steven/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/steven/ws_moveit2/install/moveit_ros_planning/lib:/home/steven/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/steven/ws_moveit2/install/moveit_core/lib:/home/steven/ws_moveit2/install/srdfdom/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.3/lib64 PATH=/home/steven/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/steven/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/steven/ws_moveit2/src/moveit_visual_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/steven/ws_moveit2/install/moveit_visual_tools
+[3.217s] Invoking command in '/home/steven/ws_moveit2/build/moveit_visual_tools': AMENT_PREFIX_PATH=/home/steven/ws_moveit2/install/moveit_ros_planning:/home/steven/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/steven/ws_moveit2/install/moveit_core:/home/steven/ws_moveit2/install/srdfdom:/home/steven/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/steven/ws_moveit2/install/moveit_ros_planning:/home/steven/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/steven/ws_moveit2/install/moveit_core:/home/steven/ws_moveit2/install/srdfdom:/home/steven/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/steven/ws_moveit2/install/moveit_ros_planning/lib:/home/steven/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/steven/ws_moveit2/install/moveit_core/lib:/home/steven/ws_moveit2/install/srdfdom/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.3/lib64 PATH=/home/steven/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/steven/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/steven/ws_moveit2/build/moveit_visual_tools -- -j32 -l32
+[3.448s] [ 16%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/moveit_visual_tools.cpp.o[0m
+[3.459s] [ 33%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/imarker_robot_state.cpp.o[0m
+[3.467s] [ 50%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/imarker_end_effector.cpp.o[0m
+[18.837s] [ 66%] [32m[1mLinking CXX shared library libmoveit_visual_tools.so[0m
+[19.061s] [ 66%] Built target moveit_visual_tools
+[19.076s] [ 83%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools_demo.dir/src/moveit_visual_tools_demo.cpp.o[0m
+[25.323s] [100%] [32m[1mLinking CXX executable moveit_visual_tools_demo[0m
+[25.517s] [100%] Built target moveit_visual_tools_demo
+[25.524s] Invoked command in '/home/steven/ws_moveit2/build/moveit_visual_tools' returned '0': AMENT_PREFIX_PATH=/home/steven/ws_moveit2/install/moveit_ros_planning:/home/steven/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/steven/ws_moveit2/install/moveit_core:/home/steven/ws_moveit2/install/srdfdom:/home/steven/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/steven/ws_moveit2/install/moveit_ros_planning:/home/steven/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/steven/ws_moveit2/install/moveit_core:/home/steven/ws_moveit2/install/srdfdom:/home/steven/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/steven/ws_moveit2/install/moveit_ros_planning/lib:/home/steven/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/steven/ws_moveit2/install/moveit_core/lib:/home/steven/ws_moveit2/install/srdfdom/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.3/lib64 PATH=/home/steven/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/steven/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/steven/ws_moveit2/build/moveit_visual_tools -- -j32 -l32
+[25.537s] Invoking command in '/home/steven/ws_moveit2/build/moveit_visual_tools': AMENT_PREFIX_PATH=/home/steven/ws_moveit2/install/moveit_ros_planning:/home/steven/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/steven/ws_moveit2/install/moveit_core:/home/steven/ws_moveit2/install/srdfdom:/home/steven/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/steven/ws_moveit2/install/moveit_ros_planning:/home/steven/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/steven/ws_moveit2/install/moveit_core:/home/steven/ws_moveit2/install/srdfdom:/home/steven/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/steven/ws_moveit2/install/moveit_ros_planning/lib:/home/steven/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/steven/ws_moveit2/install/moveit_core/lib:/home/steven/ws_moveit2/install/srdfdom/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.3/lib64 PATH=/home/steven/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/steven/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/steven/ws_moveit2/build/moveit_visual_tools
+[25.541s] -- Install configuration: "Release"
+[25.541s] -- Installing: /home/steven/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/environment/library_path.sh
+[25.541s] -- Installing: /home/steven/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/environment/library_path.dsv
+[25.541s] -- Installing: /home/steven/ws_moveit2/install/moveit_visual_tools/lib/libmoveit_visual_tools.so
+[25.542s] -- Set runtime path of "/home/steven/ws_moveit2/install/moveit_visual_tools/lib/libmoveit_visual_tools.so" to ""
+[25.542s] -- Installing: /home/steven/ws_moveit2/install/moveit_visual_tools/lib/moveit_visual_tools/moveit_visual_tools_demo
+[25.542s] -- Set runtime path of "/home/steven/ws_moveit2/install/moveit_visual_tools/lib/moveit_visual_tools/moveit_visual_tools_demo" to ""
+[25.542s] -- Installing: /home/steven/ws_moveit2/install/moveit_visual_tools/include
+[25.542s] -- Installing: /home/steven/ws_moveit2/install/moveit_visual_tools/include/moveit_visual_tools
+[25.542s] -- Installing: /home/steven/ws_moveit2/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h
+[25.542s] -- Installing: /home/steven/ws_moveit2/install/moveit_visual_tools/include/moveit_visual_tools/imarker_robot_state.h
+[25.542s] -- Installing: /home/steven/ws_moveit2/install/moveit_visual_tools/include/moveit_visual_tools/imarker_end_effector.h
+[25.542s] -- Installing: /home/steven/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/launch
+[25.542s] -- Installing: /home/steven/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/launch/demo_rviz.launch.py
+[25.542s] -- Installing: /home/steven/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/launch/demo.rviz
+[25.542s] -- Installing: /home/steven/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/resources
+[25.542s] -- Installing: /home/steven/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/resources/demo.png
+[25.542s] -- Installing: /home/steven/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/resources/screenshot.png
+[25.543s] -- Installing: /home/steven/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/resources/rrbot.srdf
+[25.543s] -- Installing: /home/steven/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/resources/rrbot.urdf
+[25.543s] -- Installing: /home/steven/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/resources/demo_mesh.stl
+[25.543s] -- Installing: /home/steven/ws_moveit2/install/moveit_visual_tools/share/ament_index/resource_index/package_run_dependencies/moveit_visual_tools
+[25.543s] -- Installing: /home/steven/ws_moveit2/install/moveit_visual_tools/share/ament_index/resource_index/parent_prefix_path/moveit_visual_tools
+[25.543s] -- Installing: /home/steven/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/environment/ament_prefix_path.sh
+[25.543s] -- Installing: /home/steven/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/environment/ament_prefix_path.dsv
+[25.543s] -- Installing: /home/steven/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/environment/path.sh
+[25.543s] -- Installing: /home/steven/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/environment/path.dsv
+[25.543s] -- Installing: /home/steven/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/local_setup.bash
+[25.543s] -- Installing: /home/steven/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/local_setup.sh
+[25.543s] -- Installing: /home/steven/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/local_setup.zsh
+[25.543s] -- Installing: /home/steven/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/local_setup.dsv
+[25.543s] -- Installing: /home/steven/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/package.dsv
+[25.543s] -- Installing: /home/steven/ws_moveit2/install/moveit_visual_tools/share/ament_index/resource_index/packages/moveit_visual_tools
+[25.543s] -- Installing: /home/steven/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/cmake/export_moveit_visual_toolsExport.cmake
+[25.543s] -- Installing: /home/steven/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/cmake/export_moveit_visual_toolsExport-release.cmake
+[25.543s] -- Installing: /home/steven/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/cmake/ament_cmake_export_targets-extras.cmake
+[25.543s] -- Installing: /home/steven/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[25.543s] -- Installing: /home/steven/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/cmake/moveit_visual_toolsConfig.cmake
+[25.543s] -- Installing: /home/steven/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/cmake/moveit_visual_toolsConfig-version.cmake
+[25.543s] -- Installing: /home/steven/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/package.xml
+[25.544s] Invoked command in '/home/steven/ws_moveit2/build/moveit_visual_tools' returned '0': AMENT_PREFIX_PATH=/home/steven/ws_moveit2/install/moveit_ros_planning:/home/steven/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/steven/ws_moveit2/install/moveit_core:/home/steven/ws_moveit2/install/srdfdom:/home/steven/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/steven/ws_moveit2/install/moveit_ros_planning:/home/steven/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/steven/ws_moveit2/install/moveit_core:/home/steven/ws_moveit2/install/srdfdom:/home/steven/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/steven/ws_moveit2/install/moveit_ros_planning/lib:/home/steven/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/steven/ws_moveit2/install/moveit_core/lib:/home/steven/ws_moveit2/install/srdfdom/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.3/lib64 PATH=/home/steven/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/steven/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/steven/ws_moveit2/build/moveit_visual_tools
