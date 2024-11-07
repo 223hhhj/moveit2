@@ -1,0 +1,24 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating ur5.egg-info
+writing ur5.egg-info/PKG-INFO
+writing dependency_links to ur5.egg-info/dependency_links.txt
+writing entry points to ur5.egg-info/entry_points.txt
+writing requirements to ur5.egg-info/requires.txt
+writing top-level names to ur5.egg-info/top_level.txt
+writing manifest file 'ur5.egg-info/SOURCES.txt'
+reading manifest file 'ur5.egg-info/SOURCES.txt'
+writing manifest file 'ur5.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/steven/Documents/IIIIIIIII_TEST/command_everyjoints/install/ur5/lib/python3.10/site-packages/ur5.egg-link (link to .)
+Installing test_node script to /home/steven/Documents/IIIIIIIII_TEST/command_everyjoints/install/ur5/lib/ur5
+
+Installed /home/steven/Documents/IIIIIIIII_TEST/command_everyjoints/build/ur5
+running symlink_data
+creating /home/steven/Documents/IIIIIIIII_TEST/command_everyjoints/install/ur5/share/ament_index
+creating /home/steven/Documents/IIIIIIIII_TEST/command_everyjoints/install/ur5/share/ament_index/resource_index
+creating /home/steven/Documents/IIIIIIIII_TEST/command_everyjoints/install/ur5/share/ament_index/resource_index/packages
+symbolically linking /home/steven/Documents/IIIIIIIII_TEST/command_everyjoints/build/ur5/resource/ur5 -> /home/steven/Documents/IIIIIIIII_TEST/command_everyjoints/install/ur5/share/ament_index/resource_index/packages
+symbolically linking /home/steven/Documents/IIIIIIIII_TEST/command_everyjoints/build/ur5/package.xml -> /home/steven/Documents/IIIIIIIII_TEST/command_everyjoints/install/ur5/share/ur5

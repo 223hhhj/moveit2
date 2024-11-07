@@ -1,0 +1,27 @@
+[0.009s] Invoking command in '/home/steven/Documents/IIIIIIIII_TEST/first_stage/build/first_stage_endeffector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/Documents/IIIIIIIII_TEST/first_stage/install/first_stage_rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/Documents/IIIIIIIII_TEST/first_stage/build/first_stage_endeffector -- -j32 -l32
+[0.035s] [35m[1mConsolidate compiler generated dependencies of target first_stage_endeffector[0m
+[0.050s] [ 50%] [32mBuilding CXX object CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o[0m
+[4.974s] [100%] [32m[1mLinking CXX executable first_stage_endeffector[0m
+[5.210s] [100%] Built target first_stage_endeffector
+[5.216s] Invoked command in '/home/steven/Documents/IIIIIIIII_TEST/first_stage/build/first_stage_endeffector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/Documents/IIIIIIIII_TEST/first_stage/install/first_stage_rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/Documents/IIIIIIIII_TEST/first_stage/build/first_stage_endeffector -- -j32 -l32
+[5.238s] Invoking command in '/home/steven/Documents/IIIIIIIII_TEST/first_stage/build/first_stage_endeffector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/Documents/IIIIIIIII_TEST/first_stage/install/first_stage_rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/steven/Documents/IIIIIIIII_TEST/first_stage/build/first_stage_endeffector
+[5.243s] -- Install configuration: ""
+[5.243s] -- Execute custom install script
+[5.243s] -- Up-to-date symlink: /home/steven/Documents/IIIIIIIII_TEST/first_stage/install/first_stage_endeffector/lib/first_stage_endeffector/first_stage_endeffector
+[5.243s] -- Up-to-date symlink: /home/steven/Documents/IIIIIIIII_TEST/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/launch/first_stage_endeffector.launch.py
+[5.243s] -- Up-to-date symlink: /home/steven/Documents/IIIIIIIII_TEST/first_stage/install/first_stage_endeffector/share/ament_index/resource_index/package_run_dependencies/first_stage_endeffector
+[5.243s] -- Up-to-date symlink: /home/steven/Documents/IIIIIIIII_TEST/first_stage/install/first_stage_endeffector/share/ament_index/resource_index/parent_prefix_path/first_stage_endeffector
+[5.243s] -- Up-to-date symlink: /home/steven/Documents/IIIIIIIII_TEST/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/environment/ament_prefix_path.sh
+[5.243s] -- Up-to-date symlink: /home/steven/Documents/IIIIIIIII_TEST/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/environment/ament_prefix_path.dsv
+[5.243s] -- Up-to-date symlink: /home/steven/Documents/IIIIIIIII_TEST/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/environment/path.sh
+[5.243s] -- Up-to-date symlink: /home/steven/Documents/IIIIIIIII_TEST/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/environment/path.dsv
+[5.243s] -- Up-to-date symlink: /home/steven/Documents/IIIIIIIII_TEST/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/local_setup.bash
+[5.243s] -- Up-to-date symlink: /home/steven/Documents/IIIIIIIII_TEST/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/local_setup.sh
+[5.244s] -- Up-to-date symlink: /home/steven/Documents/IIIIIIIII_TEST/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/local_setup.zsh
+[5.244s] -- Up-to-date symlink: /home/steven/Documents/IIIIIIIII_TEST/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/local_setup.dsv
+[5.244s] -- Symlinking: /home/steven/Documents/IIIIIIIII_TEST/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/package.dsv
+[5.248s] -- Up-to-date symlink: /home/steven/Documents/IIIIIIIII_TEST/first_stage/install/first_stage_endeffector/share/ament_index/resource_index/packages/first_stage_endeffector
+[5.249s] -- Up-to-date symlink: /home/steven/Documents/IIIIIIIII_TEST/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/cmake/first_stage_endeffectorConfig.cmake
+[5.249s] -- Up-to-date symlink: /home/steven/Documents/IIIIIIIII_TEST/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/cmake/first_stage_endeffectorConfig-version.cmake
+[5.249s] -- Up-to-date symlink: /home/steven/Documents/IIIIIIIII_TEST/first_stage/install/first_stage_endeffector/share/first_stage_endeffector/package.xml
+[5.250s] Invoked command in '/home/steven/Documents/IIIIIIIII_TEST/first_stage/build/first_stage_endeffector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/Documents/IIIIIIIII_TEST/first_stage/install/first_stage_rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/steven/Documents/IIIIIIIII_TEST/first_stage/build/first_stage_endeffector

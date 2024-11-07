@@ -1,0 +1,19 @@
+[0.283s] Invoking command in '/home/steven/Documents/IIIIIIIII_TEST/first_stage/build/first_stage_rg2': PYTHONPATH=/home/steven/Documents/IIIIIIIII_TEST/first_stage/build/first_stage_rg2/prefix_override:/home/steven/Documents/IIIIIIIII_TEST/first_stage/install/first_stage_rg2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/steven/Documents/IIIIIIIII_TEST/first_stage/build/first_stage_rg2/build --no-deps symlink_data
+[0.392s] running develop
+[0.392s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.392s]   warnings.warn(
+[0.469s] running egg_info
+[0.469s] writing first_stage_rg2.egg-info/PKG-INFO
+[0.469s] writing dependency_links to first_stage_rg2.egg-info/dependency_links.txt
+[0.469s] writing entry points to first_stage_rg2.egg-info/entry_points.txt
+[0.469s] writing requirements to first_stage_rg2.egg-info/requires.txt
+[0.469s] writing top-level names to first_stage_rg2.egg-info/top_level.txt
+[0.470s] reading manifest file 'first_stage_rg2.egg-info/SOURCES.txt'
+[0.470s] writing manifest file 'first_stage_rg2.egg-info/SOURCES.txt'
+[0.492s] running build_ext
+[0.492s] Creating /home/steven/Documents/IIIIIIIII_TEST/first_stage/install/first_stage_rg2/lib/python3.10/site-packages/first-stage-rg2.egg-link (link to .)
+[0.492s] Installing rg2_node script to /home/steven/Documents/IIIIIIIII_TEST/first_stage/install/first_stage_rg2/lib/first_stage_rg2
+[0.492s] 
+[0.492s] Installed /home/steven/Documents/IIIIIIIII_TEST/first_stage/build/first_stage_rg2
+[0.492s] running symlink_data
+[0.506s] Invoked command in '/home/steven/Documents/IIIIIIIII_TEST/first_stage/build/first_stage_rg2' returned '0': PYTHONPATH=/home/steven/Documents/IIIIIIIII_TEST/first_stage/build/first_stage_rg2/prefix_override:/home/steven/Documents/IIIIIIIII_TEST/first_stage/install/first_stage_rg2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/steven/Documents/IIIIIIIII_TEST/first_stage/build/first_stage_rg2/build --no-deps symlink_data

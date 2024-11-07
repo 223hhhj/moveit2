@@ -1,0 +1,17 @@
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In member function ‘[01m[Kvoid ArmController::executeMoveWithDynamicVelocity(const std::function<void()>&)[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:144:58:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kmoveit_msgs::msg::PlanningScene_<std::allocator<void> >::_robot_state_type[m[K’ {aka ‘[01m[Kmoveit_msgs::msg::RobotState_<std::allocator<void> >[m[K’} to ‘[01m[Kconst JointState&[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::JointState_<std::allocator<void> >&[m[K’}
+  144 |         if (!robot_state.setVariableValues([01;31m[Kresult->scene.robot_state[m[K))
+      |                                            [01;31m[K~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+      |                                                          [01;31m[K|[m[K
+      |                                                          [01;31m[Kmoveit_msgs::msg::PlanningScene_<std::allocator<void> >::_robot_state_type {aka moveit_msgs::msg::RobotState_<std::allocator<void> >}[m[K
+In file included from [01m[K/home/steven/ws_moveit2/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+                 from [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:2[m[K:
+[01m[K/home/steven/ws_moveit2/install/moveit_core/include/moveit/robot_state/robot_state.h:1219:62:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid moveit::core::RobotState::setVariableValues(const JointState&)[m[K’
+ 1219 |   void setVariableValues([01;36m[Kconst sensor_msgs::msg::JointState& msg[m[K)
+      |                          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:149:23:[m[K [01;31m[Kerror: [m[K‘[01m[KrobotStateMsgToRobotState[m[K’ is not a member of ‘[01m[Kmoveit::core[m[K’
+  149 |         moveit::core::[01;31m[KrobotStateMsgToRobotState[m[K(result->scene.robot_state, robot_state);
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ur5_ros2_cartesian.dir/build.make:76：CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ur5_ros2_cartesian.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

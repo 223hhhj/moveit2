@@ -1,0 +1,28 @@
+[0.010s] Invoking command in '/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian -- -j32 -l32
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target ur5_ros2_cartesian[0m
+[0.079s] [ 50%] [32mBuilding CXX object CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o[0m
+[3.649s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In member function ‘[01m[Kvoid ArmController::executePlanWithDynamicVelocity(const moveit::planning_interface::MoveGroupInterface::Plan&)[m[K’:
+[3.649s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:87:59:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveGroupActionGoal[m[K’ is not a member of ‘[01m[Kmoveit_msgs::msg[m[K’
+[3.649s]    87 |         auto context = std::make_shared<moveit_msgs::msg::[01;31m[KMoveGroupActionGoal[m[K>();
+[3.649s]       |                                                           [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.649s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:87:79:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[3.649s]    87 |         auto context = [01;31m[Kstd::make_shared<moveit_msgs::msg::MoveGroupActionGoal>()[m[K;
+[3.649s]       |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[3.649s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.649s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[3.649s]                  from [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:1[m[K:
+[3.649s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[3.649s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[3.649s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[3.649s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.649s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:87:79:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.649s]    87 |         auto context = [01;31m[Kstd::make_shared<moveit_msgs::msg::MoveGroupActionGoal>()[m[K;
+[3.649s]       |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[3.649s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:91:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class moveit::planning_interface::MoveGroupInterface[m[K’ {aka ‘[01m[Kclass moveit::planning_interface::MoveGroupInterface[m[K’} has no member named ‘[01m[Kasync_execute[m[K’; did you mean ‘[01m[KasyncExecute[m[K’?
+[3.649s]    91 |         auto future_handle = move_group_arm_->[01;31m[Kasync_execute[m[K(context);
+[3.649s]       |                                               [01;31m[K^~~~~~~~~~~~~[m[K
+[3.649s]       |                                               [32m[KasyncExecute[m[K
+[5.751s] gmake[2]: *** [CMakeFiles/ur5_ros2_cartesian.dir/build.make:76：CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o] 錯誤 1
+[5.751s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ur5_ros2_cartesian.dir/all] 錯誤 2
+[5.751s] gmake: *** [Makefile:146：all] 錯誤 2
+[5.753s] Invoked command in '/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian -- -j32 -l32

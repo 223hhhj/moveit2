@@ -1,0 +1,53 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for sgemm_
+-- Looking for sgemm_ - not found
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Looking for sgemm_
+-- Looking for sgemm_ - found
+-- Found BLAS: /usr/lib/x86_64-linux-gnu/libopenblas.so  
+-- Found CUDA: /usr/local/cuda-12.3 (found suitable version "12.3", minimum required is "12") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/build/Tutos
+[ 27%] [32mBuilding CXX object tutorial 4 - positional tracking/cpp/CMakeFiles/ZED_Tutorial_4.dir/main.cpp.o[0m
+[ 27%] [32mBuilding CXX object tutorial 5 - spatial mapping/cpp/CMakeFiles/ZED_Tutorial_5.dir/main.cpp.o[0m
+[ 27%] [32mBuilding CXX object tutorial 1 - hello ZED/cpp/CMakeFiles/ZED_Tutorial_1.dir/main.cpp.o[0m
+[ 27%] [32mBuilding CXX object tutorial 3 - depth sensing/cpp/CMakeFiles/ZED_Tutorial_3.dir/main.cpp.o[0m
+[ 27%] [32mBuilding CXX object tutorial 6 - object detection/cpp/CMakeFiles/ZED_Tutorial_6.dir/main.cpp.o[0m
+[ 33%] [32mBuilding CXX object tutorial 7 - sensor data/cpp/CMakeFiles/ZED_Tutorial_7.dir/main.cpp.o[0m
+[ 38%] [32mBuilding CXX object tutorial 8 - body tracking/cpp/CMakeFiles/ZED_Tutorial_8.dir/main.cpp.o[0m
+[ 50%] [32mBuilding CXX object tutorial 2 - image capture/cpp/CMakeFiles/ZED_Tutorial_2.dir/main.cpp.o[0m
+[ 50%] [32mBuilding CXX object tutorial 9 - global localization/cpp/CMakeFiles/ZED_Global_Localization.dir/main.cpp.o[0m
+[ 55%] [32m[1mLinking CXX executable ZED_Tutorial_1[0m
+[ 61%] [32m[1mLinking CXX executable ZED_Tutorial_2[0m
+[ 66%] [32m[1mLinking CXX executable ZED_Tutorial_3[0m
+[ 72%] [32m[1mLinking CXX executable ZED_Tutorial_5[0m
+[ 77%] [32m[1mLinking CXX executable ZED_Tutorial_4[0m
+[ 83%] [32m[1mLinking CXX executable ZED_Tutorial_7[0m
+[ 88%] [32m[1mLinking CXX executable ZED_Tutorial_6[0m
+[ 88%] Built target ZED_Tutorial_2
+[ 88%] Built target ZED_Tutorial_5
+[ 88%] Built target ZED_Tutorial_3
+[ 88%] Built target ZED_Tutorial_1
+[ 88%] Built target ZED_Tutorial_4
+[ 94%] [32m[1mLinking CXX executable ZED_Tutorial_8[0m
+[ 94%] Built target ZED_Tutorial_7
+[ 94%] Built target ZED_Tutorial_6
+[ 94%] Built target ZED_Tutorial_8
+[100%] [32m[1mLinking CXX executable ZED_Global_Localization[0m
+[100%] Built target ZED_Global_Localization

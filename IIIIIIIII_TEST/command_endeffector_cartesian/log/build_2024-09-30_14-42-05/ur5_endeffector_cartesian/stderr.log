@@ -1,0 +1,24 @@
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In lambda function:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:88:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::shared_ptr<moveit::planning_interface::MoveGroupInterface> ArmController::move_group_arm_[m[K’ is private within this context
+   88 |         arm_controller->[01;31m[Kmove_group_arm_[m[K->setJointValueTarget(home_joints_);
+      |                         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:60:69:[m[K [01;36m[Knote: [m[Kdeclared private here
+   60 |     std::shared_ptr<moveit::planning_interface::MoveGroupInterface> [01;36m[Kmove_group_arm_[m[K;
+      |                                                                     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In lambda function:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:93:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::shared_ptr<moveit::planning_interface::MoveGroupInterface> ArmController::move_group_arm_[m[K’ is private within this context
+   93 |         arm_controller->[01;31m[Kmove_group_arm_[m[K->setPoseTarget(pose_0_);
+      |                         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:60:69:[m[K [01;36m[Knote: [m[Kdeclared private here
+   60 |     std::shared_ptr<moveit::planning_interface::MoveGroupInterface> [01;36m[Kmove_group_arm_[m[K;
+      |                                                                     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In lambda function:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:98:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::shared_ptr<moveit::planning_interface::MoveGroupInterface> ArmController::move_group_arm_[m[K’ is private within this context
+   98 |         arm_controller->[01;31m[Kmove_group_arm_[m[K->setPoseTarget(pose_1_);
+      |                         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:60:69:[m[K [01;36m[Knote: [m[Kdeclared private here
+   60 |     std::shared_ptr<moveit::planning_interface::MoveGroupInterface> [01;36m[Kmove_group_arm_[m[K;
+      |                                                                     [01;36m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ur5_ros2_cartesian.dir/build.make:76：CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ur5_ros2_cartesian.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

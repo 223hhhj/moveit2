@@ -1,0 +1,39 @@
+[0.327s] Invoking command in '/home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/build/rg2': PYTHONPATH=/home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/build/rg2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/install/rg2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/build/rg2/build
+[0.451s] running develop
+[0.451s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.451s]   warnings.warn(
+[0.560s] Removing /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/install/rg2/lib/python3.10/site-packages/rg2.egg-link (link to .)
+[0.572s] Invoked command in '/home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/build/rg2' returned '0': PYTHONPATH=/home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/build/rg2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/install/rg2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/build/rg2/build
+[0.573s] Invoking command in '/home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/src/rg2': PYTHONPATH=/home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/build/rg2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/install/rg2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rg2 build --build-base /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/build/rg2/build install --record /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/build/rg2/install.log --single-version-externally-managed install_data --force
+[0.686s] running egg_info
+[0.687s] writing ../../build/rg2/rg2.egg-info/PKG-INFO
+[0.687s] writing dependency_links to ../../build/rg2/rg2.egg-info/dependency_links.txt
+[0.687s] writing entry points to ../../build/rg2/rg2.egg-info/entry_points.txt
+[0.687s] writing requirements to ../../build/rg2/rg2.egg-info/requires.txt
+[0.687s] writing top-level names to ../../build/rg2/rg2.egg-info/top_level.txt
+[0.688s] reading manifest file '../../build/rg2/rg2.egg-info/SOURCES.txt'
+[0.688s] adding license file 'LICENSE'
+[0.688s] writing manifest file '../../build/rg2/rg2.egg-info/SOURCES.txt'
+[0.688s] running build
+[0.688s] running build_py
+[0.688s] creating /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/build/rg2/build
+[0.688s] creating /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/build/rg2/build/lib
+[0.688s] creating /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/build/rg2/build/lib/rg2
+[0.688s] copying rg2/rg2_ros2.py -> /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/build/rg2/build/lib/rg2
+[0.688s] copying rg2/__init__.py -> /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/build/rg2/build/lib/rg2
+[0.688s] running install
+[0.688s] running install_lib
+[0.689s] creating /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/install/rg2/lib/python3.10/site-packages/rg2
+[0.689s] copying /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/build/rg2/build/lib/rg2/rg2_ros2.py -> /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/install/rg2/lib/python3.10/site-packages/rg2
+[0.689s] copying /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/build/rg2/build/lib/rg2/__init__.py -> /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/install/rg2/lib/python3.10/site-packages/rg2
+[0.689s] byte-compiling /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/install/rg2/lib/python3.10/site-packages/rg2/rg2_ros2.py to rg2_ros2.cpython-310.pyc
+[0.689s] byte-compiling /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/install/rg2/lib/python3.10/site-packages/rg2/__init__.py to __init__.cpython-310.pyc
+[0.689s] running install_data
+[0.689s] copying resource/rg2 -> /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/install/rg2/share/ament_index/resource_index/packages
+[0.689s] copying package.xml -> /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/install/rg2/share/rg2
+[0.690s] running install_egg_info
+[0.690s] Copying ../../build/rg2/rg2.egg-info to /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/install/rg2/lib/python3.10/site-packages/rg2-0.0.0-py3.10.egg-info
+[0.691s] running install_scripts
+[0.700s] Installing test_node script to /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/install/rg2/lib/rg2
+[0.700s] writing list of installed files to '/home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/build/rg2/install.log'
+[0.711s] Invoked command in '/home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/src/rg2' returned '0': PYTHONPATH=/home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/build/rg2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/install/rg2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rg2 build --build-base /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/build/rg2/build install --record /home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/build/rg2/install.log --single-version-externally-managed install_data --force

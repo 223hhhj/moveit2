@@ -1,0 +1,117 @@
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In function ‘[01m[Kvoid performMainOperations(moveit::planning_interface::MoveGroupInterface&, rclcpp::Node::SharedPtr, const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&)[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:216:15:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kvoid moveToPose(moveit::planning_interface::MoveGroupInterface&, const Pose&, RobotControl&, double, double)[m[K’
+  216 |     [01;31m[KmoveToPose(move_group_arm, poses[0])[m[K;
+      |     [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:97:6:[m[K [01;36m[Knote: [m[Kdeclared here
+   97 | void [01;36m[KmoveToPose[m[K(moveit::planning_interface::MoveGroupInterface& move_group_arm,
+      |      [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:229:15:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kvoid moveToPose(moveit::planning_interface::MoveGroupInterface&, const Pose&, RobotControl&, double, double)[m[K’
+  229 |     [01;31m[KmoveToPose(move_group_arm, poses[1])[m[K;
+      |     [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:97:6:[m[K [01;36m[Knote: [m[Kdeclared here
+   97 | void [01;36m[KmoveToPose[m[K(moveit::planning_interface::MoveGroupInterface& move_group_arm,
+      |      [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:255:15:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kvoid moveToPose(moveit::planning_interface::MoveGroupInterface&, const Pose&, RobotControl&, double, double)[m[K’
+  255 |     [01;31m[KmoveToPose(move_group_arm, poses[0])[m[K;
+      |     [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:97:6:[m[K [01;36m[Knote: [m[Kdeclared here
+   97 | void [01;36m[KmoveToPose[m[K(moveit::planning_interface::MoveGroupInterface& move_group_arm,
+      |      [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:371:19:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kvoid moveToPose(moveit::planning_interface::MoveGroupInterface&, const Pose&, RobotControl&, double, double)[m[K’
+  371 |         [01;31m[KmoveToPose(move_group_arm, poses[0])[m[K;
+      |         [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:97:6:[m[K [01;36m[Knote: [m[Kdeclared here
+   97 | void [01;36m[KmoveToPose[m[K(moveit::planning_interface::MoveGroupInterface& move_group_arm,
+      |      [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:384:19:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kvoid moveToPose(moveit::planning_interface::MoveGroupInterface&, const Pose&, RobotControl&, double, double)[m[K’
+  384 |         [01;31m[KmoveToPose(move_group_arm, poses[1])[m[K;
+      |         [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:97:6:[m[K [01;36m[Knote: [m[Kdeclared here
+   97 | void [01;36m[KmoveToPose[m[K(moveit::planning_interface::MoveGroupInterface& move_group_arm,
+      |      [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:410:19:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kvoid moveToPose(moveit::planning_interface::MoveGroupInterface&, const Pose&, RobotControl&, double, double)[m[K’
+  410 |         [01;31m[KmoveToPose(move_group_arm, poses[0])[m[K;
+      |         [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:97:6:[m[K [01;36m[Knote: [m[Kdeclared here
+   97 | void [01;36m[KmoveToPose[m[K(moveit::planning_interface::MoveGroupInterface& move_group_arm,
+      |      [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:428:19:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kvoid moveToPose(moveit::planning_interface::MoveGroupInterface&, const Pose&, RobotControl&, double, double)[m[K’
+  428 |         [01;31m[KmoveToPose(move_group_arm, poses[2])[m[K;
+      |         [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:97:6:[m[K [01;36m[Knote: [m[Kdeclared here
+   97 | void [01;36m[KmoveToPose[m[K(moveit::planning_interface::MoveGroupInterface& move_group_arm,
+      |      [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:432:19:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kvoid moveToPose(moveit::planning_interface::MoveGroupInterface&, const Pose&, RobotControl&, double, double)[m[K’
+  432 |         [01;31m[KmoveToPose(move_group_arm, poses[3])[m[K;
+      |         [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:97:6:[m[K [01;36m[Knote: [m[Kdeclared here
+   97 | void [01;36m[KmoveToPose[m[K(moveit::planning_interface::MoveGroupInterface& move_group_arm,
+      |      [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:440:19:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kvoid moveToPose(moveit::planning_interface::MoveGroupInterface&, const Pose&, RobotControl&, double, double)[m[K’
+  440 |         [01;31m[KmoveToPose(move_group_arm, poses[2])[m[K;
+      |         [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:97:6:[m[K [01;36m[Knote: [m[Kdeclared here
+   97 | void [01;36m[KmoveToPose[m[K(moveit::planning_interface::MoveGroupInterface& move_group_arm,
+      |      [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:448:19:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kvoid moveToPose(moveit::planning_interface::MoveGroupInterface&, const Pose&, RobotControl&, double, double)[m[K’
+  448 |         [01;31m[KmoveToPose(move_group_arm, poses[4])[m[K;
+      |         [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:97:6:[m[K [01;36m[Knote: [m[Kdeclared here
+   97 | void [01;36m[KmoveToPose[m[K(moveit::planning_interface::MoveGroupInterface& move_group_arm,
+      |      [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:452:19:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kvoid moveToPose(moveit::planning_interface::MoveGroupInterface&, const Pose&, RobotControl&, double, double)[m[K’
+  452 |         [01;31m[KmoveToPose(move_group_arm, poses[2])[m[K;
+      |         [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:97:6:[m[K [01;36m[Knote: [m[Kdeclared here
+   97 | void [01;36m[KmoveToPose[m[K(moveit::planning_interface::MoveGroupInterface& move_group_arm,
+      |      [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:460:19:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kvoid moveToPose(moveit::planning_interface::MoveGroupInterface&, const Pose&, RobotControl&, double, double)[m[K’
+  460 |         [01;31m[KmoveToPose(move_group_arm, poses[3])[m[K;
+      |         [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:97:6:[m[K [01;36m[Knote: [m[Kdeclared here
+   97 | void [01;36m[KmoveToPose[m[K(moveit::planning_interface::MoveGroupInterface& move_group_arm,
+      |      [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:500:27:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kvoid moveToPose(moveit::planning_interface::MoveGroupInterface&, const Pose&, RobotControl&, double, double)[m[K’
+  500 |                 [01;31m[KmoveToPose(move_group_arm, poses[3])[m[K;
+      |                 [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:97:6:[m[K [01;36m[Knote: [m[Kdeclared here
+   97 | void [01;36m[KmoveToPose[m[K(moveit::planning_interface::MoveGroupInterface& move_group_arm,
+      |      [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:512:27:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kvoid moveToPose(moveit::planning_interface::MoveGroupInterface&, const Pose&, RobotControl&, double, double)[m[K’
+  512 |                 [01;31m[KmoveToPose(move_group_arm, poses[2])[m[K;
+      |                 [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:97:6:[m[K [01;36m[Knote: [m[Kdeclared here
+   97 | void [01;36m[KmoveToPose[m[K(moveit::planning_interface::MoveGroupInterface& move_group_arm,
+      |      [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:520:27:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kvoid moveToPose(moveit::planning_interface::MoveGroupInterface&, const Pose&, RobotControl&, double, double)[m[K’
+  520 |                 [01;31m[KmoveToPose(move_group_arm, poses[4])[m[K;
+      |                 [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:97:6:[m[K [01;36m[Knote: [m[Kdeclared here
+   97 | void [01;36m[KmoveToPose[m[K(moveit::planning_interface::MoveGroupInterface& move_group_arm,
+      |      [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:524:27:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kvoid moveToPose(moveit::planning_interface::MoveGroupInterface&, const Pose&, RobotControl&, double, double)[m[K’
+  524 |                 [01;31m[KmoveToPose(move_group_arm, poses[2])[m[K;
+      |                 [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:97:6:[m[K [01;36m[Knote: [m[Kdeclared here
+   97 | void [01;36m[KmoveToPose[m[K(moveit::planning_interface::MoveGroupInterface& move_group_arm,
+      |      [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:532:27:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kvoid moveToPose(moveit::planning_interface::MoveGroupInterface&, const Pose&, RobotControl&, double, double)[m[K’
+  532 |                 [01;31m[KmoveToPose(move_group_arm, poses[3])[m[K;
+      |                 [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:97:6:[m[K [01;36m[Knote: [m[Kdeclared here
+   97 | void [01;36m[KmoveToPose[m[K(moveit::planning_interface::MoveGroupInterface& move_group_arm,
+      |      [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:538:23:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kvoid moveToPose(moveit::planning_interface::MoveGroupInterface&, const Pose&, RobotControl&, double, double)[m[K’
+  538 |             [01;31m[KmoveToPose(move_group_arm, poses[3])[m[K;
+      |             [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:97:6:[m[K [01;36m[Knote: [m[Kdeclared here
+   97 | void [01;36m[KmoveToPose[m[K(moveit::planning_interface::MoveGroupInterface& move_group_arm,
+      |      [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K At global scope:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:95:15:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcurrent_velocity_scaling_factor[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   95 | static double [01;35m[Kcurrent_velocity_scaling_factor[m[K = DEFAULT_VELOCITY_SCALING_FACTOR;
+      |               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ur5_ros2_cartesian.dir/build.make:76：CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ur5_ros2_cartesian.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

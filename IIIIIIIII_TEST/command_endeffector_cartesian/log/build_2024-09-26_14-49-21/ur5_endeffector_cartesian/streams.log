@@ -1,0 +1,21 @@
+[0.007s] Invoking command in '/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian -- -j32 -l32
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target ur5_ros2_cartesian[0m
+[0.064s] [ 50%] [32mBuilding CXX object CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o[0m
+[2.205s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In function ‘[01m[Kbool moveWithForceFeedback(moveit::planning_interface::MoveGroupInterface&, const Pose&, const Pose&, RobotControl&, double)[m[K’:
+[2.205s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:128:12:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble current_velocity[m[K’
+[2.205s]   128 |     double [01;31m[Kcurrent_velocity[m[K = 0.05;  // 設置一個較低的初始速度，比如 5%
+[2.205s]       |            [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.205s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:117:12:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble current_velocity[m[K’ previously declared here
+[2.205s]   117 |     double [01;36m[Kcurrent_velocity[m[K = 0.0;
+[2.205s]       |            [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[2.205s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:131:18:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kconst double velocity_step[m[K’
+[2.205s]   131 |     const double [01;31m[Kvelocity_step[m[K = 0.002;  // 減小速度變化步長
+[2.205s]       |                  [01;31m[K^~~~~~~~~~~~~[m[K
+[2.205s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:118:18:[m[K [01;36m[Knote: [m[K‘[01m[Kconst double velocity_step[m[K’ previously declared here
+[2.205s]   118 |     const double [01;36m[Kvelocity_step[m[K = 0.005;  // 減小速度變化步長
+[2.205s]       |                  [01;36m[K^~~~~~~~~~~~~[m[K
+[2.206s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:118:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvelocity_step[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.365s] gmake[2]: *** [CMakeFiles/ur5_ros2_cartesian.dir/build.make:76：CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o] 錯誤 1
+[4.365s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ur5_ros2_cartesian.dir/all] 錯誤 2
+[4.365s] gmake: *** [Makefile:146：all] 錯誤 2
+[4.367s] Invoked command in '/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian -- -j32 -l32

@@ -1,0 +1,3 @@
+[console_scripts]
+zed_camera_node = zed_camera_publisher.zed_camera_node:main
+

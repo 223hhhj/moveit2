@@ -1,0 +1,20 @@
+[0.009s] Invoking command in '/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian -- -j32 -l32
+[0.058s] [35m[1mConsolidate compiler generated dependencies of target ur5_ros2_cartesian[0m
+[0.075s] [ 50%] [32mBuilding CXX object CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o[0m
+[2.563s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In member function ‘[01m[Kvoid UR5Control::moveToPose1()[m[K’:
+[2.563s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:82:48:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::__shared_ptr_access<std::future<moveit::core::MoveItErrorCode>, __gnu_cxx::_S_atomic, false, false>::element_type[m[K’ {aka ‘[01m[Kstd::future<moveit::core::MoveItErrorCode>[m[K’} and ‘[01m[Kmoveit::core::MoveItErrorCode[m[K’)
+[2.563s]    82 |         *result_future = move_group->asyncMove([01;31m[K)[m[K;
+[2.563s]       |                                                [01;31m[K^[m[K
+[2.563s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[2.563s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.563s]                  from [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:1[m[K:
+[2.563s] [01m[K/usr/include/c++/11/future:794:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::future<_Res>& std::future<_Res>::operator=(std::future<_Res>&&) [with _Res = moveit::core::MoveItErrorCode][m[K’
+[2.563s]   794 |       future& [01;36m[Koperator[m[K=(future&& __fut) noexcept
+[2.564s]       |               [01;36m[K^~~~~~~~[m[K
+[2.564s] [01m[K/usr/include/c++/11/future:794:34:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmoveit::core::MoveItErrorCode[m[K’ to ‘[01m[Kstd::future<moveit::core::MoveItErrorCode>&&[m[K’
+[2.564s]   794 |       future& operator=([01;36m[Kfuture&& __fut[m[K) noexcept
+[2.564s]       |                         [01;36m[K~~~~~~~~~^~~~~[m[K
+[5.053s] gmake[2]: *** [CMakeFiles/ur5_ros2_cartesian.dir/build.make:76：CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o] 錯誤 1
+[5.053s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ur5_ros2_cartesian.dir/all] 錯誤 2
+[5.053s] gmake: *** [Makefile:146：all] 錯誤 2
+[5.056s] Invoked command in '/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian -- -j32 -l32

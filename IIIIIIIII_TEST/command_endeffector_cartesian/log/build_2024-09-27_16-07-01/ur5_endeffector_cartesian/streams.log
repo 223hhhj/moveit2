@@ -1,0 +1,15 @@
+[0.009s] Invoking command in '/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian -- -j32 -l32
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target ur5_ros2_cartesian[0m
+[0.072s] [ 50%] [32mBuilding CXX object CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o[0m
+[2.431s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In constructor ‘[01m[KRobotControl::RobotControl()[m[K’:
+[2.431s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:26:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_state_subscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Kgoal_state_descriptions[m[K’?
+[2.431s]    26 |         [01;31m[Kjoint_state_subscription_[m[K = this->create_subscription<sensor_msgs::msg::JointState>(
+[2.431s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.431s]       |         [32m[Kgoal_state_descriptions[m[K
+[2.431s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:27:59:[m[K [01;31m[Kerror: [m[K‘[01m[KjointStateCallback[m[K’ is not a member of ‘[01m[KRobotControl[m[K’
+[2.431s]    27 |             "/joint_states", 10, std::bind(&RobotControl::[01;31m[KjointStateCallback[m[K, this, std::placeholders::_1));
+[2.431s]       |                                                           [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.803s] gmake[2]: *** [CMakeFiles/ur5_ros2_cartesian.dir/build.make:76：CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o] 錯誤 1
+[4.804s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ur5_ros2_cartesian.dir/all] 錯誤 2
+[4.804s] gmake: *** [Makefile:146：all] 錯誤 2
+[4.806s] Invoked command in '/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian -- -j32 -l32

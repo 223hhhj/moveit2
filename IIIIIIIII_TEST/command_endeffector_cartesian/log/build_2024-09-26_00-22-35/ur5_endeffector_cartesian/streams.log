@@ -1,0 +1,32 @@
+[0.008s] Invoking command in '/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian -- -j32 -l32
+[0.066s] [ 50%] [32mBuilding CXX object CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o[0m
+[3.378s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In function ‘[01m[Kvoid moveWithForceFeedback(moveit::planning_interface::MoveGroupInterface&, const Pose&, const Pose&, std::shared_ptr<RobotControl>)[m[K’:
+[3.378s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:191:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class RobotControl[m[K’ {aka ‘[01m[Kclass RobotControl[m[K’} has no member named ‘[01m[Kstart_force_control[m[K’
+[3.378s]   191 |         robot_control->[01;31m[Kstart_force_control[m[K();
+[3.378s]       |                        [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.378s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:197:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class RobotControl[m[K’ {aka ‘[01m[Kclass RobotControl[m[K’} has no member named ‘[01m[Kstop_force_control[m[K’
+[3.378s]   197 |         robot_control->[01;31m[Kstop_force_control[m[K();
+[3.378s]       |                        [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.384s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.384s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:479:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class RobotControl[m[K’ {aka ‘[01m[Kclass RobotControl[m[K’} has no member named ‘[01m[Kstart_recording[m[K’
+[3.384s]   479 |             robot_control_node->[01;31m[Kstart_recording[m[K();
+[3.384s]       |                                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.384s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:481:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class RobotControl[m[K’ {aka ‘[01m[Kclass RobotControl[m[K’} has no member named ‘[01m[Kstop_recording[m[K’
+[3.384s]   481 |             robot_control_node->[01;31m[Kstop_recording[m[K();
+[3.384s]       |                                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.384s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:483:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class RobotControl[m[K’ {aka ‘[01m[Kclass RobotControl[m[K’} has no member named ‘[01m[Kget_average_fx[m[K’
+[3.384s]   483 |             double average_fx = robot_control_node->[01;31m[Kget_average_fx[m[K();
+[3.384s]       |                                                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.385s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:493:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class RobotControl[m[K’ {aka ‘[01m[Kclass RobotControl[m[K’} has no member named ‘[01m[Kget_current_fx[m[K’; did you mean ‘[01m[Kdouble RobotControl::current_fx_[m[K’? (not accessible from this context)
+[3.385s]   493 |             double final_fx = robot_control_node->[01;31m[Kget_current_fx[m[K();
+[3.385s]       |                                                   [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.385s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:59:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+[3.385s]    59 |     double [01;36m[Kcurrent_fx_[m[K;
+[3.385s]       |            [01;36m[K^~~~~~~~~~~[m[K
+[3.385s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:502:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class RobotControl[m[K’ {aka ‘[01m[Kclass RobotControl[m[K’} has no member named ‘[01m[Kpublish_result[m[K’
+[3.386s]   502 |             robot_control_node->[01;31m[Kpublish_result[m[K(fx_changed);
+[3.386s]       |                                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.468s] gmake[2]: *** [CMakeFiles/ur5_ros2_cartesian.dir/build.make:76：CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o] 錯誤 1
+[5.468s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ur5_ros2_cartesian.dir/all] 錯誤 2
+[5.468s] gmake: *** [Makefile:146：all] 錯誤 2
+[5.470s] Invoked command in '/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian -- -j32 -l32

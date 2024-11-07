@@ -1,0 +1,15 @@
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In member function ‘[01m[Kvoid ArmController::moveToPosition(const string&, const std::function<void()>&, double)[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:54:13:[m[K [01;31m[Kerror: [m[K‘[01m[KexecuteMoveWithFixedVelocity[m[K’ was not declared in this scope; did you mean ‘[01m[KexecuteMoveWithDynamicVelocity[m[K’?
+   54 |             [01;31m[KexecuteMoveWithFixedVelocity[m[K(setTarget);
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |             [32m[KexecuteMoveWithDynamicVelocity[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:59:13:[m[K [01;31m[Kerror: [m[K‘[01m[KwaitForValidVelocity[m[K’ was not declared in this scope
+   59 |             [01;31m[KwaitForValidVelocity[m[K();
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In member function ‘[01m[Kvoid ArmController::executeMoveWithDynamicVelocity(const std::function<void()>&)[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:112:23:[m[K [01;31m[Kerror: [m[K‘[01m[KrobotStateMsgToRobotState[m[K’ is not a member of ‘[01m[Kmoveit::core[m[K’
+  112 |         moveit::core::[01;31m[KrobotStateMsgToRobotState[m[K(result->scene.robot_state, robot_state);
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ur5_ros2_cartesian.dir/build.make:76：CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ur5_ros2_cartesian.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

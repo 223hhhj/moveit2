@@ -1,0 +1,21 @@
+[0.316s] Invoking command in '/home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/src/zed_camera_publisher': PYTHONPATH=/home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/build/zed_camera_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/install/zed_camera_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/zed_camera_publisher build --build-base /home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/build/zed_camera_publisher/build install --record /home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/build/zed_camera_publisher/install.log --single-version-externally-managed install_data
+[0.428s] running egg_info
+[0.428s] writing ../../build/zed_camera_publisher/zed_camera_publisher.egg-info/PKG-INFO
+[0.428s] writing dependency_links to ../../build/zed_camera_publisher/zed_camera_publisher.egg-info/dependency_links.txt
+[0.428s] writing entry points to ../../build/zed_camera_publisher/zed_camera_publisher.egg-info/entry_points.txt
+[0.428s] writing requirements to ../../build/zed_camera_publisher/zed_camera_publisher.egg-info/requires.txt
+[0.428s] writing top-level names to ../../build/zed_camera_publisher/zed_camera_publisher.egg-info/top_level.txt
+[0.429s] reading manifest file '../../build/zed_camera_publisher/zed_camera_publisher.egg-info/SOURCES.txt'
+[0.430s] writing manifest file '../../build/zed_camera_publisher/zed_camera_publisher.egg-info/SOURCES.txt'
+[0.430s] running build
+[0.430s] running build_py
+[0.430s] running install
+[0.430s] running install_lib
+[0.430s] running install_data
+[0.431s] running install_egg_info
+[0.432s] removing '/home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/install/zed_camera_publisher/lib/python3.10/site-packages/zed_camera_publisher-0.0.0-py3.10.egg-info' (and everything under it)
+[0.432s] Copying ../../build/zed_camera_publisher/zed_camera_publisher.egg-info to /home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/install/zed_camera_publisher/lib/python3.10/site-packages/zed_camera_publisher-0.0.0-py3.10.egg-info
+[0.432s] running install_scripts
+[0.442s] Installing zed_camera_node script to /home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/install/zed_camera_publisher/lib/zed_camera_publisher
+[0.442s] writing list of installed files to '/home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/build/zed_camera_publisher/install.log'
+[0.453s] Invoked command in '/home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/src/zed_camera_publisher' returned '0': PYTHONPATH=/home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/build/zed_camera_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/install/zed_camera_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/zed_camera_publisher build --build-base /home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/build/zed_camera_publisher/build install --record /home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/build/zed_camera_publisher/install.log --single-version-externally-managed install_data

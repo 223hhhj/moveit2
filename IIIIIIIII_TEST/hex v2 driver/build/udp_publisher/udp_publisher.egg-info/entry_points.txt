@@ -1,0 +1,3 @@
+[console_scripts]
+udp_publisher_node = udp_publisher.udp_publisher_node:main
+

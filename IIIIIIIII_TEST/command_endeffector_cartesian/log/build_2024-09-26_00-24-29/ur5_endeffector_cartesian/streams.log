@@ -1,0 +1,36 @@
+[0.008s] Invoking command in '/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian -- -j32 -l32
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target ur5_ros2_cartesian[0m
+[0.069s] [ 50%] [32mBuilding CXX object CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o[0m
+[3.440s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In function ‘[01m[Kvoid moveWithForceFeedback(moveit::planning_interface::MoveGroupInterface&, const Pose&, const Pose&, std::shared_ptr<RobotControl>)[m[K’:
+[3.440s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:186:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrajectory_processing[m[K’ has not been declared
+[3.440s]   186 |         [01;31m[Ktrajectory_processing[m[K::IterativeParabolicTimeParameterization iptp;
+[3.440s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[3.443s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:187:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kiptp[m[K’ was not declared in this scope
+[3.443s]   187 |         [01;31m[Kiptp[m[K.computeTimeStamps(rt);
+[3.443s]       |         [01;31m[K^~~~[m[K
+[3.454s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:197:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp_action::Client<moveit_msgs::action::MoveGroup>[m[K’ has no member named ‘[01m[KgetState[m[K’
+[3.454s]   197 |         while (move_group_arm.getMoveGroupClient().[01;31m[KgetState[m[K().status_message != "Idle")
+[3.454s]       |                                                    [01;31m[K^~~~~~~~[m[K
+[3.460s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.460s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:484:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class RobotControl[m[K’ {aka ‘[01m[Kclass RobotControl[m[K’} has no member named ‘[01m[Kstart_recording[m[K’
+[3.460s]   484 |             robot_control_node->[01;31m[Kstart_recording[m[K();
+[3.460s]       |                                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.460s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:486:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class RobotControl[m[K’ {aka ‘[01m[Kclass RobotControl[m[K’} has no member named ‘[01m[Kstop_recording[m[K’
+[3.460s]   486 |             robot_control_node->[01;31m[Kstop_recording[m[K();
+[3.460s]       |                                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.460s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:488:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class RobotControl[m[K’ {aka ‘[01m[Kclass RobotControl[m[K’} has no member named ‘[01m[Kget_average_fx[m[K’
+[3.460s]   488 |             double average_fx = robot_control_node->[01;31m[Kget_average_fx[m[K();
+[3.460s]       |                                                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.461s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:498:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class RobotControl[m[K’ {aka ‘[01m[Kclass RobotControl[m[K’} has no member named ‘[01m[Kget_current_fx[m[K’; did you mean ‘[01m[Kdouble RobotControl::current_fx_[m[K’? (not accessible from this context)
+[3.461s]   498 |             double final_fx = robot_control_node->[01;31m[Kget_current_fx[m[K();
+[3.461s]       |                                                   [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.461s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:57:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+[3.461s]    57 |     double [01;36m[Kcurrent_fx_[m[K;
+[3.461s]       |            [01;36m[K^~~~~~~~~~~[m[K
+[3.461s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:507:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class RobotControl[m[K’ {aka ‘[01m[Kclass RobotControl[m[K’} has no member named ‘[01m[Kpublish_result[m[K’
+[3.461s]   507 |             robot_control_node->[01;31m[Kpublish_result[m[K(fx_changed);
+[3.461s]       |                                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.526s] gmake[2]: *** [CMakeFiles/ur5_ros2_cartesian.dir/build.make:76：CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o] 錯誤 1
+[5.527s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ur5_ros2_cartesian.dir/all] 錯誤 2
+[5.527s] gmake: *** [Makefile:146：all] 錯誤 2
+[5.529s] Invoked command in '/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian -- -j32 -l32

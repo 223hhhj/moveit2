@@ -1,0 +1,12 @@
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In member function ‘[01m[Kvoid RobotControl::performTask()[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:169:29:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kgeometry_msgs::msg::Pose[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} to ‘[01m[Kconst std::vector<double, std::allocator<double> >&[m[K’
+  169 |         moveToJointPosition([01;31m[Kpose_0_[m[K, 0.8);
+      |                             [01;31m[K^~~~~~~[m[K
+      |                             [01;31m[K|[m[K
+      |                             [01;31m[Kgeometry_msgs::msg::Pose {aka geometry_msgs::msg::Pose_<std::allocator<void> >}[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:71:57:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid RobotControl::moveToJointPosition(const std::vector<double, std::allocator<double> >&, double)[m[K’
+   71 |     void moveToJointPosition([01;36m[Kconst std::vector<double>& joint_positions[m[K, double speed_factor = -1.0)
+      |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ur5_ros2_cartesian.dir/build.make:76：CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ur5_ros2_cartesian.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

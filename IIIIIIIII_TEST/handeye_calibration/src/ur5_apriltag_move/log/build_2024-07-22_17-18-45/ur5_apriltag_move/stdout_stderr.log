@@ -1,0 +1,38 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/ur5_apriltag_move.dir/src/apriltag.cpp.o[0m
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/handeye_calibration/src/ur5_apriltag_move/src/apriltag.cpp:384:29:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kconst rclcpp::Logger LOGGER[m[K’
+  384 | static const rclcpp::Logger [01;31m[KLOGGER[m[K = rclcpp::get_logger("move_group_demo");
+      |                             [01;31m[K^~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/handeye_calibration/src/ur5_apriltag_move/src/apriltag.cpp:16:29:[m[K [01;36m[Knote: [m[K‘[01m[Kconst rclcpp::Logger LOGGER[m[K’ previously declared here
+   16 | static const rclcpp::Logger [01;36m[KLOGGER[m[K = rclcpp::get_logger("move_group_demo");
+      |                             [01;36m[K^~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/handeye_calibration/src/ur5_apriltag_move/src/apriltag.cpp:463:15:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kdouble toRadians(double)[m[K’
+  463 | inline double [01;31m[KtoRadians[m[K(double degrees) {
+      |               [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/handeye_calibration/src/ur5_apriltag_move/src/apriltag.cpp:19:15:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble toRadians(double)[m[K’ previously defined here
+   19 | inline double [01;36m[KtoRadians[m[K(double degrees) {
+      |               [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/handeye_calibration/src/ur5_apriltag_move/src/apriltag.cpp:468:20:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[KEigen::Quaterniond eulerToQuaternionExtrinsicXYZ(double, double, double)[m[K’
+  468 | Eigen::Quaterniond [01;31m[KeulerToQuaternionExtrinsicXYZ[m[K(double roll, double pitch, double yaw) {
+      |                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/handeye_calibration/src/ur5_apriltag_move/src/apriltag.cpp:24:20:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::Quaterniond eulerToQuaternionExtrinsicXYZ(double, double, double)[m[K’ previously defined here
+   24 | Eigen::Quaterniond [01;36m[KeulerToQuaternionExtrinsicXYZ[m[K(double roll, double pitch, double yaw) {
+      |                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/handeye_calibration/src/ur5_apriltag_move/src/apriltag.cpp:482:20:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[KEigen::Quaterniond eulerToQuaternionIntrinsicXYZ(double, double, double)[m[K’
+  482 | Eigen::Quaterniond [01;31m[KeulerToQuaternionIntrinsicXYZ[m[K(double roll, double pitch, double yaw) {
+      |                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/handeye_calibration/src/ur5_apriltag_move/src/apriltag.cpp:38:20:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::Quaterniond eulerToQuaternionIntrinsicXYZ(double, double, double)[m[K’ previously defined here
+   38 | Eigen::Quaterniond [01;36m[KeulerToQuaternionIntrinsicXYZ[m[K(double roll, double pitch, double yaw) {
+      |                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/handeye_calibration/src/ur5_apriltag_move/src/apriltag.cpp:524:5:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint main(int, char**)[m[K’
+  524 | int [01;31m[Kmain[m[K(int argc, char **argv) {
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/handeye_calibration/src/ur5_apriltag_move/src/apriltag.cpp:51:5:[m[K [01;36m[Knote: [m[K‘[01m[Kint main(int, char**)[m[K’ previously defined here
+   51 | int [01;36m[Kmain[m[K(int argc, char **argv) {
+      |     [01;36m[K^~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/handeye_calibration/src/ur5_apriltag_move/src/apriltag.cpp:624:1:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kconst char _ZTSNSt6thread11_State_implINS_8_InvokerISt5tupleIJZ4mainEUlvE_EEEEEE [][m[K’
+  624 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/handeye_calibration/src/ur5_apriltag_move/src/apriltag.cpp:624:1:[m[K [01;36m[Knote: [m[K‘[01m[Kconst char _ZTSNSt6thread11_State_implINS_8_InvokerISt5tupleIJZ4mainEUlvE_EEEEEE [67][m[K’ previously defined here
+gmake[2]: *** [CMakeFiles/ur5_apriltag_move.dir/build.make:76：CMakeFiles/ur5_apriltag_move.dir/src/apriltag.cpp.o] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ur5_apriltag_move.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2
