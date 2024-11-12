@@ -1,0 +1,21 @@
+[0.314s] Invoking command in '/home/steven/Documents/IIIIIIIII_TEST/hex v2 driver/src/udp_publisher': PYTHONPATH=/home/steven/Documents/IIIIIIIII_TEST/hex v2 driver/build/udp_publisher/prefix_override:/home/steven/Documents/IIIIIIIII_TEST/hex v2 driver/install/udp_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/udp_publisher build --build-base /home/steven/Documents/IIIIIIIII_TEST/hex v2 driver/build/udp_publisher/build install --record /home/steven/Documents/IIIIIIIII_TEST/hex v2 driver/build/udp_publisher/install.log --single-version-externally-managed install_data
+[0.417s] running egg_info
+[0.417s] writing ../../build/udp_publisher/udp_publisher.egg-info/PKG-INFO
+[0.417s] writing dependency_links to ../../build/udp_publisher/udp_publisher.egg-info/dependency_links.txt
+[0.417s] writing entry points to ../../build/udp_publisher/udp_publisher.egg-info/entry_points.txt
+[0.417s] writing requirements to ../../build/udp_publisher/udp_publisher.egg-info/requires.txt
+[0.417s] writing top-level names to ../../build/udp_publisher/udp_publisher.egg-info/top_level.txt
+[0.418s] reading manifest file '../../build/udp_publisher/udp_publisher.egg-info/SOURCES.txt'
+[0.418s] writing manifest file '../../build/udp_publisher/udp_publisher.egg-info/SOURCES.txt'
+[0.418s] running build
+[0.419s] running build_py
+[0.419s] running install
+[0.419s] running install_lib
+[0.419s] running install_data
+[0.419s] running install_egg_info
+[0.420s] removing '/home/steven/Documents/IIIIIIIII_TEST/hex v2 driver/install/udp_publisher/lib/python3.10/site-packages/udp_publisher-0.0.0-py3.10.egg-info' (and everything under it)
+[0.420s] Copying ../../build/udp_publisher/udp_publisher.egg-info to /home/steven/Documents/IIIIIIIII_TEST/hex v2 driver/install/udp_publisher/lib/python3.10/site-packages/udp_publisher-0.0.0-py3.10.egg-info
+[0.420s] running install_scripts
+[0.429s] Installing udp_publisher_node script to /home/steven/Documents/IIIIIIIII_TEST/hex v2 driver/install/udp_publisher/lib/udp_publisher
+[0.430s] writing list of installed files to '/home/steven/Documents/IIIIIIIII_TEST/hex v2 driver/build/udp_publisher/install.log'
+[0.439s] Invoked command in '/home/steven/Documents/IIIIIIIII_TEST/hex v2 driver/src/udp_publisher' returned '0': PYTHONPATH=/home/steven/Documents/IIIIIIIII_TEST/hex v2 driver/build/udp_publisher/prefix_override:/home/steven/Documents/IIIIIIIII_TEST/hex v2 driver/install/udp_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/udp_publisher build --build-base /home/steven/Documents/IIIIIIIII_TEST/hex v2 driver/build/udp_publisher/build install --record /home/steven/Documents/IIIIIIIII_TEST/hex v2 driver/build/udp_publisher/install.log --single-version-externally-managed install_data
