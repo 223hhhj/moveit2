@@ -1,0 +1,33 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o[0m
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In constructor ‘[01m[KRobotControl::RobotControl()[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:41:18:[m[K [01;35m[Kwarning: [m[K‘[01m[KRobotControl::DEFAULT_VELOCITY_SCALING_FACTOR[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   41 |     const double [01;35m[KDEFAULT_VELOCITY_SCALING_FACTOR[m[K;
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:40:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble RobotControl::current_velocity_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   40 |     double [01;35m[Kcurrent_velocity_[m[K;
+      |            [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:10:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   10 |     [01;35m[KRobotControl[m[K() : Node("robot_control"), DEFAULT_VELOCITY_SCALING_FACTOR(0.5), current_velocity_(0.8)
+      |     [01;35m[K^~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable ur5_ros2_cartesian[0m
+[100%] Built target ur5_ros2_cartesian
+-- Install configuration: ""
+-- Installing: /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/install/ur5_endeffector_cartesian/lib/ur5_endeffector_cartesian/ur5_ros2_cartesian
+-- Set runtime path of "/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/install/ur5_endeffector_cartesian/lib/ur5_endeffector_cartesian/ur5_ros2_cartesian" to ""
+-- Up-to-date: /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/launch
+-- Up-to-date: /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/launch/ur5_ros2_cartesian.launch.py
+-- Up-to-date: /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ament_index/resource_index/package_run_dependencies/ur5_endeffector_cartesian
+-- Up-to-date: /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ament_index/resource_index/parent_prefix_path/ur5_endeffector_cartesian
+-- Up-to-date: /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/environment/ament_prefix_path.sh
+-- Up-to-date: /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/environment/path.sh
+-- Up-to-date: /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/environment/path.dsv
+-- Up-to-date: /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/local_setup.bash
+-- Up-to-date: /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/local_setup.sh
+-- Up-to-date: /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/local_setup.zsh
+-- Up-to-date: /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/local_setup.dsv
+-- Installing: /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/package.dsv
+-- Up-to-date: /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ament_index/resource_index/packages/ur5_endeffector_cartesian
+-- Up-to-date: /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/cmake/ur5_endeffector_cartesianConfig.cmake
+-- Up-to-date: /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/cmake/ur5_endeffector_cartesianConfig-version.cmake
+-- Up-to-date: /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/package.xml

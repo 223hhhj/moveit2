@@ -25,7 +25,11 @@ _colcon_prefix_chain_zsh_source_script "$COLCON_CURRENT_PREFIX/local_setup.zsh"
 COLCON_CURRENT_PREFIX="/home/steven/ws_moveit2/install"
 _colcon_prefix_chain_zsh_source_script "$COLCON_CURRENT_PREFIX/local_setup.zsh"
 # setting COLCON_CURRENT_PREFIX avoids determining the prefix in the sourced script
+<<<<<<< HEAD
 COLCON_CURRENT_PREFIX="/home/steven/ros2_ws/src/first_stage/src/first_stage_endeffector/install"
+=======
+COLCON_CURRENT_PREFIX="/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/install"
+>>>>>>> 486f333f442fd9f602a52c008d070af087fb37bf
 _colcon_prefix_chain_zsh_source_script "$COLCON_CURRENT_PREFIX/local_setup.zsh"
 
 # source this prefix

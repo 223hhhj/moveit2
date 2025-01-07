@@ -90,7 +90,11 @@ def udp_get():
         dd = new_data[24:]
         fx = signed_hex2dec(dd[0:8]) / 10000
         fy = signed_hex2dec(dd[8:16]) / 10000
+<<<<<<< HEAD
         fz = 38+(signed_hex2dec(dd[16:24]) / 10000)
+=======
+        fz = signed_hex2dec(dd[16:24]) / 10000
+>>>>>>> 486f333f442fd9f602a52c008d070af087fb37bf
         tx = signed_hex2dec(dd[24:32]) / 100000
         ty = signed_hex2dec(dd[32:40]) / 100000
         tz = signed_hex2dec(dd[40:48]) / 100000

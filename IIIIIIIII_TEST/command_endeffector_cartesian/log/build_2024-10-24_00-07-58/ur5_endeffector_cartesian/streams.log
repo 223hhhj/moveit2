@@ -1,0 +1,143 @@
+[0.009s] Invoking command in '/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian -- -j32 -l32
+[0.055s] [ 50%] [32mBuilding CXX object CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o[0m
+[2.286s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:206:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[2.286s]   206 | }
+[2.286s]       |  [01;31m[K^[m[K
+[2.286s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:11:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[2.286s]    11 | [01;36m[K{[m[K
+[2.286s]       | [01;36m[K^[m[K
+[2.286s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In constructor ‘[01m[KUR5Control::UR5Control()[m[K’:
+[2.286s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:14:32:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KUR5Control[m[K’ does not have any field named ‘[01m[Kcurrent_velocity[m[K’
+[2.286s]    14 |         : Node("ur5_control"), [01;31m[Kcurrent_velocity[m[K(1.0), current_acceleration(1.0), is_moving(true)
+[2.286s]       |                                [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.286s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:14:55:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KUR5Control[m[K’ does not have any field named ‘[01m[Kcurrent_acceleration[m[K’
+[2.286s]    14 |  : Node("ur5_control"), current_velocity(1.0), [01;31m[Kcurrent_acceleration[m[K(1.0), is_moving(true)
+[2.286s]       |                                                [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[2.286s] 
+[2.286s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:14:82:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KUR5Control[m[K’ does not have any field named ‘[01m[Kis_moving[m[K’
+[2.286s]    14 | rent_velocity(1.0), current_acceleration(1.0), [01;31m[Kis_moving[m[K(true)
+[2.286s]       |                                                [01;31m[K^~~~~~~~~[m[K
+[2.286s] 
+[2.293s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:16:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_node[m[K’ was not declared in this scope
+[2.293s]    16 |         [01;31m[Kmove_group_node[m[K = std::make_shared<rclcpp::Node>("move_group_interface");
+[2.293s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.297s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kexecutor[m[K’ was not declared in this scope
+[2.298s]    17 |         [01;31m[Kexecutor[m[K = std::make_shared<rclcpp::executors::SingleThreadedExecutor>();
+[2.298s]       |         [01;31m[K^~~~~~~~[m[K
+[2.298s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In lambda function:
+[2.298s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:19:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kexecutor[m[K’ is not captured
+[2.298s]    19 |         std::thread([this]() { [01;31m[Kexecutor[m[K->spin(); }).detach();
+[2.298s]       |                                [01;31m[K^~~~~~~~[m[K
+[2.298s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:19:26:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[2.298s]    19 |         std::thread([this[01;36m[K][m[K() { executor->spin(); }).detach();
+[2.298s]       |                          [01;36m[K^[m[K
+[2.298s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:17:9:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>executor[m[K’ declared here
+[2.298s]    17 |         [01;36m[Kexecutor[m[K = std::make_shared<rclcpp::executors::SingleThreadedExecutor>();
+[2.298s]       |         [01;36m[K^~~~~~~~[m[K
+[2.302s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In constructor ‘[01m[KUR5Control::UR5Control()[m[K’:
+[2.302s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:21:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group[m[K’ was not declared in this scope
+[2.302s]    21 |         [01;31m[Kmove_group[m[K = std::make_shared<moveit::planning_interface::MoveGroupInterface>(move_group_node, "ur_manipulator");
+[2.302s]       |         [01;31m[K^~~~~~~~~~[m[K
+[2.307s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:25:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_names[m[K’ was not declared in this scope
+[2.307s]    25 |         [01;31m[Kjoint_names[m[K = move_group->getJointNames();
+[2.307s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.313s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:26:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kwrist_3_index[m[K’ was not declared in this scope
+[2.313s]    26 |         [01;31m[Kwrist_3_index[m[K = 5;  // UR機器人的Wrist 3通常是第6個關節（index 5）
+[2.313s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[2.319s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:28:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_subscriber[m[K’ was not declared in this scope
+[2.320s]    28 |         [01;31m[Ksensor_subscriber[m[K = this->create_subscription<std_msgs::msg::Float64MultiArray>(
+[2.320s]       |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.348s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In member function ‘[01m[Kvoid UR5Control::sensorCallback(std_msgs::msg::Float64MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.348s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:37:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kfx[m[K’ was not declared in this scope
+[2.348s]    37 |             [01;31m[Kfx[m[K = msg->data[0];
+[2.348s]       |             [01;31m[K^~[m[K
+[2.354s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In member function ‘[01m[Kvoid UR5Control::startForceControl()[m[K’:
+[2.354s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:45:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_pose[m[K’ was not declared in this scope
+[2.354s]    45 |         [01;31m[Kcurrent_pose[m[K = move_group->getCurrentPose().pose;
+[2.354s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[2.358s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:45:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group[m[K’ was not declared in this scope
+[2.358s]    45 |         current_pose = [01;31m[Kmove_group[m[K->getCurrentPose().pose;
+[2.358s]       |                        [01;31m[K^~~~~~~~~~[m[K
+[2.364s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:46:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_joints[m[K’ was not declared in this scope
+[2.364s]    46 |         [01;31m[Kcurrent_joints[m[K = move_group->getCurrentJointValues();
+[2.364s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.370s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:47:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kwrist_3_value[m[K’ was not declared in this scope
+[2.370s]    47 |         [01;31m[Kwrist_3_value[m[K = current_joints[wrist_3_index];  // 儲存Wrist 3的角度
+[2.370s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[2.376s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:47:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kwrist_3_index[m[K’ was not declared in this scope
+[2.376s]    47 |         wrist_3_value = current_joints[[01;31m[Kwrist_3_index[m[K];  // 儲存Wrist 3的角度
+[2.376s]       |                                        [01;31m[K^~~~~~~~~~~~~[m[K
+[2.381s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:51:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_names[m[K’ was not declared in this scope
+[2.381s]    51 |         joint_constraint.joint_name = [01;31m[Kjoint_names[m[K[wrist_3_index];
+[2.381s]       |                                       [01;31m[K^~~~~~~~~~~[m[K
+[2.387s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:58:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_constraints[m[K’ was not declared in this scope
+[2.387s]    58 |         [01;31m[Kpath_constraints[m[K.joint_constraints.clear();
+[2.387s]       |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.390s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:65:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimex[m[K’?
+[2.390s]    65 |         [01;31m[Ktimer[m[K = this->create_wall_timer(
+[2.390s]       |         [01;31m[K^~~~~[m[K
+[2.390s]       |         [32m[Ktimex[m[K
+[2.398s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In member function ‘[01m[Kvoid UR5Control::timerCallback()[m[K’:
+[2.398s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:74:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kfx[m[K’ was not declared in this scope
+[2.398s]    74 |         if ([01;31m[Kfx[m[K < -2.0) {
+[2.398s]       |             [01;31m[K^~[m[K
+[2.402s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In member function ‘[01m[Kvoid UR5Control::decelerateAndMove()[m[K’:
+[2.403s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:85:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_moving[m[K’ was not declared in this scope
+[2.403s]    85 |         [01;31m[Kis_moving[m[K = true;
+[2.403s]       |         [01;31m[K^~~~~~~~~[m[K
+[2.409s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:86:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_velocity[m[K’ was not declared in this scope
+[2.409s]    86 |         [01;31m[Kcurrent_velocity[m[K = std::max(0.0, current_velocity - 0.1);
+[2.409s]       |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.417s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:87:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_acceleration[m[K’ was not declared in this scope
+[2.417s]    87 |         [01;31m[Kcurrent_acceleration[m[K = std::max(0.0, current_acceleration - 0.1);
+[2.417s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[2.422s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In member function ‘[01m[Kvoid UR5Control::resetSpeedAndMove()[m[K’:
+[2.422s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:100:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_moving[m[K’ was not declared in this scope
+[2.422s]   100 |         if (![01;31m[Kis_moving[m[K) {
+[2.422s]       |              [01;31m[K^~~~~~~~~[m[K
+[2.429s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:101:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_velocity[m[K’ was not declared in this scope
+[2.429s]   101 |             [01;31m[Kcurrent_velocity[m[K = 0.1;
+[2.429s]       |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.438s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:102:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_acceleration[m[K’ was not declared in this scope
+[2.438s]   102 |             [01;31m[Kcurrent_acceleration[m[K = 0.1;
+[2.438s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[2.443s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In member function ‘[01m[Kvoid UR5Control::moveInBodyXDirection(double)[m[K’:
+[2.443s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:110:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_pose[m[K’ was not declared in this scope
+[2.443s]   110 |         tf2::Quaternion q([01;31m[Kcurrent_pose[m[K.orientation.x, current_pose.orientation.y,
+[2.443s]       |                           [01;31m[K^~~~~~~~~~~~[m[K
+[2.448s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In lambda function:
+[2.448s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:120:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group[m[K’ was not declared in this scope
+[2.448s]   120 |             [01;31m[Kmove_group[m[K->setPoseTarget(current_pose);
+[2.448s]       |             [01;31m[K^~~~~~~~~~[m[K
+[2.455s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In member function ‘[01m[Kvoid UR5Control::moveInBodyXDirection(double)[m[K’:
+[2.455s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:121:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_velocity[m[K’ was not declared in this scope
+[2.455s]   121 |         }, [01;31m[Kcurrent_velocity[m[K, current_acceleration);
+[2.455s]       |            [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.464s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:121:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_acceleration[m[K’ was not declared in this scope
+[2.464s]   121 |         }, current_velocity, [01;31m[Kcurrent_acceleration[m[K);
+[2.464s]       |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[2.471s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:119:9:[m[K [01;31m[Kerror: [m[K‘[01m[KplanAndExecute[m[K’ was not declared in this scope
+[2.471s]   119 |         [01;31m[KplanAndExecute[m[K("Body X Direction Movement", [&]() {
+[2.471s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.476s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In member function ‘[01m[Kvoid UR5Control::moveToHome()[m[K’:
+[2.476s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:127:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group[m[K’ was not declared in this scope
+[2.476s]   127 |         [01;31m[Kmove_group[m[K->clearPathConstraints();
+[2.476s]       |         [01;31m[K^~~~~~~~~~[m[K
+[2.476s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:129:81:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[K;[m[K’ token
+[2.476s]   129 | ble> homejoints = {-1.64, -2.27, 1.92, -1.22, -1.57, 3.14[01;31m[K;[m[K
+[2.476s]       |                                                          [01;31m[K^[m[K
+[2.476s] 
+[2.476s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:129:42:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[2.476s]   129 |         std::vector<double> homejoints = [01;36m[K{[m[K-1.64, -2.27, 1.92, -1.22, -1.57, 3.14;
+[2.476s]       |                                          [01;36m[K^[m[K
+[2.483s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:130:9:[m[K [01;31m[Kerror: [m[K‘[01m[KplanAndExecute[m[K’ was not declared in this scope
+[2.483s]   130 |         [01;31m[KplanAndExecute[m[K("Home", [&]() {
+[2.483s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.485s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K At global scope:
+[2.485s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:206:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[2.485s]   206 | }
+[2.485s]       |  [01;31m[K^[m[K
+[4.613s] gmake[2]: *** [CMakeFiles/ur5_ros2_cartesian.dir/build.make:76：CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o] 錯誤 1
+[4.614s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ur5_ros2_cartesian.dir/all] 錯誤 2
+[4.614s] gmake: *** [Makefile:146：all] 錯誤 2
+[4.616s] Invoked command in '/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian -- -j32 -l32

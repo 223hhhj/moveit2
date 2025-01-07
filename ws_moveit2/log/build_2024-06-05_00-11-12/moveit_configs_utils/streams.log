@@ -1,0 +1,55 @@
+[0.322s] Invoking command in '/home/steven/ws_moveit2/src/moveit2/moveit_configs_utils': AMENT_PREFIX_PATH=/home/steven/ws_moveit2/install/srdfdom:/home/steven/ws_moveit2/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/steven/ws_moveit2/install/srdfdom LD_LIBRARY_PATH=/home/steven/ws_moveit2/install/srdfdom/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.3/lib64 PYTHONPATH=/home/steven/ws_moveit2/build/moveit_configs_utils/prefix_override:/home/steven/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/steven/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/steven/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/moveit_configs_utils build --build-base /home/steven/ws_moveit2/build/moveit_configs_utils/build install --record /home/steven/ws_moveit2/build/moveit_configs_utils/install.log --single-version-externally-managed install_data
+[0.432s] running egg_info
+[0.432s] creating ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info
+[0.432s] writing ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/PKG-INFO
+[0.432s] writing dependency_links to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/dependency_links.txt
+[0.432s] writing entry points to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/entry_points.txt
+[0.432s] writing requirements to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/requires.txt
+[0.432s] writing top-level names to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/top_level.txt
+[0.432s] writing manifest file '../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[0.433s] reading manifest file '../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[0.434s] writing manifest file '../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[0.434s] running build
+[0.434s] running build_py
+[0.434s] creating /home/steven/ws_moveit2/build/moveit_configs_utils/build
+[0.434s] creating /home/steven/ws_moveit2/build/moveit_configs_utils/build/lib
+[0.434s] creating /home/steven/ws_moveit2/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[0.434s] copying moveit_configs_utils/__init__.py -> /home/steven/ws_moveit2/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[0.434s] copying moveit_configs_utils/moveit_configs_builder.py -> /home/steven/ws_moveit2/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[0.434s] copying moveit_configs_utils/launches.py -> /home/steven/ws_moveit2/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[0.434s] copying moveit_configs_utils/launch_utils.py -> /home/steven/ws_moveit2/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[0.434s] creating /home/steven/ws_moveit2/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions
+[0.434s] copying moveit_configs_utils/substitutions/__init__.py -> /home/steven/ws_moveit2/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions
+[0.434s] copying moveit_configs_utils/substitutions/xacro.py -> /home/steven/ws_moveit2/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions
+[0.435s] running install
+[0.435s] running install_lib
+[0.435s] creating /home/steven/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[0.435s] copying /home/steven/ws_moveit2/build/moveit_configs_utils/build/lib/moveit_configs_utils/__init__.py -> /home/steven/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[0.435s] creating /home/steven/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/substitutions
+[0.435s] copying /home/steven/ws_moveit2/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions/__init__.py -> /home/steven/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/substitutions
+[0.435s] copying /home/steven/ws_moveit2/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions/xacro.py -> /home/steven/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/substitutions
+[0.435s] copying /home/steven/ws_moveit2/build/moveit_configs_utils/build/lib/moveit_configs_utils/moveit_configs_builder.py -> /home/steven/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[0.435s] copying /home/steven/ws_moveit2/build/moveit_configs_utils/build/lib/moveit_configs_utils/launches.py -> /home/steven/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[0.435s] copying /home/steven/ws_moveit2/build/moveit_configs_utils/build/lib/moveit_configs_utils/launch_utils.py -> /home/steven/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[0.435s] byte-compiling /home/steven/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/__init__.py to __init__.cpython-310.pyc
+[0.435s] byte-compiling /home/steven/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/substitutions/__init__.py to __init__.cpython-310.pyc
+[0.435s] byte-compiling /home/steven/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/substitutions/xacro.py to xacro.cpython-310.pyc
+[0.436s] byte-compiling /home/steven/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/moveit_configs_builder.py to moveit_configs_builder.cpython-310.pyc
+[0.437s] byte-compiling /home/steven/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/launches.py to launches.cpython-310.pyc
+[0.437s] byte-compiling /home/steven/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/launch_utils.py to launch_utils.cpython-310.pyc
+[0.437s] running install_data
+[0.437s] creating /home/steven/ws_moveit2/install/moveit_configs_utils/share/ament_index
+[0.437s] creating /home/steven/ws_moveit2/install/moveit_configs_utils/share/ament_index/resource_index
+[0.438s] creating /home/steven/ws_moveit2/install/moveit_configs_utils/share/ament_index/resource_index/packages
+[0.438s] copying resource/moveit_configs_utils -> /home/steven/ws_moveit2/install/moveit_configs_utils/share/ament_index/resource_index/packages
+[0.438s] copying package.xml -> /home/steven/ws_moveit2/install/moveit_configs_utils/share/moveit_configs_utils
+[0.438s] creating /home/steven/ws_moveit2/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[0.438s] copying default_configs/ompl_planning.yaml -> /home/steven/ws_moveit2/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[0.438s] copying default_configs/pilz_industrial_motion_planner_planning.yaml -> /home/steven/ws_moveit2/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[0.438s] copying default_configs/ompl_defaults.yaml -> /home/steven/ws_moveit2/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[0.438s] copying default_configs/chomp_planning.yaml -> /home/steven/ws_moveit2/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[0.438s] running install_egg_info
+[0.438s] Copying ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info to /home/steven/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils-2.5.5-py3.10.egg-info
+[0.439s] running install_scripts
+[0.448s] writing list of installed files to '/home/steven/ws_moveit2/build/moveit_configs_utils/install.log'
+[0.461s] Invoked command in '/home/steven/ws_moveit2/src/moveit2/moveit_configs_utils' returned '0': AMENT_PREFIX_PATH=/home/steven/ws_moveit2/install/srdfdom:/home/steven/ws_moveit2/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/steven/ws_moveit2/install/srdfdom LD_LIBRARY_PATH=/home/steven/ws_moveit2/install/srdfdom/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.3/lib64 PYTHONPATH=/home/steven/ws_moveit2/build/moveit_configs_utils/prefix_override:/home/steven/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/steven/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/steven/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/moveit_configs_utils build --build-base /home/steven/ws_moveit2/build/moveit_configs_utils/build install --record /home/steven/ws_moveit2/build/moveit_configs_utils/install.log --single-version-externally-managed install_data

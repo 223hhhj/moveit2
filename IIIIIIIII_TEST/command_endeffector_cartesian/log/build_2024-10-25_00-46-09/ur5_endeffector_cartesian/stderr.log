@@ -1,0 +1,11 @@
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In member function ‘[01m[Kvoid UR5JointCircle::planAndExecute(const string&, const std::vector<double, std::allocator<double> >&, double, double)[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:178:26:[m[K [01;35m[Kwarning: [m[Klogical not is only applied to the left hand side of comparison [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wlogical-not-parentheses-Wlogical-not-parentheses]8;;[m[K]
+  178 |         while (!attempts [01;35m[K<[m[K max_attempts && !success) {
+      |                          [01;35m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:178:16:[m[K [01;36m[Knote: [m[Kadd parentheses around left hand side expression to silence this warning
+  178 |         while ([01;36m[K!attempts[m[K < max_attempts && !success) {
+      |                [01;36m[K^~~~~~~~~[m[K
+      |                [32m[K([m[K        [32m[K)[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:178:26:[m[K [01;35m[Kwarning: [m[Kcomparison of constant ‘[01m[K10[m[K’ with boolean expression is always true [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wbool-compare-Wbool-compare]8;;[m[K]
+  178 |         while ([01;35m[K!attempts < max_attempts[m[K && !success) {
+      |                [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~[m[K

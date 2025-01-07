@@ -1,0 +1,14 @@
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In constructor ‘[01m[KArmController::ArmController()[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:20:128:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KArmController[m[K’ does not have any field named ‘[01m[Kreceived_joint_state_[m[K’
+   20 |     ArmController() : Node("arm_controller"), current_velocity_(0.1), use_dynamic_velocity_(false), received_velocity_(false), [01;31m[Kreceived_joint_state_[m[K(false)
+      |                                                                                                                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:32:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_planning_scene_client_[m[K’ was not declared in this scope
+   32 |         [01;31m[Kget_planning_scene_client_[m[K = this->create_client<moveit_msgs::srv::GetPlanningScene>("get_planning_scene");
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:39:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kreceived_joint_state_[m[K’ was not declared in this scope; did you mean ‘[01m[Klatest_joint_state_[m[K’?
+   39 |         if (![01;31m[Kreceived_joint_state_[m[K) {
+      |              [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |              [32m[Klatest_joint_state_[m[K
+gmake[2]: *** [CMakeFiles/ur5_ros2_cartesian.dir/build.make:76：CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ur5_ros2_cartesian.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

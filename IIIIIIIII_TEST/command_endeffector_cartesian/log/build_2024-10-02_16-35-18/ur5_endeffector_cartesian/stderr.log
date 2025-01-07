@@ -1,0 +1,16 @@
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In member function ‘[01m[Kvoid UR5Control::moveToPose1()[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:82:48:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::__shared_ptr_access<std::future<moveit::core::MoveItErrorCode>, __gnu_cxx::_S_atomic, false, false>::element_type[m[K’ {aka ‘[01m[Kstd::future<moveit::core::MoveItErrorCode>[m[K’} and ‘[01m[Kmoveit::core::MoveItErrorCode[m[K’)
+   82 |         *result_future = move_group->asyncMove([01;31m[K)[m[K;
+      |                                                [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:1[m[K:
+[01m[K/usr/include/c++/11/future:794:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::future<_Res>& std::future<_Res>::operator=(std::future<_Res>&&) [with _Res = moveit::core::MoveItErrorCode][m[K’
+  794 |       future& [01;36m[Koperator[m[K=(future&& __fut) noexcept
+      |               [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/future:794:34:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmoveit::core::MoveItErrorCode[m[K’ to ‘[01m[Kstd::future<moveit::core::MoveItErrorCode>&&[m[K’
+  794 |       future& operator=([01;36m[Kfuture&& __fut[m[K) noexcept
+      |                         [01;36m[K~~~~~~~~~^~~~~[m[K
+gmake[2]: *** [CMakeFiles/ur5_ros2_cartesian.dir/build.make:76：CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ur5_ros2_cartesian.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

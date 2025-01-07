@@ -1,0 +1,97 @@
+[0.009s] Invoking command in '/home/steven/ws_moveit2/build/moveit_simple_controller_manager': AMENT_PREFIX_PATH=/home/steven/ws_moveit2/install/moveit_core:/home/steven/ws_moveit2/install/srdfdom:/home/steven/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/steven/ws_moveit2/install/moveit_core:/home/steven/ws_moveit2/install/srdfdom:/home/steven/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/steven/ws_moveit2/install/moveit_core/lib:/home/steven/ws_moveit2/install/srdfdom/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.3/lib64 PATH=/home/steven/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/steven/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/steven/ws_moveit2/src/moveit2/moveit_plugins/moveit_simple_controller_manager -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/steven/ws_moveit2/install/moveit_simple_controller_manager
+[0.030s] -- The C compiler identification is GNU 11.4.0
+[0.055s] -- The CXX compiler identification is GNU 11.4.0
+[0.058s] -- Detecting C compiler ABI info
+[0.087s] -- Detecting C compiler ABI info - done
+[0.090s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.090s] -- Detecting C compile features
+[0.090s] -- Detecting C compile features - done
+[0.091s] -- Detecting CXX compiler ABI info
+[0.126s] -- Detecting CXX compiler ABI info - done
+[0.130s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.130s] -- Detecting CXX compile features
+[0.130s] -- Detecting CXX compile features - done
+[0.131s] -- Found moveit_common: 2.5.5 (/home/steven/ws_moveit2/install/moveit_common/share/moveit_common/cmake)
+[0.132s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.197s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.267s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[0.269s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.269s] -- BACKWARD_HAS_UNWIND=1
+[0.269s] -- BACKWARD_HAS_BACKTRACE=0
+[0.269s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.269s] -- BACKWARD_HAS_DW=1
+[0.269s] -- BACKWARD_HAS_BFD=0
+[0.269s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0.270s] -- Found moveit_core: 2.5.5 (/home/steven/ws_moveit2/install/moveit_core/share/moveit_core/cmake)
+[0.371s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.389s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.406s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.408s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.412s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.417s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.426s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.456s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.457s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.498s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.509s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.529s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.533s] -- Found Threads: TRUE  
+[0.611s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.612s] -- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.633s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[0.690s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[0.827s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.306s] -- Found control_msgs: 4.5.0 (/opt/ros/humble/share/control_msgs/cmake)
+[1.406s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[1.412s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.424s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.424s] -- Configured cppcheck include dirs: /home/steven/ws_moveit2/src/moveit2/moveit_plugins/moveit_simple_controller_manager/include
+[1.424s] -- Configured cppcheck exclude dirs and/or files: 
+[1.425s] -- Added test 'lint_cmake' to check CMake code style
+[1.425s] -- Added test 'xmllint' to check XML markup files
+[1.426s] -- Configuring done
+[1.446s] -- Generating done
+[1.448s] -- Build files have been written to: /home/steven/ws_moveit2/build/moveit_simple_controller_manager
+[1.462s] Invoked command in '/home/steven/ws_moveit2/build/moveit_simple_controller_manager' returned '0': AMENT_PREFIX_PATH=/home/steven/ws_moveit2/install/moveit_core:/home/steven/ws_moveit2/install/srdfdom:/home/steven/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/steven/ws_moveit2/install/moveit_core:/home/steven/ws_moveit2/install/srdfdom:/home/steven/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/steven/ws_moveit2/install/moveit_core/lib:/home/steven/ws_moveit2/install/srdfdom/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.3/lib64 PATH=/home/steven/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/steven/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/steven/ws_moveit2/src/moveit2/moveit_plugins/moveit_simple_controller_manager -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/steven/ws_moveit2/install/moveit_simple_controller_manager
+[1.464s] Invoking command in '/home/steven/ws_moveit2/build/moveit_simple_controller_manager': AMENT_PREFIX_PATH=/home/steven/ws_moveit2/install/moveit_core:/home/steven/ws_moveit2/install/srdfdom:/home/steven/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/steven/ws_moveit2/install/moveit_core:/home/steven/ws_moveit2/install/srdfdom:/home/steven/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/steven/ws_moveit2/install/moveit_core/lib:/home/steven/ws_moveit2/install/srdfdom/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.3/lib64 PATH=/home/steven/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/steven/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/steven/ws_moveit2/build/moveit_simple_controller_manager -- -j32 -l32
+[1.509s] [ 66%] [32mBuilding CXX object CMakeFiles/moveit_simple_controller_manager.dir/src/follow_joint_trajectory_controller_handle.cpp.o[0m
+[1.509s] [ 66%] [32mBuilding CXX object CMakeFiles/moveit_simple_controller_manager.dir/src/moveit_simple_controller_manager.cpp.o[0m
+[7.444s] [100%] [32m[1mLinking CXX shared library libmoveit_simple_controller_manager.so[0m
+[7.550s] [100%] Built target moveit_simple_controller_manager
+[7.557s] Invoked command in '/home/steven/ws_moveit2/build/moveit_simple_controller_manager' returned '0': AMENT_PREFIX_PATH=/home/steven/ws_moveit2/install/moveit_core:/home/steven/ws_moveit2/install/srdfdom:/home/steven/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/steven/ws_moveit2/install/moveit_core:/home/steven/ws_moveit2/install/srdfdom:/home/steven/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/steven/ws_moveit2/install/moveit_core/lib:/home/steven/ws_moveit2/install/srdfdom/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.3/lib64 PATH=/home/steven/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/steven/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/steven/ws_moveit2/build/moveit_simple_controller_manager -- -j32 -l32
+[7.570s] Invoking command in '/home/steven/ws_moveit2/build/moveit_simple_controller_manager': AMENT_PREFIX_PATH=/home/steven/ws_moveit2/install/moveit_core:/home/steven/ws_moveit2/install/srdfdom:/home/steven/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/steven/ws_moveit2/install/moveit_core:/home/steven/ws_moveit2/install/srdfdom:/home/steven/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/steven/ws_moveit2/install/moveit_core/lib:/home/steven/ws_moveit2/install/srdfdom/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.3/lib64 PATH=/home/steven/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/steven/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/steven/ws_moveit2/build/moveit_simple_controller_manager
+[7.573s] -- Install configuration: "Release"
+[7.573s] -- Installing: /home/steven/ws_moveit2/install/moveit_simple_controller_manager/lib/libmoveit_simple_controller_manager.so.2.5.5
+[7.574s] -- Set runtime path of "/home/steven/ws_moveit2/install/moveit_simple_controller_manager/lib/libmoveit_simple_controller_manager.so.2.5.5" to ""
+[7.574s] -- Installing: /home/steven/ws_moveit2/install/moveit_simple_controller_manager/lib/libmoveit_simple_controller_manager.so
+[7.574s] -- Installing: /home/steven/ws_moveit2/install/moveit_simple_controller_manager/include
+[7.574s] -- Installing: /home/steven/ws_moveit2/install/moveit_simple_controller_manager/include/moveit_simple_controller_manager
+[7.574s] -- Installing: /home/steven/ws_moveit2/install/moveit_simple_controller_manager/include/moveit_simple_controller_manager/empty_controller_handle.h
+[7.574s] -- Installing: /home/steven/ws_moveit2/install/moveit_simple_controller_manager/include/moveit_simple_controller_manager/follow_joint_trajectory_controller_handle.h
+[7.574s] -- Installing: /home/steven/ws_moveit2/install/moveit_simple_controller_manager/include/moveit_simple_controller_manager/action_based_controller_handle.h
+[7.574s] -- Installing: /home/steven/ws_moveit2/install/moveit_simple_controller_manager/include/moveit_simple_controller_manager/gripper_controller_handle.h
+[7.574s] -- Installing: /home/steven/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/environment/library_path.sh
+[7.574s] -- Installing: /home/steven/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/environment/library_path.dsv
+[7.574s] -- Installing: /home/steven/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/moveit_simple_controller_manager_plugin_description.xml
+[7.574s] -- Installing: /home/steven/ws_moveit2/install/moveit_simple_controller_manager/share/ament_index/resource_index/package_run_dependencies/moveit_simple_controller_manager
+[7.574s] -- Installing: /home/steven/ws_moveit2/install/moveit_simple_controller_manager/share/ament_index/resource_index/parent_prefix_path/moveit_simple_controller_manager
+[7.574s] -- Installing: /home/steven/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/environment/ament_prefix_path.sh
+[7.575s] -- Installing: /home/steven/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/environment/ament_prefix_path.dsv
+[7.575s] -- Installing: /home/steven/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/environment/path.sh
+[7.575s] -- Installing: /home/steven/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/environment/path.dsv
+[7.575s] -- Installing: /home/steven/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/local_setup.bash
+[7.575s] -- Installing: /home/steven/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/local_setup.sh
+[7.575s] -- Installing: /home/steven/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/local_setup.zsh
+[7.575s] -- Installing: /home/steven/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/local_setup.dsv
+[7.575s] -- Installing: /home/steven/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/package.dsv
+[7.575s] -- Installing: /home/steven/ws_moveit2/install/moveit_simple_controller_manager/share/ament_index/resource_index/packages/moveit_simple_controller_manager
+[7.575s] -- Installing: /home/steven/ws_moveit2/install/moveit_simple_controller_manager/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_simple_controller_manager
+[7.575s] -- Installing: /home/steven/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/cmake/export_moveit_simple_controller_managerExport.cmake
+[7.575s] -- Installing: /home/steven/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/cmake/export_moveit_simple_controller_managerExport-release.cmake
+[7.575s] -- Installing: /home/steven/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/cmake/ConfigExtras.cmake
+[7.575s] -- Installing: /home/steven/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/cmake/ament_cmake_export_targets-extras.cmake
+[7.575s] -- Installing: /home/steven/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.575s] -- Installing: /home/steven/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/cmake/moveit_simple_controller_managerConfig.cmake
+[7.575s] -- Installing: /home/steven/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/cmake/moveit_simple_controller_managerConfig-version.cmake
+[7.575s] -- Installing: /home/steven/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/package.xml
+[7.576s] Invoked command in '/home/steven/ws_moveit2/build/moveit_simple_controller_manager' returned '0': AMENT_PREFIX_PATH=/home/steven/ws_moveit2/install/moveit_core:/home/steven/ws_moveit2/install/srdfdom:/home/steven/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/steven/ws_moveit2/install/moveit_core:/home/steven/ws_moveit2/install/srdfdom:/home/steven/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/steven/ws_moveit2/install/moveit_core/lib:/home/steven/ws_moveit2/install/srdfdom/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.3/lib64 PATH=/home/steven/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/steven/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/steven/ws_moveit2/build/moveit_simple_controller_manager

@@ -1,0 +1,59 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o[0m
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:8:26:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+    8 |         super().__init__([01;35m[K'ur5_dynamic_speed_controller'[m[K)
+      |                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:10:11:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #\U00008a2d\U00007f6e\U0000901f\U00005ea6\U00006bd4\U00004f8b\U0000521d\U000059cb\U0000503c\U000070ba
+   10 |         # [01;31m[K設置速度比例初始值為[m[K 0.5
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:13:11:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #\U00008a02\U000095b1
+   13 |         # [01;31m[K訂閱[m[K /custom_velocity 話題來動態調整速度比例
+      |           [01;31m[K^~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:16:13:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   16 |             [01;35m[K'/custom_velocity'[m[K,
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:21:11:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #\U00008a2d\U00007f6e
+   21 |         # [01;31m[K設置[m[K MoveGroupCommander
+      |           [01;31m[K^~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:22:45:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   22 |         self.arm_group = MoveGroupCommander([01;35m[K'ur5_arm'[m[K)
+      |                                             [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:25:11:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #\U000066f4\U000065b0\U0000901f\U00005ea6\U00006bd4\U00004f8b
+   25 |         # [01;31m[K更新速度比例[m[K
+      |           [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:27:33:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   27 |         self.get_logger().info(f[01;35m[K'Updated velocity scale to: {self.velocity_scale}'[m[K)
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:30:11:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #\U00008a2d\U00007f6e\U0000901f\U00005ea6\U0000548c\U000052a0\U0000901f\U00005ea6\U00006bd4\U00004f8b
+   30 |         # [01;31m[K設置速度和加速度比例[m[K
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:32:66:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K#[m[K’ in program
+   32 |         self.arm_group.set_max_acceleration_scaling_factor(0.5)  [01;31m[K#[m[K 可根據需要調整
+      |                                                                  [01;31m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:34:11:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #\U00008a2d\U00007f6e\U000076ee\U00006a19\U00004f4d\U000059ff
+   34 |         # [01;31m[K設置目標位姿[m[K
+      |           [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:37:11:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #\U0000958b\U000059cb\U0000904b\U000052d5
+   37 |         # [01;31m[K開始運動[m[K
+      |           [01;31m[K^~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:50:7:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #\U00008a2d\U00005b9a\U000076ee\U00006a19\U00004f4d\U000059ff\U0000ff08\U00005047\U00008a2d\U00005df2\U000077e5\U000076ee\U00006a19\U00004f4d\U000059ff\U0000ff09
+   50 |     # [01;31m[K設定目標位姿（假設已知目標位姿）[m[K
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:53:7:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #\U00006839\U000064da\U00005be6\U0000969b\U00009700\U00006c42\U00004fee\U00006539\U000076ee\U00006a19\U00004f4d\U000059ff
+   53 |     # [01;31m[K根據實際需求修改目標位姿[m[K
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:54:36:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K#[m[K’ in program
+   54 |     target_pose.position.x += 0.1  [01;31m[K#[m[K 假設向前移動10cm
+      |                                    [01;31m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:56:7:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #\U000079fb\U000052d5\U00005230\U000076ee\U00006a19\U00004f4d\U000059ff
+   56 |     # [01;31m[K移動到目標位姿[m[K
+      |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:64:16:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   64 | if __name__ == [01;35m[K'__main__'[m[K:
+      |                [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:1:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kimport[m[K’ does not name a type
+    1 | [01;31m[Kimport[m[K rclpy
+      | [01;31m[K^~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:1:1:[m[K [01;36m[Knote: [m[KC++20 ‘[01m[Kimport[m[K’ only available with ‘[01m[K-fmodules-ts[m[K’
+gmake[2]: *** [CMakeFiles/ur5_ros2_cartesian.dir/build.make:76：CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ur5_ros2_cartesian.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

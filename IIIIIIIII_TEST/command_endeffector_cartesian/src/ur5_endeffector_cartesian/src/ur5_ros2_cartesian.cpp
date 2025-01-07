@@ -1,6 +1,7 @@
 #include <rclcpp/rclcpp.hpp>
 #include <moveit/move_group_interface/move_group_interface.h>
 #include <moveit/planning_scene_interface/planning_scene_interface.h>
+<<<<<<< HEAD
 #include <moveit_msgs/msg/display_robot_state.hpp>
 #include <moveit_msgs/msg/display_trajectory.hpp>
 #include <moveit_visual_tools/moveit_visual_tools.h>
@@ -1188,6 +1189,35 @@ public:
     }
 
     void setupNode() {
+=======
+#include <geometry_msgs/msg/pose.hpp>
+#include <sensor_msgs/msg/joint_state.hpp>
+#include <std_msgs/msg/float64_multi_array.hpp>
+#include <vector>
+#include <cmath>
+
+class UR5CircleControl : public rclcpp::Node
+{
+public:
+    UR5CircleControl()
+        : Node("ur5_circle_control"),
+          is_moving(false),
+          current_point_index(0),
+          total_points(72)  // 每5度一個點，共72個點
+    {
+        // 初始化四個關鍵點的關節角度（下、右、上、左的順序）
+        std::vector<std::vector<double>> keypoints = {
+            {-1.62, -2.03, 2.04, -1.59, -1.57, 3.14},  // 下點
+            {-1.76, -1.94, 1.98, -1.61, -1.57, 3.00},  // 右點
+            {-1.60, -1.80, 1.88, -1.66, -1.57, 3.14},  // 上點
+            {-1.46, -1.87, 1.95, -1.64, -1.57, 3.24}   // 左點
+        };
+
+        // 計算所有關節空間中的圓形軌跡點
+        generateCircleTrajectory(keypoints);
+
+        // 初始化MoveIt相關組件
+>>>>>>> 486f333f442fd9f602a52c008d070af087fb37bf
         move_group_node = std::make_shared<rclcpp::Node>("move_group_interface");
         executor = std::make_shared<rclcpp::executors::SingleThreadedExecutor>();
         executor->add_node(move_group_node);
@@ -1196,6 +1226,7 @@ public:
         move_group = std::make_shared<moveit::planning_interface::MoveGroupInterface>(move_group_node, "ur_manipulator");
         move_group->setPlanningTime(10.0);
 
+<<<<<<< HEAD
         sensor_subscriber = this->create_subscription<std_msgs::msg::Float64MultiArray>(
             "/sensor_data", 10, std::bind(&UR5Control::sensorCallback, this, std::placeholders::_1));
         
@@ -1387,6 +1418,65 @@ public:
             RCLCPP_ERROR(this->get_logger(), "Failed to plan movement to %s after %d attempts", 
                         position_name.c_str(), max_attempts);
         }
+=======
+        // 設置感測器訂閱者
+        sensor_subscriber = this->create_subscription<std_msgs::msg::Float64MultiArray>(
+            "/sensor_data", 10, std::bind(&UR5CircleControl::sensorCallback, this, std::placeholders::_1));
+
+        // 設置定時器 (100Hz更新頻率，提高反應速度)
+        timer = this->create_wall_timer(
+            std::chrono::milliseconds(10),
+            std::bind(&UR5CircleControl::timerCallback, this));
+
+        RCLCPP_INFO(this->get_logger(), "=== UR5 Circle Control Initialized ===");
+    }
+
+    void moveToHome()
+    {
+        RCLCPP_INFO(this->get_logger(), "Moving to home position...");
+        std::vector<double> home_position = {-1.64, -2.27, 1.92, -1.22, -1.57, 3.14};
+        planAndExecute("Home", home_position, 0.3, 0.3);
+        RCLCPP_INFO(this->get_logger(), "Reached home position");
+    }
+
+    bool moveAlongAxis(const std::string& axis, double distance)
+    {
+        RCLCPP_INFO(this->get_logger(), "Moving along %s axis by %.3f meters", axis.c_str(), distance);
+        
+        auto current_pose = move_group->getCurrentPose().pose;
+        std::vector<geometry_msgs::msg::Pose> waypoints;
+        geometry_msgs::msg::Pose target_pose = current_pose;
+
+        if (axis == "Y") {
+            target_pose.position.y += distance;
+        } else if (axis == "Z") {
+            target_pose.position.z += distance;
+        }
+
+        waypoints.push_back(target_pose);
+        moveit_msgs::msg::RobotTrajectory trajectory;
+        const double jump_threshold = 0.0;
+        const double eef_step = 0.01;
+        
+        move_group->setMaxVelocityScalingFactor(0.3);
+        double fraction = move_group->computeCartesianPath(waypoints, eef_step, jump_threshold, trajectory);
+        
+        if (fraction > 0.98) {
+            move_group->execute(trajectory);
+            RCLCPP_INFO(this->get_logger(), "Successfully moved along %s axis", axis.c_str());
+            return true;
+        } else {
+            RCLCPP_ERROR(this->get_logger(), "Failed to plan path along %s axis", axis.c_str());
+            return false;
+        }
+    }
+
+    void startCircularMotion()
+    {
+        RCLCPP_INFO(this->get_logger(), "Starting circular motion");
+        current_point_index = 0;
+        is_moving = true;
+>>>>>>> 486f333f442fd9f602a52c008d070af087fb37bf
     }
 
 private:
@@ -1395,6 +1485,7 @@ private:
     std::shared_ptr<moveit::planning_interface::MoveGroupInterface> move_group;
     rclcpp::Subscription<std_msgs::msg::Float64MultiArray>::SharedPtr sensor_subscriber;
     rclcpp::TimerBase::SharedPtr timer;
+<<<<<<< HEAD
     tf2::Vector3 forces;
     tf2::Vector3 initial_forces;
     tf2::Vector3 move_direction;
@@ -1407,11 +1498,138 @@ private:
     bool is_moving;
     bool initial_forces_set;
     size_t current_direction_index;
+=======
+    
+    std::vector<std::vector<double>> circle_points;  // 存儲完整圓形軌跡的關節角度
+    bool is_moving;
+    size_t current_point_index;
+    size_t total_points;
+    double fx = 0.0;
+
+    void generateCircleTrajectory(const std::vector<std::vector<double>>& keypoints)
+    {
+        // 為每個關節計算圓形參數
+        std::vector<double> centers(6);  // 每個關節的圓心
+        std::vector<double> amplitudes(6);  // 每個關節的振幅
+        std::vector<double> phases(6);  // 每個關節的相位
+
+        // 對每個關節計算參數（包括wrist3）
+        for (size_t joint = 0; joint < 6; ++joint) {
+            // 找出這個關節的最大和最小值
+            double max_val = keypoints[0][joint];
+            double min_val = keypoints[0][joint];
+            for (const auto& point : keypoints) {
+                max_val = std::max(max_val, point[joint]);
+                min_val = std::min(min_val, point[joint]);
+            }
+            
+            // 計算圓心和振幅
+            centers[joint] = (max_val + min_val) / 2.0;
+            amplitudes[joint] = (max_val - min_val) / 2.0;
+            
+            // 計算相位（基於第一個點）
+            phases[joint] = std::atan2(
+                keypoints[0][joint] - centers[joint],
+                amplitudes[joint]
+            );
+        }
+
+        // 生成圓形軌跡點
+        circle_points.clear();
+        for (size_t i = 0; i < total_points; ++i) {
+            double angle = 2.0 * M_PI * i / total_points;
+            std::vector<double> point(6);
+            
+            // 計算所有關節的位置，包括wrist3
+            for (size_t joint = 0; joint < 6; ++joint) {
+                point[joint] = centers[joint] + 
+                            amplitudes[joint] * std::cos(angle + phases[joint]);
+            }
+            circle_points.push_back(point);
+        }
+
+        // 輸出軌跡生成資訊
+        RCLCPP_INFO(this->get_logger(), "Generated %zu points for circular trajectory", 
+                circle_points.size());
+        RCLCPP_INFO(this->get_logger(), "Joint centers: [%.3f, %.3f, %.3f, %.3f, %.3f, %.3f]",
+                centers[0], centers[1], centers[2], centers[3], centers[4], centers[5]);
+        RCLCPP_INFO(this->get_logger(), "Joint amplitudes: [%.3f, %.3f, %.3f, %.3f, %.3f, %.3f]",
+                amplitudes[0], amplitudes[1], amplitudes[2], amplitudes[3], amplitudes[4], amplitudes[5]);
+    }
+
+    void sensorCallback(const std_msgs::msg::Float64MultiArray::SharedPtr msg)
+    {
+        if (!msg->data.empty()) {
+            fx = msg->data[0];
+            // 立即檢查力覺並停止如果超過閾值
+            if (fx < -2.0 && is_moving) {
+                RCLCPP_WARN(this->get_logger(), "Force threshold exceeded (%.2f N), stopping motion!", fx);
+                is_moving = false;
+            }
+        }
+    }
+
+    void timerCallback()
+    {
+        if (is_moving) {
+            moveToNextPoint();
+        }
+    }
+
+    void moveToNextPoint()
+    {
+        if (current_point_index >= circle_points.size()) {
+            current_point_index = 0;  // 重新開始新的一圈
+            RCLCPP_INFO(this->get_logger(), "=== Completed one full circle ===");
+        }
+
+        const auto& target_point = circle_points[current_point_index];
+        planAndExecute("Circle Point", target_point, 0.3, 0.3);
+        
+        if (current_point_index % 10 == 0) {
+            RCLCPP_INFO(this->get_logger(), "Moving to point %zu/%zu, Force: %.2f N",
+                       current_point_index + 1, circle_points.size(), fx);
+        }
+
+        current_point_index++;
+    }
+
+    void planAndExecute(const std::string& position_name,
+                       const std::vector<double>& joint_positions,
+                       double velocity_factor,
+                       double acceleration_factor)
+    {
+        move_group->setMaxVelocityScalingFactor(velocity_factor);
+        move_group->setMaxAccelerationScalingFactor(acceleration_factor);
+        
+        move_group->setJointValueTarget(joint_positions);
+        
+        moveit::planning_interface::MoveGroupInterface::Plan my_plan;
+        bool success = false;
+        int attempts = 0;
+        const int max_attempts = 5;  // 減少重試次數以提高響應速度
+        
+        while (!success && attempts < max_attempts) {
+            success = (move_group->plan(my_plan) == 
+                      moveit::core::MoveItErrorCode::SUCCESS);
+            attempts++;
+        }
+        
+        if (success) {
+            move_group->execute(my_plan);
+        } else {
+            RCLCPP_ERROR(this->get_logger(), 
+                "Failed to plan movement to %s after %d attempts",
+                position_name.c_str(), max_attempts);
+        }
+    }
+>>>>>>> 486f333f442fd9f602a52c008d070af087fb37bf
 };
 
 int main(int argc, char** argv)
 {
     rclcpp::init(argc, argv);
+<<<<<<< HEAD
     auto node = std::make_shared<UR5Control>();
     
     node->setForceThreshold(50.0);
@@ -1419,10 +1637,32 @@ int main(int argc, char** argv)
     node->moveToPose0();
     node->startMovement();
 
+=======
+    auto node = std::make_shared<UR5CircleControl>();
+    
+    RCLCPP_INFO(rclcpp::get_logger("main"), "Starting UR5 Circle Control Program...");
+    
+    // 1. 移動到home position
+    node->moveToHome();
+    rclcpp::sleep_for(std::chrono::seconds(2));
+    
+    // 2. 沿Y軸負向移動10cm
+    node->moveAlongAxis("Y", -0.10);
+    rclcpp::sleep_for(std::chrono::seconds(2));
+    
+    // 3. 沿Z軸負向移動10cm
+    node->moveAlongAxis("Z", -0.10);
+    rclcpp::sleep_for(std::chrono::seconds(2));
+    
+    // 4. 開始圓周運動
+    node->startCircularMotion();
+    
+>>>>>>> 486f333f442fd9f602a52c008d070af087fb37bf
     rclcpp::spin(node);
     rclcpp::shutdown();
     return 0;
 }
+<<<<<<< HEAD
 */
 
 
@@ -2119,6 +2359,8 @@ int main(int argc, char **argv) {
 
 
 
+=======
+>>>>>>> 486f333f442fd9f602a52c008d070af087fb37bf
 
 
 
@@ -2468,7 +2710,11 @@ int main(int argc, char **argv) {
     poses[0].orientation.w = 0.0;
     poses[0].position.x = 0.078;
     poses[0].position.y = -0.485;
+<<<<<<< HEAD
     poses[0].position.z = 0.280;
+=======
+    poses[0].position.z = 0.295;
+>>>>>>> 486f333f442fd9f602a52c008d070af087fb37bf
     
     // Pose 2 轉正後/橫
     poses[1].orientation.x = 1.0;
@@ -2477,7 +2723,11 @@ int main(int argc, char **argv) {
     poses[1].orientation.w = 0.0;
     poses[1].position.x = 0.078;
     poses[1].position.y = -0.485;
+<<<<<<< HEAD
     poses[1].position.z = 0.275;
+=======
+    poses[1].position.z = 0.285;
+>>>>>>> 486f333f442fd9f602a52c008d070af087fb37bf
 
     // Pose 3 平台/上/橫
     poses[2].orientation.x = 1.0;
@@ -2498,13 +2748,22 @@ int main(int argc, char **argv) {
     poses[3].position.z = 0.185;
 
     // Pose 5 旋轉壓積木
+<<<<<<< HEAD
     poses[4].orientation.x = -0.707;
     poses[4].orientation.y = 0.707;
+=======
+    poses[4].orientation.x = 0.707;
+    poses[4].orientation.y = -0.707;
+>>>>>>> 486f333f442fd9f602a52c008d070af087fb37bf
     poses[4].orientation.z = 0.0;
     poses[4].orientation.w = 0.0;
     poses[4].position.x = 0.2;
     poses[4].position.y = -0.603;
+<<<<<<< HEAD
     poses[4].position.z = 0.195;
+=======
+    poses[4].position.z = 0.19;
+>>>>>>> 486f333f442fd9f602a52c008d070af087fb37bf
 
     // Pose 6 往x移動
     poses[5].orientation.x = 1.0;
@@ -2529,7 +2788,11 @@ int main(int argc, char **argv) {
         moveToPose(move_group_arm, poses[0]);
 
         RCLCPP_INFO(LOGGER, "Moving down along Z-axis");
+<<<<<<< HEAD
         moveAlongZAxis(move_group_arm, -0.1);
+=======
+        moveAlongZAxis(move_group_arm, -0.11);
+>>>>>>> 486f333f442fd9f602a52c008d070af087fb37bf
 
         RCLCPP_INFO(LOGGER, "Closing gripper joint position");
         controlGripper(move_group_node, 6, 10);
@@ -2547,7 +2810,11 @@ int main(int argc, char **argv) {
 
         // Move down along Z-axis
         RCLCPP_INFO(LOGGER, "Moving down along Z-axis");
+<<<<<<< HEAD
         moveAlongZAxis(move_group_arm, -0.1);
+=======
+        moveAlongZAxis(move_group_arm, -0.11);
+>>>>>>> 486f333f442fd9f602a52c008d070af087fb37bf
 
         // Close gripper
         RCLCPP_INFO(LOGGER, "Closing gripper at new position");
@@ -2559,7 +2826,11 @@ int main(int argc, char **argv) {
 
         // Move up along Z-axis
         RCLCPP_INFO(LOGGER, "Moving up along Z-axis");
+<<<<<<< HEAD
         moveAlongZAxis(move_group_arm, 0.1);
+=======
+        moveAlongZAxis(move_group_arm, 0.11);
+>>>>>>> 486f333f442fd9f602a52c008d070af087fb37bf
 
         RCLCPP_INFO(LOGGER, "Closing gripper at joint position");
         controlGripper(move_group_node, 30, 10);
@@ -2568,7 +2839,11 @@ int main(int argc, char **argv) {
         moveToPose(move_group_arm, poses[0]);
 
         RCLCPP_INFO(LOGGER, "Moving down along Z-axis");
+<<<<<<< HEAD
         moveAlongZAxis(move_group_arm, -0.1);
+=======
+        moveAlongZAxis(move_group_arm, -0.11);
+>>>>>>> 486f333f442fd9f602a52c008d070af087fb37bf
 
         // Close gripper
         RCLCPP_INFO(LOGGER, "Closing gripper at new joint position");
@@ -2599,7 +2874,11 @@ int main(int argc, char **argv) {
 
         // Close gripper
         RCLCPP_INFO(LOGGER, "Closing gripper at pose3");
+<<<<<<< HEAD
         controlGripper(move_group_node, 10, 10);
+=======
+        controlGripper(move_group_node, 6, 10);
+>>>>>>> 486f333f442fd9f602a52c008d070af087fb37bf
 
         // Move to pose4
         RCLCPP_INFO(LOGGER, "Moving to pose4");

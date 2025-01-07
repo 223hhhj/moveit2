@@ -1,0 +1,9 @@
+[31mCMake Error at CMakeLists.txt:41 (add_executable):
+  add_executable cannot create target "ur5_ros2_cartesian" because another
+  target with the same name already exists.  The existing target is an
+  executable created in source directory
+  "/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian".
+  See documentation for policy CMP0002 for more details.
+
+[0m
+gmake: *** [Makefile:267：cmake_check_build_system] 錯誤 1

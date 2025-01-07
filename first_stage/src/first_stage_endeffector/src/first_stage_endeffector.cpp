@@ -12,6 +12,7 @@
 #include "std_msgs/msg/int8.hpp"
 #include "std_msgs/msg/string.hpp"
 #include <chrono>
+<<<<<<< HEAD
 #include "std_msgs/msg/float64_multi_array.hpp"
 #include "std_msgs/msg/bool.hpp"
 
@@ -1335,6 +1336,8 @@ int main(int argc, char **argv)
 #include "std_msgs/msg/int8.hpp"
 #include "std_msgs/msg/string.hpp"
 #include <chrono>
+=======
+>>>>>>> 486f333f442fd9f602a52c008d070af087fb37bf
 
 static const rclcpp::Logger LOGGER = rclcpp::get_logger("move_group_demo");
 
@@ -1826,6 +1829,7 @@ int main(int argc, char **argv)
   rclcpp::spin(node);
   rclcpp::shutdown();
   return 0;
+<<<<<<< HEAD
 }
 */
 
@@ -2393,3 +2397,6 @@ int main(int argc, char **argv)
   return 0;
 }
 */
+=======
+}
+>>>>>>> 486f333f442fd9f602a52c008d070af087fb37bf

@@ -54,7 +54,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/first_stage_endeffector/first_stage_endeffector")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/first_stage_endeffector/first_stage_endeffector"
+<<<<<<< HEAD
          OLD_RPATH "/home/steven/ros2_ws/install/moveit_ros_planning_interface/lib:/home/steven/ws_moveit2/install/moveit_visual_tools/lib:/home/steven/ros2_ws/install/moveit_ros_move_group/lib:/home/steven/ros2_ws/install/moveit_ros_warehouse/lib:/home/steven/ros2_ws/install/moveit_ros_planning/lib:/home/steven/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/steven/ros2_ws/install/moveit_core/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/steven/ws_moveit2/install/srdfdom/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:"
+=======
+         OLD_RPATH "/home/steven/ros2_ws/install/moveit_ros_planning_interface/lib:/home/steven/ws_moveit2/install/moveit_visual_tools/lib:/home/steven/ros2_ws/install/moveit_ros_move_group/lib:/home/steven/ros2_ws/install/moveit_ros_warehouse/lib:/home/steven/ros2_ws/install/moveit_ros_planning/lib:/home/steven/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/steven/ros2_ws/install/moveit_core/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/home/steven/ws_moveit2/install/srdfdom/lib:/opt/ros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:"
+>>>>>>> 486f333f442fd9f602a52c008d070af087fb37bf
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/first_stage_endeffector/first_stage_endeffector")

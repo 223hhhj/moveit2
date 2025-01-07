@@ -1,0 +1,10 @@
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In lambda function:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:114:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::core::MoveItErrorCode[m[K’ has no member named ‘[01m[Kwait_for[m[K’
+  114 |           if (move_result_future.[01;31m[Kwait_for[m[K(std::chrono::milliseconds(0)) == std::future_status::ready) {
+      |                                  [01;31m[K^~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:121:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::core::MoveItErrorCode[m[K’ has no member named ‘[01m[Kwait[m[K’
+  121 |       move_result_future.[01;31m[Kwait[m[K();
+      |                          [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/ur5_ros2_cartesian.dir/build.make:76：CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ur5_ros2_cartesian.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

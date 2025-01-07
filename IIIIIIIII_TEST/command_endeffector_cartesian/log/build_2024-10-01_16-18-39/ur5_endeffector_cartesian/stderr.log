@@ -1,0 +1,4 @@
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In member function ‘[01m[Kvoid UR5Control::moveToPose1WithForceMonitoring()[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:77:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstep_size[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   77 |         double [01;35m[Kstep_size[m[K = distance / steps;
+      |                [01;35m[K^~~~~~~~~[m[K

@@ -39,9 +39,15 @@ class RealSenseYOLO(Node):
         self.orientation_history = deque(maxlen=30)
         self.face_history = deque(maxlen=30)
         self.calibration_matrix = np.array([
+<<<<<<< HEAD
             [3.02911357e-01 ,-7.15101605e-03 , 0.00000000e+00, 14.88034382e+00],
             [-9.46142542e-03 ,-3.04081579e-01 , 0.00000000e+00 , 6.86598459e+02],
             [-2.77555756e-16 , 3.05311332e-16 , 0.00000000e+00 , 2.55000000e+02],
+=======
+            [-3.71690267e-01, - 7.30432497e-03 , -0.00000000e+00, 5.94509007e+02],
+            [-1.19197740e-02 ,3.72279890e-01 , -0.00000000e+00 , -7.63990957e+02],
+            [1.30104261e-18 ,-3.25260652e-19 , -0.00000000e+00 , -2.29999995e+00],
+>>>>>>> 486f333f442fd9f602a52c008d070af087fb37bf
             [ 0.          ,0.   ,       0.          ,1.        ]
         ])
 
@@ -50,12 +56,15 @@ class RealSenseYOLO(Node):
  #           [-2.77555756e-16 , 3.05311332e-16 , 0.00000000e+00 , 2.55000000e+02],
    #         [ 0.          ,0.   ,       0.          ,1.        ]
 
+<<<<<<< HEAD
 
    #            [-3.71690267e-01, - 7.30432497e-03 , -0.00000000e+00, 5.94509007e+02],
    #            [-1.19197740e-02 ,3.72279890e-01 , -0.00000000e+00 , -7.63990957e+02],
    #            [1.30104261e-18 ,-3.25260652e-19 , -0.00000000e+00 , -2.29999995e+00],
    #            [ 0.          ,0.   ,       0.          ,1.        ]
 
+=======
+>>>>>>> 486f333f442fd9f602a52c008d070af087fb37bf
         self.need_orientation_detection = False
         self.orientation_detection_service = self.create_service(
             Trigger, 'trigger_orientation_detection', self.trigger_orientation_detection_callback)

@@ -220,7 +220,10 @@ first_stage_endeffector: /opt/ros/humble/lib/libresource_retriever.so
 first_stage_endeffector: /usr/lib/x86_64-linux-gnu/libcurl.so
 first_stage_endeffector: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
 first_stage_endeffector: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+<<<<<<< HEAD
 first_stage_endeffector: /usr/lib/x86_64-linux-gnu/libfreeimage.so
+=======
+>>>>>>> 486f333f442fd9f602a52c008d070af087fb37bf
 first_stage_endeffector: /usr/lib/x86_64-linux-gnu/libfreetype.so
 first_stage_endeffector: /usr/lib/x86_64-linux-gnu/libz.so
 first_stage_endeffector: /usr/lib/x86_64-linux-gnu/libOpenGL.so

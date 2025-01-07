@@ -1,0 +1,14 @@
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In member function ‘[01m[Kvoid RobotControl::moveToJointPosition(const std::vector<double, std::allocator<double> >&, double)[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:66:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kjoint_positions[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   66 |     void moveToJointPosition([01;35m[Kconst std::vector<double>& joint_positions[m[K, double speed_factor = -1.0)
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:66:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kspeed_factor[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   66 |     void moveToJointPosition(const std::vector<double>& joint_positions, [01;35m[Kdouble speed_factor = -1.0[m[K)
+      |                                                                          [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In member function ‘[01m[Kvoid RobotControl::moveToPose(const Pose&, double)[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:71:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktarget_pose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   71 |     void moveToPose([01;35m[Kconst geometry_msgs::msg::Pose& target_pose[m[K, double speed_factor = -1.0)
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:71:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kspeed_factor[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   71 |     void moveToPose(const geometry_msgs::msg::Pose& target_pose, [01;35m[Kdouble speed_factor = -1.0[m[K)
+      |                                                                  [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K

@@ -605,6 +605,7 @@ CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o: \
  /home/steven/ws_moveit2/install/moveit_core/include/moveit/robot_state/robot_state.h \
  /home/steven/ws_moveit2/install/moveit_core/include/moveit/robot_model/robot_model.h \
  /home/steven/ws_moveit2/install/moveit_core/include/moveit/exceptions/exceptions.h \
+<<<<<<< HEAD
  /opt/ros/humble/include/srdfdom/model.h /usr/include/tinyxml2.h \
  /usr/include/c++/11/climits \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
@@ -615,6 +616,9 @@ CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+=======
+ /opt/ros/humble/include/srdfdom/model.h \
+>>>>>>> 486f333f442fd9f602a52c008d070af087fb37bf
  /opt/ros/humble/include/urdf/urdf/model.h \
  /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
  /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
@@ -629,6 +633,18 @@ CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o: \
  /opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h \
  /opt/ros/humble/include/urdfdom_headers/urdf_world/types.h \
  /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
+<<<<<<< HEAD
+=======
+ /usr/include/tinyxml2.h /usr/include/c++/11/climits \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+>>>>>>> 486f333f442fd9f602a52c008d070af087fb37bf
  /opt/ros/humble/include/srdfdom/visibility_control.h \
  /home/steven/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model_group.h \
  /home/steven/ws_moveit2/install/moveit_core/include/moveit/robot_model/joint_model.h \
@@ -1210,10 +1226,13 @@ CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o: \
  /opt/ros/humble/include/tf2/tf2/visibility_control.h \
  /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
  /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.h \
+<<<<<<< HEAD
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
+=======
+>>>>>>> 486f333f442fd9f602a52c008d070af087fb37bf
  /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h \
  /opt/ros/humble/include/tf2/tf2/time.h \
  /opt/ros/humble/include/tf2/tf2/exceptions.h \
@@ -1239,6 +1258,7 @@ CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o: \
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__builder.hpp \
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/planning_scene.hpp \
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__builder.hpp \
+<<<<<<< HEAD
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/display_robot_state.hpp \
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/display_robot_state__struct.hpp \
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/display_robot_state__builder.hpp \
@@ -1884,3 +1904,13 @@ CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o: \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/bool__struct.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/bool__builder.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/bool__traits.hpp
+=======
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/float64_multi_array.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__struct.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_layout__struct.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__struct.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__builder.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__traits.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_layout__traits.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__traits.hpp
+>>>>>>> 486f333f442fd9f602a52c008d070af087fb37bf

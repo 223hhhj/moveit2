@@ -1,0 +1,8 @@
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In member function ‘[01m[Kvoid ArmController::moveToPosition(const string&, const std::function<void()>&, double)[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:52:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class moveit::planning_interface::MoveGroupInterface[m[K’ {aka ‘[01m[Kclass moveit::planning_interface::MoveGroupInterface[m[K’} has no member named ‘[01m[Kasync_execute[m[K’; did you mean ‘[01m[KasyncExecute[m[K’?
+   52 |             auto result_future = move_group_arm_->[01;31m[Kasync_execute[m[K(my_plan_arm);
+      |                                                   [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                   [32m[KasyncExecute[m[K
+gmake[2]: *** [CMakeFiles/ur5_ros2_cartesian.dir/build.make:76：CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ur5_ros2_cartesian.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

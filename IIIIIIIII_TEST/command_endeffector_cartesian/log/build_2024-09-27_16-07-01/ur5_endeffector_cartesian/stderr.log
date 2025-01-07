@@ -1,0 +1,11 @@
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In constructor ‘[01m[KRobotControl::RobotControl()[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:26:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_state_subscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Kgoal_state_descriptions[m[K’?
+   26 |         [01;31m[Kjoint_state_subscription_[m[K = this->create_subscription<sensor_msgs::msg::JointState>(
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kgoal_state_descriptions[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:27:59:[m[K [01;31m[Kerror: [m[K‘[01m[KjointStateCallback[m[K’ is not a member of ‘[01m[KRobotControl[m[K’
+   27 |             "/joint_states", 10, std::bind(&RobotControl::[01;31m[KjointStateCallback[m[K, this, std::placeholders::_1));
+      |                                                           [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ur5_ros2_cartesian.dir/build.make:76：CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ur5_ros2_cartesian.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

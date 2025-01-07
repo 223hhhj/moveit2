@@ -1,0 +1,4 @@
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:38:40:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_model_group_arm[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   38 |   const moveit::core::JointModelGroup *[01;35m[Kjoint_model_group_arm[m[K = move_group_arm.getCurrentState()->getJointModelGroup(PLANNING_GROUP_ARM);
+      |                                        [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K

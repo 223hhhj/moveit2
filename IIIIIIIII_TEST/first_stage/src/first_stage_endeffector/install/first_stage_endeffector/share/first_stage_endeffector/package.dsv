@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 source;share/first_stage_endeffector/hook/cmake_prefix_path.ps1
 source;share/first_stage_endeffector/hook/cmake_prefix_path.dsv
 source;share/first_stage_endeffector/hook/cmake_prefix_path.sh
 source;share/first_stage_endeffector/local_setup.bash
 source;share/first_stage_endeffector/local_setup.dsv
 source;share/first_stage_endeffector/local_setup.ps1
+=======
+source;share/first_stage_endeffector/local_setup.bash
+source;share/first_stage_endeffector/local_setup.dsv
+>>>>>>> 486f333f442fd9f602a52c008d070af087fb37bf
 source;share/first_stage_endeffector/local_setup.sh
 source;share/first_stage_endeffector/local_setup.zsh
