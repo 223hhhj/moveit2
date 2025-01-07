@@ -1,4 +1,0 @@
-source;share/simple_grasping/local_setup.bash
-source;share/simple_grasping/local_setup.dsv
-source;share/simple_grasping/local_setup.sh
-source;share/simple_grasping/local_setup.zsh

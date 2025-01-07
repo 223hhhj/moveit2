@@ -1,1 +1,0 @@
-Invoking command in '/home/user/ros2_ws/build/gazebo_test_tools': _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/gazebo-pkgs/gazebo_test_tools -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/gazebo_test_tools

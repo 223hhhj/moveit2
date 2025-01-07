@@ -1,8 +1,0 @@
-[31mCMake Error at /home/user/ros2_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/cmake/ament_cmake_export_libraries-extras.cmake:48 (message):
-  Package 'gazebo_grasp_plugin' exports the library 'gazebo_grasp_fix' which
-  couldn't be found
-Call Stack (most recent call first):
-  /home/user/ros2_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/cmake/gazebo_grasp_pluginConfig.cmake:41 (include)
-  CMakeLists.txt:15 (find_package)
-
-[0m

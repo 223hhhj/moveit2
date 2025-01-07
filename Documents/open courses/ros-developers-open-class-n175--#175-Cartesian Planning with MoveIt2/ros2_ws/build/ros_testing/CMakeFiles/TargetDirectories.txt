@@ -1,7 +1,0 @@
-/home/user/ros2_ws/build/ros_testing/CMakeFiles/uninstall.dir
-/home/user/ros2_ws/build/ros_testing/CMakeFiles/ros_testing_uninstall.dir
-/home/user/ros2_ws/build/ros_testing/CMakeFiles/edit_cache.dir
-/home/user/ros2_ws/build/ros_testing/CMakeFiles/rebuild_cache.dir
-/home/user/ros2_ws/build/ros_testing/CMakeFiles/list_install_components.dir
-/home/user/ros2_ws/build/ros_testing/CMakeFiles/install.dir
-/home/user/ros2_ws/build/ros_testing/CMakeFiles/install/local.dir

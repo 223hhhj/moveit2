@@ -1,8 +1,0 @@
-[  1%] Built target moveit_exceptions
-[  3%] Built target moveit_utils
-[  6%] Built target moveit_distance_field
-[  4%] Built target moveit_kinematics_base
-[  7%] Built target gtest_main
-[  9%] Built target gmock
-[ 10%] Built target moveit_transforms
-[ 11%] Built target gtest

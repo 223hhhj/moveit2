@@ -1,7 +1,0 @@
-[  8%] Built target test_trajectory
-[ 16%] Built target pick_place3
-[ 25%] Built target test_gripper
-[ 33%] Built target approach
-[ 41%] Built target cartesian_path
-[35m[1mConsolidate compiler generated dependencies of target draw_x[0m
-[ 45%] [32mBuilding CXX object CMakeFiles/draw_x.dir/src/draw_x.cpp.o[0m

@@ -1,8 +1,0 @@
-prefix=/home/user/simulation_ws/install
-
-Name: egh_gripper_description_new
-Description: Description of egh_gripper_description_new
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

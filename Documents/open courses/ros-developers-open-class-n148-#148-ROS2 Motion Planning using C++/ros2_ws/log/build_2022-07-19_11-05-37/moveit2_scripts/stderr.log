@@ -1,4 +1,0 @@
-[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/test_trajectory.cpp:[m[K In member function '[01m[Kvoid TestTrajectory::plan_arm_joint_space()[m[K':
-[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/test_trajectory.cpp:64:10:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Ksuccess_arm[m[K' [[01;35m[K-Wunused-variable[m[K]
-   64 |     bool [01;35m[Ksuccess_arm[m[K = (move_group_arm.plan(my_plan_arm) ==
-      |          [01;35m[K^~~~~~~~~~~[m[K

@@ -1,2 +1,0 @@
-gmake[1]: *** [CMakeFiles/Makefile2:2021: trajectory_processing/CMakeFiles/test_ruckig_traj_smoothing.dir/all] Interrupt
-gmake: *** [Makefile:146: all] Interrupt

@@ -1,9 +1,0 @@
-{
-  "package_name": "tf2_msgs",
-  "non_idl_tuples": [
-    "/home/user/ros2_ws/src/perception_ros2/geometry2/tf2_msgs:msg/TF2Error.msg",
-    "/home/user/ros2_ws/src/perception_ros2/geometry2/tf2_msgs:msg/TFMessage.msg",
-    "/home/user/ros2_ws/src/perception_ros2/geometry2/tf2_msgs:srv/FrameGraph.srv",
-    "/home/user/ros2_ws/src/perception_ros2/geometry2/tf2_msgs:action/LookupTransform.action"
-  ]
-}
