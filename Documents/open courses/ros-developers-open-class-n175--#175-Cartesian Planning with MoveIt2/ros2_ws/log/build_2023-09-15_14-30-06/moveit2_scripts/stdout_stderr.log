@@ -1,0 +1,18 @@
+[ 16%] Built target test_trajectory
+[ 25%] [32mBuilding CXX object CMakeFiles/test1.dir/src/test.cpp.o[0m
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/test.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/test.cpp:81:56:[m[K [01;31m[Kerror: [m[Kredeclaration of '[01m[Kmoveit::planning_interface::MoveGroupInterface::Plan my_plan[m[K'
+   81 |   moveit::planning_interface::MoveGroupInterface::Plan [01;31m[Kmy_plan[m[K;
+      |                                                        [01;31m[K^~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/test.cpp:53:56:[m[K [01;36m[Knote: [m[K'[01m[Kmoveit::planning_interface::MoveGroupInterface::Plan my_plan[m[K' previously declared here
+   53 |   moveit::planning_interface::MoveGroupInterface::Plan [01;36m[Kmy_plan[m[K;
+      |                                                        [01;36m[K^~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/test.cpp:83:8:[m[K [01;31m[Kerror: [m[Kredeclaration of '[01m[Kbool success[m[K'
+   83 |   bool [01;31m[Ksuccess[m[K =
+      |        [01;31m[K^~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/test.cpp:55:8:[m[K [01;36m[Knote: [m[K'[01m[Kbool success[m[K' previously declared here
+   55 |   bool [01;36m[Ksuccess[m[K =
+      |        [01;36m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/test1.dir/build.make:76: CMakeFiles/test1.dir/src/test.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/test1.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

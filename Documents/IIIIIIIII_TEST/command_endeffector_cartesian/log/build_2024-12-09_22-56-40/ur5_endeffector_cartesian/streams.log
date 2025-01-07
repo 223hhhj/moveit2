@@ -1,0 +1,11 @@
+[0.008s] Invoking command in '/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian -- -j32 -l32
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target ur5_ros2_cartesian[0m
+[0.069s] [ 50%] [32mBuilding CXX object CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o[0m
+[2.191s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In member function ‘[01m[Kvoid UR5Control::handlePhaseTransition()[m[K’:
+[2.191s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:144:47:[m[K [01;31m[Kerror: [m[K‘[01m[KZ_UP[m[K’ is not a member of ‘[01m[KUR5Control::MovementPhase[m[K’
+[2.191s]   144 |                current_phase = MovementPhase::[01;31m[KZ_UP[m[K;
+[2.191s]       |                                               [01;31m[K^~~~[m[K
+[4.271s] gmake[2]: *** [CMakeFiles/ur5_ros2_cartesian.dir/build.make:76：CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o] 錯誤 1
+[4.271s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ur5_ros2_cartesian.dir/all] 錯誤 2
+[4.271s] gmake: *** [Makefile:146：all] 錯誤 2
+[4.273s] Invoked command in '/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian -- -j32 -l32

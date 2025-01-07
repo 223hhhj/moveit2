@@ -1,0 +1,6 @@
+Invoking command in '/home/user/ros2_ws/build/moveit2_scripts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/moveit2_scripts -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/moveit2_scripts
+Invoked command in '/home/user/ros2_ws/build/moveit2_scripts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/moveit2_scripts -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/moveit2_scripts
+Invoking command in '/home/user/ros2_ws/build/moveit2_scripts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/moveit2_scripts -- -j8 -l8
+Invoked command in '/home/user/ros2_ws/build/moveit2_scripts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/moveit2_scripts -- -j8 -l8
+Invoking command in '/home/user/ros2_ws/build/moveit2_scripts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/moveit2_scripts
+Invoked command in '/home/user/ros2_ws/build/moveit2_scripts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/moveit2_scripts

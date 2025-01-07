@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target ur5_ros2_cartesian[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o[0m
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In member function ‘[01m[Kvoid UR5Control::completeMoveSequence()[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:367:34:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kgeometry_msgs::msg::Pose target_pose[m[K’
+  367 |         geometry_msgs::msg::Pose [01;31m[Ktarget_pose[m[K = current_pose.pose;
+      |                                  [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:357:34:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::Pose target_pose[m[K’ previously declared here
+  357 |         geometry_msgs::msg::Pose [01;36m[Ktarget_pose[m[K = current_pose.pose;
+      |                                  [01;36m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ur5_ros2_cartesian.dir/build.make:76：CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ur5_ros2_cartesian.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

@@ -1,0 +1,102 @@
+[ 10%] [32mBuilding CXX object CMakeFiles/test_trajectory.dir/src/test_trajectory.cpp.o[0m
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/test_trajectory.cpp:[m[K In member function '[01m[Kvoid TestTrajectory::plan_arm_joint_space()[m[K':
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/test_trajectory.cpp:66:10:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Ksuccess_arm[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   66 |     bool [01;35m[Ksuccess_arm[m[K = (move_group_arm.plan(my_plan_arm) ==
+      |          [01;35m[K^~~~~~~~~~~[m[K
+[ 20%] [32m[1mLinking CXX executable test_trajectory[0m
+[ 20%] Built target test_trajectory
+[ 30%] [32mBuilding CXX object CMakeFiles/pick_place.dir/src/pick_place.cpp.o[0m
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/pick_place.cpp:[m[K In constructor '[01m[KPickPlace::PickPlace(std::shared_ptr<rclcpp::Node>)[m[K':
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/pick_place.cpp:209:40:[m[K [01;35m[Kwarning: [m[K'[01m[KPickPlace::joint_model_group_arm[m[K' will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  209 |   const moveit::core::JointModelGroup *[01;35m[Kjoint_model_group_arm[m[K;
+      |                                        [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/pick_place.cpp:207:50:[m[K [01;35m[Kwarning: [m[K  '[01m[Kmoveit::planning_interface::MoveGroupInterface PickPlace::move_group_gripper[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  207 |   moveit::planning_interface::MoveGroupInterface [01;35m[Kmove_group_gripper[m[K;
+      |                                                  [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/pick_place.cpp:19:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   19 |   [01;35m[KPickPlace[m[K(std::shared_ptr<rclcpp::Node> move_group_node)
+      |   [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/pick_place.cpp:[m[K In member function '[01m[Kvoid PickPlace::go_home()[m[K':
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/pick_place.cpp:73:10:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Ksuccess_arm[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   73 |     bool [01;35m[Ksuccess_arm[m[K = (move_group_arm.plan(my_plan_arm) ==
+      |          [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/pick_place.cpp:[m[K In member function '[01m[Kvoid PickPlace::pregrasp()[m[K':
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/pick_place.cpp:93:10:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Ksuccess_arm[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   93 |     bool [01;35m[Ksuccess_arm[m[K = (move_group_arm.plan(my_plan_arm) ==
+      |          [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/pick_place.cpp:[m[K In member function '[01m[Kvoid PickPlace::approach()[m[K':
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/pick_place.cpp:107:10:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Ksuccess_arm[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  107 |     bool [01;35m[Ksuccess_arm[m[K = (move_group_arm.plan(my_plan_arm) ==
+      |          [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/pick_place.cpp:[m[K In member function '[01m[Kvoid PickPlace::retreat()[m[K':
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/pick_place.cpp:121:10:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Ksuccess_arm[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  121 |     bool [01;35m[Ksuccess_arm[m[K = (move_group_arm.plan(my_plan_arm) ==
+      |          [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/pick_place.cpp:[m[K In member function '[01m[Kvoid PickPlace::rotate_arm()[m[K':
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/pick_place.cpp:141:10:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Ksuccess_arm[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  141 |     bool [01;35m[Ksuccess_arm[m[K = (move_group_arm.plan(my_plan_arm) ==
+      |          [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/pick_place.cpp:[m[K In member function '[01m[Kvoid PickPlace::open_gripper()[m[K':
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/pick_place.cpp:154:10:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Ksuccess_gripper[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  154 |     bool [01;35m[Ksuccess_gripper[m[K = (move_group_gripper.plan(my_plan_gripper) ==
+      |          [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/pick_place.cpp:[m[K In member function '[01m[Kvoid PickPlace::close_gripper()[m[K':
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/pick_place.cpp:167:10:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Ksuccess_gripper[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  167 |     bool [01;35m[Ksuccess_gripper[m[K = (move_group_gripper.plan(my_plan_gripper) ==
+      |          [01;35m[K^~~~~~~~~~~~~~~[m[K
+[ 40%] [32m[1mLinking CXX executable pick_place[0m
+[ 40%] Built target pick_place
+[ 50%] [32mBuilding CXX object CMakeFiles/test_trajectory3.dir/src/test_trajectory3.cpp.o[0m
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/test_trajectory3.cpp:[m[K In member function '[01m[Kvoid TestTrajectory::go_position1()[m[K':
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/test_trajectory3.cpp:66:10:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Ksuccess_arm[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   66 |     bool [01;35m[Ksuccess_arm[m[K = (move_group_arm.plan(my_plan_arm) ==
+      |          [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/test_trajectory3.cpp:[m[K In member function '[01m[Kvoid TestTrajectory::go_position2()[m[K':
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/test_trajectory3.cpp:86:10:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Ksuccess_arm[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   86 |     bool [01;35m[Ksuccess_arm[m[K =
+      |          [01;35m[K^~~~~~~~~~~[m[K
+[ 60%] [32m[1mLinking CXX executable test_trajectory3[0m
+[ 60%] Built target test_trajectory3
+[ 70%] [32mBuilding CXX object CMakeFiles/exec_traj.dir/src/exec_traj.cpp.o[0m
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/exec_traj.cpp:[m[K In member function '[01m[Kvoid TestTrajectory::plan_arm_joint_space()[m[K':
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/exec_traj.cpp:66:10:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Ksuccess_arm[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   66 |     bool [01;35m[Ksuccess_arm[m[K = (move_group_arm.plan(my_plan_arm) ==
+      |          [01;35m[K^~~~~~~~~~~[m[K
+[ 80%] [32m[1mLinking CXX executable exec_traj[0m
+[ 80%] Built target exec_traj
+[ 90%] [32mBuilding CXX object CMakeFiles/test_trajectory2.dir/src/test_trajectory2.cpp.o[0m
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:[m[K In member function '[01m[Kvoid TestTrajectory::plan_ee_pose()[m[K':
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:68:10:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Ksuccess_arm[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   68 |     bool [01;35m[Ksuccess_arm[m[K = (move_group_arm.plan(my_plan_arm) ==
+      |          [01;35m[K^~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable test_trajectory2[0m
+[100%] Built target test_trajectory2
+-- Install configuration: ""
+-- Installing: /home/user/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory
+-- Set runtime path of "/home/user/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory" to ""
+-- Installing: /home/user/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory2
+-- Set runtime path of "/home/user/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory2" to ""
+-- Installing: /home/user/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/exec_traj
+-- Set runtime path of "/home/user/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/exec_traj" to ""
+-- Installing: /home/user/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory3
+-- Set runtime path of "/home/user/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory3" to ""
+-- Installing: /home/user/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/pick_place
+-- Set runtime path of "/home/user/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/pick_place" to ""
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/launch
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_trajectory.launch.py
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/launch/pick_place.launch.py
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/ament_index/resource_index/package_run_dependencies/moveit2_scripts
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/ament_index/resource_index/parent_prefix_path/moveit2_scripts
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/environment/ament_prefix_path.sh
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/environment/path.sh
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/environment/path.dsv
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.bash
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.sh
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.zsh
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.dsv
+-- Installing: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/package.dsv
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/ament_index/resource_index/packages/moveit2_scripts
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/cmake/moveit2_scriptsConfig.cmake
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/cmake/moveit2_scriptsConfig-version.cmake
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/package.xml

@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+resource/ur5
+ur5/__init__.py
+ur5/test.py
+ur5.egg-info/PKG-INFO
+ur5.egg-info/SOURCES.txt
+ur5.egg-info/dependency_links.txt
+ur5.egg-info/entry_points.txt
+ur5.egg-info/requires.txt
+ur5.egg-info/top_level.txt
+ur5.egg-info/zip-safe

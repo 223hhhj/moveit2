@@ -1,0 +1,189 @@
+[0.000000] (-) TimerEvent: {}
+[0.000494] (-) JobUnselected: {'identifier': 'chomp_motion_planner'}
+[0.000704] (-) JobUnselected: {'identifier': 'gazebo_grasp_plugin'}
+[0.000830] (-) JobUnselected: {'identifier': 'gazebo_ros2_control'}
+[0.000908] (-) JobUnselected: {'identifier': 'gazebo_ros2_control_demos'}
+[0.000959] (-) JobUnselected: {'identifier': 'gazebo_version_helpers'}
+[0.001058] (-) JobUnselected: {'identifier': 'moveit'}
+[0.001115] (-) JobUnselected: {'identifier': 'moveit2_scripts'}
+[0.001168] (-) JobUnselected: {'identifier': 'moveit_chomp_optimizer_adapter'}
+[0.001224] (-) JobUnselected: {'identifier': 'moveit_common'}
+[0.001338] (-) JobUnselected: {'identifier': 'moveit_configs_utils'}
+[0.001442] (-) JobUnselected: {'identifier': 'moveit_core'}
+[0.001568] (-) JobUnselected: {'identifier': 'moveit_hybrid_planning'}
+[0.001632] (-) JobUnselected: {'identifier': 'moveit_kinematics'}
+[0.001734] (-) JobUnselected: {'identifier': 'moveit_planners'}
+[0.001834] (-) JobUnselected: {'identifier': 'moveit_planners_chomp'}
+[0.001938] (-) JobUnselected: {'identifier': 'moveit_planners_ompl'}
+[0.002045] (-) JobUnselected: {'identifier': 'moveit_plugins'}
+[0.002109] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_ikfast_manipulator_plugin'}
+[0.002223] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_moveit_config'}
+[0.002330] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_pg70_support'}
+[0.002433] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_support'}
+[0.002533] (-) JobUnselected: {'identifier': 'moveit_ros'}
+[0.002633] (-) JobUnselected: {'identifier': 'moveit_ros_benchmarks'}
+[0.002697] (-) JobUnselected: {'identifier': 'moveit_ros_control_interface'}
+[0.002758] (-) JobUnselected: {'identifier': 'moveit_ros_move_group'}
+[0.002806] (-) JobUnselected: {'identifier': 'moveit_ros_occupancy_map_monitor'}
+[0.008598] (-) JobUnselected: {'identifier': 'moveit_ros_perception'}
+[0.008748] (-) JobUnselected: {'identifier': 'moveit_ros_planning'}
+[0.008856] (-) JobUnselected: {'identifier': 'moveit_ros_planning_interface'}
+[0.008962] (-) JobUnselected: {'identifier': 'moveit_ros_robot_interaction'}
+[0.009066] (-) JobUnselected: {'identifier': 'moveit_ros_visualization'}
+[0.009197] (-) JobUnselected: {'identifier': 'moveit_ros_warehouse'}
+[0.009300] (-) JobUnselected: {'identifier': 'moveit_runtime'}
+[0.009407] (-) JobUnselected: {'identifier': 'moveit_servo'}
+[0.009523] (-) JobUnselected: {'identifier': 'moveit_setup_app_plugins'}
+[0.009628] (-) JobUnselected: {'identifier': 'moveit_setup_assistant'}
+[0.009760] (-) JobUnselected: {'identifier': 'moveit_setup_controllers'}
+[0.009864] (-) JobUnselected: {'identifier': 'moveit_setup_core_plugins'}
+[0.009967] (-) JobUnselected: {'identifier': 'moveit_setup_framework'}
+[0.010069] (-) JobUnselected: {'identifier': 'moveit_setup_srdf_plugins'}
+[0.010296] (-) JobUnselected: {'identifier': 'moveit_simple_controller_manager'}
+[0.010400] (-) JobUnselected: {'identifier': 'my_moveit2_config'}
+[0.010508] (-) JobUnselected: {'identifier': 'my_moveit_config'}
+[0.010611] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner'}
+[0.010745] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner_testutils'}
+[0.010871] (-) JobUnselected: {'identifier': 'rg2_gripper_description'}
+[0.010976] (-) JobUnselected: {'identifier': 'robotiq_85_description'}
+[0.011084] (-) JobUnselected: {'identifier': 'robotiq_85_driver'}
+[0.011331] (-) JobUnselected: {'identifier': 'robotiq_85_gripper'}
+[0.011452] (-) JobUnselected: {'identifier': 'robotiq_85_msgs'}
+[0.011654] (-) JobUnselected: {'identifier': 'robotnik_sensors'}
+[0.011720] (-) JobUnselected: {'identifier': 'robotnik_sensors_gazebo'}
+[0.011775] (-) JobUnselected: {'identifier': 'ros2test'}
+[0.012285] (-) JobUnselected: {'identifier': 'ros_testing'}
+[0.012370] (-) JobUnselected: {'identifier': 'simple_grasping'}
+[0.012608] (-) JobUnselected: {'identifier': 'test2_moveit_config'}
+[0.012673] (-) JobUnselected: {'identifier': 'test_moveit_config'}
+[0.013024] (-) JobUnselected: {'identifier': 'the_construct_office_gazebo'}
+[0.013139] (-) JobUnselected: {'identifier': 'ur3e_moveit_config'}
+[0.013206] (-) JobUnselected: {'identifier': 'ur_description'}
+[0.013265] (-) JobUnselected: {'identifier': 'ur_simulation_gazebo'}
+[0.013325] (gazebo_grasp_plugin_ros) JobQueued: {'identifier': 'gazebo_grasp_plugin_ros', 'dependencies': OrderedDict([('gazebo_version_helpers', '/home/user/ros2_ws/install/gazebo_version_helpers'), ('gazebo_grasp_plugin', '/home/user/ros2_ws/install/gazebo_grasp_plugin')])}
+[0.017942] (gazebo_grasp_plugin_ros) JobStarted: {'identifier': 'gazebo_grasp_plugin_ros'}
+[0.092521] (gazebo_grasp_plugin_ros) JobProgress: {'identifier': 'gazebo_grasp_plugin_ros', 'progress': 'cmake'}
+[0.093894] (gazebo_grasp_plugin_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/user/ros2_ws/src/gazebo-pkgs/gazebo_grasp_plugin_ros', '-DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/gazebo_grasp_plugin_ros'], 'cwd': '/home/user/ros2_ws/build/gazebo_grasp_plugin_ros', 'env': OrderedDict([('ROS_VERSION', '2'), ('GAZEBO_MASTER_URI', 'http://1_xterm:11345'), ('PKG_CONFIG_PATH', '/home/user/ros2_ws/install/gazebo_grasp_plugin/lib/x86_64-linux-gnu/pkgconfig:/home/user/ros2_ws/install/gazebo_grasp_plugin/lib/pkgconfig'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('ROS_PACKAGE_PATH', '/home/user/ros2_ws/install/gazebo_grasp_plugin/share'), ('PWD', '/home/user/ros2_ws/build/gazebo_grasp_plugin_ros'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/user/ros2_ws/install/gazebo_version_helpers:/home/user/ros2_ws/install/moveit2_scripts:/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/ur_simulation_gazebo:/home/user/ros2_ws/install/ur3e_moveit_config:/home/user/ros2_ws/install/test_moveit_config:/home/user/ros2_ws/install/test2_moveit_config:/home/user/ros2_ws/install/my_moveit_config:/home/user/ros2_ws/install/my_moveit2_config:/home/user/ros2_ws/install/ur_description:/home/user/ros2_ws/install/the_construct_office_gazebo:/home/user/ros2_ws/install/simple_grasping:/home/user/ros2_ws/install/ros_testing:/home/user/ros2_ws/install/ros2test:/home/user/ros2_ws/install/robotnik_sensors_gazebo:/home/user/ros2_ws/install/robotnik_sensors:/home/user/ros2_ws/install/robotiq_85_gripper:/home/user/ros2_ws/install/robotiq_85_driver:/home/user/ros2_ws/install/robotiq_85_msgs:/home/user/ros2_ws/install/robotiq_85_description:/home/user/ros2_ws/install/rg2_gripper_description:/home/user/ros2_ws/install/pilz_industrial_motion_planner_testutils:/home/user/ros2_ws/install/moveit_runtime:/home/user/ros2_ws/install/moveit:/home/user/ros2_ws/install/moveit_planners:/home/user/ros2_ws/install/pilz_industrial_motion_planner:/home/user/ros2_ws/install/moveit_ros_control_interface:/home/user/ros2_ws/install/moveit_plugins:/home/user/ros2_ws/install/moveit_simple_controller_manager:/home/user/ros2_ws/install/moveit_setup_assistant:/home/user/ros2_ws/install/moveit_setup_srdf_plugins:/home/user/ros2_ws/install/moveit_setup_core_plugins:/home/user/ros2_ws/install/moveit_setup_controllers:/home/user/ros2_ws/install/moveit_setup_app_plugins:/home/user/ros2_ws/install/moveit_setup_framework:/home/user/ros2_ws/install/moveit_servo:/home/user/ros2_ws/install/moveit_ros:/home/user/ros2_ws/install/moveit_ros_visualization:/home/user/ros2_ws/install/moveit_hybrid_planning:/home/user/ros2_ws/install/moveit_ros_planning_interface:/home/user/ros2_ws/install/moveit_ros_benchmarks:/home/user/ros2_ws/install/moveit_ros_warehouse:/home/user/ros2_ws/install/moveit_ros_robot_interaction:/home/user/ros2_ws/install/moveit_ros_perception:/home/user/ros2_ws/install/moveit_resources_prbt_pg70_support:/home/user/ros2_ws/install/moveit_resources_prbt_moveit_config:/home/user/ros2_ws/install/moveit_ros_move_group:/home/user/ros2_ws/install/moveit_planners_ompl:/home/user/ros2_ws/install/moveit_ros_planning:/home/user/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/user/ros2_ws/install/moveit_resources_prbt_support:/home/user/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/user/ros2_ws/install/moveit_planners_chomp:/home/user/ros2_ws/install/moveit_kinematics:/home/user/ros2_ws/install/moveit_chomp_optimizer_adapter:/home/user/ros2_ws/install/chomp_motion_planner:/home/user/ros2_ws/install/moveit_core:/home/user/ros2_ws/install/moveit_configs_utils:/home/user/ros2_ws/install/moveit_common:/home/user/ros2_ws/install/gazebo_ros2_control_demos:/home/user/ros2_ws/install/gazebo_ros2_control:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/ros2test:/home/user/ros2_ws/install/robotiq_85_driver:/home/user/ros2_ws/install/moveit_configs_utils:/opt/ros/humble:/home/user/ros2_ws/install/gazebo_grasp_plugin:/home/user/ros2_ws/install/gazebo_version_helpers:/home/user/ros2_ws/install/moveit2_scripts:/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/user/ros2_ws/install/ur_simulation_gazebo:/home/user/ros2_ws/install/ur3e_moveit_config:/home/user/ros2_ws/install/test_moveit_config:/home/user/ros2_ws/install/test2_moveit_config:/home/user/ros2_ws/install/my_moveit_config:/home/user/ros2_ws/install/my_moveit2_config:/home/user/ros2_ws/install/ur_description:/home/user/ros2_ws/install/the_construct_office_gazebo:/home/user/ros2_ws/install/simple_grasping:/home/user/ros2_ws/install/ros_testing:/home/user/ros2_ws/install/robotnik_sensors_gazebo:/home/user/ros2_ws/install/robotnik_sensors:/home/user/ros2_ws/install/robotiq_85_gripper:/home/user/ros2_ws/install/robotiq_85_msgs:/home/user/ros2_ws/install/robotiq_85_description:/home/user/ros2_ws/install/rg2_gripper_description:/home/user/ros2_ws/install/pilz_industrial_motion_planner_testutils:/home/user/ros2_ws/install/moveit_runtime:/home/user/ros2_ws/install/moveit:/home/user/ros2_ws/install/moveit_planners:/home/user/ros2_ws/install/pilz_industrial_motion_planner:/home/user/ros2_ws/install/moveit_ros_control_interface:/home/user/ros2_ws/install/moveit_plugins:/home/user/ros2_ws/install/moveit_simple_controller_manager:/home/user/ros2_ws/install/moveit_setup_assistant:/home/user/ros2_ws/install/moveit_setup_srdf_plugins:/home/user/ros2_ws/install/moveit_setup_core_plugins:/home/user/ros2_ws/install/moveit_setup_controllers:/home/user/ros2_ws/install/moveit_setup_app_plugins:/home/user/ros2_ws/install/moveit_setup_framework:/home/user/ros2_ws/install/moveit_servo:/home/user/ros2_ws/install/moveit_ros:/home/user/ros2_ws/install/moveit_ros_visualization:/home/user/ros2_ws/install/moveit_hybrid_planning:/home/user/ros2_ws/install/moveit_ros_planning_interface:/home/user/ros2_ws/install/moveit_ros_benchmarks:/home/user/ros2_ws/install/moveit_ros_warehouse:/home/user/ros2_ws/install/moveit_ros_robot_interaction:/home/user/ros2_ws/install/moveit_ros_perception:/home/user/ros2_ws/install/moveit_resources_prbt_pg70_support:/home/user/ros2_ws/install/moveit_resources_prbt_moveit_config:/home/user/ros2_ws/install/moveit_ros_move_group:/home/user/ros2_ws/install/moveit_planners_ompl:/home/user/ros2_ws/install/moveit_ros_planning:/home/user/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/user/ros2_ws/install/moveit_resources_prbt_support:/home/user/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/user/ros2_ws/install/moveit_planners_chomp:/home/user/ros2_ws/install/moveit_kinematics:/home/user/ros2_ws/install/moveit_chomp_optimizer_adapter:/home/user/ros2_ws/install/chomp_motion_planner:/home/user/ros2_ws/install/moveit_core:/home/user/ros2_ws/install/moveit_common:/home/user/ros2_ws/install/gazebo_ros2_control_demos:/home/user/ros2_ws/install/gazebo_ros2_control'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/visualization_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/test_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/action_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/stereo_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_srvs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/shape_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs_py/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/nav_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/actionlib_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/statistics_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/composition_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/ros2test/lib/python3.10/site-packages:/home/user/ros2_ws/install/robotiq_85_driver/lib/python3.10/site-packages:/home/user/ros2_ws/install/robotiq_85_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '1_xterm'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_xterm:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/home/user/ros2_ws/install/gazebo_version_helpers/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/visualization_msgs/lib:/home/simulations/ros2_sims_ws/install/test_msgs/lib:/home/simulations/ros2_sims_ws/install/example_interfaces/lib:/home/simulations/ros2_sims_ws/install/action_msgs/lib:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/lib:/home/simulations/ros2_sims_ws/install/trajectory_msgs/lib:/home/simulations/ros2_sims_ws/install/stereo_msgs/lib:/home/simulations/ros2_sims_ws/install/std_srvs/lib:/home/simulations/ros2_sims_ws/install/shape_msgs/lib:/home/simulations/ros2_sims_ws/install/sensor_msgs/lib:/home/simulations/ros2_sims_ws/install/nav_msgs/lib:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/lib:/home/simulations/ros2_sims_ws/install/geometry_msgs/lib:/home/simulations/ros2_sims_ws/install/actionlib_msgs/lib:/home/simulations/ros2_sims_ws/install/std_msgs/lib:/home/simulations/ros2_sims_ws/install/statistics_msgs/lib:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/lib:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/lib:/home/simulations/ros2_sims_ws/install/composition_interfaces/lib:/home/simulations/ros2_sims_ws/install/rcl_interfaces/lib:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/lib:/home/simulations/ros2_sims_ws/install/builtin_interfaces/lib:/home/user/ros2_ws/install/simple_grasping/lib:/home/user/ros2_ws/install/robotiq_85_msgs/lib:/home/user/ros2_ws/install/pilz_industrial_motion_planner_testutils/lib:/home/user/ros2_ws/install/pilz_industrial_motion_planner/lib:/home/user/ros2_ws/install/moveit_ros_control_interface/lib:/home/user/ros2_ws/install/moveit_simple_controller_manager/lib:/home/user/ros2_ws/install/moveit_setup_assistant/lib:/home/user/ros2_ws/install/moveit_setup_srdf_plugins/lib:/home/user/ros2_ws/install/moveit_setup_core_plugins/lib:/home/user/ros2_ws/install/moveit_setup_controllers/lib:/home/user/ros2_ws/install/moveit_setup_app_plugins/lib:/home/user/ros2_ws/install/moveit_setup_framework/lib:/home/user/ros2_ws/install/moveit_servo/lib:/home/user/ros2_ws/install/moveit_ros_visualization/lib:/home/user/ros2_ws/install/moveit_hybrid_planning/lib:/home/user/ros2_ws/install/moveit_ros_planning_interface/lib:/home/user/ros2_ws/install/moveit_ros_benchmarks/lib:/home/user/ros2_ws/install/moveit_ros_warehouse/lib:/home/user/ros2_ws/install/moveit_ros_robot_interaction/lib:/home/user/ros2_ws/install/moveit_ros_perception/lib:/home/user/ros2_ws/install/moveit_ros_move_group/lib:/home/user/ros2_ws/install/moveit_planners_ompl/lib:/home/user/ros2_ws/install/moveit_ros_planning/lib:/home/user/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/user/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/user/ros2_ws/install/moveit_planners_chomp/lib:/home/user/ros2_ws/install/moveit_kinematics/lib:/home/user/ros2_ws/install/moveit_chomp_optimizer_adapter/lib:/home/user/ros2_ws/install/chomp_motion_planner/lib:/home/user/ros2_ws/install/moveit_core/lib:/home/user/ros2_ws/install/gazebo_ros2_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '704566'), ('SLOT_PREFIX', '08dd138d-2bd8-43e9-97f4-98dfd09c5962'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25005'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/home/user/ros2_ws/install/moveit_core/bin:/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin'), ('NODE_VERSION', 'v6.11.2'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/build'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.099695] (-) TimerEvent: {}
+[0.128008] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199830] (-) TimerEvent: {}
+[0.300173] (-) TimerEvent: {}
+[0.400615] (-) TimerEvent: {}
+[0.486121] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.500992] (-) TimerEvent: {}
+[0.559953] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.565892] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.578347] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.601076] (-) TimerEvent: {}
+[0.606126] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.637119] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.701220] (-) TimerEvent: {}
+[0.761723] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.769998] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.801348] (-) TimerEvent: {}
+[0.902153] (-) TimerEvent: {}
+[1.002603] (-) TimerEvent: {}
+[1.103474] (-) TimerEvent: {}
+[1.160260] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.203628] (-) TimerEvent: {}
+[1.304053] (-) TimerEvent: {}
+[1.404486] (-) TimerEvent: {}
+[1.459026] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found gazebo_dev: 3.7.0 (/opt/ros/humble/share/gazebo_dev/cmake)\n'}
+[1.504587] (-) TimerEvent: {}
+[1.525458] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.580964] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.584280] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.12.0\n'}
+[1.592417] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.595239] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.604678] (-) TimerEvent: {}
+[1.631379] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.631755] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[1.646952] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[1.647452] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[1.647765] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[1.648086] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[1.648326] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[1.648524] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[1.648699] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[1.648881] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[1.649063] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[1.649231] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[1.649399] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[1.649616] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[1.704821] (-) TimerEvent: {}
+[1.805238] (-) TimerEvent: {}
+[1.905652] (-) TimerEvent: {}
+[2.006063] (-) TimerEvent: {}
+[2.106606] (-) TimerEvent: {}
+[2.207155] (-) TimerEvent: {}
+[2.308452] (-) TimerEvent: {}
+[2.408927] (-) TimerEvent: {}
+[2.411911] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.12.0\n'}
+[2.412500] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[2.413188] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[2.476116] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[2.509070] (-) TimerEvent: {}
+[2.518195] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[2.528367] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[2.584616] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[2.609199] (-) TimerEvent: {}
+[2.709659] (-) TimerEvent: {}
+[2.772801] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[2.809790] (-) TimerEvent: {}
+[2.828597] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[2.909919] (-) TimerEvent: {}
+[2.978285] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.979001] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[3.010049] (-) TimerEvent: {}
+[3.046714] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.12.0\n'}
+[3.059879] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[3.110208] (-) TimerEvent: {}
+[3.128346] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[3.210339] (-) TimerEvent: {}
+[3.268494] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[3.269052] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[3.269650] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[3.269887] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[3.270012] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[3.292820] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[3.293446] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[3.294234] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[3.294826] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.12.0\n'}
+[3.296373] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[3.297247] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[3.310469] (-) TimerEvent: {}
+[3.412563] (-) TimerEvent: {}
+[3.441797] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[3.512699] (-) TimerEvent: {}
+[3.519756] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[3.612822] (-) TimerEvent: {}
+[3.651898] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[3.709401] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[3.712908] (-) TimerEvent: {}
+[3.813313] (-) TimerEvent: {}
+[3.861453] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[3.862586] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.12.0\n'}
+[3.863674] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[3.866066] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[3.867068] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[3.883704] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)\n'}
+[3.913459] (-) TimerEvent: {}
+[4.013876] (-) TimerEvent: {}
+[4.114650] (-) TimerEvent: {}
+[4.215324] (-) TimerEvent: {}
+[4.315846] (-) TimerEvent: {}
+[4.378072] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Found gazebo_grasp_plugin: 1.0.2 (/home/user/ros2_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/cmake)\n'}
+[4.380107] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.380465] (gazebo_grasp_plugin_ros) StdoutLine: {'line': b'See also "/home/user/ros2_ws/build/gazebo_grasp_plugin_ros/CMakeFiles/CMakeOutput.log".\n'}
+[4.383016] (gazebo_grasp_plugin_ros) StderrLine: {'line': b'\x1b[31mCMake Error at /home/user/ros2_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/cmake/ament_cmake_export_libraries-extras.cmake:48 (message):\n'}
+[4.383302] (gazebo_grasp_plugin_ros) StderrLine: {'line': b"  Package 'gazebo_grasp_plugin' exports the library 'gazebo_grasp_fix' which\n"}
+[4.383506] (gazebo_grasp_plugin_ros) StderrLine: {'line': b"  couldn't be found\n"}
+[4.383684] (gazebo_grasp_plugin_ros) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.383877] (gazebo_grasp_plugin_ros) StderrLine: {'line': b'  /home/user/ros2_ws/install/gazebo_grasp_plugin/share/gazebo_grasp_plugin/cmake/gazebo_grasp_pluginConfig.cmake:41 (include)\n'}
+[4.384055] (gazebo_grasp_plugin_ros) StderrLine: {'line': b'  CMakeLists.txt:15 (find_package)\n'}
+[4.384215] (gazebo_grasp_plugin_ros) StderrLine: {'line': b'\n'}
+[4.384364] (gazebo_grasp_plugin_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[4.397550] (gazebo_grasp_plugin_ros) CommandEnded: {'returncode': 1}
+[4.419097] (-) TimerEvent: {}
+[4.476018] (gazebo_grasp_plugin_ros) JobEnded: {'identifier': 'gazebo_grasp_plugin_ros', 'rc': 1}
+[4.477507] (-) EventReactorShutdown: {}

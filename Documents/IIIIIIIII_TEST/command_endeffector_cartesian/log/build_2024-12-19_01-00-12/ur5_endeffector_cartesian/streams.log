@@ -1,0 +1,18 @@
+[0.008s] Invoking command in '/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian -- -j32 -l32
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target ur5_ros2_cartesian[0m
+[0.064s] [ 50%] [32mBuilding CXX object CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o[0m
+[2.387s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In constructor ‘[01m[KUR5Control::UR5Control()[m[K’:
+[2.387s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:17:5:[m[K [01;31m[Kerror: [m[Kuninitialized const member in ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.387s]    17 |     [01;31m[KUR5Control[m[K() : Node("ur5_control"),
+[2.387s]       |     [01;31m[K^~~~~~~~~~[m[K
+[2.387s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:606:23:[m[K [01;36m[Knote: [m[K‘[01m[Kconst size_t UR5Control::BUFFER_SIZE[m[K’ should be initialized
+[2.387s]   606 |     const std::size_t [01;36m[KBUFFER_SIZE[m[K;  // 改為 std::size_t
+[2.387s]       |                       [01;36m[K^~~~~~~~~~~[m[K
+[2.396s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In member function ‘[01m[Kvoid UR5Control::stabilizeForces()[m[K’:
+[2.396s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:55:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.396s]    55 |         for(int i = 0; [01;35m[Ki < BUFFER_SIZE * 2[m[K; i++) {
+[2.397s]       |                        [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[5.125s] gmake[2]: *** [CMakeFiles/ur5_ros2_cartesian.dir/build.make:76：CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o] 錯誤 1
+[5.125s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ur5_ros2_cartesian.dir/all] 錯誤 2
+[5.125s] gmake: *** [Makefile:146：all] 錯誤 2
+[5.126s] Invoked command in '/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian -- -j32 -l32

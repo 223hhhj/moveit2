@@ -1,0 +1,19 @@
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In constructor ‘[01m[KUR5Control::UR5Control()[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:387:12:[m[K [01;35m[Kwarning: [m[K‘[01m[KUR5Control::current_direction_index[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  387 |     size_t [01;35m[Kcurrent_direction_index[m[K;
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:379:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool UR5Control::x_positive_recorded[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  379 |     bool [01;35m[Kx_positive_recorded[m[K = false;
+      |          [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:14:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   14 |     [01;35m[KUR5Control[m[K() : Node("ur5_control"),
+      |     [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:380:10:[m[K [01;35m[Kwarning: [m[K‘[01m[KUR5Control::x_negative_recorded[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  380 |     bool [01;35m[Kx_negative_recorded[m[K = false;
+      |          [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:376:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool UR5Control::y_positive_recorded[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  376 |     bool [01;35m[Ky_positive_recorded[m[K = false;
+      |          [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:14:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   14 |     [01;35m[KUR5Control[m[K() : Node("ur5_control"),
+      |     [01;35m[K^~~~~~~~~~[m[K

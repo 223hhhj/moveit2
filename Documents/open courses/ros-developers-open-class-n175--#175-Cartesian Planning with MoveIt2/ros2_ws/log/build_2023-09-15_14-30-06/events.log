@@ -1,0 +1,236 @@
+[0.000000] (-) TimerEvent: {}
+[0.002156] (-) JobUnselected: {'identifier': 'chomp_motion_planner'}
+[0.002304] (-) JobUnselected: {'identifier': 'gazebo_ros2_control'}
+[0.002408] (-) JobUnselected: {'identifier': 'gazebo_ros2_control_demos'}
+[0.002644] (-) JobUnselected: {'identifier': 'moveit'}
+[0.002707] (-) JobUnselected: {'identifier': 'moveit_chomp_optimizer_adapter'}
+[0.002771] (-) JobUnselected: {'identifier': 'moveit_common'}
+[0.002826] (-) JobUnselected: {'identifier': 'moveit_configs_utils'}
+[0.002880] (-) JobUnselected: {'identifier': 'moveit_core'}
+[0.002937] (-) JobUnselected: {'identifier': 'moveit_hybrid_planning'}
+[0.003193] (-) JobUnselected: {'identifier': 'moveit_kinematics'}
+[0.003410] (-) JobUnselected: {'identifier': 'moveit_planners'}
+[0.003674] (-) JobUnselected: {'identifier': 'moveit_planners_chomp'}
+[0.003777] (-) JobUnselected: {'identifier': 'moveit_planners_ompl'}
+[0.003882] (-) JobUnselected: {'identifier': 'moveit_plugins'}
+[0.004001] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_ikfast_manipulator_plugin'}
+[0.004432] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_moveit_config'}
+[0.004527] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_pg70_support'}
+[0.004581] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_support'}
+[0.004631] (-) JobUnselected: {'identifier': 'moveit_ros'}
+[0.004764] (-) JobUnselected: {'identifier': 'moveit_ros_benchmarks'}
+[0.005073] (-) JobUnselected: {'identifier': 'moveit_ros_control_interface'}
+[0.005182] (-) JobUnselected: {'identifier': 'moveit_ros_move_group'}
+[0.005248] (-) JobUnselected: {'identifier': 'moveit_ros_occupancy_map_monitor'}
+[0.005335] (-) JobUnselected: {'identifier': 'moveit_ros_perception'}
+[0.005413] (-) JobUnselected: {'identifier': 'moveit_ros_planning'}
+[0.005478] (-) JobUnselected: {'identifier': 'moveit_ros_planning_interface'}
+[0.005540] (-) JobUnselected: {'identifier': 'moveit_ros_robot_interaction'}
+[0.005596] (-) JobUnselected: {'identifier': 'moveit_ros_visualization'}
+[0.005653] (-) JobUnselected: {'identifier': 'moveit_ros_warehouse'}
+[0.005715] (-) JobUnselected: {'identifier': 'moveit_runtime'}
+[0.005777] (-) JobUnselected: {'identifier': 'moveit_servo'}
+[0.005831] (-) JobUnselected: {'identifier': 'moveit_setup_app_plugins'}
+[0.005889] (-) JobUnselected: {'identifier': 'moveit_setup_assistant'}
+[0.005941] (-) JobUnselected: {'identifier': 'moveit_setup_controllers'}
+[0.005991] (-) JobUnselected: {'identifier': 'moveit_setup_core_plugins'}
+[0.006041] (-) JobUnselected: {'identifier': 'moveit_setup_framework'}
+[0.006091] (-) JobUnselected: {'identifier': 'moveit_setup_srdf_plugins'}
+[0.006140] (-) JobUnselected: {'identifier': 'moveit_simple_controller_manager'}
+[0.006187] (-) JobUnselected: {'identifier': 'my_moveit2_config'}
+[0.006233] (-) JobUnselected: {'identifier': 'my_moveit_config'}
+[0.006279] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner'}
+[0.006326] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner_testutils'}
+[0.006372] (-) JobUnselected: {'identifier': 'rg2_gripper_description'}
+[0.006421] (-) JobUnselected: {'identifier': 'robotiq_85_description'}
+[0.006467] (-) JobUnselected: {'identifier': 'robotiq_85_driver'}
+[0.006510] (-) JobUnselected: {'identifier': 'robotiq_85_gripper'}
+[0.006552] (-) JobUnselected: {'identifier': 'robotiq_85_msgs'}
+[0.006601] (-) JobUnselected: {'identifier': 'robotnik_sensors'}
+[0.006648] (-) JobUnselected: {'identifier': 'robotnik_sensors_gazebo'}
+[0.006694] (-) JobUnselected: {'identifier': 'ros2test'}
+[0.006750] (-) JobUnselected: {'identifier': 'ros_testing'}
+[0.006797] (-) JobUnselected: {'identifier': 'simple_grasping'}
+[0.006844] (-) JobUnselected: {'identifier': 'test2_moveit_config'}
+[0.006890] (-) JobUnselected: {'identifier': 'test_moveit_config'}
+[0.006937] (-) JobUnselected: {'identifier': 'the_construct_office_gazebo'}
+[0.006983] (-) JobUnselected: {'identifier': 'ur3e_moveit_config'}
+[0.007029] (-) JobUnselected: {'identifier': 'ur_description'}
+[0.007075] (-) JobUnselected: {'identifier': 'ur_simulation_gazebo'}
+[0.007137] (moveit2_scripts) JobQueued: {'identifier': 'moveit2_scripts', 'dependencies': OrderedDict([('moveit_common', '/home/user/ros2_ws/install/moveit_common'), ('moveit_core', '/home/user/ros2_ws/install/moveit_core'), ('moveit_ros_occupancy_map_monitor', '/home/user/ros2_ws/install/moveit_ros_occupancy_map_monitor'), ('moveit_ros_planning', '/home/user/ros2_ws/install/moveit_ros_planning'), ('moveit_kinematics', '/home/user/ros2_ws/install/moveit_kinematics'), ('moveit_ros_warehouse', '/home/user/ros2_ws/install/moveit_ros_warehouse'), ('moveit_ros_move_group', '/home/user/ros2_ws/install/moveit_ros_move_group'), ('moveit_ros_planning_interface', '/home/user/ros2_ws/install/moveit_ros_planning_interface')])}
+[0.007211] (moveit2_scripts) JobStarted: {'identifier': 'moveit2_scripts'}
+[0.095556] (-) TimerEvent: {}
+[0.195977] (-) TimerEvent: {}
+[0.297089] (-) TimerEvent: {}
+[0.316799] (moveit2_scripts) JobProgress: {'identifier': 'moveit2_scripts', 'progress': 'cmake'}
+[0.318188] (moveit2_scripts) JobProgress: {'identifier': 'moveit2_scripts', 'progress': 'build'}
+[0.320376] (moveit2_scripts) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/build/moveit2_scripts', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_ws/build/moveit2_scripts', 'env': OrderedDict([('ROS_VERSION', '2'), ('GAZEBO_MASTER_URI', 'http://1_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('PWD', '/home/user/ros2_ws/build/moveit2_scripts'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/user/ros2_ws/install/moveit2_scripts:/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/ur_simulation_gazebo:/home/user/ros2_ws/install/ur3e_moveit_config:/home/user/ros2_ws/install/test_moveit_config:/home/user/ros2_ws/install/test2_moveit_config:/home/user/ros2_ws/install/my_moveit_config:/home/user/ros2_ws/install/my_moveit2_config:/home/user/ros2_ws/install/ur_description:/home/user/ros2_ws/install/the_construct_office_gazebo:/home/user/ros2_ws/install/simple_grasping:/home/user/ros2_ws/install/ros_testing:/home/user/ros2_ws/install/ros2test:/home/user/ros2_ws/install/robotnik_sensors_gazebo:/home/user/ros2_ws/install/robotnik_sensors:/home/user/ros2_ws/install/robotiq_85_gripper:/home/user/ros2_ws/install/robotiq_85_driver:/home/user/ros2_ws/install/robotiq_85_msgs:/home/user/ros2_ws/install/robotiq_85_description:/home/user/ros2_ws/install/rg2_gripper_description:/home/user/ros2_ws/install/pilz_industrial_motion_planner_testutils:/home/user/ros2_ws/install/moveit_runtime:/home/user/ros2_ws/install/moveit:/home/user/ros2_ws/install/moveit_planners:/home/user/ros2_ws/install/pilz_industrial_motion_planner:/home/user/ros2_ws/install/moveit_ros_control_interface:/home/user/ros2_ws/install/moveit_plugins:/home/user/ros2_ws/install/moveit_simple_controller_manager:/home/user/ros2_ws/install/moveit_setup_assistant:/home/user/ros2_ws/install/moveit_setup_srdf_plugins:/home/user/ros2_ws/install/moveit_setup_core_plugins:/home/user/ros2_ws/install/moveit_setup_controllers:/home/user/ros2_ws/install/moveit_setup_app_plugins:/home/user/ros2_ws/install/moveit_setup_framework:/home/user/ros2_ws/install/moveit_servo:/home/user/ros2_ws/install/moveit_ros:/home/user/ros2_ws/install/moveit_ros_visualization:/home/user/ros2_ws/install/moveit_hybrid_planning:/home/user/ros2_ws/install/moveit_ros_planning_interface:/home/user/ros2_ws/install/moveit_ros_benchmarks:/home/user/ros2_ws/install/moveit_ros_warehouse:/home/user/ros2_ws/install/moveit_ros_robot_interaction:/home/user/ros2_ws/install/moveit_ros_perception:/home/user/ros2_ws/install/moveit_resources_prbt_pg70_support:/home/user/ros2_ws/install/moveit_resources_prbt_moveit_config:/home/user/ros2_ws/install/moveit_ros_move_group:/home/user/ros2_ws/install/moveit_planners_ompl:/home/user/ros2_ws/install/moveit_ros_planning:/home/user/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/user/ros2_ws/install/moveit_resources_prbt_support:/home/user/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/user/ros2_ws/install/moveit_planners_chomp:/home/user/ros2_ws/install/moveit_kinematics:/home/user/ros2_ws/install/moveit_chomp_optimizer_adapter:/home/user/ros2_ws/install/chomp_motion_planner:/home/user/ros2_ws/install/moveit_core:/home/user/ros2_ws/install/moveit_configs_utils:/home/user/ros2_ws/install/moveit_common:/home/user/ros2_ws/install/gazebo_ros2_control_demos:/home/user/ros2_ws/install/gazebo_ros2_control:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/install/moveit_ros_planning_interface:/home/user/ros2_ws/install/moveit_ros_move_group:/home/user/ros2_ws/install/moveit_ros_warehouse:/home/user/ros2_ws/install/moveit_kinematics:/home/user/ros2_ws/install/moveit_ros_planning:/home/user/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/user/ros2_ws/install/moveit_core:/home/user/ros2_ws/install/moveit_common:/home/user/ros2_ws/install/moveit2_scripts:/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/user/ros2_ws/install/ur_simulation_gazebo:/home/user/ros2_ws/install/ur3e_moveit_config:/home/user/ros2_ws/install/test_moveit_config:/home/user/ros2_ws/install/test2_moveit_config:/home/user/ros2_ws/install/my_moveit_config:/home/user/ros2_ws/install/my_moveit2_config:/home/user/ros2_ws/install/ur_description:/home/user/ros2_ws/install/the_construct_office_gazebo:/home/user/ros2_ws/install/simple_grasping:/home/user/ros2_ws/install/ros_testing:/home/user/ros2_ws/install/robotnik_sensors_gazebo:/home/user/ros2_ws/install/robotnik_sensors:/home/user/ros2_ws/install/robotiq_85_gripper:/home/user/ros2_ws/install/robotiq_85_msgs:/home/user/ros2_ws/install/robotiq_85_description:/home/user/ros2_ws/install/rg2_gripper_description:/home/user/ros2_ws/install/pilz_industrial_motion_planner_testutils:/home/user/ros2_ws/install/moveit_runtime:/home/user/ros2_ws/install/moveit:/home/user/ros2_ws/install/moveit_planners:/home/user/ros2_ws/install/pilz_industrial_motion_planner:/home/user/ros2_ws/install/moveit_ros_control_interface:/home/user/ros2_ws/install/moveit_plugins:/home/user/ros2_ws/install/moveit_simple_controller_manager:/home/user/ros2_ws/install/moveit_setup_assistant:/home/user/ros2_ws/install/moveit_setup_srdf_plugins:/home/user/ros2_ws/install/moveit_setup_core_plugins:/home/user/ros2_ws/install/moveit_setup_controllers:/home/user/ros2_ws/install/moveit_setup_app_plugins:/home/user/ros2_ws/install/moveit_setup_framework:/home/user/ros2_ws/install/moveit_servo:/home/user/ros2_ws/install/moveit_ros:/home/user/ros2_ws/install/moveit_ros_visualization:/home/user/ros2_ws/install/moveit_hybrid_planning:/home/user/ros2_ws/install/moveit_ros_benchmarks:/home/user/ros2_ws/install/moveit_ros_robot_interaction:/home/user/ros2_ws/install/moveit_ros_perception:/home/user/ros2_ws/install/moveit_resources_prbt_pg70_support:/home/user/ros2_ws/install/moveit_resources_prbt_moveit_config:/home/user/ros2_ws/install/moveit_planners_ompl:/home/user/ros2_ws/install/moveit_resources_prbt_support:/home/user/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/user/ros2_ws/install/moveit_planners_chomp:/home/user/ros2_ws/install/moveit_chomp_optimizer_adapter:/home/user/ros2_ws/install/chomp_motion_planner:/home/user/ros2_ws/install/gazebo_ros2_control_demos:/home/user/ros2_ws/install/gazebo_ros2_control:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/ros2test:/home/user/ros2_ws/install/robotiq_85_driver:/home/user/ros2_ws/install/moveit_configs_utils:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/visualization_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/test_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/action_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/stereo_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_srvs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/shape_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs_py/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/nav_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/actionlib_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/statistics_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/composition_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/ros2test/lib/python3.10/site-packages:/home/user/ros2_ws/install/robotiq_85_driver/lib/python3.10/site-packages:/home/user/ros2_ws/install/robotiq_85_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '1_xterm'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_xterm:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/home/user/ros2_ws/install/moveit_ros_planning_interface/lib:/home/user/ros2_ws/install/moveit_ros_move_group/lib:/home/user/ros2_ws/install/moveit_ros_warehouse/lib:/home/user/ros2_ws/install/moveit_kinematics/lib:/home/user/ros2_ws/install/moveit_ros_planning/lib:/home/user/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/user/ros2_ws/install/moveit_core/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/visualization_msgs/lib:/home/simulations/ros2_sims_ws/install/test_msgs/lib:/home/simulations/ros2_sims_ws/install/example_interfaces/lib:/home/simulations/ros2_sims_ws/install/action_msgs/lib:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/lib:/home/simulations/ros2_sims_ws/install/trajectory_msgs/lib:/home/simulations/ros2_sims_ws/install/stereo_msgs/lib:/home/simulations/ros2_sims_ws/install/std_srvs/lib:/home/simulations/ros2_sims_ws/install/shape_msgs/lib:/home/simulations/ros2_sims_ws/install/sensor_msgs/lib:/home/simulations/ros2_sims_ws/install/nav_msgs/lib:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/lib:/home/simulations/ros2_sims_ws/install/geometry_msgs/lib:/home/simulations/ros2_sims_ws/install/actionlib_msgs/lib:/home/simulations/ros2_sims_ws/install/std_msgs/lib:/home/simulations/ros2_sims_ws/install/statistics_msgs/lib:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/lib:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/lib:/home/simulations/ros2_sims_ws/install/composition_interfaces/lib:/home/simulations/ros2_sims_ws/install/rcl_interfaces/lib:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/lib:/home/simulations/ros2_sims_ws/install/builtin_interfaces/lib:/home/user/ros2_ws/install/simple_grasping/lib:/home/user/ros2_ws/install/robotiq_85_msgs/lib:/home/user/ros2_ws/install/pilz_industrial_motion_planner_testutils/lib:/home/user/ros2_ws/install/pilz_industrial_motion_planner/lib:/home/user/ros2_ws/install/moveit_ros_control_interface/lib:/home/user/ros2_ws/install/moveit_simple_controller_manager/lib:/home/user/ros2_ws/install/moveit_setup_assistant/lib:/home/user/ros2_ws/install/moveit_setup_srdf_plugins/lib:/home/user/ros2_ws/install/moveit_setup_core_plugins/lib:/home/user/ros2_ws/install/moveit_setup_controllers/lib:/home/user/ros2_ws/install/moveit_setup_app_plugins/lib:/home/user/ros2_ws/install/moveit_setup_framework/lib:/home/user/ros2_ws/install/moveit_servo/lib:/home/user/ros2_ws/install/moveit_ros_visualization/lib:/home/user/ros2_ws/install/moveit_hybrid_planning/lib:/home/user/ros2_ws/install/moveit_ros_benchmarks/lib:/home/user/ros2_ws/install/moveit_ros_robot_interaction/lib:/home/user/ros2_ws/install/moveit_ros_perception/lib:/home/user/ros2_ws/install/moveit_planners_ompl/lib:/home/user/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/user/ros2_ws/install/moveit_planners_chomp/lib:/home/user/ros2_ws/install/moveit_chomp_optimizer_adapter/lib:/home/user/ros2_ws/install/chomp_motion_planner/lib:/home/user/ros2_ws/install/gazebo_ros2_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '704566'), ('SLOT_PREFIX', '08dd138d-2bd8-43e9-97f4-98dfd09c5962'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25005'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/home/user/ros2_ws/install/moveit_core/bin:/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin'), ('NODE_VERSION', 'v6.11.2'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.397235] (-) TimerEvent: {}
+[0.497671] (-) TimerEvent: {}
+[0.567206] (moveit2_scripts) StdoutLine: {'line': b'[ 16%] Built target test_trajectory\n'}
+[0.597813] (-) TimerEvent: {}
+[0.670279] (moveit2_scripts) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/test1.dir/src/test.cpp.o\x1b[0m\n'}
+[0.697959] (-) TimerEvent: {}
+[0.798796] (-) TimerEvent: {}
+[0.899623] (-) TimerEvent: {}
+[1.000452] (-) TimerEvent: {}
+[1.100862] (-) TimerEvent: {}
+[1.201295] (-) TimerEvent: {}
+[1.301873] (-) TimerEvent: {}
+[1.402737] (-) TimerEvent: {}
+[1.503757] (-) TimerEvent: {}
+[1.608061] (-) TimerEvent: {}
+[1.709293] (-) TimerEvent: {}
+[1.809692] (-) TimerEvent: {}
+[1.910715] (-) TimerEvent: {}
+[2.011151] (-) TimerEvent: {}
+[2.112172] (-) TimerEvent: {}
+[2.213176] (-) TimerEvent: {}
+[2.313645] (-) TimerEvent: {}
+[2.414165] (-) TimerEvent: {}
+[2.514626] (-) TimerEvent: {}
+[2.615072] (-) TimerEvent: {}
+[2.717538] (-) TimerEvent: {}
+[2.818473] (-) TimerEvent: {}
+[2.919100] (-) TimerEvent: {}
+[3.019538] (-) TimerEvent: {}
+[3.120028] (-) TimerEvent: {}
+[3.220479] (-) TimerEvent: {}
+[3.321761] (-) TimerEvent: {}
+[3.422805] (-) TimerEvent: {}
+[3.523198] (-) TimerEvent: {}
+[3.624164] (-) TimerEvent: {}
+[3.724585] (-) TimerEvent: {}
+[3.825434] (-) TimerEvent: {}
+[3.925877] (-) TimerEvent: {}
+[4.026324] (-) TimerEvent: {}
+[4.127403] (-) TimerEvent: {}
+[4.227870] (-) TimerEvent: {}
+[4.328519] (-) TimerEvent: {}
+[4.429002] (-) TimerEvent: {}
+[4.531195] (-) TimerEvent: {}
+[4.631648] (-) TimerEvent: {}
+[4.732026] (-) TimerEvent: {}
+[4.834966] (-) TimerEvent: {}
+[4.935612] (-) TimerEvent: {}
+[5.036051] (-) TimerEvent: {}
+[5.136490] (-) TimerEvent: {}
+[5.236923] (-) TimerEvent: {}
+[5.337380] (-) TimerEvent: {}
+[5.437866] (-) TimerEvent: {}
+[5.538911] (-) TimerEvent: {}
+[5.639742] (-) TimerEvent: {}
+[5.740165] (-) TimerEvent: {}
+[5.840604] (-) TimerEvent: {}
+[5.941508] (-) TimerEvent: {}
+[6.043832] (-) TimerEvent: {}
+[6.144678] (-) TimerEvent: {}
+[6.245501] (-) TimerEvent: {}
+[6.345952] (-) TimerEvent: {}
+[6.446392] (-) TimerEvent: {}
+[6.546820] (-) TimerEvent: {}
+[6.647343] (-) TimerEvent: {}
+[6.747893] (-) TimerEvent: {}
+[6.848386] (-) TimerEvent: {}
+[6.949638] (-) TimerEvent: {}
+[7.051872] (-) TimerEvent: {}
+[7.152338] (-) TimerEvent: {}
+[7.253182] (-) TimerEvent: {}
+[7.353626] (-) TimerEvent: {}
+[7.454809] (-) TimerEvent: {}
+[7.555729] (-) TimerEvent: {}
+[7.656182] (-) TimerEvent: {}
+[7.756641] (-) TimerEvent: {}
+[7.857038] (-) TimerEvent: {}
+[7.957466] (-) TimerEvent: {}
+[8.058566] (-) TimerEvent: {}
+[8.159596] (-) TimerEvent: {}
+[8.262192] (-) TimerEvent: {}
+[8.362653] (-) TimerEvent: {}
+[8.463111] (-) TimerEvent: {}
+[8.563585] (-) TimerEvent: {}
+[8.664031] (-) TimerEvent: {}
+[8.764434] (-) TimerEvent: {}
+[8.865366] (-) TimerEvent: {}
+[8.965805] (-) TimerEvent: {}
+[9.066228] (-) TimerEvent: {}
+[9.166993] (-) TimerEvent: {}
+[9.268137] (-) TimerEvent: {}
+[9.372146] (-) TimerEvent: {}
+[9.473114] (-) TimerEvent: {}
+[9.573953] (-) TimerEvent: {}
+[9.674754] (-) TimerEvent: {}
+[9.775204] (-) TimerEvent: {}
+[9.875660] (-) TimerEvent: {}
+[9.976144] (-) TimerEvent: {}
+[10.079715] (-) TimerEvent: {}
+[10.106825] (moveit2_scripts) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/moveit2_scripts/src/test.cpp:\x1b[m\x1b[K In function '\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K':\n"}
+[10.107139] (moveit2_scripts) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/moveit2_scripts/src/test.cpp:81:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of '\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface::Plan my_plan\x1b[m\x1b[K'\n"}
+[10.107298] (moveit2_scripts) StderrLine: {'line': b'   81 |   moveit::planning_interface::MoveGroupInterface::Plan \x1b[01;31m\x1b[Kmy_plan\x1b[m\x1b[K;\n'}
+[10.107444] (moveit2_scripts) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.107557] (moveit2_scripts) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/moveit2_scripts/src/test.cpp:53:56:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K'\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface::Plan my_plan\x1b[m\x1b[K' previously declared here\n"}
+[10.107709] (moveit2_scripts) StderrLine: {'line': b'   53 |   moveit::planning_interface::MoveGroupInterface::Plan \x1b[01;36m\x1b[Kmy_plan\x1b[m\x1b[K;\n'}
+[10.107826] (moveit2_scripts) StderrLine: {'line': b'      |                                                        \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.107950] (moveit2_scripts) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/moveit2_scripts/src/test.cpp:83:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of '\x1b[01m\x1b[Kbool success\x1b[m\x1b[K'\n"}
+[10.108068] (moveit2_scripts) StderrLine: {'line': b'   83 |   bool \x1b[01;31m\x1b[Ksuccess\x1b[m\x1b[K =\n'}
+[10.108181] (moveit2_scripts) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.108314] (moveit2_scripts) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/moveit2_scripts/src/test.cpp:55:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K'\x1b[01m\x1b[Kbool success\x1b[m\x1b[K' previously declared here\n"}
+[10.108428] (moveit2_scripts) StderrLine: {'line': b'   55 |   bool \x1b[01;36m\x1b[Ksuccess\x1b[m\x1b[K =\n'}
+[10.108564] (moveit2_scripts) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.179875] (-) TimerEvent: {}
+[10.280323] (-) TimerEvent: {}
+[10.380765] (-) TimerEvent: {}
+[10.481136] (-) TimerEvent: {}
+[10.581559] (-) TimerEvent: {}
+[10.681982] (-) TimerEvent: {}
+[10.782604] (-) TimerEvent: {}
+[10.883477] (-) TimerEvent: {}
+[10.983960] (-) TimerEvent: {}
+[11.085476] (-) TimerEvent: {}
+[11.186553] (-) TimerEvent: {}
+[11.287589] (-) TimerEvent: {}
+[11.388061] (-) TimerEvent: {}
+[11.488779] (-) TimerEvent: {}
+[11.589644] (-) TimerEvent: {}
+[11.690031] (-) TimerEvent: {}
+[11.790511] (-) TimerEvent: {}
+[11.890930] (-) TimerEvent: {}
+[11.991344] (-) TimerEvent: {}
+[12.091743] (-) TimerEvent: {}
+[12.193357] (-) TimerEvent: {}
+[12.293802] (-) TimerEvent: {}
+[12.394201] (-) TimerEvent: {}
+[12.496232] (-) TimerEvent: {}
+[12.596709] (-) TimerEvent: {}
+[12.697171] (-) TimerEvent: {}
+[12.797581] (-) TimerEvent: {}
+[12.897957] (-) TimerEvent: {}
+[12.998453] (-) TimerEvent: {}
+[13.098913] (-) TimerEvent: {}
+[13.199285] (-) TimerEvent: {}
+[13.299845] (-) TimerEvent: {}
+[13.403364] (-) TimerEvent: {}
+[13.503854] (-) TimerEvent: {}
+[13.608960] (-) TimerEvent: {}
+[13.709410] (-) TimerEvent: {}
+[13.809997] (-) TimerEvent: {}
+[13.910436] (-) TimerEvent: {}
+[14.010808] (-) TimerEvent: {}
+[14.111295] (-) TimerEvent: {}
+[14.211801] (-) TimerEvent: {}
+[14.312666] (-) TimerEvent: {}
+[14.413535] (-) TimerEvent: {}
+[14.514298] (-) TimerEvent: {}
+[14.614773] (-) TimerEvent: {}
+[14.715231] (-) TimerEvent: {}
+[14.781742] (moveit2_scripts) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/test1.dir/build.make:76: CMakeFiles/test1.dir/src/test.cpp.o] Error 1\n'}
+[14.782104] (moveit2_scripts) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/test1.dir/all] Error 2\n'}
+[14.782301] (moveit2_scripts) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[14.795461] (moveit2_scripts) CommandEnded: {'returncode': 2}
+[14.815392] (-) TimerEvent: {}
+[14.915753] (-) TimerEvent: {}
+[15.016175] (-) TimerEvent: {}
+[15.116580] (-) TimerEvent: {}
+[15.216894] (-) TimerEvent: {}
+[15.288770] (moveit2_scripts) JobEnded: {'identifier': 'moveit2_scripts', 'rc': 2}
+[15.299639] (-) EventReactorShutdown: {}

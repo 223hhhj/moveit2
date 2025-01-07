@@ -1,0 +1,19 @@
+[0.009s] Invoking command in '/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian -- -j32 -l32
+[0.047s] [35m[1mConsolidate compiler generated dependencies of target ur5_ros2_cartesian[0m
+[0.063s] [ 50%] [32mBuilding CXX object CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o[0m
+[2.531s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In member function ‘[01m[Kvoid UR5Control::setInitialForces()[m[K’:
+[2.531s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:109:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kinitial_forces[m[K’ was not declared in this scope; did you mean ‘[01m[KsetInitialForces[m[K’?
+[2.531s]   109 |         [01;31m[Kinitial_forces[m[K = forces;
+[2.531s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.531s]       |         [32m[KsetInitialForces[m[K
+[2.538s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:110:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kinitial_forces_set[m[K’ was not declared in this scope
+[2.538s]   110 |         [01;31m[Kinitial_forces_set[m[K = true;
+[2.538s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.554s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In member function ‘[01m[Kvoid UR5Control::decelerateAndMove()[m[K’:
+[2.554s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:296:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kinitial_forces_set[m[K’ was not declared in this scope
+[2.554s]   296 |             [01;31m[Kinitial_forces_set[m[K = false;
+[2.554s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.367s] gmake[2]: *** [CMakeFiles/ur5_ros2_cartesian.dir/build.make:76：CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o] 錯誤 1
+[5.367s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ur5_ros2_cartesian.dir/all] 錯誤 2
+[5.367s] gmake: *** [Makefile:146：all] 錯誤 2
+[5.369s] Invoked command in '/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian -- -j32 -l32

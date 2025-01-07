@@ -1,0 +1,57 @@
+[0.008s] Invoking command in '/home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/build/Tutos': /usr/bin/cmake /home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/zed_tutorials -DCMAKE_INSTALL_PREFIX=/home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/install/Tutos
+[0.035s] -- The C compiler identification is GNU 11.4.0
+[0.059s] -- The CXX compiler identification is GNU 11.4.0
+[0.062s] -- Detecting C compiler ABI info
+[0.099s] -- Detecting C compiler ABI info - done
+[0.102s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.102s] -- Detecting C compile features
+[0.102s] -- Detecting C compile features - done
+[0.103s] -- Detecting CXX compiler ABI info
+[0.145s] -- Detecting CXX compiler ABI info - done
+[0.149s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.149s] -- Detecting CXX compile features
+[0.149s] -- Detecting CXX compile features - done
+[0.153s] -- Looking for sgemm_
+[0.189s] -- Looking for sgemm_ - not found
+[0.189s] -- Looking for pthread.h
+[0.227s] -- Looking for pthread.h - found
+[0.227s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.265s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.265s] -- Found Threads: TRUE  
+[0.287s] -- Looking for sgemm_
+[0.343s] -- Looking for sgemm_ - found
+[0.344s] -- Found BLAS: /usr/lib/x86_64-linux-gnu/libopenblas.so  
+[0.365s] -- Found CUDA: /usr/local/cuda-12.3 (found suitable version "12.3", minimum required is "12") 
+[0.813s] -- Configuring done
+[0.820s] -- Generating done
+[0.821s] -- Build files have been written to: /home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/build/Tutos
+[0.824s] Invoked command in '/home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/build/Tutos' returned '0': /usr/bin/cmake /home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/zed_tutorials -DCMAKE_INSTALL_PREFIX=/home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/install/Tutos
+[0.826s] Invoking command in '/home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/build/Tutos': /usr/bin/cmake --build /home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/build/Tutos -- -j32 -l32
+[0.855s] [ 27%] [32mBuilding CXX object tutorial 4 - positional tracking/cpp/CMakeFiles/ZED_Tutorial_4.dir/main.cpp.o[0m
+[0.855s] [ 27%] [32mBuilding CXX object tutorial 5 - spatial mapping/cpp/CMakeFiles/ZED_Tutorial_5.dir/main.cpp.o[0m
+[0.855s] [ 27%] [32mBuilding CXX object tutorial 1 - hello ZED/cpp/CMakeFiles/ZED_Tutorial_1.dir/main.cpp.o[0m
+[0.855s] [ 27%] [32mBuilding CXX object tutorial 3 - depth sensing/cpp/CMakeFiles/ZED_Tutorial_3.dir/main.cpp.o[0m
+[0.855s] [ 27%] [32mBuilding CXX object tutorial 6 - object detection/cpp/CMakeFiles/ZED_Tutorial_6.dir/main.cpp.o[0m
+[0.855s] [ 33%] [32mBuilding CXX object tutorial 7 - sensor data/cpp/CMakeFiles/ZED_Tutorial_7.dir/main.cpp.o[0m
+[0.856s] [ 38%] [32mBuilding CXX object tutorial 8 - body tracking/cpp/CMakeFiles/ZED_Tutorial_8.dir/main.cpp.o[0m
+[0.857s] [ 50%] [32mBuilding CXX object tutorial 2 - image capture/cpp/CMakeFiles/ZED_Tutorial_2.dir/main.cpp.o[0m
+[0.857s] [ 50%] [32mBuilding CXX object tutorial 9 - global localization/cpp/CMakeFiles/ZED_Global_Localization.dir/main.cpp.o[0m
+[1.185s] [ 55%] [32m[1mLinking CXX executable ZED_Tutorial_1[0m
+[1.186s] [ 61%] [32m[1mLinking CXX executable ZED_Tutorial_2[0m
+[1.188s] [ 66%] [32m[1mLinking CXX executable ZED_Tutorial_3[0m
+[1.191s] [ 72%] [32m[1mLinking CXX executable ZED_Tutorial_5[0m
+[1.194s] [ 77%] [32m[1mLinking CXX executable ZED_Tutorial_4[0m
+[1.238s] [ 83%] [32m[1mLinking CXX executable ZED_Tutorial_7[0m
+[1.246s] [ 88%] [32m[1mLinking CXX executable ZED_Tutorial_6[0m
+[1.252s] [ 88%] Built target ZED_Tutorial_2
+[1.257s] [ 88%] Built target ZED_Tutorial_5
+[1.258s] [ 88%] Built target ZED_Tutorial_3
+[1.258s] [ 88%] Built target ZED_Tutorial_1
+[1.260s] [ 88%] Built target ZED_Tutorial_4
+[1.262s] [ 94%] [32m[1mLinking CXX executable ZED_Tutorial_8[0m
+[1.300s] [ 94%] Built target ZED_Tutorial_7
+[1.304s] [ 94%] Built target ZED_Tutorial_6
+[1.319s] [ 94%] Built target ZED_Tutorial_8
+[1.654s] [100%] [32m[1mLinking CXX executable ZED_Global_Localization[0m
+[1.704s] [100%] Built target ZED_Global_Localization
+[1.711s] Invoked command in '/home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/build/Tutos' returned '0': /usr/bin/cmake --build /home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/build/Tutos -- -j32 -l32

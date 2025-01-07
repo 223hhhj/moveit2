@@ -1,0 +1,10 @@
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/pick_place2.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/pick_place2.cpp:194:18:[m[K [01;31m[Kerror: [m[Kassignment of read-only variable '[01m[Kjump_threshold[m[K'
+  194 |   [01;31m[Kjump_threshold = 0.0[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/pick_place2.cpp:195:12:[m[K [01;31m[Kerror: [m[Kassignment of read-only variable '[01m[Keef_step[m[K'
+  195 |   [01;31m[Keef_step = 0.01[m[K;
+      |   [01;31m[K~~~~~~~~~^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/pick_place2.dir/build.make:76: CMakeFiles/pick_place2.dir/src/pick_place2.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:305: CMakeFiles/pick_place2.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,46 @@
+[35m[1mConsolidate compiler generated dependencies of target ur5_ros2_cartesian[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o[0m
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:287:8:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[KX_POSITIVE[m[K’
+  287 |        [01;31m[KX_POSITIVE[m[K,
+      |        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:284:29:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+  284 |    enum class MovementPhase [01;36m[K{[m[K
+      |                             [01;36m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:289:8:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  289 |        [01;31m[KAVERAGE_POSITION[m[K
+      |        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                        [32m[K;[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In constructor ‘[01m[KUR5Control::UR5Control()[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:24:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_phase[m[K’ was not declared in this scope
+   24 |        [01;31m[Kcurrent_phase[m[K = MovementPhase::Z_DOWN;
+      |        [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In member function ‘[01m[Kvoid UR5Control::handlePhaseTransition()[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:142:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_phase[m[K’ was not declared in this scope; did you mean ‘[01m[Kcurrent_pose[m[K’?
+  142 |        switch([01;31m[Kcurrent_phase[m[K) {
+      |               [01;31m[K^~~~~~~~~~~~~[m[K
+      |               [32m[Kcurrent_pose[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:146:47:[m[K [01;31m[Kerror: [m[K‘[01m[KX_POSITIVE[m[K’ is not a member of ‘[01m[KUR5Control::MovementPhase[m[K’
+  146 |                current_phase = MovementPhase::[01;31m[KX_POSITIVE[m[K;
+      |                                               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:155:32:[m[K [01;31m[Kerror: [m[K‘[01m[KX_POSITIVE[m[K’ is not a member of ‘[01m[KUR5Control::MovementPhase[m[K’
+  155 |            case MovementPhase::[01;31m[KX_POSITIVE[m[K:
+      |                                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:158:47:[m[K [01;31m[Kerror: [m[K‘[01m[KX_NEGATIVE[m[K’ is not a member of ‘[01m[KUR5Control::MovementPhase[m[K’
+  158 |                current_phase = MovementPhase::[01;31m[KX_NEGATIVE[m[K;
+      |                                               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:165:32:[m[K [01;31m[Kerror: [m[K‘[01m[KX_NEGATIVE[m[K’ is not a member of ‘[01m[KUR5Control::MovementPhase[m[K’
+  165 |            case MovementPhase::[01;31m[KX_NEGATIVE[m[K:
+      |                                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:169:47:[m[K [01;31m[Kerror: [m[K‘[01m[KAVERAGE_POSITION[m[K’ is not a member of ‘[01m[KUR5Control::MovementPhase[m[K’
+  169 |                current_phase = MovementPhase::[01;31m[KAVERAGE_POSITION[m[K;
+      |                                               [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:172:32:[m[K [01;31m[Kerror: [m[K‘[01m[KAVERAGE_POSITION[m[K’ is not a member of ‘[01m[KUR5Control::MovementPhase[m[K’
+  172 |            case MovementPhase::[01;31m[KAVERAGE_POSITION[m[K:
+      |                                [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K At global scope:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:291:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  291 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/ur5_ros2_cartesian.dir/build.make:76：CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ur5_ros2_cartesian.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

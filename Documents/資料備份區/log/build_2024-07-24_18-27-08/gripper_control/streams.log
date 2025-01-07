@@ -1,0 +1,21 @@
+[0.340s] Invoking command in '/home/steven/Documents/資料備份區/arws-main (參考專案)/src/gripper_control': PYTHONPATH=/home/steven/Documents/資料備份區/build/gripper_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/Documents/資料備份區/install/gripper_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/gripper_control build --build-base /home/steven/Documents/資料備份區/build/gripper_control/build install --record /home/steven/Documents/資料備份區/build/gripper_control/install.log --single-version-externally-managed install_data
+[0.455s] running egg_info
+[0.455s] creating ../../../build/gripper_control/gripper_control.egg-info
+[0.455s] writing ../../../build/gripper_control/gripper_control.egg-info/PKG-INFO
+[0.455s] writing dependency_links to ../../../build/gripper_control/gripper_control.egg-info/dependency_links.txt
+[0.455s] writing entry points to ../../../build/gripper_control/gripper_control.egg-info/entry_points.txt
+[0.455s] writing requirements to ../../../build/gripper_control/gripper_control.egg-info/requires.txt
+[0.455s] writing top-level names to ../../../build/gripper_control/gripper_control.egg-info/top_level.txt
+[0.455s] writing manifest file '../../../build/gripper_control/gripper_control.egg-info/SOURCES.txt'
+[0.456s] reading manifest file '../../../build/gripper_control/gripper_control.egg-info/SOURCES.txt'
+[0.456s] writing manifest file '../../../build/gripper_control/gripper_control.egg-info/SOURCES.txt'
+[0.456s] running build
+[0.456s] running install
+[0.456s] running install_data
+[0.456s] copying package.xml -> /home/steven/Documents/資料備份區/install/gripper_control/share/gripper_control
+[0.456s] running install_egg_info
+[0.457s] Copying ../../../build/gripper_control/gripper_control.egg-info to /home/steven/Documents/資料備份區/install/gripper_control/lib/python3.10/site-packages/gripper_control-0.0.0-py3.10.egg-info
+[0.457s] running install_scripts
+[0.467s] Installing gripper_control_node script to /home/steven/Documents/資料備份區/install/gripper_control/lib/gripper_control
+[0.467s] writing list of installed files to '/home/steven/Documents/資料備份區/build/gripper_control/install.log'
+[0.478s] Invoked command in '/home/steven/Documents/資料備份區/arws-main (參考專案)/src/gripper_control' returned '0': PYTHONPATH=/home/steven/Documents/資料備份區/build/gripper_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/Documents/資料備份區/install/gripper_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/gripper_control build --build-base /home/steven/Documents/資料備份區/build/gripper_control/build install --record /home/steven/Documents/資料備份區/build/gripper_control/install.log --single-version-externally-managed install_data

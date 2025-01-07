@@ -1,0 +1,42 @@
+[ 14%] Built target test_trajectory
+[35m[1mConsolidate compiler generated dependencies of target pick_place2[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/pick_place2.dir/src/pick_place2.cpp.o[0m
+[ 28%] [32m[1mLinking CXX executable pick_place2[0m
+[ 28%] Built target pick_place2
+[35m[1mConsolidate compiler generated dependencies of target test1[0m
+[ 42%] Built target test1
+[35m[1mConsolidate compiler generated dependencies of target pick_place[0m
+[ 57%] Built target pick_place
+[35m[1mConsolidate compiler generated dependencies of target test_trajectory3[0m
+[ 71%] Built target test_trajectory3
+[35m[1mConsolidate compiler generated dependencies of target exec_traj[0m
+[ 85%] Built target exec_traj
+[35m[1mConsolidate compiler generated dependencies of target test_trajectory2[0m
+[100%] Built target test_trajectory2
+-- Install configuration: ""
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory2
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/exec_traj
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory3
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/pick_place
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test1
+-- Installing: /home/user/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/pick_place2
+-- Set runtime path of "/home/user/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/pick_place2" to ""
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/launch
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_trajectory.launch.py
+-- Installing: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/launch/pick_place.launch.py
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/ament_index/resource_index/package_run_dependencies/moveit2_scripts
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/ament_index/resource_index/parent_prefix_path/moveit2_scripts
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/environment/ament_prefix_path.sh
+-- Installing: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/environment/path.sh
+-- Installing: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/environment/path.dsv
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.bash
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.sh
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.zsh
+-- Installing: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.dsv
+-- Installing: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/package.dsv
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/ament_index/resource_index/packages/moveit2_scripts
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/cmake/moveit2_scriptsConfig.cmake
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/cmake/moveit2_scriptsConfig-version.cmake
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/package.xml

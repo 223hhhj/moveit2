@@ -1,0 +1,25 @@
+[ 11%] Built target test_trajectory
+[ 22%] Built target pick_place3
+[35m[1mConsolidate compiler generated dependencies of target test_gripper[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/test_gripper.dir/src/test_gripper.cpp.o[0m
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/test_gripper.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/test_gripper.cpp:42:3:[m[K [01;31m[Kerror: [m[K'[01m[Kmove_group_arm[m[K' was not declared in this scope; did you mean '[01m[Kmove_group_node[m[K'?
+   42 |   [01;31m[Kmove_group_arm[m[K.setJointValueTarget(joint_group_positions_gripper);
+      |   [01;31m[K^~~~~~~~~~~~~~[m[K
+      |   [32m[Kmove_group_node[m[K
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/test_gripper.cpp:56:56:[m[K [01;31m[Kerror: [m[Kredeclaration of '[01m[Kmoveit::planning_interface::MoveGroupInterface::Plan my_plan_gripper[m[K'
+   56 |   moveit::planning_interface::MoveGroupInterface::Plan [01;31m[Kmy_plan_gripper[m[K;
+      |                                                        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/test_gripper.cpp:44:56:[m[K [01;36m[Knote: [m[K'[01m[Kmoveit::planning_interface::MoveGroupInterface::Plan my_plan_gripper[m[K' previously declared here
+   44 |   moveit::planning_interface::MoveGroupInterface::Plan [01;36m[Kmy_plan_gripper[m[K;
+      |                                                        [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/test_gripper.cpp:57:8:[m[K [01;31m[Kerror: [m[Kredeclaration of '[01m[Kbool success_gripper[m[K'
+   57 |   bool [01;31m[Ksuccess_gripper[m[K = (move_group_gripper.plan(my_plan_gripper) ==
+      |        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/test_gripper.cpp:45:8:[m[K [01;36m[Knote: [m[K'[01m[Kbool success_gripper[m[K' previously declared here
+   45 |   bool [01;36m[Ksuccess_gripper[m[K = (move_group_gripper.plan(my_plan_gripper) ==
+      |        [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/test_gripper.cpp:45:8:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Ksuccess_gripper[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+gmake[2]: *** [CMakeFiles/test_gripper.dir/build.make:76: CMakeFiles/test_gripper.dir/src/test_gripper.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:361: CMakeFiles/test_gripper.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

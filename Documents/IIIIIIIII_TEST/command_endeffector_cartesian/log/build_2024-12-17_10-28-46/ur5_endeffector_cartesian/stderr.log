@@ -1,0 +1,74 @@
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:478:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid UR5Control::moveToPose0()[m[K’ cannot be overloaded with ‘[01m[Kvoid UR5Control::moveToPose0()[m[K’
+  478 |     void [01;31m[KmoveToPose0[m[K() {
+      |          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:376:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid UR5Control::moveToPose0()[m[K’
+  376 |     void [01;36m[KmoveToPose0[m[K() {
+      |          [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:594:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  594 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:13:40:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   13 | class UR5Control : public rclcpp::Node [01;36m[K{[m[K
+      |                                        [01;36m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In constructor ‘[01m[KUR5Control::UR5Control()[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:562:11:[m[K [01;35m[Kwarning: [m[K‘[01m[KUR5Control::force_threshold[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  562 |    double [01;35m[Kforce_threshold[m[K;
+      |           [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:551:9:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool UR5Control::is_moving[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  551 |    bool [01;35m[Kis_moving[m[K;
+      |         [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:39:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   39 |     [01;35m[KUR5Control[m[K() : Node("ur5_control"),
+      |     [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:563:11:[m[K [01;35m[Kwarning: [m[K‘[01m[KUR5Control::current_direction_index[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  563 |    size_t [01;35m[Kcurrent_direction_index[m[K;
+      |           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:553:9:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool UR5Control::circle_position_received[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  553 |    bool [01;35m[Kcircle_position_received[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:39:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   39 |     [01;35m[KUR5Control[m[K() : Node("ur5_control"),
+      |     [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:553:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KUR5Control::circle_position_received[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  553 |    bool [01;35m[Kcircle_position_received[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:524:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KUR5Control::State UR5Control::current_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  524 |    State [01;35m[Kcurrent_state[m[K;
+      |          [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:39:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   39 |     [01;35m[KUR5Control[m[K() : Node("ur5_control"),
+      |     [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In member function ‘[01m[Kvoid UR5Control::calculateCenterPose1()[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:339:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose1[m[K’ was not declared in this scope; did you mean ‘[01m[Kpose0[m[K’?
+  339 |         [01;31m[Kpose1[m[K.position.x = (x_positive_pose.position.x + x_negative_pose.position.x) / 2.0;
+      |         [01;31m[K^~~~~[m[K
+      |         [32m[Kpose0[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In member function ‘[01m[Kvoid UR5Control::calculateCenterPose2()[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:365:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose2[m[K’ was not declared in this scope; did you mean ‘[01m[Kpose0[m[K’?
+  365 |         [01;31m[Kpose2[m[K.position.x = (y_positive_pose.position.x + y_negative_pose.position.x) / 2.0;
+      |         [01;31m[K^~~~~[m[K
+      |         [32m[Kpose0[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In lambda function:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:378:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kposes[m[K’ was not declared in this scope; did you mean ‘[01m[Kpose0[m[K’?
+  378 |             move_group->setPoseTarget([01;31m[Kposes[m[K[1]);
+      |                                       [01;31m[K^~~~~[m[K
+      |                                       [32m[Kpose0[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In lambda function:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:388:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose1[m[K’ was not declared in this scope; did you mean ‘[01m[Kpose0[m[K’?
+  388 |             move_group->setPoseTarget([01;31m[Kpose1[m[K);
+      |                                       [01;31m[K^~~~~[m[K
+      |                                       [32m[Kpose0[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In lambda function:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:416:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose2[m[K’ was not declared in this scope; did you mean ‘[01m[Kpose0[m[K’?
+  416 |             move_group->setPoseTarget([01;31m[Kpose2[m[K);
+      |                                       [01;31m[K^~~~~[m[K
+      |                                       [32m[Kpose0[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K At global scope:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:594:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+  594 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:594:2:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kconst char _ZTSZN10UR5Control11moveToPose0EvEUlvE_ [][m[K’
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:594:2:[m[K [01;36m[Knote: [m[K‘[01m[Kconst char _ZTSZN10UR5Control11moveToPose0EvEUlvE_ [36][m[K’ previously defined here
+gmake[2]: *** [CMakeFiles/ur5_ros2_cartesian.dir/build.make:76：CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ur5_ros2_cartesian.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

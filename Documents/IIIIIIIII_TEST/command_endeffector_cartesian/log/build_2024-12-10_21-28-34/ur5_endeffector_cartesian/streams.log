@@ -1,0 +1,37 @@
+[0.008s] Invoking command in '/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian -- -j32 -l32
+[0.058s] [ 50%] [32mBuilding CXX object CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o[0m
+[2.106s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In constructor ‘[01m[KUR5Control::UR5Control()[m[K’:
+[2.106s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:432:12:[m[K [01;35m[Kwarning: [m[K‘[01m[KUR5Control::current_direction_index[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.106s]   432 |     size_t [01;35m[Kcurrent_direction_index[m[K;
+[2.106s]       |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.106s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:431:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool UR5Control::force_control_enabled[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.106s]   431 |     bool [01;35m[Kforce_control_enabled[m[K;
+[2.106s]       |          [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.106s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:14:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.106s]    14 |     [01;35m[KUR5Control[m[K() : Node("ur5_control"),
+[2.106s]       |     [01;35m[K^~~~~~~~~~[m[K
+[5.773s] [100%] [32m[1mLinking CXX executable ur5_ros2_cartesian[0m
+[6.172s] [100%] Built target ur5_ros2_cartesian
+[6.178s] Invoked command in '/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian -- -j32 -l32
+[6.184s] Invoking command in '/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian
+[6.190s] -- Install configuration: ""
+[6.190s] -- Installing: /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/install/ur5_endeffector_cartesian/lib/ur5_endeffector_cartesian/ur5_ros2_cartesian
+[6.192s] -- Set runtime path of "/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/install/ur5_endeffector_cartesian/lib/ur5_endeffector_cartesian/ur5_ros2_cartesian" to ""
+[6.192s] -- Up-to-date: /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/launch
+[6.193s] -- Up-to-date: /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/launch/ur5_ros2_cartesian.launch.py
+[6.193s] -- Up-to-date: /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ament_index/resource_index/package_run_dependencies/ur5_endeffector_cartesian
+[6.193s] -- Up-to-date: /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ament_index/resource_index/parent_prefix_path/ur5_endeffector_cartesian
+[6.193s] -- Up-to-date: /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/environment/ament_prefix_path.sh
+[6.193s] -- Up-to-date: /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/environment/ament_prefix_path.dsv
+[6.193s] -- Up-to-date: /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/environment/path.sh
+[6.193s] -- Up-to-date: /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/environment/path.dsv
+[6.193s] -- Up-to-date: /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/local_setup.bash
+[6.193s] -- Up-to-date: /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/local_setup.sh
+[6.193s] -- Up-to-date: /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/local_setup.zsh
+[6.193s] -- Up-to-date: /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/local_setup.dsv
+[6.193s] -- Installing: /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/package.dsv
+[6.193s] -- Up-to-date: /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ament_index/resource_index/packages/ur5_endeffector_cartesian
+[6.193s] -- Up-to-date: /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/cmake/ur5_endeffector_cartesianConfig.cmake
+[6.193s] -- Up-to-date: /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/cmake/ur5_endeffector_cartesianConfig-version.cmake
+[6.193s] -- Up-to-date: /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/install/ur5_endeffector_cartesian/share/ur5_endeffector_cartesian/package.xml
+[6.194s] Invoked command in '/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian

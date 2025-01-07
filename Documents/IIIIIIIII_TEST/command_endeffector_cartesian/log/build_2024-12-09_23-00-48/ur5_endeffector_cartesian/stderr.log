@@ -1,0 +1,13 @@
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In member function ‘[01m[Kvoid UR5Control::handlePhaseTransition()[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:143:32:[m[K [01;31m[Kerror: [m[K‘[01m[KZ_UP[m[K’ is not a member of ‘[01m[KUR5Control::MovementPhase[m[K’
+  143 |            case MovementPhase::[01;31m[KZ_UP[m[K:
+      |                                [01;31m[K^~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:146:47:[m[K [01;31m[Kerror: [m[K‘[01m[KZ_UP[m[K’ is not a member of ‘[01m[KUR5Control::MovementPhase[m[K’
+  146 |                current_phase = MovementPhase::[01;31m[KZ_UP[m[K;
+      |                                               [01;31m[K^~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:155:32:[m[K [01;31m[Kerror: [m[K‘[01m[KZ_UP[m[K’ is not a member of ‘[01m[KUR5Control::MovementPhase[m[K’
+  155 |            case MovementPhase::[01;31m[KZ_UP[m[K:
+      |                                [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/ur5_ros2_cartesian.dir/build.make:76：CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ur5_ros2_cartesian.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

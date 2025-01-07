@@ -1,0 +1,40 @@
+[35m[1mConsolidate compiler generated dependencies of target ur5_ros2_cartesian[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o[0m
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In function ‘[01m[Kvoid moveWithForceControl(moveit::planning_interface::MoveGroupInterface&, std::shared_ptr<RobotControl>)[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:133:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kbool RobotControl::is_moving_[m[K’ is private within this context
+  133 |         if (!robot_control->[01;31m[Kis_moving_[m[K) {
+      |                             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:124:10:[m[K [01;36m[Knote: [m[Kdeclared private here
+  124 |     bool [01;36m[Kis_moving_[m[K;
+      |          [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:141:49:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2::Vector3 RobotControl::current_direction_[m[K’ is private within this context
+  141 |         tf2::Vector3 direction = robot_control->[01;31m[Kcurrent_direction_[m[K;
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:121:18:[m[K [01;36m[Knote: [m[Kdeclared private here
+  121 |     tf2::Vector3 [01;36m[Kcurrent_direction_[m[K;
+      |                  [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:144:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouble RobotControl::current_velocity_[m[K’ is private within this context
+  144 |         double step = 0.01 * robot_control->[01;31m[Kcurrent_velocity_[m[K;
+      |                                             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:122:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+  122 |     double [01;36m[Kcurrent_velocity_[m[K;
+      |            [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:150:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouble RobotControl::current_velocity_[m[K’ is private within this context
+  150 |         move_group_arm.setMaxVelocityScalingFactor(robot_control->[01;31m[Kcurrent_velocity_[m[K);
+      |                                                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:122:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+  122 |     double [01;36m[Kcurrent_velocity_[m[K;
+      |            [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:151:71:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouble RobotControl::current_acceleration_[m[K’ is private within this context
+  151 |         move_group_arm.setMaxAccelerationScalingFactor(robot_control->[01;31m[Kcurrent_acceleration_[m[K);
+      |                                                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:123:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+  123 |     double [01;36m[Kcurrent_acceleration_[m[K;
+      |            [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In function ‘[01m[Kvoid performMainOperations(moveit::planning_interface::MoveGroupInterface&, rclcpp::Node::SharedPtr, const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&)[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:327:46:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_control_node[m[K’ was not declared in this scope
+  327 |         moveWithForceControl(move_group_arm, [01;31m[Krobot_control_node[m[K);
+      |                                              [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ur5_ros2_cartesian.dir/build.make:76：CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ur5_ros2_cartesian.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

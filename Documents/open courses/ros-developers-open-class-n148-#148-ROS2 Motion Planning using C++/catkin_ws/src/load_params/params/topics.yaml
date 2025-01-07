@@ -1,0 +1,1 @@
+topics: [{topic: /joint_states, type: sensor_msgs/msg/JointState, queue_size: 100}, {topic: /clock, type: rosgraph_msgs/msg/Clock, queue_size: 100}, {topic: /tf_static, type: tf2_msgs/msg/TFMessage, queue_size: 100}, {topic: /tf, type: tf2_msgs/msg/TFMessage, queue_size: 100}]

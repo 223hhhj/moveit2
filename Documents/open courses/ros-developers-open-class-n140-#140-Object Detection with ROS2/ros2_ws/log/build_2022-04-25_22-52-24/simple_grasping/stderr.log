@@ -1,0 +1,20 @@
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+[01m[K/home/user/ros2_ws/src/perception_ros2/simple_grasping/src/cloud_tools.cpp:[m[K In function '[01m[Kvoid simple_grasping::colorizeCloud(pcl::PointCloud<pcl::PointXYZRGB>&, float)[m[K':
+[01m[K/home/user/ros2_ws/src/perception_ros2/simple_grasping/src/cloud_tools.cpp:75:31:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid pcl::getFields(const pcl::PointCloud<PointT>&, std::vector<pcl::PCLPointField>&) [with PointT = pcl::PointXYZRGB][m[K' is deprecated: use getFields<PointT> () with return value instead [[01;35m[K-Wdeprecated-declarations[m[K]
+   75 |   pcl::getFields(cloud, fields[01;35m[K)[m[K;
+      |                               [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.10/pcl/common/io.h:586[m[K,
+                 from [01m[K/home/user/ros2_ws/src/perception_ros2/simple_grasping/src/cloud_tools.cpp:38[m[K:
+[01m[K/usr/include/pcl-1.10/pcl/common/impl/io.hpp:81:1:[m[K [01;36m[Knote: [m[Kdeclared here
+   81 | [01;36m[Kpcl[m[K::getFields (const pcl::PointCloud<PointT> &, std::vector<pcl::PCLPointField> &fields)
+      | [01;36m[K^~~[m[K
+[01m[K/home/user/ros2_ws/src/perception_ros2/simple_grasping/src/cloud_tools.cpp:75:31:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid pcl::getFields(const pcl::PointCloud<PointT>&, std::vector<pcl::PCLPointField>&) [with PointT = pcl::PointXYZRGB][m[K' is deprecated: use getFields<PointT> () with return value instead [[01;35m[K-Wdeprecated-declarations[m[K]
+   75 |   pcl::getFields(cloud, fields[01;35m[K)[m[K;
+      |                               [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.10/pcl/common/io.h:586[m[K,
+                 from [01m[K/home/user/ros2_ws/src/perception_ros2/simple_grasping/src/cloud_tools.cpp:38[m[K:
+[01m[K/usr/include/pcl-1.10/pcl/common/impl/io.hpp:81:1:[m[K [01;36m[Knote: [m[Kdeclared here
+   81 | [01;36m[Kpcl[m[K::getFields (const pcl::PointCloud<PointT> &, std::vector<pcl::PCLPointField> &fields)
+      | [01;36m[K^~~[m[K

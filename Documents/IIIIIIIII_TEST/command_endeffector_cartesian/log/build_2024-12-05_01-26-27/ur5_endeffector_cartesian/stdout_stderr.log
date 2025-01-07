@@ -1,0 +1,29 @@
+[35m[1mConsolidate compiler generated dependencies of target ur5_ros2_cartesian[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o[0m
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:124:18:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Ktf2::Vector3 RobotControl::current_direction_[m[K’
+  124 |     tf2::Vector3 [01;31m[Kcurrent_direction_[m[K;
+      |                  [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:113:18:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Ktf2::Vector3 RobotControl::current_direction_[m[K’
+  113 |     tf2::Vector3 [01;36m[Kcurrent_direction_[m[K;
+      |                  [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:125:12:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble RobotControl::current_velocity_[m[K’
+  125 |     double [01;31m[Kcurrent_velocity_[m[K;
+      |            [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:114:12:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble RobotControl::current_velocity_[m[K’
+  114 |     double [01;36m[Kcurrent_velocity_[m[K;
+      |            [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:126:12:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble RobotControl::current_acceleration_[m[K’
+  126 |     double [01;31m[Kcurrent_acceleration_[m[K;
+      |            [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:115:12:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble RobotControl::current_acceleration_[m[K’
+  115 |     double [01;36m[Kcurrent_acceleration_[m[K;
+      |            [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:127:10:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kbool RobotControl::is_moving_[m[K’
+  127 |     bool [01;31m[Kis_moving_[m[K;
+      |          [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:112:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kbool RobotControl::is_moving_[m[K’
+  112 |     bool [01;36m[Kis_moving_[m[K;
+      |          [01;36m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ur5_ros2_cartesian.dir/build.make:76：CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ur5_ros2_cartesian.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

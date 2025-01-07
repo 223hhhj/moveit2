@@ -1,0 +1,47 @@
+[0.012s] Invoking command in '/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian -- -j32 -l32
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target ur5_ros2_cartesian[0m
+[0.070s] [ 50%] [32mBuilding CXX object CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o[0m
+[2.396s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In constructor ‘[01m[KUR5Control::UR5Control()[m[K’:
+[2.396s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:540:12:[m[K [01;35m[Kwarning: [m[K‘[01m[KUR5Control::current_acceleration[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.396s]   540 |     double [01;35m[Kcurrent_acceleration[m[K;                   // 當前加速度
+[2.396s]       |            [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[2.396s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:534:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble UR5Control::force_threshold[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.396s]   534 |     double [01;35m[Kforce_threshold[m[K;        // 力覺閾值
+[2.397s]       |            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[2.397s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:17:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.397s]    17 |     [01;35m[KUR5Control[m[K() : Node("ur5_control"),
+[2.397s]       |     [01;35m[K^~~~~~~~~~[m[K
+[2.397s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:541:10:[m[K [01;35m[Kwarning: [m[K‘[01m[KUR5Control::is_moving[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.397s]   541 |     bool [01;35m[Kis_moving[m[K;                               // 是否正在移動
+[2.397s]       |          [01;35m[K^~~~~~~~~[m[K
+[2.397s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:533:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool UR5Control::has_base_forces[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.397s]   533 |     bool [01;35m[Khas_base_forces[m[K;          // 是否已記錄基準力值
+[2.397s]       |          [01;35m[K^~~~~~~~~~~~~~~[m[K
+[2.397s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:17:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.397s]    17 |     [01;35m[KUR5Control[m[K() : Node("ur5_control"),
+[2.397s]       |     [01;35m[K^~~~~~~~~~[m[K
+[2.397s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:547:10:[m[K [01;35m[Kwarning: [m[K‘[01m[KUR5Control::target_position_ready[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.397s]   547 |     bool [01;35m[Ktarget_position_ready[m[K;                   // 目標位置是否準備好
+[2.397s]       |          [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.397s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:542:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Ksize_t UR5Control::current_direction_index[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.397s]   542 |     size_t [01;35m[Kcurrent_direction_index[m[K;               // 當前方向索引
+[2.397s]       |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.397s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:17:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.397s]    17 |     [01;35m[KUR5Control[m[K() : Node("ur5_control"),
+[2.397s]       |     [01;35m[K^~~~~~~~~~[m[K
+[2.417s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In member function ‘[01m[Kvoid UR5Control::setInitialForces()[m[K’:
+[2.417s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:109:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kinitial_forces[m[K’ was not declared in this scope; did you mean ‘[01m[KsetInitialForces[m[K’?
+[2.417s]   109 |         [01;31m[Kinitial_forces[m[K = forces;
+[2.417s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.417s]       |         [32m[KsetInitialForces[m[K
+[2.426s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:110:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kinitial_forces_set[m[K’ was not declared in this scope
+[2.426s]   110 |         [01;31m[Kinitial_forces_set[m[K = true;
+[2.426s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.442s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In member function ‘[01m[Kvoid UR5Control::decelerateAndMove()[m[K’:
+[2.443s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:296:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kinitial_forces_set[m[K’ was not declared in this scope
+[2.443s]   296 |             [01;31m[Kinitial_forces_set[m[K = false;
+[2.443s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.224s] gmake[2]: *** [CMakeFiles/ur5_ros2_cartesian.dir/build.make:76：CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o] 錯誤 1
+[5.224s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ur5_ros2_cartesian.dir/all] 錯誤 2
+[5.224s] gmake: *** [Makefile:146：all] 錯誤 2
+[5.227s] Invoked command in '/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian -- -j32 -l32

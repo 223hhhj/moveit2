@@ -1,0 +1,8 @@
+prefix=/home/user/simulation_ws/devel
+
+Name: gazebo_dev_new
+Description: Description of gazebo_dev_new
+Version: 2.5.19
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

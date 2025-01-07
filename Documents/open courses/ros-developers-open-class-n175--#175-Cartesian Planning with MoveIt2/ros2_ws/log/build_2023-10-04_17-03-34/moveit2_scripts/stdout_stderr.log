@@ -1,0 +1,63 @@
+[  9%] Built target test_trajectory
+[ 18%] Built target pick_place3
+[ 27%] Built target test_gripper
+[35m[1mConsolidate compiler generated dependencies of target approach[0m
+[ 36%] Built target approach
+[35m[1mConsolidate compiler generated dependencies of target cartesian_path[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/cartesian_path.dir/src/cartesian_path.cpp.o[0m
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/cartesian_path.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/cartesian_path.cpp:51:8:[m[K [01;35m[Kwarning: [m[Kvariable '[01m[Ksuccess_arm[m[K' set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   51 |   bool [01;35m[Ksuccess_arm[m[K = (move_group_arm.plan(my_plan_arm) ==
+      |        [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/cartesian_path.cpp:88:10:[m[K [01;35m[Kwarning: [m[Kvariable '[01m[Kfraction[m[K' set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   88 |   double [01;35m[Kfraction[m[K = move_group_arm.computeCartesianPath(
+      |          [01;35m[K^~~~~~~~[m[K
+[ 45%] [32m[1mLinking CXX executable cartesian_path[0m
+[ 45%] Built target cartesian_path
+[35m[1mConsolidate compiler generated dependencies of target pick_place2[0m
+[ 54%] Built target pick_place2
+[35m[1mConsolidate compiler generated dependencies of target test1[0m
+[ 63%] Built target test1
+[35m[1mConsolidate compiler generated dependencies of target pick_place[0m
+[ 72%] Built target pick_place
+[35m[1mConsolidate compiler generated dependencies of target test_trajectory3[0m
+[ 81%] Built target test_trajectory3
+[35m[1mConsolidate compiler generated dependencies of target exec_traj[0m
+[ 90%] Built target exec_traj
+[35m[1mConsolidate compiler generated dependencies of target test_trajectory2[0m
+[100%] Built target test_trajectory2
+-- Install configuration: ""
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory2
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/exec_traj
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory3
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/pick_place
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test1
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/pick_place2
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/pick_place3
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_gripper
+-- Installing: /home/user/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/approach
+-- Set runtime path of "/home/user/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/approach" to ""
+-- Installing: /home/user/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/cartesian_path
+-- Set runtime path of "/home/user/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/cartesian_path" to ""
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/launch
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/launch/approach.launch.py
+-- Installing: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/launch/cartesian_path.launch.py
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_trajectory.launch.py
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/launch/pick_place.launch.py
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_gripper.launch.py
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/ament_index/resource_index/package_run_dependencies/moveit2_scripts
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/ament_index/resource_index/parent_prefix_path/moveit2_scripts
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/environment/ament_prefix_path.sh
+-- Installing: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/environment/path.sh
+-- Installing: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/environment/path.dsv
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.bash
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.sh
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.zsh
+-- Installing: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.dsv
+-- Installing: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/package.dsv
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/ament_index/resource_index/packages/moveit2_scripts
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/cmake/moveit2_scriptsConfig.cmake
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/cmake/moveit2_scriptsConfig-version.cmake
+-- Up-to-date: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/package.xml

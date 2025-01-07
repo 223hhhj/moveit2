@@ -1,0 +1,2 @@
+Invoking command in '/home/user/ros2_ws/build/yet_moveit_config': _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/yet_moveit_config -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/yet_moveit_config
+Invoked command in '/home/user/ros2_ws/build/yet_moveit_config' returned '1': _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/yet_moveit_config -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/yet_moveit_config

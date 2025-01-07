@@ -1,0 +1,19 @@
+[0.008s] Invoking command in '/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian -- -j32 -l32
+[0.058s] [ 50%] [32mBuilding CXX object CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o[0m
+[3.349s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In function ‘[01m[Kvoid moveWithCustomSpeed(moveit::planning_interface::MoveGroupInterface&, double, double, double, double, double)[m[K’:
+[3.349s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:208:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::planning_interface::MoveGroupInterface[m[K’ has no member named ‘[01m[KgetMaxVelocityScalingFactor[m[K’; did you mean ‘[01m[KsetMaxVelocityScalingFactor[m[K’?
+[3.349s]   208 |     double original_velocity = move_group_arm.[01;31m[KgetMaxVelocityScalingFactor[m[K();
+[3.349s]       |                                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.349s]       |                                               [32m[KsetMaxVelocityScalingFactor[m[K
+[3.349s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:209:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::planning_interface::MoveGroupInterface[m[K’ has no member named ‘[01m[KgetMaxAccelerationScalingFactor[m[K’; did you mean ‘[01m[KsetMaxAccelerationScalingFactor[m[K’?
+[3.349s]   209 |     double original_acceleration = move_group_arm.[01;31m[KgetMaxAccelerationScalingFactor[m[K();
+[3.349s]       |                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.349s]       |                                                   [32m[KsetMaxAccelerationScalingFactor[m[K
+[3.349s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K At global scope:
+[3.349s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:224:20:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+[3.349s]   224 | moveWithCustomSpeed[01;31m[K([m[Kmove_group_arm, 0.0, -0.3, -0.1, 0.5, 0.5);  // 50%速度和加速度
+[3.349s]       |                    [01;31m[K^[m[K
+[5.430s] gmake[2]: *** [CMakeFiles/ur5_ros2_cartesian.dir/build.make:76：CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o] 錯誤 1
+[5.430s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ur5_ros2_cartesian.dir/all] 錯誤 2
+[5.430s] gmake: *** [Makefile:146：all] 錯誤 2
+[5.432s] Invoked command in '/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian -- -j32 -l32

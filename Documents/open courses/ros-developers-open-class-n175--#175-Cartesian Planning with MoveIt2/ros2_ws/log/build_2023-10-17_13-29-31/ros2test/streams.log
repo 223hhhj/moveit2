@@ -1,0 +1,22 @@
+[10.914s] Invoking command in '/home/user/ros2_ws/src/universal_robot_ros2/ros_testing/ros2test': PYTHONPATH=/home/user/ros2_ws/build/ros2test/prefix_override:/home/user/ros2_ws/install/ros2test/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ros2test build --build-base /home/user/ros2_ws/build/ros2test/build install --record /home/user/ros2_ws/build/ros2test/install.log --single-version-externally-managed
+[12.913s] running egg_info
+[12.988s] writing ../../../../build/ros2test/ros2test.egg-info/PKG-INFO
+[12.989s] writing dependency_links to ../../../../build/ros2test/ros2test.egg-info/dependency_links.txt
+[12.990s] writing entry points to ../../../../build/ros2test/ros2test.egg-info/entry_points.txt
+[12.990s] writing requirements to ../../../../build/ros2test/ros2test.egg-info/requires.txt
+[12.991s] writing top-level names to ../../../../build/ros2test/ros2test.egg-info/top_level.txt
+[12.995s] reading manifest file '../../../../build/ros2test/ros2test.egg-info/SOURCES.txt'
+[13.011s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[13.011s]   warnings.warn(
+[13.011s] writing manifest file '../../../../build/ros2test/ros2test.egg-info/SOURCES.txt'
+[13.011s] running build
+[13.011s] running build_py
+[13.011s] running install
+[13.011s] running install_lib
+[13.015s] running install_data
+[13.117s] running install_egg_info
+[13.118s] removing '/home/user/ros2_ws/install/ros2test/lib/python3.10/site-packages/ros2test-0.4.0-py3.10.egg-info' (and everything under it)
+[13.118s] Copying ../../../../build/ros2test/ros2test.egg-info to /home/user/ros2_ws/install/ros2test/lib/python3.10/site-packages/ros2test-0.4.0-py3.10.egg-info
+[13.122s] running install_scripts
+[13.316s] writing list of installed files to '/home/user/ros2_ws/build/ros2test/install.log'
+[13.508s] Invoked command in '/home/user/ros2_ws/src/universal_robot_ros2/ros_testing/ros2test' returned '0': PYTHONPATH=/home/user/ros2_ws/build/ros2test/prefix_override:/home/user/ros2_ws/install/ros2test/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ros2test build --build-base /home/user/ros2_ws/build/ros2test/build install --record /home/user/ros2_ws/build/ros2test/install.log --single-version-externally-managed

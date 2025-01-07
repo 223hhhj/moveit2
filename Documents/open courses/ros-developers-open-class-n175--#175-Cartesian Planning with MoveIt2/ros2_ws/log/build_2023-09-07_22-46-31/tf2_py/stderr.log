@@ -1,0 +1,13 @@
+In file included from [01m[K/usr/include/python3.10/Python.h:130[m[K,
+                 from [01m[K/home/user/ros2_ws/src/perception_ros2/geometry2/tf2_py/include/python_compat.h:4[m[K,
+                 from [01m[K/home/user/ros2_ws/src/perception_ros2/geometry2/tf2_py/src/tf2_py.cpp:1[m[K:
+[01m[K/home/user/ros2_ws/src/perception_ros2/geometry2/tf2_py/src/tf2_py.cpp:[m[K In function '[01m[KPyObject* transform_converter(const TransformStamped*)[m[K':
+[01m[K/usr/include/python3.10/ceval.h:24:34:[m[K [01;35m[Kwarning: [m[K'[01m[KPyObject* PyEval_CallObjectWithKeywords(PyObject*, PyObject*, PyObject*)[m[K' is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   24 |     [01;35m[KPyEval_CallObjectWithKeywords(callable, arg, (PyObject *)NULL)[m[K
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/perception_ros2/geometry2/tf2_py/src/tf2_py.cpp:99:11:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KPyEval_CallObject[m[K'
+   99 |   pinst = [01;36m[KPyEval_CallObject[m[K(pclass, pargs);
+      |           [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/python3.10/ceval.h:17:43:[m[K [01;36m[Knote: [m[Kdeclared here
+   17 | Py_DEPRECATED(3.9) PyAPI_FUNC(PyObject *) [01;36m[KPyEval_CallObjectWithKeywords[m[K(
+      |                                           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

@@ -1,0 +1,52 @@
+[0.088s] Invoking command in '/home/user/ros2_ws/build/simple_grasping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/ros2test:/home/user/ros2_ws/install/robotiq_85_driver:/home/user/ros2_ws/install/moveit_configs_utils:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/simple_grasping_ros2/simple_grasping -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/simple_grasping
+[0.359s] -- The C compiler identification is GNU 11.3.0
+[0.605s] -- The CXX compiler identification is GNU 11.3.0
+[0.606s] -- Detecting C compiler ABI info
+[0.996s] -- Detecting C compiler ABI info - done
+[1.022s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.022s] -- Detecting C compile features
+[1.022s] -- Detecting C compile features - done
+[1.022s] -- Detecting CXX compiler ABI info
+[1.392s] -- Detecting CXX compiler ABI info - done
+[1.412s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.414s] -- Detecting CXX compile features
+[1.415s] -- Detecting CXX compile features - done
+[2.338s] -- Checking for module 'eigen3'
+[3.161s] --   Found eigen3, version 3.4.0
+[3.521s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[3.521s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[4.439s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[4.696s] -- Checking for module 'flann'
+[4.782s] --   Found flann, version 1.9.1
+[4.995s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[4.995s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[6.236s] -- Looking for pthread.h
+[7.476s] -- Looking for pthread.h - found
+[7.477s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.600s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.601s] -- Found Threads: TRUE  
+[7.606s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[8.125s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[10.864s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[10.864s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[10.993s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[11.148s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[11.319s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[12.620s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[12.981s] -- Found X11: /usr/include   
+[12.982s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[13.913s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[13.914s] -- Looking for gethostbyname
+[14.016s] -- Looking for gethostbyname - found
+[14.016s] -- Looking for connect
+[14.121s] -- Looking for connect - found
+[14.121s] -- Looking for remove
+[14.222s] -- Looking for remove - found
+[14.223s] -- Looking for shmat
+[14.331s] -- Looking for shmat - found
+[14.331s] -- Looking for IceConnectionNumber in ICE
+[14.442s] -- Looking for IceConnectionNumber in ICE - found
+[14.583s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[14.587s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[14.842s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[14.929s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 

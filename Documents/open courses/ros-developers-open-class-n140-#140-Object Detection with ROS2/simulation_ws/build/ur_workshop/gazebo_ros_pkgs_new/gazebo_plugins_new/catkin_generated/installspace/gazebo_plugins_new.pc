@@ -1,0 +1,8 @@
+prefix=/home/user/simulation_ws/install
+
+Name: gazebo_plugins_new
+Description: Description of gazebo_plugins_new
+Version: 2.5.19
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lvision_reconfigure -lgazebo_ros_new_utils -lgazebo_ros_new_camera_utils -lgazebo_ros_new_camera -lgazebo_ros_new_triggered_camera -lgazebo_ros_new_multicamera -lgazebo_ros_new_triggered_multicamera -lgazebo_ros_new_depth_camera -lgazebo_ros_new_openni_kinect -lgazebo_ros_new_gpu_laser -lgazebo_ros_new_laser -lgazebo_ros_new_block_laser -lgazebo_ros_new_p3d -lgazebo_ros_new_imu -lgazebo_ros_new_imu_sensor -lgazebo_ros_new_f3d -lgazebo_ros_new_ft_sensor -lgazebo_ros_new_bumper -lgazebo_ros_new_template -lgazebo_ros_new_projector -lgazebo_ros_new_force -lgazebo_ros_new_joint_trajectory -lgazebo_ros_new_joint_state_publisher -lgazebo_ros_new_joint_pose_trajectory -lgazebo_ros_new_diff_drive -lgazebo_ros_new_tricycle_drive -lgazebo_ros_new_skid_steer_drive -lgazebo_ros_new_video -lgazebo_ros_new_planar_move -lgazebo_ros_new_range -lgazebo_ros_new_vacuum_gripper
+Requires: message_runtime gazebo_msgs_new roscpp rospy nodelet angles std_srvs geometry_msgs sensor_msgs nav_msgs urdf tf tf2_ros dynamic_reconfigure rosgraph_msgs trajectory_msgs image_transport rosconsole camera_info_manager std_msgs

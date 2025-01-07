@@ -1,0 +1,4 @@
+[ 11%] Built target test_trajectory
+[ 22%] Built target pick_place3
+[35m[1mConsolidate compiler generated dependencies of target test_gripper[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/test_gripper.dir/src/test_gripper.cpp.o[0m

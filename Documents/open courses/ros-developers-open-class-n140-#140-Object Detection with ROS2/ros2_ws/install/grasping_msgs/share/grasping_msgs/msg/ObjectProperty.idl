@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from grasping_msgs/msg/ObjectProperty.msg
+// generated code does not contain a copyright notice
+
+
+module grasping_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "##########################################################" "\n"
+      " Other generic properties of an object")
+    struct ObjectProperty {
+      string name;
+
+      string value;
+    };
+  };
+};

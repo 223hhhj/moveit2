@@ -1,0 +1,8 @@
+prefix=/home/user/simulation_ws/devel
+
+Name: gazebo_ros_new_control
+Description: Description of gazebo_ros_new_control
+Version: 2.5.19
+Cflags: -I/home/user/simulation_ws/src/ur_workshop/gazebo_ros_pkgs_new/gazebo_ros_control_new/include
+Libs: -L${prefix}/lib -lgazebo_ros_new_control -ldefault_robot_hw_sim_new
+Requires: roscpp std_msgs controller_manager control_toolbox pluginlib hardware_interface transmission_interface joint_limits_interface urdf angles

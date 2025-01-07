@@ -1,0 +1,247 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.3.7
+-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+-- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+-- Checking for module 'flann'
+--   Found flann, version 1.9.1
+-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+-- The imported target "vtkParseOGLExt" references the file
+   "/usr/bin/vtkParseOGLExt-7.1"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "pvtk" references the file
+   "/usr/bin/pvtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.23
+-- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+-- Found OpenNI: /usr/lib/libOpenNI.so  
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- Found OpenNI2: /usr/lib/libOpenNI2.so  
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+-- Found libusb-1.0: /usr/include  
+** WARNING ** io features related to libusb-1.0 will be disabled
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+-- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- looking for PCL_COMMON
+-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+-- looking for PCL_KDTREE
+-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+-- looking for PCL_OCTREE
+-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+-- looking for PCL_SEARCH
+-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+-- looking for PCL_SAMPLE_CONSENSUS
+-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+-- looking for PCL_FILTERS
+-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+-- looking for PCL_2D
+-- Found PCL_2D: /usr/include/pcl-1.10  
+-- looking for PCL_GEOMETRY
+-- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+-- looking for PCL_IO
+-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+-- looking for PCL_FEATURES
+-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+-- looking for PCL_ML
+-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+-- looking for PCL_SEGMENTATION
+-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+-- looking for PCL_VISUALIZATION
+-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+-- looking for PCL_SURFACE
+-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+-- looking for PCL_REGISTRATION
+-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+-- looking for PCL_KEYPOINTS
+-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+-- looking for PCL_TRACKING
+-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+-- looking for PCL_RECOGNITION
+-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+-- looking for PCL_STEREO
+-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+-- looking for PCL_APPS
+-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+-- looking for PCL_IN_HAND_SCANNER
+-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+-- looking for PCL_POINT_CLOUD_EDITOR
+-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+-- looking for PCL_OUTOFCORE
+-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+-- looking for PCL_PEOPLE
+-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN  
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found grasping_msgs: 0.4.0 (/home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/cmake)
+-- Found pcl_conversions: 2.2.1 (/home/user/ros2_ws/install/pcl_conversions/share/pcl_conversions/cmake)
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found pcl_ros: 2.2.1 (/home/user/ros2_ws/install/pcl_ros/share/pcl_ros/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.3.7") 
+-- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Found ament_cmake_cpplint: 0.9.6 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/user/ros2_ws/build/simple_grasping
+[35m[1mScanning dependencies of target basic_grasping_perception_node[0m
+[  5%] [32mBuilding CXX object CMakeFiles/basic_grasping_perception_node.dir/rclcpp_components/node_main_basic_grasping_perception_node.cpp.o[0m
+[ 10%] [32m[1mLinking CXX executable basic_grasping_perception_node[0m
+[ 10%] Built target basic_grasping_perception_node
+[35m[1mScanning dependencies of target gtest_main[0m
+[ 15%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 21%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 21%] Built target gtest_main
+[35m[1mScanning dependencies of target gtest[0m
+[ 26%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 31%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 31%] Built target gtest
+[35m[1mScanning dependencies of target grasp_planner_node[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/grasp_planner_node.dir/rclcpp_components/node_main_grasp_planner_node.cpp.o[0m
+[ 42%] [32m[1mLinking CXX executable grasp_planner_node[0m
+[ 42%] Built target grasp_planner_node
+[35m[1mScanning dependencies of target simple_grasping[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/simple_grasping.dir/src/cloud_tools.cpp.o[0m
+[01m[K/home/user/ros2_ws/src/perception_ros2/simple_grasping/src/cloud_tools.cpp:[m[K In function '[01m[Kvoid simple_grasping::colorizeCloud(pcl::PointCloud<pcl::PointXYZRGB>&, float)[m[K':
+[01m[K/home/user/ros2_ws/src/perception_ros2/simple_grasping/src/cloud_tools.cpp:75:31:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid pcl::getFields(const pcl::PointCloud<PointT>&, std::vector<pcl::PCLPointField>&) [with PointT = pcl::PointXYZRGB][m[K' is deprecated: use getFields<PointT> () with return value instead [[01;35m[K-Wdeprecated-declarations[m[K]
+   75 |   pcl::getFields(cloud, fields[01;35m[K)[m[K;
+      |                               [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.10/pcl/common/io.h:586[m[K,
+                 from [01m[K/home/user/ros2_ws/src/perception_ros2/simple_grasping/src/cloud_tools.cpp:38[m[K:
+[01m[K/usr/include/pcl-1.10/pcl/common/impl/io.hpp:81:1:[m[K [01;36m[Knote: [m[Kdeclared here
+   81 | [01;36m[Kpcl[m[K::getFields (const pcl::PointCloud<PointT> &, std::vector<pcl::PCLPointField> &fields)
+      | [01;36m[K^~~[m[K
+[01m[K/home/user/ros2_ws/src/perception_ros2/simple_grasping/src/cloud_tools.cpp:75:31:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid pcl::getFields(const pcl::PointCloud<PointT>&, std::vector<pcl::PCLPointField>&) [with PointT = pcl::PointXYZRGB][m[K' is deprecated: use getFields<PointT> () with return value instead [[01;35m[K-Wdeprecated-declarations[m[K]
+   75 |   pcl::getFields(cloud, fields[01;35m[K)[m[K;
+      |                               [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.10/pcl/common/io.h:586[m[K,
+                 from [01m[K/home/user/ros2_ws/src/perception_ros2/simple_grasping/src/cloud_tools.cpp:38[m[K:
+[01m[K/usr/include/pcl-1.10/pcl/common/impl/io.hpp:81:1:[m[K [01;36m[Knote: [m[Kdeclared here
+   81 | [01;36m[Kpcl[m[K::getFields (const pcl::PointCloud<PointT> &, std::vector<pcl::PCLPointField> &fields)
+      | [01;36m[K^~~[m[K
+[ 52%] [32mBuilding CXX object CMakeFiles/simple_grasping.dir/src/shape_grasp_planner.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/simple_grasping.dir/src/shape_extraction.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/simple_grasping.dir/src/object_support_segmentation.cpp.o[0m
+[ 68%] [32m[1mLinking CXX shared library libsimple_grasping.so[0m
+[ 68%] Built target simple_grasping
+[35m[1mScanning dependencies of target basic_grasping_perception[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/basic_grasping_perception.dir/src/basic_grasping_perception.cpp.o[0m
+[ 78%] [32m[1mLinking CXX shared library libbasic_grasping_perception.so[0m
+[ 78%] Built target basic_grasping_perception
+[35m[1mScanning dependencies of target grasp_planner[0m
+[35m[1mScanning dependencies of target simple_grasping_test_shape_extraction[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/simple_grasping_test_shape_extraction.dir/test/test_shape_extraction.cpp.o[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/grasp_planner.dir/src/grasp_planner_node.cpp.o[0m
+[ 94%] [32m[1mLinking CXX executable simple_grasping_test_shape_extraction[0m
+[100%] [32m[1mLinking CXX shared library libgrasp_planner.so[0m
+[100%] Built target grasp_planner
+[100%] Built target simple_grasping_test_shape_extraction
+-- Install configuration: ""
+-- Installing: /home/user/ros2_ws/install/simple_grasping/lib/simple_grasping/basic_grasping_perception_node
+-- Set runtime path of "/home/user/ros2_ws/install/simple_grasping/lib/simple_grasping/basic_grasping_perception_node" to ""
+-- Installing: /home/user/ros2_ws/install/simple_grasping/lib/simple_grasping/grasp_planner_node
+-- Set runtime path of "/home/user/ros2_ws/install/simple_grasping/lib/simple_grasping/grasp_planner_node" to ""
+-- Installing: /home/user/ros2_ws/install/simple_grasping/include
+-- Installing: /home/user/ros2_ws/install/simple_grasping/include/simple_grasping
+-- Installing: /home/user/ros2_ws/install/simple_grasping/include/simple_grasping/shape_extraction.h
+-- Installing: /home/user/ros2_ws/install/simple_grasping/include/simple_grasping/object_support_segmentation.h
+-- Installing: /home/user/ros2_ws/install/simple_grasping/include/simple_grasping/shape_grasp_planner.h
+-- Installing: /home/user/ros2_ws/install/simple_grasping/include/simple_grasping/cloud_tools.h
+-- Installing: /home/user/ros2_ws/install/simple_grasping/lib/simple_grasping/do_perception.py
+-- Installing: /home/user/ros2_ws/install/simple_grasping/lib/libsimple_grasping.so
+-- Set runtime path of "/home/user/ros2_ws/install/simple_grasping/lib/libsimple_grasping.so" to ""
+-- Installing: /home/user/ros2_ws/install/simple_grasping/lib/libbasic_grasping_perception.so
+-- Set runtime path of "/home/user/ros2_ws/install/simple_grasping/lib/libbasic_grasping_perception.so" to ""
+-- Installing: /home/user/ros2_ws/install/simple_grasping/lib/libgrasp_planner.so
+-- Set runtime path of "/home/user/ros2_ws/install/simple_grasping/lib/libgrasp_planner.so" to ""
+-- Installing: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/environment/library_path.sh
+-- Installing: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/environment/library_path.dsv
+-- Installing: /home/user/ros2_ws/install/simple_grasping/share/ament_index/resource_index/package_run_dependencies/simple_grasping
+-- Installing: /home/user/ros2_ws/install/simple_grasping/share/ament_index/resource_index/parent_prefix_path/simple_grasping
+-- Installing: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/environment/ament_prefix_path.sh
+-- Installing: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/environment/ament_prefix_path.dsv
+-- Installing: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/environment/path.sh
+-- Installing: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/environment/path.dsv
+-- Installing: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/local_setup.bash
+-- Installing: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/local_setup.sh
+-- Installing: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/local_setup.zsh
+-- Installing: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/local_setup.dsv
+-- Installing: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/package.dsv
+-- Installing: /home/user/ros2_ws/install/simple_grasping/share/ament_index/resource_index/packages/simple_grasping
+-- Installing: /home/user/ros2_ws/install/simple_grasping/share/ament_index/resource_index/rclcpp_components/simple_grasping
+-- Installing: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/cmake/simple_graspingConfig.cmake
+-- Installing: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/cmake/simple_graspingConfig-version.cmake
+-- Installing: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/package.xml

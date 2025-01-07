@@ -1,0 +1,8 @@
+prefix=/home/user/simulation_ws/devel
+
+Name: gazebo_ros_new
+Description: Description of gazebo_ros_new
+Version: 2.5.19
+Cflags: -I/home/user/simulation_ws/devel/include -I/usr/include
+Libs: -L${prefix}/lib -lgazebo_ros_new_api_plugin -lgazebo_ros_new_paths_plugin /usr/lib/x86_64-linux-gnu/libtinyxml.so
+Requires: roslib roscpp geometry_msgs std_srvs tf rosgraph_msgs dynamic_reconfigure std_msgs gazebo_msgs_new

@@ -1,0 +1,10 @@
+{
+  "package_name": "grasping_msgs",
+  "non_idl_tuples": [
+    "/home/user/ros2_ws/src/perception_ros2/grasping_msgs:action/FindGraspableObjects.action",
+    "/home/user/ros2_ws/src/perception_ros2/grasping_msgs:action/GraspPlanning.action",
+    "/home/user/ros2_ws/src/perception_ros2/grasping_msgs:msg/GraspableObject.msg",
+    "/home/user/ros2_ws/src/perception_ros2/grasping_msgs:msg/Object.msg",
+    "/home/user/ros2_ws/src/perception_ros2/grasping_msgs:msg/ObjectProperty.msg"
+  ]
+}

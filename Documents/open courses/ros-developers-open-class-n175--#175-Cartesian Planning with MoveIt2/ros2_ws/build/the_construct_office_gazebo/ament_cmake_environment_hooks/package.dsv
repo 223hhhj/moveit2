@@ -1,0 +1,4 @@
+source;share/the_construct_office_gazebo/local_setup.bash
+source;share/the_construct_office_gazebo/local_setup.dsv
+source;share/the_construct_office_gazebo/local_setup.sh
+source;share/the_construct_office_gazebo/local_setup.zsh

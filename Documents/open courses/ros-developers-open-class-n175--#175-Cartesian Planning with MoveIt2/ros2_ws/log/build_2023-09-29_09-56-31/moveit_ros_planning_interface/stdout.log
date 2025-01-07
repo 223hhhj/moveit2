@@ -1,0 +1,3 @@
+[ 33%] Built target moveit_planning_scene_interface
+[ 66%] Built target moveit_common_planning_interface_objects
+[100%] Built target moveit_move_group_interface

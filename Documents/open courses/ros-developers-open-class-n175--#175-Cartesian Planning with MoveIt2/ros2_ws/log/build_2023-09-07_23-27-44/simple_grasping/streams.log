@@ -1,0 +1,289 @@
+[0.031s] Invoking command in '/home/user/ros2_ws/build/simple_grasping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/ros2test:/home/user/ros2_ws/install/robotiq_85_driver:/home/user/ros2_ws/install/moveit_configs_utils:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/simple_grasping -- -j8 -l8
+[0.092s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.166s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.604s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.611s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.611s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[0.834s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.842s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.850s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.062s] -- Found Qhull version 8.0.2
+[1.280s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.492s] -- looking for PCL_COMMON
+[1.492s] -- looking for PCL_KDTREE
+[1.493s] -- looking for PCL_OCTREE
+[1.493s] -- looking for PCL_SEARCH
+[1.494s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.494s] -- looking for PCL_FILTERS
+[1.495s] -- looking for PCL_2D
+[1.495s] -- looking for PCL_GEOMETRY
+[1.496s] -- looking for PCL_IO
+[1.496s] -- looking for PCL_FEATURES
+[1.497s] -- looking for PCL_ML
+[1.497s] -- looking for PCL_SEGMENTATION
+[1.498s] -- looking for PCL_VISUALIZATION
+[1.498s] -- looking for PCL_SURFACE
+[1.499s] -- looking for PCL_REGISTRATION
+[1.500s] -- looking for PCL_KEYPOINTS
+[1.500s] -- looking for PCL_TRACKING
+[1.501s] -- looking for PCL_RECOGNITION
+[1.501s] -- looking for PCL_STEREO
+[1.502s] -- looking for PCL_APPS
+[1.503s] -- looking for PCL_IN_HAND_SCANNER
+[1.503s] -- looking for PCL_MODELER
+[1.504s] -- looking for PCL_POINT_CLOUD_EDITOR
+[1.504s] -- looking for PCL_OUTOFCORE
+[1.505s] -- looking for PCL_PEOPLE
+[1.507s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.727s] -- Found geometry_msgs: 4.2.3 (/home/simulations/ros2_sims_ws/install/geometry_msgs/share/geometry_msgs/cmake)
+[1.752s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.755s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.763s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.781s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.805s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.969s] -- Found grasping_msgs: 0.4.0 (/opt/ros/humble/share/grasping_msgs/cmake)
+[3.509s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[3.576s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.582s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.811s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.138s] -- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)
+[4.339s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.341s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.341s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.426s] -- Found ament_cmake_gtest: 1.3.4 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[5.427s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.594s] -- Found ament_cmake_cpplint: 0.12.6 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[5.689s] -- Configuring done
+[5.783s] [33mCMake Warning at CMakeLists.txt:39 (add_library):
+[5.783s]   Cannot generate a safe runtime search path for target simple_grasping
+[5.784s]   because there is a cycle in the constraint graph:
+[5.784s] 
+[5.784s]     dir 0 is [/opt/ros/humble/lib]
+[5.784s]       dir 1 must precede it due to runtime library [libbuiltin_interfaces__rosidl_generator_c.so]
+[5.784s]       dir 2 must precede it due to runtime library [librosgraph_msgs__rosidl_generator_c.so]
+[5.784s]       dir 3 must precede it due to runtime library [libstatistics_msgs__rosidl_generator_c.so]
+[5.785s]       dir 4 must precede it due to runtime library [libsensor_msgs__rosidl_generator_c.so]
+[5.785s]       dir 5 must precede it due to runtime library [libstd_msgs__rosidl_generator_c.so]
+[5.785s]       dir 6 must precede it due to runtime library [libshape_msgs__rosidl_typesupport_fastrtps_c.so]
+[5.785s]       dir 7 must precede it due to runtime library [libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so]
+[5.785s]       dir 8 must precede it due to runtime library [libaction_msgs__rosidl_typesupport_fastrtps_c.so]
+[5.786s]       dir 9 must precede it due to runtime library [libunique_identifier_msgs__rosidl_typesupport_fastrtps_c.so]
+[5.786s]       dir 10 must precede it due to runtime library [libgeometry_msgs__rosidl_typesupport_fastrtps_c.so]
+[5.786s]       dir 11 must precede it due to runtime library [libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so]
+[5.786s]       dir 12 must precede it due to runtime library [librcl_interfaces__rosidl_typesupport_fastrtps_c.so]
+[5.786s]     dir 1 is [/home/simulations/ros2_sims_ws/install/builtin_interfaces/lib]
+[5.786s]       dir 0 must precede it due to runtime library [libbuiltin_interfaces__rosidl_generator_c.so]
+[5.787s]     dir 2 is [/home/simulations/ros2_sims_ws/install/rosgraph_msgs/lib]
+[5.787s]       dir 0 must precede it due to runtime library [librosgraph_msgs__rosidl_generator_c.so]
+[5.787s]     dir 3 is [/home/simulations/ros2_sims_ws/install/statistics_msgs/lib]
+[5.787s]       dir 0 must precede it due to runtime library [libstatistics_msgs__rosidl_generator_c.so]
+[5.787s]     dir 4 is [/home/simulations/ros2_sims_ws/install/sensor_msgs/lib]
+[5.787s]       dir 0 must precede it due to runtime library [libsensor_msgs__rosidl_generator_c.so]
+[5.788s]     dir 5 is [/home/simulations/ros2_sims_ws/install/std_msgs/lib]
+[5.788s]       dir 0 must precede it due to runtime library [libstd_msgs__rosidl_generator_c.so]
+[5.788s]     dir 6 is [/home/simulations/ros2_sims_ws/install/shape_msgs/lib]
+[5.788s]     dir 7 is [/home/simulations/ros2_sims_ws/install/trajectory_msgs/lib]
+[5.788s]     dir 8 is [/home/simulations/ros2_sims_ws/install/action_msgs/lib]
+[5.788s]     dir 9 is [/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/lib]
+[5.789s]     dir 10 is [/home/simulations/ros2_sims_ws/install/geometry_msgs/lib]
+[5.789s]       dir 0 must precede it due to runtime library [libgeometry_msgs__rosidl_generator_c.so]
+[5.789s]     dir 11 is [/home/simulations/ros2_sims_ws/install/composition_interfaces/lib]
+[5.789s]     dir 12 is [/home/simulations/ros2_sims_ws/install/rcl_interfaces/lib]
+[5.789s] 
+[5.789s]   Some of these libraries may not be found correctly.
+[5.790s] 
+[5.790s] [0m
+[5.852s] [33mCMake Warning at CMakeLists.txt:49 (add_library):
+[5.852s]   Cannot generate a safe runtime search path for target
+[5.852s]   basic_grasping_perception because there is a cycle in the constraint graph:
+[5.853s] 
+[5.853s]     dir 0 is [/home/simulations/ros2_sims_ws/install/builtin_interfaces/lib]
+[5.853s]       dir 2 must precede it due to runtime library [libbuiltin_interfaces__rosidl_generator_c.so]
+[5.853s]     dir 1 is [/home/simulations/ros2_sims_ws/install/rosgraph_msgs/lib]
+[5.853s]       dir 2 must precede it due to runtime library [librosgraph_msgs__rosidl_generator_c.so]
+[5.853s]     dir 2 is [/opt/ros/humble/lib]
+[5.853s]       dir 0 must precede it due to runtime library [libbuiltin_interfaces__rosidl_generator_c.so]
+[5.853s]       dir 1 must precede it due to runtime library [librosgraph_msgs__rosidl_generator_c.so]
+[5.853s]       dir 3 must precede it due to runtime library [libstatistics_msgs__rosidl_generator_c.so]
+[5.853s]       dir 4 must precede it due to runtime library [libsensor_msgs__rosidl_generator_c.so]
+[5.854s]       dir 5 must precede it due to runtime library [libstd_msgs__rosidl_generator_c.so]
+[5.854s]       dir 7 must precede it due to runtime library [libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so]
+[5.854s]       dir 8 must precede it due to runtime library [libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so]
+[5.854s]       dir 9 must precede it due to runtime library [libshape_msgs__rosidl_typesupport_fastrtps_c.so]
+[5.854s]       dir 10 must precede it due to runtime library [libgeometry_msgs__rosidl_typesupport_fastrtps_c.so]
+[5.854s]       dir 11 must precede it due to runtime library [libaction_msgs__rosidl_typesupport_fastrtps_c.so]
+[5.854s]       dir 12 must precede it due to runtime library [libunique_identifier_msgs__rosidl_typesupport_fastrtps_c.so]
+[5.854s]       dir 13 must precede it due to runtime library [librcl_interfaces__rosidl_typesupport_fastrtps_c.so]
+[5.854s]     dir 3 is [/home/simulations/ros2_sims_ws/install/statistics_msgs/lib]
+[5.855s]       dir 2 must precede it due to runtime library [libstatistics_msgs__rosidl_generator_c.so]
+[5.855s]     dir 4 is [/home/simulations/ros2_sims_ws/install/sensor_msgs/lib]
+[5.855s]       dir 2 must precede it due to runtime library [libsensor_msgs__rosidl_generator_c.so]
+[5.855s]     dir 5 is [/home/simulations/ros2_sims_ws/install/std_msgs/lib]
+[5.855s]       dir 2 must precede it due to runtime library [libstd_msgs__rosidl_generator_c.so]
+[5.855s]     dir 6 is [/home/user/ros2_ws/build/simple_grasping]
+[5.855s]     dir 7 is [/home/simulations/ros2_sims_ws/install/trajectory_msgs/lib]
+[5.855s]     dir 8 is [/home/simulations/ros2_sims_ws/install/composition_interfaces/lib]
+[5.855s]     dir 9 is [/home/simulations/ros2_sims_ws/install/shape_msgs/lib]
+[5.856s]     dir 10 is [/home/simulations/ros2_sims_ws/install/geometry_msgs/lib]
+[5.856s]       dir 2 must precede it due to runtime library [libgeometry_msgs__rosidl_generator_c.so]
+[5.856s]     dir 11 is [/home/simulations/ros2_sims_ws/install/action_msgs/lib]
+[5.856s]     dir 12 is [/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/lib]
+[5.856s]     dir 13 is [/home/simulations/ros2_sims_ws/install/rcl_interfaces/lib]
+[5.856s] 
+[5.856s]   Some of these libraries may not be found correctly.
+[5.856s] 
+[5.856s] [0m
+[5.923s] [33mCMake Warning at CMakeLists.txt:60 (add_library):
+[5.923s]   Cannot generate a safe runtime search path for target grasp_planner because
+[5.924s]   there is a cycle in the constraint graph:
+[5.924s] 
+[5.924s]     dir 0 is [/home/simulations/ros2_sims_ws/install/builtin_interfaces/lib]
+[5.924s]       dir 2 must precede it due to runtime library [libbuiltin_interfaces__rosidl_generator_c.so]
+[5.924s]     dir 1 is [/home/simulations/ros2_sims_ws/install/rosgraph_msgs/lib]
+[5.924s]       dir 2 must precede it due to runtime library [librosgraph_msgs__rosidl_generator_c.so]
+[5.924s]     dir 2 is [/opt/ros/humble/lib]
+[5.924s]       dir 0 must precede it due to runtime library [libbuiltin_interfaces__rosidl_generator_c.so]
+[5.924s]       dir 1 must precede it due to runtime library [librosgraph_msgs__rosidl_generator_c.so]
+[5.925s]       dir 3 must precede it due to runtime library [libstatistics_msgs__rosidl_generator_c.so]
+[5.925s]       dir 4 must precede it due to runtime library [libsensor_msgs__rosidl_generator_c.so]
+[5.925s]       dir 5 must precede it due to runtime library [libstd_msgs__rosidl_generator_c.so]
+[5.925s]       dir 7 must precede it due to runtime library [libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so]
+[5.925s]       dir 8 must precede it due to runtime library [libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so]
+[5.925s]       dir 9 must precede it due to runtime library [libshape_msgs__rosidl_typesupport_fastrtps_c.so]
+[5.925s]       dir 10 must precede it due to runtime library [libgeometry_msgs__rosidl_typesupport_fastrtps_c.so]
+[5.925s]       dir 11 must precede it due to runtime library [libaction_msgs__rosidl_typesupport_fastrtps_c.so]
+[5.925s]       dir 12 must precede it due to runtime library [libunique_identifier_msgs__rosidl_typesupport_fastrtps_c.so]
+[5.925s]       dir 13 must precede it due to runtime library [librcl_interfaces__rosidl_typesupport_fastrtps_c.so]
+[5.926s]     dir 3 is [/home/simulations/ros2_sims_ws/install/statistics_msgs/lib]
+[5.926s]       dir 2 must precede it due to runtime library [libstatistics_msgs__rosidl_generator_c.so]
+[5.926s]     dir 4 is [/home/simulations/ros2_sims_ws/install/sensor_msgs/lib]
+[5.926s]       dir 2 must precede it due to runtime library [libsensor_msgs__rosidl_generator_c.so]
+[5.926s]     dir 5 is [/home/simulations/ros2_sims_ws/install/std_msgs/lib]
+[5.926s]       dir 2 must precede it due to runtime library [libstd_msgs__rosidl_generator_c.so]
+[5.926s]     dir 6 is [/home/user/ros2_ws/build/simple_grasping]
+[5.926s]     dir 7 is [/home/simulations/ros2_sims_ws/install/trajectory_msgs/lib]
+[5.926s]     dir 8 is [/home/simulations/ros2_sims_ws/install/composition_interfaces/lib]
+[5.926s]     dir 9 is [/home/simulations/ros2_sims_ws/install/shape_msgs/lib]
+[5.927s]     dir 10 is [/home/simulations/ros2_sims_ws/install/geometry_msgs/lib]
+[5.927s]       dir 2 must precede it due to runtime library [libgeometry_msgs__rosidl_generator_c.so]
+[5.927s]     dir 11 is [/home/simulations/ros2_sims_ws/install/action_msgs/lib]
+[5.927s]     dir 12 is [/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/lib]
+[5.927s]     dir 13 is [/home/simulations/ros2_sims_ws/install/rcl_interfaces/lib]
+[5.927s] 
+[5.927s]   Some of these libraries may not be found correctly.
+[5.927s] 
+[5.927s] [0m
+[5.995s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[5.995s]   Cannot generate a safe runtime search path for target
+[5.995s]   simple_grasping_test_shape_extraction because there is a cycle in the
+[5.995s]   constraint graph:
+[5.996s] 
+[5.996s]     dir 0 is [/home/simulations/ros2_sims_ws/install/builtin_interfaces/lib]
+[5.996s]       dir 2 must precede it due to runtime library [libbuiltin_interfaces__rosidl_generator_c.so]
+[5.996s]     dir 1 is [/home/simulations/ros2_sims_ws/install/rosgraph_msgs/lib]
+[5.996s]       dir 2 must precede it due to runtime library [librosgraph_msgs__rosidl_generator_c.so]
+[5.996s]     dir 2 is [/opt/ros/humble/lib]
+[5.996s]       dir 0 must precede it due to runtime library [libbuiltin_interfaces__rosidl_generator_c.so]
+[5.997s]       dir 1 must precede it due to runtime library [librosgraph_msgs__rosidl_generator_c.so]
+[5.997s]       dir 3 must precede it due to runtime library [libstatistics_msgs__rosidl_generator_c.so]
+[5.997s]       dir 4 must precede it due to runtime library [libsensor_msgs__rosidl_generator_c.so]
+[5.997s]       dir 5 must precede it due to runtime library [libstd_msgs__rosidl_generator_c.so]
+[5.997s]       dir 7 must precede it due to runtime library [libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so]
+[5.997s]       dir 8 must precede it due to runtime library [libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so]
+[5.997s]       dir 9 must precede it due to runtime library [libshape_msgs__rosidl_typesupport_fastrtps_c.so]
+[5.997s]       dir 10 must precede it due to runtime library [libgeometry_msgs__rosidl_typesupport_fastrtps_c.so]
+[5.997s]       dir 11 must precede it due to runtime library [libaction_msgs__rosidl_typesupport_fastrtps_c.so]
+[5.997s]       dir 12 must precede it due to runtime library [libunique_identifier_msgs__rosidl_typesupport_fastrtps_c.so]
+[5.997s]       dir 13 must precede it due to runtime library [librcl_interfaces__rosidl_typesupport_fastrtps_c.so]
+[5.998s]     dir 3 is [/home/simulations/ros2_sims_ws/install/statistics_msgs/lib]
+[5.998s]       dir 2 must precede it due to runtime library [libstatistics_msgs__rosidl_generator_c.so]
+[5.998s]     dir 4 is [/home/simulations/ros2_sims_ws/install/sensor_msgs/lib]
+[5.998s]       dir 2 must precede it due to runtime library [libsensor_msgs__rosidl_generator_c.so]
+[5.998s]     dir 5 is [/home/simulations/ros2_sims_ws/install/std_msgs/lib]
+[5.998s]       dir 2 must precede it due to runtime library [libstd_msgs__rosidl_generator_c.so]
+[5.998s]     dir 6 is [/home/user/ros2_ws/build/simple_grasping]
+[5.998s]     dir 7 is [/home/simulations/ros2_sims_ws/install/trajectory_msgs/lib]
+[5.998s]     dir 8 is [/home/simulations/ros2_sims_ws/install/composition_interfaces/lib]
+[5.998s]     dir 9 is [/home/simulations/ros2_sims_ws/install/shape_msgs/lib]
+[5.998s]     dir 10 is [/home/simulations/ros2_sims_ws/install/geometry_msgs/lib]
+[5.999s]       dir 2 must precede it due to runtime library [libgeometry_msgs__rosidl_generator_c.so]
+[5.999s]     dir 11 is [/home/simulations/ros2_sims_ws/install/action_msgs/lib]
+[5.999s]     dir 12 is [/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/lib]
+[5.999s]     dir 13 is [/home/simulations/ros2_sims_ws/install/rcl_interfaces/lib]
+[5.999s] 
+[5.999s]   Some of these libraries may not be found correctly.
+[5.999s] Call Stack (most recent call first):
+[5.999s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[5.999s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[5.999s]   CMakeLists.txt:73 (ament_add_gtest)
+[5.999s] 
+[6.000s] [0m
+[6.003s] -- Generating done
+[6.008s] -- Build files have been written to: /home/user/ros2_ws/build/simple_grasping
+[6.075s] [35m[1mConsolidate compiler generated dependencies of target basic_grasping_perception_node[0m
+[6.079s] [35m[1mConsolidate compiler generated dependencies of target grasp_planner_node[0m
+[6.080s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[6.083s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[6.086s] [35m[1mConsolidate compiler generated dependencies of target simple_grasping[0m
+[6.121s] [ 21%] Built target basic_grasping_perception_node
+[6.122s] [ 21%] Built target gtest_main
+[6.122s] [ 31%] Built target grasp_planner_node
+[6.123s] [ 42%] Built target gtest
+[6.158s] [ 47%] [32mBuilding CXX object CMakeFiles/simple_grasping.dir/src/cloud_tools.cpp.o[0m
+[6.162s] [ 52%] [32mBuilding CXX object CMakeFiles/simple_grasping.dir/src/object_support_segmentation.cpp.o[0m
+[6.163s] [ 57%] [32mBuilding CXX object CMakeFiles/simple_grasping.dir/src/shape_grasp_planner.cpp.o[0m
+[6.167s] [ 63%] [32mBuilding CXX object CMakeFiles/simple_grasping.dir/src/shape_extraction.cpp.o[0m
+[21.649s] [ 68%] [32m[1mLinking CXX shared library libsimple_grasping.so[0m
+[23.920s] [ 68%] Built target simple_grasping
+[23.946s] [35m[1mConsolidate compiler generated dependencies of target simple_grasping_test_shape_extraction[0m
+[23.954s] [35m[1mConsolidate compiler generated dependencies of target grasp_planner[0m
+[23.955s] [35m[1mConsolidate compiler generated dependencies of target basic_grasping_perception[0m
+[23.992s] [ 73%] [32mBuilding CXX object CMakeFiles/simple_grasping_test_shape_extraction.dir/test/test_shape_extraction.cpp.o[0m
+[23.996s] [ 78%] [32mBuilding CXX object CMakeFiles/grasp_planner.dir/src/grasp_planner_node.cpp.o[0m
+[24.035s] [ 84%] [32mBuilding CXX object CMakeFiles/basic_grasping_perception.dir/src/basic_grasping_perception.cpp.o[0m
+[28.724s] [ 89%] [32m[1mLinking CXX executable simple_grasping_test_shape_extraction[0m
+[29.379s] [ 94%] [32m[1mLinking CXX shared library libgrasp_planner.so[0m
+[30.045s] [ 94%] Built target simple_grasping_test_shape_extraction
+[30.313s] [ 94%] Built target grasp_planner
+[44.986s] [100%] [32m[1mLinking CXX shared library libbasic_grasping_perception.so[0m
+[47.154s] [100%] Built target basic_grasping_perception
+[47.171s] Invoked command in '/home/user/ros2_ws/build/simple_grasping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/ros2test:/home/user/ros2_ws/install/robotiq_85_driver:/home/user/ros2_ws/install/moveit_configs_utils:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/simple_grasping -- -j8 -l8
+[47.365s] Invoking command in '/home/user/ros2_ws/build/simple_grasping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/ros2test:/home/user/ros2_ws/install/robotiq_85_driver:/home/user/ros2_ws/install/moveit_configs_utils:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/simple_grasping
+[47.379s] -- Install configuration: ""
+[47.380s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/lib/simple_grasping/basic_grasping_perception_node
+[47.380s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/lib/simple_grasping/grasp_planner_node
+[47.380s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/include
+[47.380s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/include/simple_grasping
+[47.381s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/include/simple_grasping/shape_extraction.h
+[47.381s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/include/simple_grasping/object_support_segmentation.h
+[47.381s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/include/simple_grasping/shape_grasp_planner.h
+[47.381s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/include/simple_grasping/cloud_tools.h
+[47.381s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/lib/simple_grasping/do_perception.py
+[47.381s] -- Installing: /home/user/ros2_ws/install/simple_grasping/lib/libsimple_grasping.so
+[47.392s] -- Set runtime path of "/home/user/ros2_ws/install/simple_grasping/lib/libsimple_grasping.so" to ""
+[47.393s] -- Installing: /home/user/ros2_ws/install/simple_grasping/lib/libbasic_grasping_perception.so
+[47.407s] -- Set runtime path of "/home/user/ros2_ws/install/simple_grasping/lib/libbasic_grasping_perception.so" to ""
+[47.407s] -- Installing: /home/user/ros2_ws/install/simple_grasping/lib/libgrasp_planner.so
+[47.410s] -- Set runtime path of "/home/user/ros2_ws/install/simple_grasping/lib/libgrasp_planner.so" to ""
+[47.410s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/environment/library_path.sh
+[47.410s] -- Installing: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/environment/library_path.dsv
+[47.410s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/share/ament_index/resource_index/package_run_dependencies/simple_grasping
+[47.411s] -- Installing: /home/user/ros2_ws/install/simple_grasping/share/ament_index/resource_index/parent_prefix_path/simple_grasping
+[47.411s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/environment/ament_prefix_path.sh
+[47.411s] -- Installing: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/environment/ament_prefix_path.dsv
+[47.411s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/environment/path.sh
+[47.411s] -- Installing: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/environment/path.dsv
+[47.412s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/local_setup.bash
+[47.412s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/local_setup.sh
+[47.412s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/local_setup.zsh
+[47.412s] -- Installing: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/local_setup.dsv
+[47.412s] -- Installing: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/package.dsv
+[47.412s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/share/ament_index/resource_index/packages/simple_grasping
+[47.413s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/share/ament_index/resource_index/rclcpp_components/simple_grasping
+[47.413s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/cmake/ament_cmake_export_include_directories-extras.cmake
+[47.413s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/cmake/ament_cmake_export_libraries-extras.cmake
+[47.413s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/cmake/ament_cmake_export_dependencies-extras.cmake
+[47.413s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/cmake/simple_graspingConfig.cmake
+[47.414s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/cmake/simple_graspingConfig-version.cmake
+[47.414s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/package.xml
+[47.415s] Invoked command in '/home/user/ros2_ws/build/simple_grasping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/ros2test:/home/user/ros2_ws/install/robotiq_85_driver:/home/user/ros2_ws/install/moveit_configs_utils:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/simple_grasping

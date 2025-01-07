@@ -1,0 +1,603 @@
+[0.000000] (-) TimerEvent: {}
+[0.000711] (moveit2_scripts) JobQueued: {'identifier': 'moveit2_scripts', 'dependencies': OrderedDict()}
+[0.000784] (my_moveit2_config) JobQueued: {'identifier': 'my_moveit2_config', 'dependencies': OrderedDict()}
+[0.000849] (start_bridge) JobQueued: {'identifier': 'start_bridge', 'dependencies': OrderedDict()}
+[0.001784] (ur_e_description) JobQueued: {'identifier': 'ur_e_description', 'dependencies': OrderedDict()}
+[0.002225] (moveit2_scripts) JobStarted: {'identifier': 'moveit2_scripts'}
+[0.027853] (my_moveit2_config) JobStarted: {'identifier': 'my_moveit2_config'}
+[0.037549] (start_bridge) JobStarted: {'identifier': 'start_bridge'}
+[0.056919] (ur_e_description) JobStarted: {'identifier': 'ur_e_description'}
+[0.074913] (moveit2_scripts) JobProgress: {'identifier': 'moveit2_scripts', 'progress': 'cmake'}
+[0.075147] (moveit2_scripts) Command: {'cmd': ['/usr/bin/cmake', '/home/user/ros2_ws/src/moveit2_scripts', '-DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/moveit2_scripts'], 'cwd': '/home/user/ros2_ws/build/moveit2_scripts', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://1_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.1 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=440,driver<441 brand=tesla,driver>=450,driver<451'), ('NCCL_VERSION', '2.7.8'), ('SLOT_OVPN_MASTER_URI', 'http://1_xterm:11311'), ('PWD', '/home/user/ros2_ws/build/moveit2_scripts'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('CUDA_VERSION', '11.1.1'), ('AMENT_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/ur_e_description:/home/user/ros2_ws/install/start_bridge:/home/user/ros2_ws/install/my_moveit2_config:/opt/ros/foxy'), ('CMAKE_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/ur_e_description:/home/user/ros2_ws/install/start_bridge:/home/user/ros2_ws/install/my_moveit2_config:/opt/ros/foxy'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GAZEBO_MASTER_HOSTNAME', '1_xterm'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_xterm:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '569154'), ('SLOT_PREFIX', '3390c423-d7a9-4eae-9659-5443a34f1633'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25012'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/foxy/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SELECTED_ROS_DISTRO', 'foxy'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin'), ('NODE_VERSION', 'v6.11.2'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'foxy'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.078073] (my_moveit2_config) JobProgress: {'identifier': 'my_moveit2_config', 'progress': 'cmake'}
+[0.079236] (my_moveit2_config) JobProgress: {'identifier': 'my_moveit2_config', 'progress': 'build'}
+[0.082999] (my_moveit2_config) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/build/my_moveit2_config', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_ws/build/my_moveit2_config', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://1_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.1 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=440,driver<441 brand=tesla,driver>=450,driver<451'), ('NCCL_VERSION', '2.7.8'), ('SLOT_OVPN_MASTER_URI', 'http://1_xterm:11311'), ('PWD', '/home/user/ros2_ws/build/my_moveit2_config'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('CUDA_VERSION', '11.1.1'), ('AMENT_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/ur_e_description:/home/user/ros2_ws/install/start_bridge:/home/user/ros2_ws/install/my_moveit2_config:/opt/ros/foxy'), ('CMAKE_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/ur_e_description:/home/user/ros2_ws/install/start_bridge:/home/user/ros2_ws/install/my_moveit2_config:/opt/ros/foxy'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GAZEBO_MASTER_HOSTNAME', '1_xterm'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_xterm:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '569154'), ('SLOT_PREFIX', '3390c423-d7a9-4eae-9659-5443a34f1633'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25012'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/foxy/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SELECTED_ROS_DISTRO', 'foxy'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin'), ('NODE_VERSION', 'v6.11.2'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'foxy'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.090407] (start_bridge) JobProgress: {'identifier': 'start_bridge', 'progress': 'cmake'}
+[0.091563] (start_bridge) JobProgress: {'identifier': 'start_bridge', 'progress': 'build'}
+[0.093851] (start_bridge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/build/start_bridge', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_ws/build/start_bridge', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://1_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.1 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=440,driver<441 brand=tesla,driver>=450,driver<451'), ('NCCL_VERSION', '2.7.8'), ('SLOT_OVPN_MASTER_URI', 'http://1_xterm:11311'), ('PWD', '/home/user/ros2_ws/build/start_bridge'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('CUDA_VERSION', '11.1.1'), ('AMENT_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/ur_e_description:/home/user/ros2_ws/install/start_bridge:/home/user/ros2_ws/install/my_moveit2_config:/opt/ros/foxy'), ('CMAKE_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/ur_e_description:/home/user/ros2_ws/install/start_bridge:/home/user/ros2_ws/install/my_moveit2_config:/opt/ros/foxy'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GAZEBO_MASTER_HOSTNAME', '1_xterm'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_xterm:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '569154'), ('SLOT_PREFIX', '3390c423-d7a9-4eae-9659-5443a34f1633'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25012'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/foxy/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SELECTED_ROS_DISTRO', 'foxy'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin'), ('NODE_VERSION', 'v6.11.2'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'foxy'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.099152] (-) TimerEvent: {}
+[0.132780] (ur_e_description) JobProgress: {'identifier': 'ur_e_description', 'progress': 'cmake'}
+[0.133897] (ur_e_description) JobProgress: {'identifier': 'ur_e_description', 'progress': 'build'}
+[0.134342] (ur_e_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/build/ur_e_description', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_ws/build/ur_e_description', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://1_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.1 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=440,driver<441 brand=tesla,driver>=450,driver<451'), ('NCCL_VERSION', '2.7.8'), ('SLOT_OVPN_MASTER_URI', 'http://1_xterm:11311'), ('PWD', '/home/user/ros2_ws/build/ur_e_description'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('CUDA_VERSION', '11.1.1'), ('AMENT_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/ur_e_description:/home/user/ros2_ws/install/start_bridge:/home/user/ros2_ws/install/my_moveit2_config:/opt/ros/foxy'), ('CMAKE_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/ur_e_description:/home/user/ros2_ws/install/start_bridge:/home/user/ros2_ws/install/my_moveit2_config:/opt/ros/foxy'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GAZEBO_MASTER_HOSTNAME', '1_xterm'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_xterm:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '569154'), ('SLOT_PREFIX', '3390c423-d7a9-4eae-9659-5443a34f1633'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25012'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/foxy/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SELECTED_ROS_DISTRO', 'foxy'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin'), ('NODE_VERSION', 'v6.11.2'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'foxy'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.163725] (my_moveit2_config) CommandEnded: {'returncode': 0}
+[0.199396] (-) TimerEvent: {}
+[0.204501] (start_bridge) CommandEnded: {'returncode': 0}
+[0.224390] (my_moveit2_config) JobProgress: {'identifier': 'my_moveit2_config', 'progress': 'install'}
+[0.233732] (moveit2_scripts) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.250869] (my_moveit2_config) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/ros2_ws/build/my_moveit2_config'], 'cwd': '/home/user/ros2_ws/build/my_moveit2_config', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://1_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.1 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=440,driver<441 brand=tesla,driver>=450,driver<451'), ('NCCL_VERSION', '2.7.8'), ('SLOT_OVPN_MASTER_URI', 'http://1_xterm:11311'), ('PWD', '/home/user/ros2_ws/build/my_moveit2_config'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('CUDA_VERSION', '11.1.1'), ('AMENT_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/ur_e_description:/home/user/ros2_ws/install/start_bridge:/home/user/ros2_ws/install/my_moveit2_config:/opt/ros/foxy'), ('CMAKE_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/ur_e_description:/home/user/ros2_ws/install/start_bridge:/home/user/ros2_ws/install/my_moveit2_config:/opt/ros/foxy'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GAZEBO_MASTER_HOSTNAME', '1_xterm'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_xterm:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '569154'), ('SLOT_PREFIX', '3390c423-d7a9-4eae-9659-5443a34f1633'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25012'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/foxy/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SELECTED_ROS_DISTRO', 'foxy'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin'), ('NODE_VERSION', 'v6.11.2'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'foxy'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.255422] (ur_e_description) CommandEnded: {'returncode': 0}
+[0.264423] (my_moveit2_config) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.265164] (my_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_moveit2_config/share/ament_index/resource_index/package_run_dependencies/my_moveit2_config\n'}
+[0.265424] (my_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_moveit2_config/share/ament_index/resource_index/parent_prefix_path/my_moveit2_config\n'}
+[0.266526] (my_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_moveit2_config/share/my_moveit2_config/environment/ament_prefix_path.sh\n'}
+[0.266773] (my_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_moveit2_config/share/my_moveit2_config/environment/ament_prefix_path.dsv\n'}
+[0.267242] (my_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_moveit2_config/share/my_moveit2_config/environment/path.sh\n'}
+[0.267476] (my_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_moveit2_config/share/my_moveit2_config/environment/path.dsv\n'}
+[0.267714] (my_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_moveit2_config/share/my_moveit2_config/local_setup.bash\n'}
+[0.267941] (my_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_moveit2_config/share/my_moveit2_config/local_setup.sh\n'}
+[0.268156] (my_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_moveit2_config/share/my_moveit2_config/local_setup.zsh\n'}
+[0.268365] (my_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_moveit2_config/share/my_moveit2_config/local_setup.dsv\n'}
+[0.268566] (my_moveit2_config) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_moveit2_config/share/my_moveit2_config/package.dsv\n'}
+[0.268768] (my_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_moveit2_config/share/ament_index/resource_index/packages/my_moveit2_config\n'}
+[0.268986] (my_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_moveit2_config/share/my_moveit2_config/cmake/my_moveit2_configConfig.cmake\n'}
+[0.269212] (my_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_moveit2_config/share/my_moveit2_config/cmake/my_moveit2_configConfig-version.cmake\n'}
+[0.269570] (my_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_moveit2_config/share/my_moveit2_config/package.xml\n'}
+[0.269914] (my_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_moveit2_config/share/my_moveit2_config/config\n'}
+[0.270168] (my_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_moveit2_config/share/my_moveit2_config/config/ros_controllers.yaml\n'}
+[0.270366] (my_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_moveit2_config/share/my_moveit2_config/config/chomp_planning.yaml\n'}
+[0.270560] (my_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_moveit2_config/share/my_moveit2_config/config/sensors_3d.yaml\n'}
+[0.270784] (my_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_moveit2_config/share/my_moveit2_config/config/cartesian_limits.yaml\n'}
+[0.270986] (my_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_moveit2_config/share/my_moveit2_config/config/kinematics.yaml\n'}
+[0.271196] (my_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_moveit2_config/share/my_moveit2_config/config/ur3e.srdf\n'}
+[0.271758] (my_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_moveit2_config/share/my_moveit2_config/config/ompl_planning.yaml\n'}
+[0.272142] (my_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_moveit2_config/share/my_moveit2_config/config/joint_limits.yaml\n'}
+[0.272445] (my_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_moveit2_config/share/my_moveit2_config/config/fake_controllers.yaml\n'}
+[0.272830] (my_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_moveit2_config/share/my_moveit2_config/config/controllers.yaml\n'}
+[0.273022] (my_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_moveit2_config/share/my_moveit2_config/launch\n'}
+[0.273369] (my_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_moveit2_config/share/my_moveit2_config/launch/my_planning_execution.launch.py\n'}
+[0.273632] (my_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_moveit2_config/share/my_moveit2_config/rviz\n'}
+[0.273871] (my_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_moveit2_config/share/my_moveit2_config/rviz/view_robot.rviz\n'}
+[0.287739] (my_moveit2_config) CommandEnded: {'returncode': 0}
+[0.300378] (-) TimerEvent: {}
+[0.322885] (start_bridge) JobProgress: {'identifier': 'start_bridge', 'progress': 'install'}
+[0.325816] (start_bridge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/ros2_ws/build/start_bridge'], 'cwd': '/home/user/ros2_ws/build/start_bridge', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://1_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.1 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=440,driver<441 brand=tesla,driver>=450,driver<451'), ('NCCL_VERSION', '2.7.8'), ('SLOT_OVPN_MASTER_URI', 'http://1_xterm:11311'), ('PWD', '/home/user/ros2_ws/build/start_bridge'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('CUDA_VERSION', '11.1.1'), ('AMENT_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/ur_e_description:/home/user/ros2_ws/install/start_bridge:/home/user/ros2_ws/install/my_moveit2_config:/opt/ros/foxy'), ('CMAKE_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/ur_e_description:/home/user/ros2_ws/install/start_bridge:/home/user/ros2_ws/install/my_moveit2_config:/opt/ros/foxy'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GAZEBO_MASTER_HOSTNAME', '1_xterm'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_xterm:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '569154'), ('SLOT_PREFIX', '3390c423-d7a9-4eae-9659-5443a34f1633'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25012'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/foxy/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SELECTED_ROS_DISTRO', 'foxy'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin'), ('NODE_VERSION', 'v6.11.2'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'foxy'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.342618] (start_bridge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.343064] (start_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/start_bridge/share/start_bridge/launch\n'}
+[0.343282] (start_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/start_bridge/share/start_bridge/launch/start_bridge.launch.py\n'}
+[0.343570] (start_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/start_bridge/share/ament_index/resource_index/package_run_dependencies/start_bridge\n'}
+[0.343924] (start_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/start_bridge/share/ament_index/resource_index/parent_prefix_path/start_bridge\n'}
+[0.344169] (start_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/start_bridge/share/start_bridge/environment/ament_prefix_path.sh\n'}
+[0.344341] (start_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/start_bridge/share/start_bridge/environment/ament_prefix_path.dsv\n'}
+[0.344498] (start_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/start_bridge/share/start_bridge/environment/path.sh\n'}
+[0.344659] (start_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/start_bridge/share/start_bridge/environment/path.dsv\n'}
+[0.345131] (start_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/start_bridge/share/start_bridge/local_setup.bash\n'}
+[0.345324] (start_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/start_bridge/share/start_bridge/local_setup.sh\n'}
+[0.345505] (start_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/start_bridge/share/start_bridge/local_setup.zsh\n'}
+[0.345728] (start_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/start_bridge/share/start_bridge/local_setup.dsv\n'}
+[0.346135] (start_bridge) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/start_bridge/share/start_bridge/package.dsv\n'}
+[0.346343] (start_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/start_bridge/share/ament_index/resource_index/packages/start_bridge\n'}
+[0.346519] (start_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/start_bridge/share/start_bridge/cmake/start_bridgeConfig.cmake\n'}
+[0.350824] (start_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/start_bridge/share/start_bridge/cmake/start_bridgeConfig-version.cmake\n'}
+[0.351163] (start_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/start_bridge/share/start_bridge/package.xml\n'}
+[0.351875] (start_bridge) CommandEnded: {'returncode': 0}
+[0.352874] (moveit2_scripts) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.359349] (moveit2_scripts) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.372552] (ur_e_description) JobProgress: {'identifier': 'ur_e_description', 'progress': 'install'}
+[0.375345] (ur_e_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/ros2_ws/build/ur_e_description'], 'cwd': '/home/user/ros2_ws/build/ur_e_description', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://1_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.1 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=440,driver<441 brand=tesla,driver>=450,driver<451'), ('NCCL_VERSION', '2.7.8'), ('SLOT_OVPN_MASTER_URI', 'http://1_xterm:11311'), ('PWD', '/home/user/ros2_ws/build/ur_e_description'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('CUDA_VERSION', '11.1.1'), ('AMENT_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/ur_e_description:/home/user/ros2_ws/install/start_bridge:/home/user/ros2_ws/install/my_moveit2_config:/opt/ros/foxy'), ('CMAKE_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/ur_e_description:/home/user/ros2_ws/install/start_bridge:/home/user/ros2_ws/install/my_moveit2_config:/opt/ros/foxy'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GAZEBO_MASTER_HOSTNAME', '1_xterm'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_xterm:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '569154'), ('SLOT_PREFIX', '3390c423-d7a9-4eae-9659-5443a34f1633'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25012'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/foxy/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SELECTED_ROS_DISTRO', 'foxy'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin'), ('NODE_VERSION', 'v6.11.2'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'foxy'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.394989] (ur_e_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.396029] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/launch\n'}
+[0.396680] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/launch/ur3e_upload.launch\n'}
+[0.396937] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/launch/ur5e_upload.launch\n'}
+[0.397537] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/launch/view_ur3e.launch\n'}
+[0.397742] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/launch/ur10e_upload.launch\n'}
+[0.398228] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/launch/view_ur5e.launch\n'}
+[0.398904] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/launch/view_ur10e.launch\n'}
+[0.399263] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/urdf\n'}
+[0.399594] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/urdf/ur.transmission.xacro\n'}
+[0.399992] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/urdf/ur3e_joint_limited_robot.urdf.xacro\n'}
+[0.420182] (-) TimerEvent: {}
+[0.420683] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/urdf/ur3e_robot_moveit.urdf.xacro\n'}
+[0.420948] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/urdf/ur.gazebo.xacro\n'}
+[0.421701] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/urdf/ur10e.urdf.xacro\n'}
+[0.422176] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/urdf/common.gazebo.xacro\n'}
+[0.422396] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/urdf/ur3e.urdf.xacro\n'}
+[0.423405] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/urdf/rg2_gripper.urdf.xacro\n'}
+[0.423639] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/urdf/ur5e_robot.urdf.xacro\n'}
+[0.423920] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/urdf/ur5e.urdf.xacro\n'}
+[0.424268] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/urdf/ur3e_robot.urdf.xacro\n'}
+[0.425062] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/urdf/ur10e_robot.urdf.xacro\n'}
+[0.425273] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/urdf/ur5e_joint_limited_robot.urdf.xacro\n'}
+[0.425454] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/urdf/egh_gripper.urdf.xacro\n'}
+[0.425799] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/urdf/ur10e_joint_limited_robot.urdf.xacro\n'}
+[0.426662] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes\n'}
+[0.426910] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/egh_base.stl\n'}
+[0.427134] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/rg2_base.stl\n'}
+[0.427319] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur10e\n'}
+[0.428166] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur10e/collision\n'}
+[0.428499] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur10e/collision/upperarm.stl\n'}
+[0.428701] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur10e/collision/wrist1.stl\n'}
+[0.428950] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur10e/collision/wrist3.stl\n'}
+[0.437473] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur10e/collision/base.stl\n'}
+[0.437719] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur10e/collision/shoulder.stl\n'}
+[0.437971] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur10e/collision/forearm.stl\n'}
+[0.438181] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur10e/collision/wrist2.stl\n'}
+[0.438613] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur10e/visual\n'}
+[0.438828] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur10e/visual/base.dae\n'}
+[0.439092] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur10e/visual/wrist3.dae\n'}
+[0.439313] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur10e/visual/upperarm.dae\n'}
+[0.439508] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur10e/visual/wrist2.dae\n'}
+[0.439948] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur10e/visual/forearm.dae\n'}
+[0.440169] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur10e/visual/wrist1.dae\n'}
+[0.440433] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur10e/visual/shoulder.dae\n'}
+[0.440670] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/rg2_left_finger.stl\n'}
+[0.440924] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur5e\n'}
+[0.449504] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur5e/collision\n'}
+[0.449705] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur5e/collision/upperarm.stl\n'}
+[0.449950] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur5e/collision/wrist1.stl\n'}
+[0.450172] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur5e/collision/wrist3.stl\n'}
+[0.450401] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur5e/collision/base.stl\n'}
+[0.450590] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur5e/collision/shoulder.stl\n'}
+[0.450864] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur5e/collision/forearm.stl\n'}
+[0.451125] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur5e/collision/wrist2.stl\n'}
+[0.451341] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur5e/visual\n'}
+[0.451556] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur5e/visual/base.dae\n'}
+[0.451826] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur5e/visual/wrist3.dae\n'}
+[0.452059] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur5e/visual/upperarm.dae\n'}
+[0.452279] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur5e/visual/wrist2.dae\n'}
+[0.452504] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur5e/visual/forearm.dae\n'}
+[0.452684] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur5e/visual/wrist1.dae\n'}
+[0.452881] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur5e/visual/shoulder.dae\n'}
+[0.453094] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/egh_finger.stl\n'}
+[0.453291] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur3e\n'}
+[0.453500] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur3e/collision\n'}
+[0.453684] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur3e/collision/upperarm.stl\n'}
+[0.453964] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur3e/collision/wrist1.stl\n'}
+[0.454197] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur3e/collision/wrist3.stl\n'}
+[0.454428] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur3e/collision/base.stl\n'}
+[0.454654] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur3e/collision/shoulder.stl\n'}
+[0.457153] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur3e/collision/forearm.stl\n'}
+[0.457388] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur3e/collision/wrist2.stl\n'}
+[0.457620] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur3e/visual\n'}
+[0.457853] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur3e/visual/base.dae\n'}
+[0.462755] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur3e/visual/wrist3.dae\n'}
+[0.463227] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur3e/visual/upperarm.dae\n'}
+[0.463486] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur3e/visual/wrist2.dae\n'}
+[0.463721] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur3e/visual/forearm.dae\n'}
+[0.463998] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur3e/visual/wrist1.dae\n'}
+[0.464227] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur3e/visual/shoulder.dae\n'}
+[0.464495] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/rg2_left_thumb.stl\n'}
+[0.464738] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ament_index/resource_index/package_run_dependencies/ur_e_description\n'}
+[0.465024] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ament_index/resource_index/parent_prefix_path/ur_e_description\n'}
+[0.465285] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/environment/ament_prefix_path.sh\n'}
+[0.468029] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/environment/ament_prefix_path.dsv\n'}
+[0.468231] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/environment/path.sh\n'}
+[0.468438] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/environment/path.dsv\n'}
+[0.468813] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/local_setup.bash\n'}
+[0.469038] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/local_setup.sh\n'}
+[0.469246] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/local_setup.zsh\n'}
+[0.469452] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/local_setup.dsv\n'}
+[0.469799] (ur_e_description) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/package.dsv\n'}
+[0.470074] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ament_index/resource_index/packages/ur_e_description\n'}
+[0.470278] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/cmake/ur_e_descriptionConfig.cmake\n'}
+[0.470457] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/cmake/ur_e_descriptionConfig-version.cmake\n'}
+[0.471664] (ur_e_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/package.xml\n'}
+[0.471911] (my_moveit2_config) JobEnded: {'identifier': 'my_moveit2_config', 'rc': 0}
+[0.474263] (ur_e_description) CommandEnded: {'returncode': 0}
+[0.516322] (start_bridge) JobEnded: {'identifier': 'start_bridge', 'rc': 0}
+[0.520351] (-) TimerEvent: {}
+[0.560833] (moveit2_scripts) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.562851] (moveit2_scripts) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.582497] (ur_e_description) JobEnded: {'identifier': 'ur_e_description', 'rc': 0}
+[0.620515] (-) TimerEvent: {}
+[0.714356] (moveit2_scripts) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.720674] (-) TimerEvent: {}
+[0.730639] (moveit2_scripts) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.731243] (moveit2_scripts) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.734739] (moveit2_scripts) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.820840] (-) TimerEvent: {}
+[0.888744] (moveit2_scripts) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.891038] (moveit2_scripts) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.921022] (-) TimerEvent: {}
+[1.021563] (-) TimerEvent: {}
+[1.079450] (moveit2_scripts) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.104698] (moveit2_scripts) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.105516] (moveit2_scripts) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.112813] (moveit2_scripts) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.121726] (-) TimerEvent: {}
+[1.174297] (moveit2_scripts) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.174746] (moveit2_scripts) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.221900] (-) TimerEvent: {}
+[1.322368] (-) TimerEvent: {}
+[1.422846] (-) TimerEvent: {}
+[1.525413] (-) TimerEvent: {}
+[1.625927] (-) TimerEvent: {}
+[1.699859] (moveit2_scripts) StdoutLine: {'line': b'-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.726104] (-) TimerEvent: {}
+[1.826589] (-) TimerEvent: {}
+[1.927113] (-) TimerEvent: {}
+[1.958326] (moveit2_scripts) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.993729] (moveit2_scripts) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.027314] (-) TimerEvent: {}
+[2.127790] (-) TimerEvent: {}
+[2.228254] (-) TimerEvent: {}
+[2.328729] (-) TimerEvent: {}
+[2.422925] (moveit2_scripts) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[2.428890] (-) TimerEvent: {}
+[2.529254] (-) TimerEvent: {}
+[2.612376] (moveit2_scripts) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[2.629429] (-) TimerEvent: {}
+[2.729750] (-) TimerEvent: {}
+[2.830119] (-) TimerEvent: {}
+[2.910076] (moveit2_scripts) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.930325] (-) TimerEvent: {}
+[3.030792] (-) TimerEvent: {}
+[3.126411] (moveit2_scripts) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[3.130957] (-) TimerEvent: {}
+[3.136633] (moveit2_scripts) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.141463] (moveit2_scripts) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.231157] (-) TimerEvent: {}
+[3.293312] (moveit2_scripts) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.293640] (moveit2_scripts) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.331328] (-) TimerEvent: {}
+[3.431787] (-) TimerEvent: {}
+[3.478788] (moveit2_scripts) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[3.479304] (moveit2_scripts) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[3.531967] (-) TimerEvent: {}
+[3.599168] (moveit2_scripts) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[3.599598] (moveit2_scripts) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[3.632144] (-) TimerEvent: {}
+[3.731241] (moveit2_scripts) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[3.732273] (-) TimerEvent: {}
+[3.733112] (moveit2_scripts) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.832461] (-) TimerEvent: {}
+[3.932970] (-) TimerEvent: {}
+[4.033478] (-) TimerEvent: {}
+[4.133933] (-) TimerEvent: {}
+[4.234403] (-) TimerEvent: {}
+[4.288886] (moveit2_scripts) StdoutLine: {'line': b'-- Found rclcpp_action: 2.4.0 (/opt/ros/foxy/share/rclcpp_action/cmake)\n'}
+[4.334487] (-) TimerEvent: {}
+[4.434955] (-) TimerEvent: {}
+[4.535373] (-) TimerEvent: {}
+[4.542422] (moveit2_scripts) StdoutLine: {'line': b'-- Found moveit_core: 2.2.1 (/opt/ros/foxy/share/moveit_core/cmake)\n'}
+[4.635548] (-) TimerEvent: {}
+[4.736017] (-) TimerEvent: {}
+[4.836565] (-) TimerEvent: {}
+[4.937075] (-) TimerEvent: {}
+[4.979223] (moveit2_scripts) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[5.037257] (-) TimerEvent: {}
+[5.137880] (-) TimerEvent: {}
+[5.239058] (-) TimerEvent: {}
+[5.339542] (-) TimerEvent: {}
+[5.439998] (-) TimerEvent: {}
+[5.540470] (-) TimerEvent: {}
+[5.615022] (moveit2_scripts) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[5.640656] (-) TimerEvent: {}
+[5.741093] (-) TimerEvent: {}
+[5.841623] (-) TimerEvent: {}
+[5.942064] (-) TimerEvent: {}
+[6.013030] (moveit2_scripts) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[6.042245] (-) TimerEvent: {}
+[6.142728] (-) TimerEvent: {}
+[6.243252] (-) TimerEvent: {}
+[6.343730] (-) TimerEvent: {}
+[6.444281] (-) TimerEvent: {}
+[6.544765] (-) TimerEvent: {}
+[6.645247] (-) TimerEvent: {}
+[6.745678] (-) TimerEvent: {}
+[6.846730] (-) TimerEvent: {}
+[6.947493] (-) TimerEvent: {}
+[7.048307] (-) TimerEvent: {}
+[7.148778] (-) TimerEvent: {}
+[7.249235] (-) TimerEvent: {}
+[7.349691] (-) TimerEvent: {}
+[7.450465] (-) TimerEvent: {}
+[7.551469] (-) TimerEvent: {}
+[7.651949] (-) TimerEvent: {}
+[7.752443] (-) TimerEvent: {}
+[7.852934] (-) TimerEvent: {}
+[7.953443] (-) TimerEvent: {}
+[8.055016] (-) TimerEvent: {}
+[8.155534] (-) TimerEvent: {}
+[8.256076] (-) TimerEvent: {}
+[8.356569] (-) TimerEvent: {}
+[8.457006] (-) TimerEvent: {}
+[8.557532] (-) TimerEvent: {}
+[8.657931] (-) TimerEvent: {}
+[8.758399] (-) TimerEvent: {}
+[8.858773] (-) TimerEvent: {}
+[8.959229] (-) TimerEvent: {}
+[9.060938] (-) TimerEvent: {}
+[9.161435] (-) TimerEvent: {}
+[9.262304] (-) TimerEvent: {}
+[9.362753] (-) TimerEvent: {}
+[9.463441] (-) TimerEvent: {}
+[9.563899] (-) TimerEvent: {}
+[9.582791] (moveit2_scripts) StdoutLine: {'line': b'-- Found moveit_ros_planning: 2.2.1 (/opt/ros/foxy/share/moveit_ros_planning/cmake)\n'}
+[9.593379] (moveit2_scripts) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread chrono \n'}
+[9.664069] (-) TimerEvent: {}
+[9.764555] (-) TimerEvent: {}
+[9.865037] (-) TimerEvent: {}
+[9.965575] (-) TimerEvent: {}
+[10.066186] (-) TimerEvent: {}
+[10.166618] (-) TimerEvent: {}
+[10.183778] (moveit2_scripts) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread \n'}
+[10.266706] (-) TimerEvent: {}
+[10.367181] (-) TimerEvent: {}
+[10.467660] (-) TimerEvent: {}
+[10.568095] (-) TimerEvent: {}
+[10.668566] (-) TimerEvent: {}
+[10.769049] (-) TimerEvent: {}
+[10.869520] (-) TimerEvent: {}
+[10.969941] (-) TimerEvent: {}
+[11.070348] (-) TimerEvent: {}
+[11.170772] (-) TimerEvent: {}
+[11.271191] (-) TimerEvent: {}
+[11.287783] (moveit2_scripts) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.2.1 (/opt/ros/foxy/share/moveit_ros_planning_interface/cmake)\n'}
+[11.293556] (moveit2_scripts) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  \n'}
+[11.304362] (moveit2_scripts) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: date_time filesystem program_options system thread \n'}
+[11.371384] (-) TimerEvent: {}
+[11.471836] (-) TimerEvent: {}
+[11.572249] (-) TimerEvent: {}
+[11.672686] (-) TimerEvent: {}
+[11.773094] (-) TimerEvent: {}
+[11.873504] (-) TimerEvent: {}
+[11.973957] (-) TimerEvent: {}
+[11.998269] (moveit2_scripts) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread system filesystem regex date_time program_options \n'}
+[12.074089] (-) TimerEvent: {}
+[12.174516] (-) TimerEvent: {}
+[12.274972] (-) TimerEvent: {}
+[12.375401] (-) TimerEvent: {}
+[12.475883] (-) TimerEvent: {}
+[12.576326] (-) TimerEvent: {}
+[12.676797] (-) TimerEvent: {}
+[12.696030] (moveit2_scripts) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread \n'}
+[12.776986] (-) TimerEvent: {}
+[12.877475] (-) TimerEvent: {}
+[12.978000] (-) TimerEvent: {}
+[13.078488] (-) TimerEvent: {}
+[13.179002] (-) TimerEvent: {}
+[13.279491] (-) TimerEvent: {}
+[13.380023] (-) TimerEvent: {}
+[13.480490] (-) TimerEvent: {}
+[13.580903] (-) TimerEvent: {}
+[13.681414] (-) TimerEvent: {}
+[13.781993] (-) TimerEvent: {}
+[13.861288] (moveit2_scripts) StdoutLine: {'line': b'-- Found interactive_markers: 2.1.3 (/opt/ros/foxy/share/interactive_markers/cmake)\n'}
+[13.882171] (-) TimerEvent: {}
+[13.919682] (moveit2_scripts) StdoutLine: {'line': b'-- Found control_msgs: 2.5.1 (/opt/ros/foxy/share/control_msgs/cmake)\n'}
+[13.982273] (-) TimerEvent: {}
+[14.082711] (-) TimerEvent: {}
+[14.183113] (-) TimerEvent: {}
+[14.283583] (-) TimerEvent: {}
+[14.371416] (moveit2_scripts) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[14.383701] (-) TimerEvent: {}
+[14.484123] (-) TimerEvent: {}
+[14.538218] (moveit2_scripts) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[14.541425] (moveit2_scripts) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[14.542086] (moveit2_scripts) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/user/ros2_ws/src/moveit2_scripts/include\n'}
+[14.542366] (moveit2_scripts) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[14.544655] (moveit2_scripts) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[14.544973] (moveit2_scripts) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[14.546038] (moveit2_scripts) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[14.547561] (moveit2_scripts) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[14.548821] (moveit2_scripts) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[14.551257] (moveit2_scripts) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[14.551494] (moveit2_scripts) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[14.553278] (moveit2_scripts) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[14.565990] (moveit2_scripts) StdoutLine: {'line': b'-- Configuring done\n'}
+[14.584288] (-) TimerEvent: {}
+[14.684811] (-) TimerEvent: {}
+[14.785284] (-) TimerEvent: {}
+[14.863816] (moveit2_scripts) StdoutLine: {'line': b'-- Generating done\n'}
+[14.867087] (moveit2_scripts) StdoutLine: {'line': b'-- Build files have been written to: /home/user/ros2_ws/build/moveit2_scripts\n'}
+[14.885500] (-) TimerEvent: {}
+[14.887401] (moveit2_scripts) CommandEnded: {'returncode': 0}
+[14.892348] (moveit2_scripts) JobProgress: {'identifier': 'moveit2_scripts', 'progress': 'build'}
+[14.892534] (moveit2_scripts) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/build/moveit2_scripts', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_ws/build/moveit2_scripts', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://1_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.1 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=440,driver<441 brand=tesla,driver>=450,driver<451'), ('NCCL_VERSION', '2.7.8'), ('SLOT_OVPN_MASTER_URI', 'http://1_xterm:11311'), ('PWD', '/home/user/ros2_ws/build/moveit2_scripts'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('CUDA_VERSION', '11.1.1'), ('AMENT_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/ur_e_description:/home/user/ros2_ws/install/start_bridge:/home/user/ros2_ws/install/my_moveit2_config:/opt/ros/foxy'), ('CMAKE_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/ur_e_description:/home/user/ros2_ws/install/start_bridge:/home/user/ros2_ws/install/my_moveit2_config:/opt/ros/foxy'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GAZEBO_MASTER_HOSTNAME', '1_xterm'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_xterm:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '569154'), ('SLOT_PREFIX', '3390c423-d7a9-4eae-9659-5443a34f1633'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25012'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/foxy/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SELECTED_ROS_DISTRO', 'foxy'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin'), ('NODE_VERSION', 'v6.11.2'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'foxy'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[14.985679] (-) TimerEvent: {}
+[14.986830] (moveit2_scripts) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target test_trajectory\x1b[0m\n'}
+[15.085767] (-) TimerEvent: {}
+[15.186201] (-) TimerEvent: {}
+[15.286577] (-) TimerEvent: {}
+[15.386983] (-) TimerEvent: {}
+[15.487450] (-) TimerEvent: {}
+[15.587937] (-) TimerEvent: {}
+[15.688422] (-) TimerEvent: {}
+[15.788872] (-) TimerEvent: {}
+[15.889267] (-) TimerEvent: {}
+[15.989709] (-) TimerEvent: {}
+[16.090196] (-) TimerEvent: {}
+[16.190617] (-) TimerEvent: {}
+[16.291027] (-) TimerEvent: {}
+[16.391544] (-) TimerEvent: {}
+[16.491964] (-) TimerEvent: {}
+[16.593665] (-) TimerEvent: {}
+[16.694169] (-) TimerEvent: {}
+[16.794507] (-) TimerEvent: {}
+[16.894993] (-) TimerEvent: {}
+[16.995483] (-) TimerEvent: {}
+[17.095965] (-) TimerEvent: {}
+[17.196476] (-) TimerEvent: {}
+[17.296924] (-) TimerEvent: {}
+[17.397259] (-) TimerEvent: {}
+[17.498408] (-) TimerEvent: {}
+[17.598905] (-) TimerEvent: {}
+[17.699466] (-) TimerEvent: {}
+[17.799903] (-) TimerEvent: {}
+[17.900321] (-) TimerEvent: {}
+[18.003931] (-) TimerEvent: {}
+[18.104351] (-) TimerEvent: {}
+[18.205911] (-) TimerEvent: {}
+[18.306395] (-) TimerEvent: {}
+[18.406890] (-) TimerEvent: {}
+[18.507411] (-) TimerEvent: {}
+[18.607854] (-) TimerEvent: {}
+[18.708337] (-) TimerEvent: {}
+[18.808813] (-) TimerEvent: {}
+[18.909321] (-) TimerEvent: {}
+[19.009808] (-) TimerEvent: {}
+[19.110323] (-) TimerEvent: {}
+[19.211169] (-) TimerEvent: {}
+[19.311656] (-) TimerEvent: {}
+[19.412175] (-) TimerEvent: {}
+[19.512603] (-) TimerEvent: {}
+[19.613026] (-) TimerEvent: {}
+[19.625603] (moveit2_scripts) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/test_trajectory.dir/src/test_trajectory.cpp.o\x1b[0m\n'}
+[19.713198] (-) TimerEvent: {}
+[19.813601] (-) TimerEvent: {}
+[19.914058] (-) TimerEvent: {}
+[20.015124] (-) TimerEvent: {}
+[20.115586] (-) TimerEvent: {}
+[20.216079] (-) TimerEvent: {}
+[20.316700] (-) TimerEvent: {}
+[20.417230] (-) TimerEvent: {}
+[20.517906] (-) TimerEvent: {}
+[20.619400] (-) TimerEvent: {}
+[20.720513] (-) TimerEvent: {}
+[20.821767] (-) TimerEvent: {}
+[20.923588] (-) TimerEvent: {}
+[21.024096] (-) TimerEvent: {}
+[21.125286] (-) TimerEvent: {}
+[21.225798] (-) TimerEvent: {}
+[21.326322] (-) TimerEvent: {}
+[21.426860] (-) TimerEvent: {}
+[21.527430] (-) TimerEvent: {}
+[21.627917] (-) TimerEvent: {}
+[21.728369] (-) TimerEvent: {}
+[21.828831] (-) TimerEvent: {}
+[21.929363] (-) TimerEvent: {}
+[22.029834] (-) TimerEvent: {}
+[22.130322] (-) TimerEvent: {}
+[22.230798] (-) TimerEvent: {}
+[22.331346] (-) TimerEvent: {}
+[22.431880] (-) TimerEvent: {}
+[22.532781] (-) TimerEvent: {}
+[22.633209] (-) TimerEvent: {}
+[22.733607] (-) TimerEvent: {}
+[22.834096] (-) TimerEvent: {}
+[22.934569] (-) TimerEvent: {}
+[23.035092] (-) TimerEvent: {}
+[23.135462] (-) TimerEvent: {}
+[23.236521] (-) TimerEvent: {}
+[23.336916] (-) TimerEvent: {}
+[23.437388] (-) TimerEvent: {}
+[23.537860] (-) TimerEvent: {}
+[23.638428] (-) TimerEvent: {}
+[23.739314] (-) TimerEvent: {}
+[23.839794] (-) TimerEvent: {}
+[23.940237] (-) TimerEvent: {}
+[24.040711] (-) TimerEvent: {}
+[24.141182] (-) TimerEvent: {}
+[24.241653] (-) TimerEvent: {}
+[24.342051] (-) TimerEvent: {}
+[24.442477] (-) TimerEvent: {}
+[24.542874] (-) TimerEvent: {}
+[24.645706] (-) TimerEvent: {}
+[24.746200] (-) TimerEvent: {}
+[24.847030] (-) TimerEvent: {}
+[24.947564] (-) TimerEvent: {}
+[25.048031] (-) TimerEvent: {}
+[25.148388] (-) TimerEvent: {}
+[25.249551] (-) TimerEvent: {}
+[25.251712] (moveit2_scripts) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/moveit2_scripts/src/test_trajectory.cpp:\x1b[m\x1b[K In member function '\x1b[01m\x1b[Kvoid TestTrajectory::plan_arm_joint_space()\x1b[m\x1b[K':\n"}
+[25.252143] (moveit2_scripts) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/moveit2_scripts/src/test_trajectory.cpp:64:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable '\x1b[01m\x1b[Ksuccess_arm\x1b[m\x1b[K' [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n"}
+[25.252475] (moveit2_scripts) StderrLine: {'line': b'   64 |     bool \x1b[01;35m\x1b[Ksuccess_arm\x1b[m\x1b[K = (move_group_arm.plan(my_plan_arm) ==\n'}
+[25.252788] (moveit2_scripts) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.349907] (-) TimerEvent: {}
+[25.450507] (-) TimerEvent: {}
+[25.550988] (-) TimerEvent: {}
+[25.651961] (-) TimerEvent: {}
+[25.752882] (-) TimerEvent: {}
+[25.853378] (-) TimerEvent: {}
+[25.953884] (-) TimerEvent: {}
+[26.054337] (-) TimerEvent: {}
+[26.154799] (-) TimerEvent: {}
+[26.255289] (-) TimerEvent: {}
+[26.356553] (-) TimerEvent: {}
+[26.457076] (-) TimerEvent: {}
+[26.557547] (-) TimerEvent: {}
+[26.658057] (-) TimerEvent: {}
+[26.758549] (-) TimerEvent: {}
+[26.859051] (-) TimerEvent: {}
+[26.959545] (-) TimerEvent: {}
+[27.060739] (-) TimerEvent: {}
+[27.161242] (-) TimerEvent: {}
+[27.261669] (-) TimerEvent: {}
+[27.362142] (-) TimerEvent: {}
+[27.462554] (-) TimerEvent: {}
+[27.564489] (-) TimerEvent: {}
+[27.664958] (-) TimerEvent: {}
+[27.767998] (-) TimerEvent: {}
+[27.868779] (-) TimerEvent: {}
+[27.969316] (-) TimerEvent: {}
+[28.070070] (-) TimerEvent: {}
+[28.170520] (-) TimerEvent: {}
+[28.270955] (-) TimerEvent: {}
+[28.371581] (-) TimerEvent: {}
+[28.472571] (-) TimerEvent: {}
+[28.573095] (-) TimerEvent: {}
+[28.673563] (-) TimerEvent: {}
+[28.773997] (-) TimerEvent: {}
+[28.874444] (-) TimerEvent: {}
+[28.974891] (-) TimerEvent: {}
+[29.077180] (-) TimerEvent: {}
+[29.177690] (-) TimerEvent: {}
+[29.278157] (-) TimerEvent: {}
+[29.378595] (-) TimerEvent: {}
+[29.479054] (-) TimerEvent: {}
+[29.579505] (-) TimerEvent: {}
+[29.679971] (-) TimerEvent: {}
+[29.780548] (-) TimerEvent: {}
+[29.881019] (-) TimerEvent: {}
+[29.937148] (moveit2_scripts) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable test_trajectory\x1b[0m\n'}
+[29.981184] (-) TimerEvent: {}
+[30.081645] (-) TimerEvent: {}
+[30.182148] (-) TimerEvent: {}
+[30.282684] (-) TimerEvent: {}
+[30.383238] (-) TimerEvent: {}
+[30.483639] (-) TimerEvent: {}
+[30.584087] (-) TimerEvent: {}
+[30.684514] (-) TimerEvent: {}
+[30.784949] (-) TimerEvent: {}
+[30.885453] (-) TimerEvent: {}
+[30.985886] (-) TimerEvent: {}
+[31.086356] (-) TimerEvent: {}
+[31.186837] (-) TimerEvent: {}
+[31.299232] (-) TimerEvent: {}
+[31.399706] (-) TimerEvent: {}
+[31.500099] (-) TimerEvent: {}
+[31.600551] (-) TimerEvent: {}
+[31.701003] (-) TimerEvent: {}
+[31.801473] (-) TimerEvent: {}
+[31.901936] (-) TimerEvent: {}
+[32.002358] (-) TimerEvent: {}
+[32.102755] (-) TimerEvent: {}
+[32.134344] (moveit2_scripts) StdoutLine: {'line': b'[100%] Built target test_trajectory\n'}
+[32.153889] (moveit2_scripts) CommandEnded: {'returncode': 0}
+[32.202998] (-) TimerEvent: {}
+[32.232370] (moveit2_scripts) JobProgress: {'identifier': 'moveit2_scripts', 'progress': 'install'}
+[32.235207] (moveit2_scripts) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/ros2_ws/build/moveit2_scripts'], 'cwd': '/home/user/ros2_ws/build/moveit2_scripts', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://1_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.1 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=440,driver<441 brand=tesla,driver>=450,driver<451'), ('NCCL_VERSION', '2.7.8'), ('SLOT_OVPN_MASTER_URI', 'http://1_xterm:11311'), ('PWD', '/home/user/ros2_ws/build/moveit2_scripts'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('CUDA_VERSION', '11.1.1'), ('AMENT_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/ur_e_description:/home/user/ros2_ws/install/start_bridge:/home/user/ros2_ws/install/my_moveit2_config:/opt/ros/foxy'), ('CMAKE_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/ur_e_description:/home/user/ros2_ws/install/start_bridge:/home/user/ros2_ws/install/my_moveit2_config:/opt/ros/foxy'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GAZEBO_MASTER_HOSTNAME', '1_xterm'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_xterm:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '569154'), ('SLOT_PREFIX', '3390c423-d7a9-4eae-9659-5443a34f1633'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25012'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/foxy/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SELECTED_ROS_DISTRO', 'foxy'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin'), ('NODE_VERSION', 'v6.11.2'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'foxy'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[32.249486] (moveit2_scripts) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[32.249871] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory\n'}
+[32.250814] (moveit2_scripts) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory" to ""\n'}
+[32.251159] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/launch\n'}
+[32.251435] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_trajectory.launch.py\n'}
+[32.251657] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/moveit2_scripts/share/ament_index/resource_index/package_run_dependencies/moveit2_scripts\n'}
+[32.252067] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/moveit2_scripts/share/ament_index/resource_index/parent_prefix_path/moveit2_scripts\n'}
+[32.252400] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/environment/ament_prefix_path.sh\n'}
+[32.252661] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/environment/ament_prefix_path.dsv\n'}
+[32.252960] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/environment/path.sh\n'}
+[32.253291] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/environment/path.dsv\n'}
+[32.253591] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.bash\n'}
+[32.254100] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.sh\n'}
+[32.254325] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.zsh\n'}
+[32.254831] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.dsv\n'}
+[32.255055] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/package.dsv\n'}
+[32.255312] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/moveit2_scripts/share/ament_index/resource_index/packages/moveit2_scripts\n'}
+[32.255660] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/cmake/moveit2_scriptsConfig.cmake\n'}
+[32.255977] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/cmake/moveit2_scriptsConfig-version.cmake\n'}
+[32.256177] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/package.xml\n'}
+[32.258731] (moveit2_scripts) CommandEnded: {'returncode': 0}
+[32.303213] (-) TimerEvent: {}
+[32.359903] (moveit2_scripts) JobEnded: {'identifier': 'moveit2_scripts', 'rc': 0}
+[32.361421] (-) EventReactorShutdown: {}

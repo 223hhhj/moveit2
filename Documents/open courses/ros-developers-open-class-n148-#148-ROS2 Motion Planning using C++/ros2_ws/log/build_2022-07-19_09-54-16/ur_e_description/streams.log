@@ -1,0 +1,122 @@
+[0.022s] Invoking command in '/home/user/ros2_ws/build/ur_e_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/ur3e_ros2_description/ur_e_description -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/ur_e_description
+[3.552s] -- The C compiler identification is GNU 9.3.0
+[3.684s] -- The CXX compiler identification is GNU 9.3.0
+[3.767s] -- Check for working C compiler: /usr/bin/cc
+[3.868s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.869s] -- Detecting C compiler ABI info
+[3.963s] -- Detecting C compiler ABI info - done
+[3.976s] -- Detecting C compile features
+[4.070s] -- Detecting C compile features - done
+[4.074s] -- Check for working CXX compiler: /usr/bin/c++
+[4.165s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.167s] -- Detecting CXX compiler ABI info
+[4.265s] -- Detecting CXX compiler ABI info - done
+[4.278s] -- Detecting CXX compile features
+[4.279s] -- Detecting CXX compile features - done
+[4.299s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.432s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.433s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.015s] -- Configuring done
+[5.018s] -- Generating done
+[5.019s] -- Build files have been written to: /home/user/ros2_ws/build/ur_e_description
+[5.023s] Invoked command in '/home/user/ros2_ws/build/ur_e_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/ur3e_ros2_description/ur_e_description -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/ur_e_description
+[5.027s] Invoking command in '/home/user/ros2_ws/build/ur_e_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/ur_e_description -- -j8 -l8
+[5.072s] Invoked command in '/home/user/ros2_ws/build/ur_e_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/ur_e_description -- -j8 -l8
+[5.122s] Invoking command in '/home/user/ros2_ws/build/ur_e_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/ur_e_description
+[5.131s] -- Install configuration: ""
+[5.131s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/launch
+[5.131s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/launch/ur3e_upload.launch
+[5.131s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/launch/ur5e_upload.launch
+[5.131s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/launch/view_ur3e.launch
+[5.132s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/launch/ur10e_upload.launch
+[5.132s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/launch/view_ur5e.launch
+[5.132s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/launch/view_ur10e.launch
+[5.132s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/urdf
+[5.132s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/urdf/ur.transmission.xacro
+[5.133s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/urdf/ur3e_joint_limited_robot.urdf.xacro
+[5.133s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/urdf/ur3e_robot_moveit.urdf.xacro
+[5.133s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/urdf/ur.gazebo.xacro
+[5.133s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/urdf/ur10e.urdf.xacro
+[5.134s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/urdf/common.gazebo.xacro
+[5.134s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/urdf/ur3e.urdf.xacro
+[5.134s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/urdf/rg2_gripper.urdf.xacro
+[5.134s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/urdf/ur5e_robot.urdf.xacro
+[5.134s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/urdf/ur5e.urdf.xacro
+[5.135s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/urdf/ur3e_robot.urdf.xacro
+[5.135s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/urdf/ur10e_robot.urdf.xacro
+[5.135s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/urdf/ur5e_joint_limited_robot.urdf.xacro
+[5.135s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/urdf/egh_gripper.urdf.xacro
+[5.136s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/urdf/ur10e_joint_limited_robot.urdf.xacro
+[5.136s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes
+[5.136s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/egh_base.stl
+[5.138s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/rg2_base.stl
+[5.140s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur10e
+[5.140s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur10e/collision
+[5.141s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur10e/collision/upperarm.stl
+[5.141s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur10e/collision/wrist1.stl
+[5.141s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur10e/collision/wrist3.stl
+[5.141s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur10e/collision/base.stl
+[5.142s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur10e/collision/shoulder.stl
+[5.142s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur10e/collision/forearm.stl
+[5.143s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur10e/collision/wrist2.stl
+[5.143s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur10e/visual
+[5.143s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur10e/visual/base.dae
+[5.144s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur10e/visual/wrist3.dae
+[5.144s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur10e/visual/upperarm.dae
+[5.150s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur10e/visual/wrist2.dae
+[5.153s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur10e/visual/forearm.dae
+[5.155s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur10e/visual/wrist1.dae
+[5.156s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur10e/visual/shoulder.dae
+[5.160s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/rg2_left_finger.stl
+[5.162s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur5e
+[5.162s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur5e/collision
+[5.162s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur5e/collision/upperarm.stl
+[5.162s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur5e/collision/wrist1.stl
+[5.162s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur5e/collision/wrist3.stl
+[5.163s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur5e/collision/base.stl
+[5.163s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur5e/collision/shoulder.stl
+[5.163s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur5e/collision/forearm.stl
+[5.163s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur5e/collision/wrist2.stl
+[5.164s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur5e/visual
+[5.164s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur5e/visual/base.dae
+[5.164s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur5e/visual/wrist3.dae
+[5.165s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur5e/visual/upperarm.dae
+[5.170s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur5e/visual/wrist2.dae
+[5.172s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur5e/visual/forearm.dae
+[5.174s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur5e/visual/wrist1.dae
+[5.176s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur5e/visual/shoulder.dae
+[5.179s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/egh_finger.stl
+[5.180s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur3e
+[5.180s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur3e/collision
+[5.180s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur3e/collision/upperarm.stl
+[5.180s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur3e/collision/wrist1.stl
+[5.181s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur3e/collision/wrist3.stl
+[5.181s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur3e/collision/base.stl
+[5.181s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur3e/collision/shoulder.stl
+[5.182s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur3e/collision/forearm.stl
+[5.182s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur3e/collision/wrist2.stl
+[5.182s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur3e/visual
+[5.182s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur3e/visual/base.dae
+[5.183s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur3e/visual/wrist3.dae
+[5.183s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur3e/visual/upperarm.dae
+[5.189s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur3e/visual/wrist2.dae
+[5.191s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur3e/visual/forearm.dae
+[5.193s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur3e/visual/wrist1.dae
+[5.195s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/ur3e/visual/shoulder.dae
+[5.199s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/meshes/rg2_left_thumb.stl
+[5.200s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ament_index/resource_index/package_run_dependencies/ur_e_description
+[5.201s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ament_index/resource_index/parent_prefix_path/ur_e_description
+[5.201s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/environment/ament_prefix_path.sh
+[5.202s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/environment/ament_prefix_path.dsv
+[5.203s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/environment/path.sh
+[5.203s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/environment/path.dsv
+[5.204s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/local_setup.bash
+[5.205s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/local_setup.sh
+[5.207s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/local_setup.zsh
+[5.207s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/local_setup.dsv
+[5.208s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/package.dsv
+[5.208s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ament_index/resource_index/packages/ur_e_description
+[5.208s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/cmake/ur_e_descriptionConfig.cmake
+[5.209s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/cmake/ur_e_descriptionConfig-version.cmake
+[5.209s] -- Installing: /home/user/ros2_ws/install/ur_e_description/share/ur_e_description/package.xml
+[5.210s] Invoked command in '/home/user/ros2_ws/build/ur_e_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/ur_e_description

@@ -1,0 +1,7 @@
+{
+  "package_name": "robotiq_85_msgs",
+  "non_idl_tuples": [
+    "/home/user/ros2_ws/src/universal_robot_ros2/robotiq_85_gripper/robotiq_85_msgs:msg/GripperCmd.msg",
+    "/home/user/ros2_ws/src/universal_robot_ros2/robotiq_85_gripper/robotiq_85_msgs:msg/GripperStat.msg"
+  ]
+}

@@ -1,0 +1,37 @@
+[0.340s] Invoking command in '/home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/src/zed_camera_publisher': PYTHONPATH=/home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/build/zed_camera_publisher/prefix_override:/home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/install/zed_camera_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/zed_camera_publisher build --build-base /home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/build/zed_camera_publisher/build install --record /home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/build/zed_camera_publisher/install.log --single-version-externally-managed install_data
+[0.439s] running egg_info
+[0.439s] creating ../../build/zed_camera_publisher/zed_camera_publisher.egg-info
+[0.439s] writing ../../build/zed_camera_publisher/zed_camera_publisher.egg-info/PKG-INFO
+[0.439s] writing dependency_links to ../../build/zed_camera_publisher/zed_camera_publisher.egg-info/dependency_links.txt
+[0.439s] writing entry points to ../../build/zed_camera_publisher/zed_camera_publisher.egg-info/entry_points.txt
+[0.439s] writing requirements to ../../build/zed_camera_publisher/zed_camera_publisher.egg-info/requires.txt
+[0.439s] writing top-level names to ../../build/zed_camera_publisher/zed_camera_publisher.egg-info/top_level.txt
+[0.439s] writing manifest file '../../build/zed_camera_publisher/zed_camera_publisher.egg-info/SOURCES.txt'
+[0.440s] reading manifest file '../../build/zed_camera_publisher/zed_camera_publisher.egg-info/SOURCES.txt'
+[0.440s] writing manifest file '../../build/zed_camera_publisher/zed_camera_publisher.egg-info/SOURCES.txt'
+[0.440s] running build
+[0.440s] running build_py
+[0.440s] creating /home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/build/zed_camera_publisher/build
+[0.440s] creating /home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/build/zed_camera_publisher/build/lib
+[0.440s] creating /home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/build/zed_camera_publisher/build/lib/zed_camera_publisher
+[0.440s] copying zed_camera_publisher/__init__.py -> /home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/build/zed_camera_publisher/build/lib/zed_camera_publisher
+[0.440s] copying zed_camera_publisher/zed_camera_node.py -> /home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/build/zed_camera_publisher/build/lib/zed_camera_publisher
+[0.440s] running install
+[0.440s] running install_lib
+[0.441s] creating /home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/install/zed_camera_publisher/lib/python3.10/site-packages/zed_camera_publisher
+[0.441s] copying /home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/build/zed_camera_publisher/build/lib/zed_camera_publisher/__init__.py -> /home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/install/zed_camera_publisher/lib/python3.10/site-packages/zed_camera_publisher
+[0.441s] copying /home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/build/zed_camera_publisher/build/lib/zed_camera_publisher/zed_camera_node.py -> /home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/install/zed_camera_publisher/lib/python3.10/site-packages/zed_camera_publisher
+[0.441s] byte-compiling /home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/install/zed_camera_publisher/lib/python3.10/site-packages/zed_camera_publisher/__init__.py to __init__.cpython-310.pyc
+[0.441s] byte-compiling /home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/install/zed_camera_publisher/lib/python3.10/site-packages/zed_camera_publisher/zed_camera_node.py to zed_camera_node.cpython-310.pyc
+[0.441s] running install_data
+[0.441s] creating /home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/install/zed_camera_publisher/share/ament_index
+[0.441s] creating /home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/install/zed_camera_publisher/share/ament_index/resource_index
+[0.442s] creating /home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/install/zed_camera_publisher/share/ament_index/resource_index/packages
+[0.442s] copying resource/zed_camera_publisher -> /home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/install/zed_camera_publisher/share/ament_index/resource_index/packages
+[0.442s] copying package.xml -> /home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/install/zed_camera_publisher/share/zed_camera_publisher
+[0.442s] running install_egg_info
+[0.442s] Copying ../../build/zed_camera_publisher/zed_camera_publisher.egg-info to /home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/install/zed_camera_publisher/lib/python3.10/site-packages/zed_camera_publisher-0.0.0-py3.10.egg-info
+[0.443s] running install_scripts
+[0.451s] Installing zed_camera_node script to /home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/install/zed_camera_publisher/lib/zed_camera_publisher
+[0.451s] writing list of installed files to '/home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/build/zed_camera_publisher/install.log'
+[0.460s] Invoked command in '/home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/src/zed_camera_publisher' returned '0': PYTHONPATH=/home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/build/zed_camera_publisher/prefix_override:/home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/install/zed_camera_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/zed_camera_publisher build --build-base /home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/build/zed_camera_publisher/build install --record /home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/ros2_zed_justtopic/build/zed_camera_publisher/install.log --single-version-externally-managed install_data

@@ -1,0 +1,5 @@
+/home/user/ros2_ws/build/grasping_msgs/rosidl_adapter/grasping_msgs:action/FindGraspableObjects.idl
+/home/user/ros2_ws/build/grasping_msgs/rosidl_adapter/grasping_msgs:action/GraspPlanning.idl
+/home/user/ros2_ws/build/grasping_msgs/rosidl_adapter/grasping_msgs:msg/GraspableObject.idl
+/home/user/ros2_ws/build/grasping_msgs/rosidl_adapter/grasping_msgs:msg/Object.idl
+/home/user/ros2_ws/build/grasping_msgs/rosidl_adapter/grasping_msgs:msg/ObjectProperty.idl

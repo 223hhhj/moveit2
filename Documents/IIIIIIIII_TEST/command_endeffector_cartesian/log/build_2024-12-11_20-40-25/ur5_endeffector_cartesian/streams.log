@@ -1,0 +1,74 @@
+[0.008s] Invoking command in '/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian -- -j32 -l32
+[0.063s] [ 50%] [32mBuilding CXX object CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o[0m
+[2.136s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In member function ‘[01m[Kvoid UR5Control::controlGripper(rclcpp::Node::SharedPtr, int, int)[m[K’:
+[2.136s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:174:72:[m[K [01;31m[Kerror: [m[K‘[01m[KInt32MultiArray[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[KFloat64MultiArray[m[K’?
+[2.136s]   174 |         auto gripper_publisher = node->create_publisher<std_msgs::msg::[01;31m[KInt32MultiArray[m[K>("custom_gripper", 10);
+[2.136s]       |                                                                        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.136s]       |                                                                        [32m[KFloat64MultiArray[m[K
+[2.136s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:174:88:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_publisher<<expression error> >(const char [15], int)[m[K’
+[2.136s]   174 |         auto gripper_publisher = [01;31m[Knode->create_publisher<std_msgs::msg::Int32MultiArray>("custom_gripper", 10)[m[K;
+[2.136s]       |                                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.136s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.136s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.137s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.137s]                  from [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:1[m[K:
+[2.137s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[2.137s]   195 |   [01;36m[Kcreate_publisher[m[K(
+[2.137s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[2.137s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.137s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:174:88:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.137s]   174 |         auto gripper_publisher = [01;31m[Knode->create_publisher<std_msgs::msg::Int32MultiArray>("custom_gripper", 10)[m[K;
+[2.137s]       |                                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.137s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:175:24:[m[K [01;31m[Kerror: [m[K‘[01m[KInt32MultiArray[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[KFloat64MultiArray[m[K’?
+[2.137s]   175 |         std_msgs::msg::[01;31m[KInt32MultiArray[m[K gripper_command;
+[2.137s]       |                        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.137s]       |                        [32m[KFloat64MultiArray[m[K
+[2.144s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:176:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kgripper_command[m[K’ was not declared in this scope
+[2.144s]   176 |         [01;31m[Kgripper_command[m[K.data = {width, force};
+[2.144s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.148s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.148s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.148s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.148s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.148s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.148s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.148s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.148s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.148s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.148s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.148s]                  from [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:1[m[K:
+[2.148s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:177:21:[m[K [01;31m[Kerror: [m[K‘[01m[KLOGGER[m[K’ was not declared in this scope
+[2.148s]   177 |         RCLCPP_INFO([01;31m[KLOGGER[m[K, "Publishing Gripper Command: '%d', '%d'", width, force);
+[2.148s]       |                     [01;31m[K^~~~~~[m[K
+[2.148s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:177:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.148s]   177 |         [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Publishing Gripper Command: '%d', '%d'", width, force);
+[2.148s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.149s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:177:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.149s]   177 |         [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Publishing Gripper Command: '%d', '%d'", width, force);
+[2.149s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.149s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:177:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.149s]   177 |         [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Publishing Gripper Command: '%d', '%d'", width, force);
+[2.149s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.158s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.158s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:466:17:[m[K [01;31m[Kerror: [m[K‘[01m[KLOGGER[m[K’ was not declared in this scope
+[2.158s]   466 |     RCLCPP_INFO([01;31m[KLOGGER[m[K, "Closing gripper joint position");
+[2.158s]       |                 [01;31m[K^~~~~~[m[K
+[2.158s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:466:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.158s]   466 |     [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Closing gripper joint position");
+[2.158s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[2.158s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:466:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.158s]   466 |     [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Closing gripper joint position");
+[2.159s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[2.159s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:466:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.159s]   466 |     [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Closing gripper joint position");
+[2.159s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[2.162s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:467:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_node[m[K’ was not declared in this scope
+[2.163s]   467 |     controlGripper([01;31m[Kmove_group_node[m[K, 40, 10);
+[2.163s]       |                    [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.166s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:467:5:[m[K [01;31m[Kerror: [m[K‘[01m[KcontrolGripper[m[K’ was not declared in this scope
+[2.166s]   467 |     [01;31m[KcontrolGripper[m[K(move_group_node, 40, 10);
+[2.167s]       |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.200s] gmake[2]: *** [CMakeFiles/ur5_ros2_cartesian.dir/build.make:76：CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o] 錯誤 1
+[4.200s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ur5_ros2_cartesian.dir/all] 錯誤 2
+[4.200s] gmake: *** [Makefile:146：all] 錯誤 2
+[4.203s] Invoked command in '/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian -- -j32 -l32

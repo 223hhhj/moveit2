@@ -1,0 +1,17 @@
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/draw_x.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/draw_x.cpp:51:3:[m[K [01;31m[Kerror: [m[K'[01m[Ksuccess_arm[m[K' was not declared in this scope
+   51 |   [01;31m[Ksuccess_arm[m[K = (move_group_arm.plan(my_plan_arm) ==
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/draw_x.cpp:51:38:[m[K [01;31m[Kerror: [m[K'[01m[Kmy_plan_arm[m[K' was not declared in this scope
+   51 |   success_arm = (move_group_arm.plan([01;31m[Kmy_plan_arm[m[K) ==
+      |                                      [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/draw_x.cpp:62:3:[m[K [01;31m[Kerror: [m[K'[01m[Ktarget_pose[m[K' was not declared in this scope; did you mean '[01m[Ktarget_pose1[m[K'?
+   62 |   [01;31m[Ktarget_pose[m[K.position.x += 0.05;
+      |   [01;31m[K^~~~~~~~~~~[m[K
+      |   [32m[Ktarget_pose1[m[K
+[01m[K/home/user/ros2_ws/src/moveit2_scripts/src/draw_x.cpp:80:10:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kfraction[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   80 |   double [01;35m[Kfraction[m[K = move_group_arm.computeCartesianPath(
+      |          [01;35m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/draw_x.dir/build.make:76: CMakeFiles/draw_x.dir/src/draw_x.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:445: CMakeFiles/draw_x.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

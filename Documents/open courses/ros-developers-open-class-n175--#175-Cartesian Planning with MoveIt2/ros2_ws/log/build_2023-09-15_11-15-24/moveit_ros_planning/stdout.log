@@ -1,0 +1,13 @@
+[  4%] Built target moveit_rdf_loader
+[  9%] Built target gmock
+[ 12%] Built target moveit_constraint_sampler_manager_loader
+[ 16%] Built target moveit_kinematics_plugin_loader
+[ 19%] Built target gmock_main
+[ 22%] Built target moveit_robot_model_loader
+[ 25%] Built target moveit_list_request_adapter_plugins
+[ 29%] Built target moveit_print_planning_model_info
+[ 46%] Built target moveit_default_planning_request_adapter_plugins
+[ 50%] Built target moveit_planning_pipeline
+[ 53%] Built target moveit_collision_plugin_loader
+[35m[1mConsolidate compiler generated dependencies of target moveit_planning_scene_monitor[0m
+[ 54%] [32mBuilding CXX object planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/planning_scene_monitor.cpp.o[0m

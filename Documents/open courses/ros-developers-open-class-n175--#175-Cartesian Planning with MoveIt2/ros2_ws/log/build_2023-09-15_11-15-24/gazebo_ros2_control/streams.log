@@ -1,0 +1,35 @@
+[1.746s] Invoking command in '/home/user/ros2_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/ros2test:/home/user/ros2_ws/install/robotiq_85_driver:/home/user/ros2_ws/install/moveit_configs_utils:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/gazebo_ros2_control -- -j8 -l8
+[2.143s] [ 50%] Built target gazebo_ros2_control
+[2.380s] [100%] Built target gazebo_hardware_plugins
+[2.520s] Invoked command in '/home/user/ros2_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/ros2test:/home/user/ros2_ws/install/robotiq_85_driver:/home/user/ros2_ws/install/moveit_configs_utils:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/gazebo_ros2_control -- -j8 -l8
+[3.060s] Invoking command in '/home/user/ros2_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/ros2test:/home/user/ros2_ws/install/robotiq_85_driver:/home/user/ros2_ws/install/moveit_configs_utils:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/gazebo_ros2_control
+[3.137s] -- Install configuration: ""
+[3.137s] -- Up-to-date: /home/user/ros2_ws/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so
+[3.137s] -- Up-to-date: /home/user/ros2_ws/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so
+[3.138s] -- Up-to-date: /home/user/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.sh
+[3.138s] -- Up-to-date: /home/user/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.dsv
+[3.138s] -- Up-to-date: /home/user/ros2_ws/install/gazebo_ros2_control/include/gazebo_ros2_control
+[3.138s] -- Up-to-date: /home/user/ros2_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp
+[3.138s] -- Up-to-date: /home/user/ros2_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp
+[3.139s] -- Up-to-date: /home/user/ros2_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp
+[3.139s] -- Up-to-date: /home/user/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/gazebo_hardware_plugins.xml
+[3.139s] -- Up-to-date: /home/user/ros2_ws/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control
+[3.139s] -- Up-to-date: /home/user/ros2_ws/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control
+[3.139s] -- Up-to-date: /home/user/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.sh
+[3.139s] -- Up-to-date: /home/user/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.dsv
+[3.140s] -- Up-to-date: /home/user/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.sh
+[3.140s] -- Up-to-date: /home/user/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.dsv
+[3.140s] -- Up-to-date: /home/user/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.bash
+[3.140s] -- Up-to-date: /home/user/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.sh
+[3.141s] -- Up-to-date: /home/user/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.zsh
+[3.141s] -- Up-to-date: /home/user/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.dsv
+[3.141s] -- Installing: /home/user/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv
+[3.141s] -- Up-to-date: /home/user/ros2_ws/install/gazebo_ros2_control/share/ament_index/resource_index/packages/gazebo_ros2_control
+[3.141s] -- Up-to-date: /home/user/ros2_ws/install/gazebo_ros2_control/share/ament_index/resource_index/gazebo_ros2_control__pluginlib__plugin/gazebo_ros2_control
+[3.142s] -- Up-to-date: /home/user/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.142s] -- Up-to-date: /home/user/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.142s] -- Up-to-date: /home/user/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[3.142s] -- Up-to-date: /home/user/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake
+[3.142s] -- Up-to-date: /home/user/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig-version.cmake
+[3.143s] -- Up-to-date: /home/user/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.xml
+[3.266s] Invoked command in '/home/user/ros2_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/ros2test:/home/user/ros2_ws/install/robotiq_85_driver:/home/user/ros2_ws/install/moveit_configs_utils:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/gazebo_ros2_control

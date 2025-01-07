@@ -1,0 +1,13 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o[0m
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In function ‘[01m[Kvoid moveAlongMultiAxis(moveit::planning_interface::MoveGroupInterface&, double, double, double, double, double)[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:184:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::planning_interface::MoveGroupInterface[m[K’ has no member named ‘[01m[KgetMaxVelocityScalingFactor[m[K’; did you mean ‘[01m[KsetMaxVelocityScalingFactor[m[K’?
+  184 |     double original_velocity = move_group_arm.[01;31m[KgetMaxVelocityScalingFactor[m[K();
+      |                                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                               [32m[KsetMaxVelocityScalingFactor[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:185:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::planning_interface::MoveGroupInterface[m[K’ has no member named ‘[01m[KgetMaxAccelerationScalingFactor[m[K’; did you mean ‘[01m[KsetMaxAccelerationScalingFactor[m[K’?
+  185 |     double original_acceleration = move_group_arm.[01;31m[KgetMaxAccelerationScalingFactor[m[K();
+      |                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                   [32m[KsetMaxAccelerationScalingFactor[m[K
+gmake[2]: *** [CMakeFiles/ur5_ros2_cartesian.dir/build.make:76：CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ur5_ros2_cartesian.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

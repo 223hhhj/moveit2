@@ -1,0 +1,3 @@
+[0mCMake Error: The source directory "/home/user/ros2_ws/src/test_moveit_config" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.[0m
+gmake: *** [Makefile:226: cmake_check_build_system] Error 1

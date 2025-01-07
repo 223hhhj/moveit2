@@ -1,0 +1,14 @@
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In function ‘[01m[Kvoid moveAlongMultiAxis(moveit::planning_interface::MoveGroupInterface&, double, double, double, std::shared_ptr<RobotControl>)[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:189:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class RobotControl[m[K’ {aka ‘[01m[Kclass RobotControl[m[K’} has no member named ‘[01m[KcheckForceAndMove[m[K’
+  189 |         movement_completed = robot_control->[01;31m[KcheckForceAndMove[m[K(move_group_arm, target_pose);
+      |                                             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In function ‘[01m[Kvoid moveWithCustomSpeed(moveit::planning_interface::MoveGroupInterface&, double, double, double, double, double)[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:202:23:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kvoid moveAlongMultiAxis(moveit::planning_interface::MoveGroupInterface&, double, double, double, std::shared_ptr<RobotControl>)[m[K’
+  202 |     [01;31m[KmoveAlongMultiAxis(move_group_arm, x, y, z)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:179:6:[m[K [01;36m[Knote: [m[Kdeclared here
+  179 | void [01;36m[KmoveAlongMultiAxis[m[K(moveit::planning_interface::MoveGroupInterface& move_group_arm,
+      |      [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ur5_ros2_cartesian.dir/build.make:76：CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ur5_ros2_cartesian.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

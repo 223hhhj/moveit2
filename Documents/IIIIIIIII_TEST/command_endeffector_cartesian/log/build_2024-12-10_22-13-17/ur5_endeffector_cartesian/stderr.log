@@ -1,0 +1,27 @@
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:185:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid UR5Control::switchToNextDirection()[m[K’ cannot be overloaded with ‘[01m[Kbool UR5Control::switchToNextDirection()[m[K’
+  185 |     void [01;31m[KswitchToNextDirection[m[K() {
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:99:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kbool UR5Control::switchToNextDirection()[m[K’
+   99 |     bool [01;36m[KswitchToNextDirection[m[K() {
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In constructor ‘[01m[KUR5Control::UR5Control()[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:462:10:[m[K [01;35m[Kwarning: [m[K‘[01m[KUR5Control::force_measurement_enabled[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  462 |     bool [01;35m[Kforce_measurement_enabled[m[K;
+      |          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:461:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Ksize_t UR5Control::current_direction_index[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  461 |     size_t [01;35m[Kcurrent_direction_index[m[K;
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:14:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   14 |     [01;35m[KUR5Control[m[K() : Node("ur5_control"),
+      |     [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In member function ‘[01m[Kvoid UR5Control::startMovement()[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:77:36:[m[K [01;31m[Kerror: [m[K‘[01m[KenableForceCalculation[m[K’ is not a member of ‘[01m[KUR5Control[m[K’
+   77 |             std::bind(&UR5Control::[01;31m[KenableForceCalculation[m[K, this));
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In member function ‘[01m[Kvoid UR5Control::switchToNextDirection()[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:202:36:[m[K [01;31m[Kerror: [m[K‘[01m[KenableForceCalculation[m[K’ is not a member of ‘[01m[KUR5Control[m[K’
+  202 |             std::bind(&UR5Control::[01;31m[KenableForceCalculation[m[K, this));
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ur5_ros2_cartesian.dir/build.make:76：CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ur5_ros2_cartesian.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

@@ -1,0 +1,266 @@
+[0.132s] Invoking command in '/home/user/ros2_ws/build/grasping_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/ros2test:/home/user/ros2_ws/install/robotiq_85_driver:/home/user/ros2_ws/install/moveit_configs_utils:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/grasping_msgs -- -j8 -l8
+[0.306s] [35m[1mConsolidate compiler generated dependencies of target grasping_msgs__rosidl_generator_c[0m
+[0.373s] [  1%] Built target grasping_msgs__cpp
+[0.381s] [  1%] Built target ament_cmake_python_copy_grasping_msgs
+[0.400s] [ 12%] Built target grasping_msgs__rosidl_generator_c
+[0.404s] [ 14%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[0.416s] [35m[1mConsolidate compiler generated dependencies of target grasping_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.471s] [35m[1mConsolidate compiler generated dependencies of target grasping_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.471s] [35m[1mConsolidate compiler generated dependencies of target grasping_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.478s] [35m[1mConsolidate compiler generated dependencies of target grasping_msgs__rosidl_typesupport_introspection_c[0m
+[0.486s] [35m[1mConsolidate compiler generated dependencies of target grasping_msgs__rosidl_typesupport_cpp[0m
+[0.511s] [35m[1mConsolidate compiler generated dependencies of target grasping_msgs__rosidl_typesupport_c[0m
+[0.553s] [ 25%] Built target grasping_msgs__rosidl_typesupport_fastrtps_cpp
+[0.580s] [ 35%] Built target grasping_msgs__rosidl_typesupport_fastrtps_c
+[0.580s] [ 46%] Built target grasping_msgs__rosidl_typesupport_c
+[0.601s] [ 57%] Built target grasping_msgs__rosidl_typesupport_introspection_cpp
+[0.615s] [ 68%] Built target grasping_msgs__rosidl_typesupport_introspection_c
+[0.647s] [ 79%] Built target grasping_msgs__rosidl_typesupport_cpp
+[1.091s] running egg_info
+[1.091s] writing grasping_msgs.egg-info/PKG-INFO
+[1.091s] writing dependency_links to grasping_msgs.egg-info/dependency_links.txt
+[1.092s] writing top-level names to grasping_msgs.egg-info/top_level.txt
+[1.095s] reading manifest file 'grasping_msgs.egg-info/SOURCES.txt'
+[1.096s] writing manifest file 'grasping_msgs.egg-info/SOURCES.txt'
+[1.231s] [ 79%] Built target ament_cmake_python_build_grasping_msgs_egg
+[1.569s] [ 79%] Built target grasping_msgs__rs
+[1.653s] [ 79%] Built target grasping_msgs
+[1.766s] [ 81%] Built target grasping_msgs__py
+[1.811s] [35m[1mConsolidate compiler generated dependencies of target grasping_msgs__rosidl_generator_py[0m
+[1.895s] [ 90%] Built target grasping_msgs__rosidl_generator_py
+[1.974s] [35m[1mConsolidate compiler generated dependencies of target grasping_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.980s] [35m[1mConsolidate compiler generated dependencies of target grasping_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[1.999s] [35m[1mConsolidate compiler generated dependencies of target grasping_msgs__rosidl_typesupport_c__pyext[0m
+[2.056s] [ 93%] Built target grasping_msgs__rosidl_typesupport_introspection_c__pyext
+[2.071s] [ 96%] Built target grasping_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.097s] [100%] Built target grasping_msgs__rosidl_typesupport_c__pyext
+[2.136s] Invoked command in '/home/user/ros2_ws/build/grasping_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/ros2test:/home/user/ros2_ws/install/robotiq_85_driver:/home/user/ros2_ws/install/moveit_configs_utils:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/grasping_msgs -- -j8 -l8
+[3.162s] Invoking command in '/home/user/ros2_ws/build/grasping_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/ros2test:/home/user/ros2_ws/install/robotiq_85_driver:/home/user/ros2_ws/install/moveit_configs_utils:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/grasping_msgs
+[3.188s] -- Install configuration: ""
+[3.188s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/ament_index/resource_index/rosidl_interfaces/grasping_msgs
+[3.188s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs
+[3.189s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg
+[3.189s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail
+[3.190s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail/object_property__functions.h
+[3.190s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail/graspable_object__functions.c
+[3.190s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail/graspable_object__struct.h
+[3.190s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail/object_property__functions.c
+[3.190s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail/object_property__type_support.h
+[3.191s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail/graspable_object__type_support.h
+[3.191s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail/object__functions.h
+[3.191s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail/object__functions.c
+[3.191s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail/object__type_support.h
+[3.191s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail/object_property__struct.h
+[3.192s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail/object__struct.h
+[3.192s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail/graspable_object__functions.h
+[3.192s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.192s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/object.h
+[3.192s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/graspable_object.h
+[3.193s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/object_property.h
+[3.193s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action
+[3.193s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action/detail
+[3.193s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action/detail/find_graspable_objects__struct.h
+[3.194s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action/detail/grasp_planning__functions.c
+[3.194s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action/detail/grasp_planning__struct.h
+[3.195s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action/detail/find_graspable_objects__type_support.h
+[3.195s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action/detail/find_graspable_objects__functions.c
+[3.195s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action/detail/grasp_planning__functions.h
+[3.195s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action/detail/find_graspable_objects__functions.h
+[3.195s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action/detail/grasp_planning__type_support.h
+[3.196s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action/find_graspable_objects.h
+[3.196s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action/grasp_planning.h
+[3.197s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/environment/library_path.sh
+[3.197s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/environment/library_path.dsv
+[3.197s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/lib/libgrasping_msgs__rosidl_generator_c.so
+[3.197s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs
+[3.198s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg
+[3.198s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail
+[3.198s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail/object_property__rosidl_typesupport_fastrtps_c.h
+[3.198s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail/object__rosidl_typesupport_fastrtps_c.h
+[3.199s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail/graspable_object__rosidl_typesupport_fastrtps_c.h
+[3.199s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.199s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action
+[3.199s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action/detail
+[3.199s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action/detail/find_graspable_objects__rosidl_typesupport_fastrtps_c.h
+[3.200s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action/detail/grasp_planning__rosidl_typesupport_fastrtps_c.h
+[3.200s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/lib/libgrasping_msgs__rosidl_typesupport_fastrtps_c.so
+[3.200s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs
+[3.201s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg
+[3.201s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail
+[3.201s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail/object_property__type_support.c
+[3.201s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail/object_property__rosidl_typesupport_introspection_c.h
+[3.202s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail/graspable_object__type_support.c
+[3.202s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail/object__type_support.c
+[3.202s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail/object__rosidl_typesupport_introspection_c.h
+[3.202s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail/graspable_object__rosidl_typesupport_introspection_c.h
+[3.203s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.203s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action
+[3.203s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action/detail
+[3.203s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action/detail/find_graspable_objects__type_support.c
+[3.203s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action/detail/find_graspable_objects__rosidl_typesupport_introspection_c.h
+[3.204s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action/detail/grasp_planning__rosidl_typesupport_introspection_c.h
+[3.204s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action/detail/grasp_planning__type_support.c
+[3.204s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/lib/libgrasping_msgs__rosidl_typesupport_introspection_c.so
+[3.205s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/lib/libgrasping_msgs__rosidl_typesupport_c.so
+[3.205s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs
+[3.205s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg
+[3.205s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail
+[3.205s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail/graspable_object__struct.hpp
+[3.206s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail/object__struct.hpp
+[3.206s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail/graspable_object__traits.hpp
+[3.206s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail/object_property__traits.hpp
+[3.207s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail/object__builder.hpp
+[3.207s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail/object_property__struct.hpp
+[3.207s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail/object__traits.hpp
+[3.208s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail/object_property__builder.hpp
+[3.208s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail/graspable_object__builder.hpp
+[3.208s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/graspable_object.hpp
+[3.208s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/object.hpp
+[3.208s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/object_property.hpp
+[3.209s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action
+[3.209s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action/detail
+[3.209s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action/detail/find_graspable_objects__traits.hpp
+[3.209s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action/detail/find_graspable_objects__struct.hpp
+[3.209s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action/detail/grasp_planning__traits.hpp
+[3.210s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action/detail/find_graspable_objects__builder.hpp
+[3.210s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action/detail/grasp_planning__struct.hpp
+[3.210s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action/detail/grasp_planning__builder.hpp
+[3.210s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action/grasp_planning.hpp
+[3.210s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action/find_graspable_objects.hpp
+[3.210s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs
+[3.211s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg
+[3.211s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail
+[3.211s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail/graspable_object__rosidl_typesupport_fastrtps_cpp.hpp
+[3.211s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail/object_property__rosidl_typesupport_fastrtps_cpp.hpp
+[3.211s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail/dds_fastrtps
+[3.212s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp
+[3.212s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.212s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action
+[3.212s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action/detail
+[3.212s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action/detail/dds_fastrtps
+[3.212s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action/detail/find_graspable_objects__rosidl_typesupport_fastrtps_cpp.hpp
+[3.213s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action/detail/grasp_planning__rosidl_typesupport_fastrtps_cpp.hpp
+[3.213s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/lib/libgrasping_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.213s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs
+[3.213s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg
+[3.213s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail
+[3.214s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail/object_property__rosidl_typesupport_introspection_cpp.hpp
+[3.214s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp
+[3.214s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail/object__type_support.cpp
+[3.214s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail/object_property__type_support.cpp
+[3.214s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail/graspable_object__type_support.cpp
+[3.215s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/msg/detail/graspable_object__rosidl_typesupport_introspection_cpp.hpp
+[3.215s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action
+[3.215s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action/detail
+[3.215s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action/detail/grasp_planning__type_support.cpp
+[3.215s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action/detail/find_graspable_objects__rosidl_typesupport_introspection_cpp.hpp
+[3.215s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action/detail/grasp_planning__rosidl_typesupport_introspection_cpp.hpp
+[3.216s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/include/grasping_msgs/grasping_msgs/action/detail/find_graspable_objects__type_support.cpp
+[3.216s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/lib/libgrasping_msgs__rosidl_typesupport_introspection_cpp.so
+[3.216s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/lib/libgrasping_msgs__rosidl_typesupport_cpp.so
+[3.216s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/ament_index/resource_index/rust_packages/grasping_msgs
+[3.216s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/rust
+[3.217s] -- Installing: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/rust/Cargo.toml
+[3.217s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/rust/src
+[3.217s] -- Installing: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/rust/src/msg.rs
+[3.217s] -- Installing: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/rust/src/lib.rs
+[3.217s] -- Installing: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/rust/build.rs
+[3.218s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/rust
+[3.218s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/rust/Cargo.toml
+[3.218s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/rust/src
+[3.218s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/rust/src/msg.rs
+[3.218s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/rust/src/lib.rs
+[3.218s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/rust/build.rs
+[3.219s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/rust
+[3.219s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/rust/Cargo.toml
+[3.219s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/rust/src
+[3.219s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/rust/src/msg.rs
+[3.219s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/rust/src/lib.rs
+[3.220s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/rust/build.rs
+[3.220s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/environment/pythonpath.sh
+[3.220s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/environment/pythonpath.dsv
+[3.220s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/local/lib/python3.10/dist-packages/grasping_msgs-0.4.0-py3.10.egg-info
+[3.220s] -- Installing: /home/user/ros2_ws/install/grasping_msgs/local/lib/python3.10/dist-packages/grasping_msgs-0.4.0-py3.10.egg-info/PKG-INFO
+[3.221s] -- Installing: /home/user/ros2_ws/install/grasping_msgs/local/lib/python3.10/dist-packages/grasping_msgs-0.4.0-py3.10.egg-info/top_level.txt
+[3.221s] -- Installing: /home/user/ros2_ws/install/grasping_msgs/local/lib/python3.10/dist-packages/grasping_msgs-0.4.0-py3.10.egg-info/SOURCES.txt
+[3.221s] -- Installing: /home/user/ros2_ws/install/grasping_msgs/local/lib/python3.10/dist-packages/grasping_msgs-0.4.0-py3.10.egg-info/dependency_links.txt
+[3.221s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/local/lib/python3.10/dist-packages/grasping_msgs
+[3.221s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/local/lib/python3.10/dist-packages/grasping_msgs/_grasping_msgs_s.ep.rosidl_typesupport_c.c
+[3.222s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/local/lib/python3.10/dist-packages/grasping_msgs/grasping_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.222s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/local/lib/python3.10/dist-packages/grasping_msgs/_grasping_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.222s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/local/lib/python3.10/dist-packages/grasping_msgs/grasping_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.222s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/local/lib/python3.10/dist-packages/grasping_msgs/msg
+[3.222s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/local/lib/python3.10/dist-packages/grasping_msgs/msg/_graspable_object_s.c
+[3.223s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/local/lib/python3.10/dist-packages/grasping_msgs/msg/__init__.py
+[3.223s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/local/lib/python3.10/dist-packages/grasping_msgs/msg/_object_property_s.c
+[3.223s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/local/lib/python3.10/dist-packages/grasping_msgs/msg/_object_s.c
+[3.223s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/local/lib/python3.10/dist-packages/grasping_msgs/msg/_object_property.py
+[3.223s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/local/lib/python3.10/dist-packages/grasping_msgs/msg/_object.py
+[3.224s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/local/lib/python3.10/dist-packages/grasping_msgs/msg/_graspable_object.py
+[3.224s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/local/lib/python3.10/dist-packages/grasping_msgs/__init__.py
+[3.224s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/local/lib/python3.10/dist-packages/grasping_msgs/libgrasping_msgs__rosidl_generator_py.so
+[3.224s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/local/lib/python3.10/dist-packages/grasping_msgs/grasping_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.224s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/local/lib/python3.10/dist-packages/grasping_msgs/_grasping_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.224s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/local/lib/python3.10/dist-packages/grasping_msgs/action
+[3.225s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/local/lib/python3.10/dist-packages/grasping_msgs/action/_find_graspable_objects_s.c
+[3.225s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/local/lib/python3.10/dist-packages/grasping_msgs/action/__init__.py
+[3.225s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/local/lib/python3.10/dist-packages/grasping_msgs/action/_find_graspable_objects.py
+[3.225s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/local/lib/python3.10/dist-packages/grasping_msgs/action/_grasp_planning_s.c
+[3.225s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/local/lib/python3.10/dist-packages/grasping_msgs/action/_grasp_planning.py
+[3.301s] Listing '/home/user/ros2_ws/install/grasping_msgs/local/lib/python3.10/dist-packages/grasping_msgs'...
+[3.302s] Listing '/home/user/ros2_ws/install/grasping_msgs/local/lib/python3.10/dist-packages/grasping_msgs/action'...
+[3.302s] Listing '/home/user/ros2_ws/install/grasping_msgs/local/lib/python3.10/dist-packages/grasping_msgs/msg'...
+[3.308s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/local/lib/python3.10/dist-packages/grasping_msgs/grasping_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.309s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/local/lib/python3.10/dist-packages/grasping_msgs/grasping_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.309s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/local/lib/python3.10/dist-packages/grasping_msgs/grasping_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.310s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/lib/libgrasping_msgs__rosidl_generator_py.so
+[3.310s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/action/FindGraspableObjects.idl
+[3.311s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/action/GraspPlanning.idl
+[3.311s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/msg/GraspableObject.idl
+[3.311s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/msg/Object.idl
+[3.311s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/msg/ObjectProperty.idl
+[3.312s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/action/FindGraspableObjects.action
+[3.312s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/action/GraspPlanning.action
+[3.312s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/msg/GraspableObject.msg
+[3.312s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/msg/Object.msg
+[3.313s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/msg/ObjectProperty.msg
+[3.313s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/ament_index/resource_index/package_run_dependencies/grasping_msgs
+[3.313s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/ament_index/resource_index/parent_prefix_path/grasping_msgs
+[3.313s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/environment/ament_prefix_path.sh
+[3.313s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/environment/ament_prefix_path.dsv
+[3.314s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/environment/path.sh
+[3.314s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/environment/path.dsv
+[3.314s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/local_setup.bash
+[3.314s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/local_setup.sh
+[3.315s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/local_setup.zsh
+[3.315s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/local_setup.dsv
+[3.315s] -- Installing: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/package.dsv
+[3.315s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/ament_index/resource_index/packages/grasping_msgs
+[3.315s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/cmake/export_grasping_msgs__rosidl_generator_cExport.cmake
+[3.316s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/cmake/export_grasping_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.316s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/cmake/export_grasping_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.316s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/cmake/export_grasping_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.316s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/cmake/grasping_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.316s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/cmake/grasping_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.316s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/cmake/grasping_msgs__rosidl_typesupport_cExport.cmake
+[3.317s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/cmake/grasping_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.319s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/cmake/export_grasping_msgs__rosidl_generator_cppExport.cmake
+[3.320s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/cmake/export_grasping_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.320s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/cmake/export_grasping_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.320s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/cmake/grasping_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.321s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/cmake/grasping_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.321s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/cmake/grasping_msgs__rosidl_typesupport_cppExport.cmake
+[3.322s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/cmake/grasping_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.322s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/cmake/export_grasping_msgs__rosidl_generator_pyExport.cmake
+[3.322s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/cmake/export_grasping_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.326s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/cmake/rosidl_cmake-extras.cmake
+[3.326s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.326s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.326s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.327s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.327s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.327s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.327s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/cmake/grasping_msgsConfig.cmake
+[3.327s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/cmake/grasping_msgsConfig-version.cmake
+[3.328s] -- Up-to-date: /home/user/ros2_ws/install/grasping_msgs/share/grasping_msgs/package.xml
+[3.336s] Invoked command in '/home/user/ros2_ws/build/grasping_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/ros2test:/home/user/ros2_ws/install/robotiq_85_driver:/home/user/ros2_ws/install/moveit_configs_utils:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/grasping_msgs

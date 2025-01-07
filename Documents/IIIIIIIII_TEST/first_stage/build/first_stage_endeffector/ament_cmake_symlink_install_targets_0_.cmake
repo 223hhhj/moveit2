@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/steven/Documents/IIIIIIIII_TEST/first_stage/build/first_stage_endeffector/first_stage_endeffector" "TARGETS" "first_stage_endeffector" "DESTINATION" "lib/first_stage_endeffector")

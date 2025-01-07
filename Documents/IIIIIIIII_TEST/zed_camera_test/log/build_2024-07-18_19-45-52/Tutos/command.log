@@ -1,0 +1,4 @@
+Invoking command in '/home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/build/Tutos': /usr/bin/cmake /home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/zed_tutorials -DCMAKE_INSTALL_PREFIX=/home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/install/Tutos
+Invoked command in '/home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/build/Tutos' returned '0': /usr/bin/cmake /home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/zed_tutorials -DCMAKE_INSTALL_PREFIX=/home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/install/Tutos
+Invoking command in '/home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/build/Tutos': /usr/bin/cmake --build /home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/build/Tutos -- -j32 -l32
+Invoked command in '/home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/build/Tutos' returned '0': /usr/bin/cmake --build /home/steven/Documents/IIIIIIIII_TEST/zed_camera_test/build/Tutos -- -j32 -l32

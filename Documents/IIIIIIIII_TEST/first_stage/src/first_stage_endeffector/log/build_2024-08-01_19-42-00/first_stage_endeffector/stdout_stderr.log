@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target first_stage_endeffector[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o[0m
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:80:5:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+   80 |     [01;31m[K{[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/first_stage/src/first_stage_endeffector/src/first_stage_endeffector.cpp:111:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class RobotController[m[K’ {aka ‘[01m[Kclass RobotController[m[K’} has no member named ‘[01m[Kcoordinates_received[m[K’; did you mean ‘[01m[Kbool RobotController::coordinates_ready[m[K’? (accessible via ‘[01m[Kbool RobotController::are_coordinates_ready() const[m[K’)
+  111 |   while (rclcpp::ok() && !robot_controller->[01;31m[Kcoordinates_received[m[K) {
+      |                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |                                             [32m[Kare_coordinates_ready()[m[K
+gmake[2]: *** [CMakeFiles/first_stage_endeffector.dir/build.make:76：CMakeFiles/first_stage_endeffector.dir/src/first_stage_endeffector.cpp.o] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/first_stage_endeffector.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

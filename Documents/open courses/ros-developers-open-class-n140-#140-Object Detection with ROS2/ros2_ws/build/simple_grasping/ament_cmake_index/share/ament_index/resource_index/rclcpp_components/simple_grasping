@@ -1,0 +1,2 @@
+simple_grasping::BasicGraspingPerception;lib/libbasic_grasping_perception.so
+simple_grasping::GraspPlannerNode;lib/libgrasp_planner.so

@@ -1,0 +1,18 @@
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In member function ‘[01m[Kvoid UR5Control::decelerateAndMove()[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:197:27:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KUR5Control::recordPose(bool)[m[K’
+  197 |                 [01;31m[KrecordPose(true)[m[K;
+      |                 [01;31m[K~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:215:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid UR5Control::recordPose(bool, bool)[m[K’
+  215 |     void [01;36m[KrecordPose[m[K(bool is_positive, bool is_x_axis) {
+      |          [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:215:10:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:199:27:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KUR5Control::recordPose(bool)[m[K’
+  199 |                 [01;31m[KrecordPose(false)[m[K;
+      |                 [01;31m[K~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:215:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid UR5Control::recordPose(bool, bool)[m[K’
+  215 |     void [01;36m[KrecordPose[m[K(bool is_positive, bool is_x_axis) {
+      |          [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:215:10:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+gmake[2]: *** [CMakeFiles/ur5_ros2_cartesian.dir/build.make:76：CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ur5_ros2_cartesian.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2

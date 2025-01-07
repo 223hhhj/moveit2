@@ -1,0 +1,2 @@
+source;share/rg2_gripper_description/environment/ament_prefix_path.sh
+source;share/rg2_gripper_description/environment/path.sh

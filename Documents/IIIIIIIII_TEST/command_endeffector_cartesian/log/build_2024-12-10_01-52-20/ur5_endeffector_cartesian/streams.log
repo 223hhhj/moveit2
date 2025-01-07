@@ -1,0 +1,18 @@
+[0.009s] Invoking command in '/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian -- -j32 -l32
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target ur5_ros2_cartesian[0m
+[0.063s] [ 50%] [32mBuilding CXX object CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o[0m
+[2.140s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:276:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid UR5Control::calculatePose1()[m[K’ cannot be overloaded with ‘[01m[Kvoid UR5Control::calculatePose1()[m[K’
+[2.140s]   276 |     void [01;31m[KcalculatePose1[m[K() {
+[2.140s]       |          [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.140s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:238:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid UR5Control::calculatePose1()[m[K’
+[2.140s]   238 |     void [01;36m[KcalculatePose1[m[K() {
+[2.140s]       |          [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.177s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In member function ‘[01m[Kvoid UR5Control::calculatePose1()[m[K’:
+[2.178s] [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:261:9:[m[K [01;31m[Kerror: [m[K‘[01m[KmoveToPose1[m[K’ was not declared in this scope; did you mean ‘[01m[KmoveToPose0[m[K’?
+[2.178s]   261 |         [01;31m[KmoveToPose1[m[K();
+[2.178s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.178s]       |         [32m[KmoveToPose0[m[K
+[4.234s] gmake[2]: *** [CMakeFiles/ur5_ros2_cartesian.dir/build.make:76：CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o] 錯誤 1
+[4.234s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ur5_ros2_cartesian.dir/all] 錯誤 2
+[4.234s] gmake: *** [Makefile:146：all] 錯誤 2
+[4.236s] Invoked command in '/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/build/ur5_endeffector_cartesian -- -j32 -l32

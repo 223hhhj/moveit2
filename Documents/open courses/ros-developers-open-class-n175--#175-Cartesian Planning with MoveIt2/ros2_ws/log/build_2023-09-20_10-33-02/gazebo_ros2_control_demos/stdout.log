@@ -1,0 +1,6 @@
+[ 16%] Built target example_position
+[ 33%] Built target example_diff_drive
+[ 50%] Built target example_velocity
+[ 66%] Built target example_effort
+[ 83%] Built target example_gripper
+[100%] Built target example_tricycle_drive

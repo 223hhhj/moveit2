@@ -1,0 +1,65 @@
+[0.119s] Invoking command in '/home/user/ros2_ws/build/simple_grasping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/ros2test:/home/user/ros2_ws/install/robotiq_85_driver:/home/user/ros2_ws/install/moveit_configs_utils:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/simple_grasping -- -j8 -l8
+[0.299s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.456s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.067s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[1.564s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.603s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.603s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[2.068s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.081s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.094s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.401s] -- Found Qhull version 8.0.2
+[2.762s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.989s] -- looking for PCL_COMMON
+[2.990s] -- looking for PCL_KDTREE
+[2.990s] -- looking for PCL_OCTREE
+[2.991s] -- looking for PCL_SEARCH
+[2.992s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.992s] -- looking for PCL_FILTERS
+[2.993s] -- looking for PCL_2D
+[2.993s] -- looking for PCL_GEOMETRY
+[2.994s] -- looking for PCL_IO
+[2.994s] -- looking for PCL_FEATURES
+[2.995s] -- looking for PCL_ML
+[2.995s] -- looking for PCL_SEGMENTATION
+[2.996s] -- looking for PCL_VISUALIZATION
+[2.997s] -- looking for PCL_SURFACE
+[2.997s] -- looking for PCL_REGISTRATION
+[2.998s] -- looking for PCL_KEYPOINTS
+[2.998s] -- looking for PCL_TRACKING
+[2.999s] -- looking for PCL_RECOGNITION
+[3.000s] -- looking for PCL_STEREO
+[3.000s] -- looking for PCL_APPS
+[3.001s] -- looking for PCL_IN_HAND_SCANNER
+[3.002s] -- looking for PCL_MODELER
+[3.002s] -- looking for PCL_POINT_CLOUD_EDITOR
+[3.003s] -- looking for PCL_OUTOFCORE
+[3.003s] -- looking for PCL_PEOPLE
+[3.006s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.304s] -- Found geometry_msgs: 4.2.3 (/home/simulations/ros2_sims_ws/install/geometry_msgs/share/geometry_msgs/cmake)
+[3.346s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.352s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.365s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.400s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.441s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.714s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[3.714s]   By not providing "Findgrasping_msgs.cmake" in CMAKE_MODULE_PATH this
+[3.714s]   project has asked CMake to find a package configuration file provided by
+[3.714s]   "grasping_msgs", but CMake did not find one.
+[3.714s] 
+[3.715s]   Could not find a package configuration file provided by "grasping_msgs"
+[3.715s]   with any of the following names:
+[3.715s] 
+[3.715s]     grasping_msgsConfig.cmake
+[3.715s]     grasping_msgs-config.cmake
+[3.715s] 
+[3.715s]   Add the installation prefix of "grasping_msgs" to CMAKE_PREFIX_PATH or set
+[3.716s]   "grasping_msgs_DIR" to a directory containing one of the above files.  If
+[3.716s]   "grasping_msgs" provides a separate development package or SDK, be sure it
+[3.716s]   has been installed.
+[3.716s] 
+[3.716s] [0m
+[3.717s] -- Configuring incomplete, errors occurred!
+[3.717s] See also "/home/user/ros2_ws/build/simple_grasping/CMakeFiles/CMakeOutput.log".
+[3.732s] gmake: *** [Makefile:581: cmake_check_build_system] Error 1
+[3.741s] Invoked command in '/home/user/ros2_ws/build/simple_grasping' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/ros2test:/home/user/ros2_ws/install/robotiq_85_driver:/home/user/ros2_ws/install/moveit_configs_utils:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/simple_grasping -- -j8 -l8

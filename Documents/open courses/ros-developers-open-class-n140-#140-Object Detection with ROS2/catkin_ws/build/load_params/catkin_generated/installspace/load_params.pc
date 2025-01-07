@@ -1,0 +1,8 @@
+prefix=/home/user/catkin_ws/install
+
+Name: load_params
+Description: Description of load_params
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

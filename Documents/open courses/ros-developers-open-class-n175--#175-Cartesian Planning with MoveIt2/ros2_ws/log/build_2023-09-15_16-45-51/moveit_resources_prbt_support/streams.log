@@ -1,0 +1,44 @@
+[1.420s] Invoking command in '/home/user/ros2_ws/build/moveit_resources_prbt_support': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/ros2test:/home/user/ros2_ws/install/robotiq_85_driver:/home/user/ros2_ws/install/moveit_configs_utils:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/moveit_resources_prbt_support -- -j8 -l8
+[1.653s] Invoked command in '/home/user/ros2_ws/build/moveit_resources_prbt_support' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/ros2test:/home/user/ros2_ws/install/robotiq_85_driver:/home/user/ros2_ws/install/moveit_configs_utils:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/moveit_resources_prbt_support -- -j8 -l8
+[2.187s] Invoking command in '/home/user/ros2_ws/build/moveit_resources_prbt_support': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/ros2test:/home/user/ros2_ws/install/robotiq_85_driver:/home/user/ros2_ws/install/moveit_configs_utils:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/moveit_resources_prbt_support
+[2.296s] -- Install configuration: ""
+[2.296s] -- Up-to-date: /home/user/ros2_ws/install/moveit_resources_prbt_support/share/ament_index/resource_index/package_run_dependencies/moveit_resources_prbt_support
+[2.296s] -- Up-to-date: /home/user/ros2_ws/install/moveit_resources_prbt_support/share/ament_index/resource_index/parent_prefix_path/moveit_resources_prbt_support
+[2.296s] -- Up-to-date: /home/user/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/ament_prefix_path.sh
+[2.296s] -- Up-to-date: /home/user/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/ament_prefix_path.dsv
+[2.297s] -- Up-to-date: /home/user/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/path.sh
+[2.297s] -- Up-to-date: /home/user/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/path.dsv
+[2.297s] -- Up-to-date: /home/user/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.bash
+[2.297s] -- Up-to-date: /home/user/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.sh
+[2.297s] -- Up-to-date: /home/user/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.zsh
+[2.297s] -- Up-to-date: /home/user/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.dsv
+[2.298s] -- Installing: /home/user/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/package.dsv
+[2.298s] -- Up-to-date: /home/user/ros2_ws/install/moveit_resources_prbt_support/share/ament_index/resource_index/packages/moveit_resources_prbt_support
+[2.298s] -- Up-to-date: /home/user/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/cmake/moveit_resources_prbt_supportConfig.cmake
+[2.298s] -- Up-to-date: /home/user/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/cmake/moveit_resources_prbt_supportConfig-version.cmake
+[2.304s] -- Up-to-date: /home/user/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/package.xml
+[2.304s] -- Up-to-date: /home/user/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf
+[2.304s] -- Up-to-date: /home/user/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/prbt.ros2_control.xacro
+[2.304s] -- Up-to-date: /home/user/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/prbt.xacro
+[2.305s] -- Up-to-date: /home/user/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/simple_gripper_brackets.urdf.xacro
+[2.305s] -- Up-to-date: /home/user/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/prbt_macro.xacro
+[2.305s] -- Up-to-date: /home/user/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes
+[2.305s] -- Up-to-date: /home/user/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_4.stl
+[2.306s] -- Up-to-date: /home/user/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_5.stl
+[2.306s] -- Up-to-date: /home/user/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_3.dae
+[2.306s] -- Up-to-date: /home/user/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_4.dae
+[2.306s] -- Up-to-date: /home/user/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_3.stl
+[2.306s] -- Up-to-date: /home/user/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/flange.dae
+[2.306s] -- Up-to-date: /home/user/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_1.dae
+[2.307s] -- Up-to-date: /home/user/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_2.dae
+[2.326s] -- Up-to-date: /home/user/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/foot.stl
+[2.326s] -- Up-to-date: /home/user/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_1.stl
+[2.326s] -- Up-to-date: /home/user/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_5.dae
+[2.326s] -- Up-to-date: /home/user/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_2.stl
+[2.326s] -- Up-to-date: /home/user/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/flange.stl
+[2.327s] -- Up-to-date: /home/user/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/foot.dae
+[2.327s] -- Up-to-date: /home/user/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config
+[2.327s] -- Up-to-date: /home/user/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config/manipulator_controller.yaml
+[2.327s] -- Up-to-date: /home/user/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config/prbt_0_1.dcf
+[2.327s] -- Up-to-date: /home/user/ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config/manipulator_driver.yaml
+[2.345s] Invoked command in '/home/user/ros2_ws/build/moveit_resources_prbt_support' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/ros2test:/home/user/ros2_ws/install/robotiq_85_driver:/home/user/ros2_ws/install/moveit_configs_utils:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/moveit_resources_prbt_support

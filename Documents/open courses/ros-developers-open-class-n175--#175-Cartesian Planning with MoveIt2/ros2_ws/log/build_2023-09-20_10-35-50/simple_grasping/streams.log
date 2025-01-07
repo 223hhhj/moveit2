@@ -1,0 +1,54 @@
+[0.153s] Invoking command in '/home/user/ros2_ws/build/simple_grasping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/ros2test:/home/user/ros2_ws/install/robotiq_85_driver:/home/user/ros2_ws/install/moveit_configs_utils:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/simple_grasping -- -j8 -l8
+[0.456s] [35m[1mConsolidate compiler generated dependencies of target basic_grasping_perception_node[0m
+[0.481s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.481s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.505s] [35m[1mConsolidate compiler generated dependencies of target simple_grasping[0m
+[0.510s] [35m[1mConsolidate compiler generated dependencies of target grasp_planner_node[0m
+[0.527s] [ 10%] Built target basic_grasping_perception_node
+[0.545s] [ 21%] Built target gtest
+[0.549s] [ 31%] Built target gtest_main
+[0.598s] [ 42%] Built target grasp_planner_node
+[0.735s] [ 68%] Built target simple_grasping
+[0.800s] [35m[1mConsolidate compiler generated dependencies of target basic_grasping_perception[0m
+[0.830s] [35m[1mConsolidate compiler generated dependencies of target grasp_planner[0m
+[0.873s] [35m[1mConsolidate compiler generated dependencies of target simple_grasping_test_shape_extraction[0m
+[0.963s] [ 78%] Built target basic_grasping_perception
+[0.972s] [ 89%] Built target grasp_planner
+[0.990s] [100%] Built target simple_grasping_test_shape_extraction
+[1.069s] Invoked command in '/home/user/ros2_ws/build/simple_grasping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/ros2test:/home/user/ros2_ws/install/robotiq_85_driver:/home/user/ros2_ws/install/moveit_configs_utils:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/simple_grasping -- -j8 -l8
+[1.824s] Invoking command in '/home/user/ros2_ws/build/simple_grasping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/ros2test:/home/user/ros2_ws/install/robotiq_85_driver:/home/user/ros2_ws/install/moveit_configs_utils:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/simple_grasping
+[1.896s] -- Install configuration: ""
+[1.896s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/lib/simple_grasping/basic_grasping_perception_node
+[1.896s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/lib/simple_grasping/grasp_planner_node
+[1.897s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/include
+[1.897s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/include/simple_grasping
+[1.897s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/include/simple_grasping/shape_extraction.h
+[1.897s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/include/simple_grasping/object_support_segmentation.h
+[1.897s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/include/simple_grasping/shape_grasp_planner.h
+[1.898s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/include/simple_grasping/cloud_tools.h
+[1.898s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/lib/simple_grasping/do_perception.py
+[1.898s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/lib/libsimple_grasping.so
+[1.898s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/lib/libbasic_grasping_perception.so
+[1.898s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/lib/libgrasp_planner.so
+[1.898s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/environment/library_path.sh
+[1.899s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/environment/library_path.dsv
+[1.899s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/share/ament_index/resource_index/package_run_dependencies/simple_grasping
+[1.899s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/share/ament_index/resource_index/parent_prefix_path/simple_grasping
+[1.899s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/environment/ament_prefix_path.sh
+[1.899s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/environment/ament_prefix_path.dsv
+[1.900s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/environment/path.sh
+[1.900s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/environment/path.dsv
+[1.900s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/local_setup.bash
+[1.900s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/local_setup.sh
+[1.900s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/local_setup.zsh
+[1.900s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/local_setup.dsv
+[1.901s] -- Installing: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/package.dsv
+[1.901s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/share/ament_index/resource_index/packages/simple_grasping
+[1.901s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/share/ament_index/resource_index/rclcpp_components/simple_grasping
+[1.901s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.902s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/cmake/ament_cmake_export_libraries-extras.cmake
+[1.902s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.902s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/cmake/simple_graspingConfig.cmake
+[1.902s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/cmake/simple_graspingConfig-version.cmake
+[1.902s] -- Up-to-date: /home/user/ros2_ws/install/simple_grasping/share/simple_grasping/package.xml
+[1.923s] Invoked command in '/home/user/ros2_ws/build/simple_grasping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/ros2test:/home/user/ros2_ws/install/robotiq_85_driver:/home/user/ros2_ws/install/moveit_configs_utils:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/simple_grasping

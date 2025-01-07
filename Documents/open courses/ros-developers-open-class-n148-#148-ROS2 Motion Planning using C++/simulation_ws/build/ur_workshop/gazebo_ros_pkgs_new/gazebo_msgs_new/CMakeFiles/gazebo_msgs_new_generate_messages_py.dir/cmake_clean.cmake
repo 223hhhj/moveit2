@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "/home/user/simulation_ws/devel/lib/python3/dist-packages/gazebo_msgs_new/msg/_ContactState.py"
+  "/home/user/simulation_ws/devel/lib/python3/dist-packages/gazebo_msgs_new/msg/_ContactsState.py"
+  "/home/user/simulation_ws/devel/lib/python3/dist-packages/gazebo_msgs_new/msg/_LinkState.py"
+  "/home/user/simulation_ws/devel/lib/python3/dist-packages/gazebo_msgs_new/msg/_LinkStates.py"
+  "/home/user/simulation_ws/devel/lib/python3/dist-packages/gazebo_msgs_new/msg/_ModelState.py"
+  "/home/user/simulation_ws/devel/lib/python3/dist-packages/gazebo_msgs_new/msg/_ModelStates.py"
+  "/home/user/simulation_ws/devel/lib/python3/dist-packages/gazebo_msgs_new/msg/_ODEJointProperties.py"
+  "/home/user/simulation_ws/devel/lib/python3/dist-packages/gazebo_msgs_new/msg/_ODEPhysics.py"
+  "/home/user/simulation_ws/devel/lib/python3/dist-packages/gazebo_msgs_new/msg/_WorldState.py"
+  "/home/user/simulation_ws/devel/lib/python3/dist-packages/gazebo_msgs_new/msg/__init__.py"
+  "/home/user/simulation_ws/devel/lib/python3/dist-packages/gazebo_msgs_new/srv/_ApplyBodyWrench.py"
+  "/home/user/simulation_ws/devel/lib/python3/dist-packages/gazebo_msgs_new/srv/_ApplyJointEffort.py"
+  "/home/user/simulation_ws/devel/lib/python3/dist-packages/gazebo_msgs_new/srv/_BodyRequest.py"
+  "/home/user/simulation_ws/devel/lib/python3/dist-packages/gazebo_msgs_new/srv/_DeleteLight.py"
+  "/home/user/simulation_ws/devel/lib/python3/dist-packages/gazebo_msgs_new/srv/_DeleteModel.py"
+  "/home/user/simulation_ws/devel/lib/python3/dist-packages/gazebo_msgs_new/srv/_GetJointProperties.py"
+  "/home/user/simulation_ws/devel/lib/python3/dist-packages/gazebo_msgs_new/srv/_GetLightProperties.py"
+  "/home/user/simulation_ws/devel/lib/python3/dist-packages/gazebo_msgs_new/srv/_GetLinkProperties.py"
+  "/home/user/simulation_ws/devel/lib/python3/dist-packages/gazebo_msgs_new/srv/_GetLinkState.py"
+  "/home/user/simulation_ws/devel/lib/python3/dist-packages/gazebo_msgs_new/srv/_GetModelProperties.py"
+  "/home/user/simulation_ws/devel/lib/python3/dist-packages/gazebo_msgs_new/srv/_GetModelState.py"
+  "/home/user/simulation_ws/devel/lib/python3/dist-packages/gazebo_msgs_new/srv/_GetPhysicsProperties.py"
+  "/home/user/simulation_ws/devel/lib/python3/dist-packages/gazebo_msgs_new/srv/_GetWorldProperties.py"
+  "/home/user/simulation_ws/devel/lib/python3/dist-packages/gazebo_msgs_new/srv/_JointRequest.py"
+  "/home/user/simulation_ws/devel/lib/python3/dist-packages/gazebo_msgs_new/srv/_SetJointProperties.py"
+  "/home/user/simulation_ws/devel/lib/python3/dist-packages/gazebo_msgs_new/srv/_SetJointTrajectory.py"
+  "/home/user/simulation_ws/devel/lib/python3/dist-packages/gazebo_msgs_new/srv/_SetLightProperties.py"
+  "/home/user/simulation_ws/devel/lib/python3/dist-packages/gazebo_msgs_new/srv/_SetLinkProperties.py"
+  "/home/user/simulation_ws/devel/lib/python3/dist-packages/gazebo_msgs_new/srv/_SetLinkState.py"
+  "/home/user/simulation_ws/devel/lib/python3/dist-packages/gazebo_msgs_new/srv/_SetModelConfiguration.py"
+  "/home/user/simulation_ws/devel/lib/python3/dist-packages/gazebo_msgs_new/srv/_SetModelState.py"
+  "/home/user/simulation_ws/devel/lib/python3/dist-packages/gazebo_msgs_new/srv/_SetPhysicsProperties.py"
+  "/home/user/simulation_ws/devel/lib/python3/dist-packages/gazebo_msgs_new/srv/_SpawnModel.py"
+  "/home/user/simulation_ws/devel/lib/python3/dist-packages/gazebo_msgs_new/srv/__init__.py"
+  "CMakeFiles/gazebo_msgs_new_generate_messages_py"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/gazebo_msgs_new_generate_messages_py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

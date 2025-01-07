@@ -1,0 +1,71 @@
+[1.451s] Invoking command in '/home/user/ros2_ws/build/gazebo_version_helpers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/ros2test:/home/user/ros2_ws/install/robotiq_85_driver:/home/user/ros2_ws/install/moveit_configs_utils:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/gazebo-pkgs/gazebo_version_helpers -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/gazebo_version_helpers
+[1.759s] -- The C compiler identification is GNU 11.3.0
+[1.980s] -- The CXX compiler identification is GNU 11.3.0
+[2.022s] -- Detecting C compiler ABI info
+[2.542s] -- Detecting C compiler ABI info - done
+[2.543s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.543s] -- Detecting C compile features
+[2.543s] -- Detecting C compile features - done
+[2.573s] -- Detecting CXX compiler ABI info
+[2.903s] -- Detecting CXX compiler ABI info - done
+[2.928s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.928s] -- Detecting CXX compile features
+[2.937s] -- Detecting CXX compile features - done
+[3.007s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.443s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[5.316s] -- Found gazebo_ros_pkgs: 3.7.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)
+[5.379s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[5.802s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.856s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.925s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.034s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.156s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.627s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.666s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.290s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.455s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.645s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.727s] -- Looking for pthread.h
+[7.950s] -- Looking for pthread.h - found
+[7.951s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.225s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.226s] -- Found Threads: TRUE  
+[8.724s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[8.724s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[8.724s]   does not match the name of the calling package (gazebo).  This can lead to
+[8.725s]   problems in calling code that expects `find_package` result variables
+[8.725s]   (e.g., `_FOUND`) to follow a certain pattern.
+[8.725s] Call Stack (most recent call first):
+[8.725s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[8.725s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[8.726s]   CMakeLists.txt:18 (find_package)
+[8.726s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[8.726s] [0m
+[8.726s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[8.726s] -- Checking for module 'bullet>=2.82'
+[8.823s] --   Found bullet, version 3.05
+[9.903s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[10.174s] -- Found assimp: /usr/include (found version "5.2.0") 
+[10.314s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[10.552s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[11.166s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[11.557s] -- Looking for ignition-math6 -- found version 6.12.0
+[11.739s] -- Searching for dependencies of ignition-math6
+[11.744s] -- Looking for OGRE...
+[11.744s] -- OGRE_PREFIX_WATCH changed.
+[11.764s] -- Checking for module 'OGRE'
+[11.811s] --   Found OGRE, version 1.9.0
+[12.041s] -- Found Ogre Ghadamon (1.9.0)
+[12.084s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[12.101s] -- Looking for OGRE_Paging...
+[12.152s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[12.152s] -- Looking for OGRE_Terrain...
+[12.177s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[12.178s] -- Looking for OGRE_Property...
+[12.220s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[12.220s] -- Looking for OGRE_RTShaderSystem...
+[12.250s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[12.251s] -- Looking for OGRE_Volume...
+[12.283s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[12.283s] -- Looking for OGRE_Overlay...
+[12.319s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so

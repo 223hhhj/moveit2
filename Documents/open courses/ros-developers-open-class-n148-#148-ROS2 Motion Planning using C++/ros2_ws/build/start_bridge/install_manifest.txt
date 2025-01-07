@@ -1,0 +1,16 @@
+/home/user/ros2_ws/install/start_bridge/share/start_bridge/launch/start_bridge.launch.py
+/home/user/ros2_ws/install/start_bridge/share/ament_index/resource_index/package_run_dependencies/start_bridge
+/home/user/ros2_ws/install/start_bridge/share/ament_index/resource_index/parent_prefix_path/start_bridge
+/home/user/ros2_ws/install/start_bridge/share/start_bridge/environment/ament_prefix_path.sh
+/home/user/ros2_ws/install/start_bridge/share/start_bridge/environment/ament_prefix_path.dsv
+/home/user/ros2_ws/install/start_bridge/share/start_bridge/environment/path.sh
+/home/user/ros2_ws/install/start_bridge/share/start_bridge/environment/path.dsv
+/home/user/ros2_ws/install/start_bridge/share/start_bridge/local_setup.bash
+/home/user/ros2_ws/install/start_bridge/share/start_bridge/local_setup.sh
+/home/user/ros2_ws/install/start_bridge/share/start_bridge/local_setup.zsh
+/home/user/ros2_ws/install/start_bridge/share/start_bridge/local_setup.dsv
+/home/user/ros2_ws/install/start_bridge/share/start_bridge/package.dsv
+/home/user/ros2_ws/install/start_bridge/share/ament_index/resource_index/packages/start_bridge
+/home/user/ros2_ws/install/start_bridge/share/start_bridge/cmake/start_bridgeConfig.cmake
+/home/user/ros2_ws/install/start_bridge/share/start_bridge/cmake/start_bridgeConfig-version.cmake
+/home/user/ros2_ws/install/start_bridge/share/start_bridge/package.xml

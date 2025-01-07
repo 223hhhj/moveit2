@@ -1,0 +1,16 @@
+[35m[1mConsolidate compiler generated dependencies of target tf2_ros[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[  0%] Built target ament_cmake_python_copy_tf2_ros
+[  5%] Built target gtest
+[ 10%] Built target gtest_main
+[ 12%] [32mBuilding CXX object CMakeFiles/tf2_ros.dir/src/transform_listener.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/tf2_ros.dir/src/buffer.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/tf2_ros.dir/src/buffer_server.cpp.o[0m
+running egg_info
+writing tf2_ros.egg-info/PKG-INFO
+writing dependency_links to tf2_ros.egg-info/dependency_links.txt
+writing top-level names to tf2_ros.egg-info/top_level.txt
+reading manifest file 'tf2_ros.egg-info/SOURCES.txt'
+writing manifest file 'tf2_ros.egg-info/SOURCES.txt'
+[ 17%] Built target ament_cmake_python_build_tf2_ros_egg

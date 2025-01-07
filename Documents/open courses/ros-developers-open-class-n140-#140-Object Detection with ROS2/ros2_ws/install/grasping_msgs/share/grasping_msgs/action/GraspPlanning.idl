@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from grasping_msgs/action/GraspPlanning.action
+// generated code does not contain a copyright notice
+
+#include "grasping_msgs/msg/Object.idl"
+#include "moveit_msgs/msg/Grasp.idl"
+
+module grasping_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "##########################################################" "\n"
+      " This action is used when planning grasps for a single," "\n"
+      "  already known object, one object at a time.")
+    struct GraspPlanning_Goal {
+      @verbatim (language="comment", text=
+        " Object for which grasp planning is requested")
+      grasping_msgs::msg::Object object;
+
+      @verbatim (language="comment", text=
+        " Name of group to plan with (optional)")
+      string group_name;
+    };
+    struct GraspPlanning_Result {
+      @verbatim (language="comment", text=
+        " All grasps")
+      sequence<moveit_msgs::msg::Grasp> grasps;
+    };
+    struct GraspPlanning_Feedback {
+      @verbatim (language="comment", text=
+        " Grasps found thus far")
+      sequence<moveit_msgs::msg::Grasp> grasps;
+    };
+  };
+};

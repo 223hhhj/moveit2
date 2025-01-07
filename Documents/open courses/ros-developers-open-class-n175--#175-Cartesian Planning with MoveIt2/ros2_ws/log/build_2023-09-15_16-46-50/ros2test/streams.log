@@ -1,0 +1,21 @@
+[2.707s] Invoking command in '/home/user/ros2_ws/src/universal_robot_ros2/ros_testing/ros2test': PYTHONPATH=/home/user/ros2_ws/build/ros2test/prefix_override:/home/user/ros2_ws/install/ros2test/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ros2test build --build-base /home/user/ros2_ws/build/ros2test/build install --record /home/user/ros2_ws/build/ros2test/install.log --single-version-externally-managed
+[3.564s] running egg_info
+[3.571s] writing ../../../../build/ros2test/ros2test.egg-info/PKG-INFO
+[3.577s] writing dependency_links to ../../../../build/ros2test/ros2test.egg-info/dependency_links.txt
+[3.577s] writing entry points to ../../../../build/ros2test/ros2test.egg-info/entry_points.txt
+[3.577s] writing requirements to ../../../../build/ros2test/ros2test.egg-info/requires.txt
+[3.578s] writing top-level names to ../../../../build/ros2test/ros2test.egg-info/top_level.txt
+[3.580s] reading manifest file '../../../../build/ros2test/ros2test.egg-info/SOURCES.txt'
+[3.601s] writing manifest file '../../../../build/ros2test/ros2test.egg-info/SOURCES.txt'
+[3.601s] running build
+[3.602s] running build_py
+[3.603s] running install
+[3.604s] running install_lib
+[3.605s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.605s]   warnings.warn(
+[3.607s] running install_data
+[3.608s] running install_egg_info
+[3.611s] removing '/home/user/ros2_ws/install/ros2test/lib/python3.10/site-packages/ros2test-0.4.0-py3.10.egg-info' (and everything under it)
+[3.614s] Copying ../../../../build/ros2test/ros2test.egg-info to /home/user/ros2_ws/install/ros2test/lib/python3.10/site-packages/ros2test-0.4.0-py3.10.egg-info
+[3.615s] running install_scripts
+[3.658s] writing list of installed files to '/home/user/ros2_ws/build/ros2test/install.log'

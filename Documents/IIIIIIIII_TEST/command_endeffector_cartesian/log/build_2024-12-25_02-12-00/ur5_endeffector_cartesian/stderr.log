@@ -1,0 +1,1043 @@
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:78:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_pose[m[K’ does not name a type
+   78 |         [01;31m[Ktarget_pose[m[K.position.x = x_avg;
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:79:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_pose[m[K’ does not name a type
+   79 |         [01;31m[Ktarget_pose[m[K.position.y = y_avg;
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:80:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_pose[m[K’ does not name a type
+   80 |         [01;31m[Ktarget_pose[m[K.position.z = z_avg;
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:81:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_pose[m[K’ does not name a type
+   81 |         [01;31m[Ktarget_pose[m[K.orientation.x = 1.0;
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:82:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_pose[m[K’ does not name a type
+   82 |         [01;31m[Ktarget_pose[m[K.orientation.y = 0.0;
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:83:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_pose[m[K’ does not name a type
+   83 |         [01;31m[Ktarget_pose[m[K.orientation.z = 0.0;
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:84:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_pose[m[K’ does not name a type
+   84 |         [01;31m[Ktarget_pose[m[K.orientation.w = 0.0;
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:86:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_position_ready[m[K’ does not name a type
+   86 |         [01;31m[Ktarget_position_ready[m[K = true;
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:1[m[K:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:87:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kdo[m[K’
+   87 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Target position calculated: (%.3f, %.3f, %.3f)", x_avg, y_avg, z_avg);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:87:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+   87 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Target position calculated: (%.3f, %.3f, %.3f)", x_avg, y_avg, z_avg);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:70:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_positions[m[K’ was not declared in this scope
+   70 |         double x_sum = std::accumulate([01;31m[Kx_positions[m[K.begin(), x_positions.end(), 0.0);
+      |                                        [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:70:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_positions[m[K’ was not declared in this scope
+   70 |         double x_sum = std::accumulate(x_positions.begin(), [01;31m[Kx_positions[m[K.end(), 0.0);
+      |                                                             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:71:40:[m[K [01;31m[Kerror: [m[K‘[01m[Ky_positions[m[K’ was not declared in this scope
+   71 |         double y_sum = std::accumulate([01;31m[Ky_positions[m[K.begin(), y_positions.end(), 0.0);
+      |                                        [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:71:61:[m[K [01;31m[Kerror: [m[K‘[01m[Ky_positions[m[K’ was not declared in this scope
+   71 |         double y_sum = std::accumulate(y_positions.begin(), [01;31m[Ky_positions[m[K.end(), 0.0);
+      |                                                             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:72:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kz_positions[m[K’ was not declared in this scope
+   72 |         double z_sum = std::accumulate([01;31m[Kz_positions[m[K.begin(), z_positions.end(), 0.0);
+      |                                        [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:72:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kz_positions[m[K’ was not declared in this scope
+   72 |         double z_sum = std::accumulate(z_positions.begin(), [01;31m[Kz_positions[m[K.end(), 0.0);
+      |                                                             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In constructor ‘[01m[KUR5Control::UR5Control()[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:18:17:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KUR5Control[m[K’ does not have any field named ‘[01m[Kcurrent_velocity[m[K’
+   18 |                 [01;31m[Kcurrent_velocity[m[K(1.0),
+      |                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:19:17:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KUR5Control[m[K’ does not have any field named ‘[01m[Kcurrent_acceleration[m[K’
+   19 |                 [01;31m[Kcurrent_acceleration[m[K(0.1),
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:20:17:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KUR5Control[m[K’ does not have any field named ‘[01m[Kforce_threshold[m[K’
+   20 |                 [01;31m[Kforce_threshold[m[K(50.0),
+      |                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:21:17:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KUR5Control[m[K’ does not have any field named ‘[01m[Kis_moving[m[K’
+   21 |                 [01;31m[Kis_moving[m[K(true),
+      |                 [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:22:17:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KUR5Control[m[K’ does not have any field named ‘[01m[Kinitial_forces_set[m[K’
+   22 |                 [01;31m[Kinitial_forces_set[m[K(false),
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:23:17:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KUR5Control[m[K’ does not have any field named ‘[01m[Ktarget_position_ready[m[K’
+   23 |                 [01;31m[Ktarget_position_ready[m[K(false),
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:24:17:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KUR5Control[m[K’ does not have any field named ‘[01m[Kcurrent_direction_index[m[K’
+   24 |                 [01;31m[Kcurrent_direction_index[m[K(0) {
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:26:9:[m[K [01;31m[Kerror: [m[K‘[01m[KsetupDirections[m[K’ was not declared in this scope
+   26 |         [01;31m[KsetupDirections[m[K();
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:27:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose0[m[K’ was not declared in this scope
+   27 |         [01;31m[Kpose0[m[K = createPose(0.26025, -0.59769, 0.423, 1.0, 0.0, 0.0, 0.0);
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:27:17:[m[K [01;31m[Kerror: [m[K‘[01m[KcreatePose[m[K’ was not declared in this scope
+   27 |         pose0 = [01;31m[KcreatePose[m[K(0.26025, -0.59769, 0.423, 1.0, 0.0, 0.0, 0.0);
+      |                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In member function ‘[01m[Kvoid UR5Control::setupNode()[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:32:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_node[m[K’ was not declared in this scope
+   32 |         [01;31m[Kmove_group_node[m[K = std::make_shared<rclcpp::Node>("move_group_interface");
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:33:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kexecutor[m[K’ was not declared in this scope
+   33 |         [01;31m[Kexecutor[m[K = std::make_shared<rclcpp::executors::SingleThreadedExecutor>();
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In lambda function:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:35:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kexecutor[m[K’ is not captured
+   35 |         std::thread([this]() { [01;31m[Kexecutor[m[K->spin(); }).detach();
+      |                                [01;31m[K^~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:35:26:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   35 |         std::thread([this[01;36m[K][m[K() { executor->spin(); }).detach();
+      |                          [01;36m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:33:9:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>executor[m[K’ declared here
+   33 |         [01;36m[Kexecutor[m[K = std::make_shared<rclcpp::executors::SingleThreadedExecutor>();
+      |         [01;36m[K^~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In member function ‘[01m[Kvoid UR5Control::setupNode()[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:37:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group[m[K’ was not declared in this scope
+   37 |         [01;31m[Kmove_group[m[K = std::make_shared<moveit::planning_interface::MoveGroupInterface>(move_group_node, "ur_manipulator");
+      |         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:40:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_subscriber[m[K’ was not declared in this scope
+   40 |         [01;31m[Ksensor_subscriber[m[K = this->create_subscription<std_msgs::msg::Float64MultiArray>(
+      |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:41:56:[m[K [01;31m[Kerror: [m[K‘[01m[KsensorCallback[m[K’ is not a member of ‘[01m[KUR5Control[m[K’
+   41 |             "/sensor_data", 10, std::bind(&UR5Control::[01;31m[KsensorCallback[m[K, this, std::placeholders::_1));
+      |                                                        [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:43:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimex[m[K’?
+   43 |         [01;31m[Ktimer[m[K = this->create_wall_timer(
+      |         [01;31m[K^~~~~[m[K
+      |         [32m[Ktimex[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:45:36:[m[K [01;31m[Kerror: [m[K‘[01m[KtimerCallback[m[K’ is not a member of ‘[01m[KUR5Control[m[K’
+   45 |             std::bind(&UR5Control::[01;31m[KtimerCallback[m[K, this));
+      |                                    [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In member function ‘[01m[Kvoid UR5Control::setupCirclePosSubscriber()[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:49:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcircle_pos_subscriber[m[K’ was not declared in this scope
+   49 |         [01;31m[Kcircle_pos_subscriber[m[K = this->create_subscription<geometry_msgs::msg::Point>(
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In member function ‘[01m[Kvoid UR5Control::circlePosCallback(geometry_msgs::msg::Point_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:56:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_positions[m[K’ was not declared in this scope
+   56 |         if ([01;31m[Kx_positions[m[K.size() < 20) {
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:58:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ky_positions[m[K’ was not declared in this scope
+   58 |             [01;31m[Ky_positions[m[K.push_back(msg->y);
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:59:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kz_positions[m[K’ was not declared in this scope
+   59 |             [01;31m[Kz_positions[m[K.push_back(msg->z);
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:64:17:[m[K [01;31m[Kerror: [m[K‘[01m[KcalculateAveragePosition[m[K’ was not declared in this scope
+   64 |                 [01;31m[KcalculateAveragePosition[m[K();
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K At global scope:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:98:9:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K{tf2::Vector3(0.0, 0.0, -1.0e+0), tf2::Vector3(0.0, 0.0, 1.0e+0), tf2::Vector3(1.0e+0, 0.0, 0.0), tf2::Vector3(-1.0e+0, 0.0, 0.0), tf2::Vector3(0.0, -1.0e+0, 0.0), tf2::Vector3(0.0, 1.0e+0, 0.0)}[m[K’ from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[KUR5Control[m[K’
+   98 |         [01;31m[K}[m[K;
+      |         [01;31m[K^[m[K
+      |         [01;31m[K|[m[K
+      |         [01;31m[K<brace-enclosed initializer list>[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:99:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kfixed_distances[m[K’ does not name a type
+   99 |         [01;31m[Kfixed_distances[m[K = {0.0, 0.01, 0.0, 0.0, 0.0, 0.0};
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:100:5:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  100 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:103:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kinitial_forces[m[K’ does not name a type
+  103 |         [01;31m[Kinitial_forces[m[K = forces;
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:104:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kinitial_forces_set[m[K’ does not name a type
+  104 |         [01;31m[Kinitial_forces_set[m[K = true;
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:1[m[K:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:105:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kdo[m[K’
+  105 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Initial forces set to: [%.2f, %.2f, %.2f] for direction %ld",
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:105:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+  105 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Initial forces set to: [%.2f, %.2f, %.2f] for direction %ld",
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:108:5:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  108 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In function ‘[01m[Kvoid startMovement()[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:111:9:[m[K [01;31m[Kerror: [m[K‘[01m[KenableForceMeasurement[m[K’ was not declared in this scope
+  111 |         [01;31m[KenableForceMeasurement[m[K();
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:113:9:[m[K [01;31m[Kerror: [m[K‘[01m[KsetInitialForces[m[K’ was not declared in this scope
+  113 |         [01;31m[KsetInitialForces[m[K();
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:114:45:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[KUR5Control[m[K’ and ‘[01m[Kint[m[K’)
+  114 |         setMoveDirection(movement_directions[01;31m[K[[m[K0].x(),
+      |                                             [01;31m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:115:44:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[KUR5Control[m[K’ and ‘[01m[Kint[m[K’)
+  115 |                         movement_directions[01;31m[K[[m[K0].y(),
+      |                                            [01;31m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:116:44:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[KUR5Control[m[K’ and ‘[01m[Kint[m[K’)
+  116 |                         movement_directions[01;31m[K[[m[K0].z());
+      |                                            [01;31m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:114:9:[m[K [01;31m[Kerror: [m[K‘[01m[KsetMoveDirection[m[K’ was not declared in this scope
+  114 |         [01;31m[KsetMoveDirection[m[K(movement_directions[0].x(),
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In function ‘[01m[Kbool moveToTarget()[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:120:14:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_position_ready[m[K’ was not declared in this scope
+  120 |         if (![01;31m[Ktarget_position_ready[m[K) {
+      |              [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:1[m[K:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:121:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  121 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Waiting for target position...");
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:121:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:121:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  121 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Waiting for target position...");
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:121:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  121 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Waiting for target position...");
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:121:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  121 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Waiting for target position...");
+      |             [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:1[m[K:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:121:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  121 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Waiting for target position...");
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:121:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  121 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Waiting for target position...");
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In lambda function:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:126:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group[m[K’ was not declared in this scope
+  126 |             [01;31m[Kmove_group[m[K->setPoseTarget(target_pose);
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:126:39:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_pose[m[K’ was not declared in this scope
+  126 |             move_group->setPoseTarget([01;31m[Ktarget_pose[m[K);
+      |                                       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In function ‘[01m[Kbool moveToTarget()[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:125:9:[m[K [01;31m[Kerror: [m[K‘[01m[KplanAndExecute[m[K’ was not declared in this scope
+  125 |         [01;31m[KplanAndExecute[m[K("Target Position", [&]() {
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:130:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose0[m[K’ was not declared in this scope
+  130 |         [01;31m[Kpose0[m[K = target_pose;
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:130:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_pose[m[K’ was not declared in this scope
+  130 |         pose0 = [01;31m[Ktarget_pose[m[K;
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In function ‘[01m[Kvoid executeSequence()[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:136:9:[m[K [01;31m[Kerror: [m[K‘[01m[KmoveToHome[m[K’ was not declared in this scope
+  136 |         [01;31m[KmoveToHome[m[K();
+      |         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:137:9:[m[K [01;31m[Kerror: [m[K‘[01m[KmoveToPose0[m[K’ was not declared in this scope
+  137 |         [01;31m[KmoveToPose0[m[K();
+      |         [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:1[m[K:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:140:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  140 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Waiting 2 seconds...");
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:140:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:140:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  140 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Waiting 2 seconds...");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:140:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  140 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Waiting 2 seconds...");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:140:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  140 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Waiting 2 seconds...");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:1[m[K:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:140:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  140 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Waiting 2 seconds...");
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:140:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  140 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Waiting 2 seconds...");
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:144:9:[m[K [01;31m[Kerror: [m[K‘[01m[KsetupCirclePosSubscriber[m[K’ was not declared in this scope
+  144 |         [01;31m[KsetupCirclePosSubscriber[m[K();
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:146:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_position_ready[m[K’ was not declared in this scope
+  146 |         while (![01;31m[Ktarget_position_ready[m[K && rclcpp::ok()) {
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:147:31:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  147 |             rclcpp::spin_some([01;31m[Kthis[m[K->get_node_base_interface());
+      |                               [01;31m[K^~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In function ‘[01m[Kvoid setMoveDirection(double, double, double)[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:162:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_direction[m[K’ was not declared in this scope; did you mean ‘[01m[KsetMoveDirection[m[K’?
+  162 |         [01;31m[Kmove_direction[m[K = tf2::Vector3(x, y, z);
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+      |         [32m[KsetMoveDirection[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:1[m[K:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:164:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  164 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Set move direction to: [%.2f, %.2f, %.2f]", x, y, z);
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:164:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:164:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  164 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Set move direction to: [%.2f, %.2f, %.2f]", x, y, z);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:164:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  164 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Set move direction to: [%.2f, %.2f, %.2f]", x, y, z);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:164:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  164 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Set move direction to: [%.2f, %.2f, %.2f]", x, y, z);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:1[m[K:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:164:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  164 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Set move direction to: [%.2f, %.2f, %.2f]", x, y, z);
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:164:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  164 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Set move direction to: [%.2f, %.2f, %.2f]", x, y, z);
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In function ‘[01m[Kvoid setForceThreshold(double)[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:168:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kforce_threshold[m[K’ was not declared in this scope; did you mean ‘[01m[KsetForceThreshold[m[K’?
+  168 |         [01;31m[Kforce_threshold[m[K = threshold;
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |         [32m[KsetForceThreshold[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:1[m[K:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:169:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  169 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Force threshold set to: %.2f", force_threshold);
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:169:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:169:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  169 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Force threshold set to: %.2f", force_threshold);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:169:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  169 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Force threshold set to: %.2f", force_threshold);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:169:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  169 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Force threshold set to: %.2f", force_threshold);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:1[m[K:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:169:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  169 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Force threshold set to: %.2f", force_threshold);
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:169:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  169 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Force threshold set to: %.2f", force_threshold);
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In function ‘[01m[Kvoid sensorCallback(std_msgs::msg::Float64MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:174:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kforces[m[K’ was not declared in this scope
+  174 |             [01;31m[Kforces[m[K = tf2::Vector3(msg->data[0], msg->data[1], msg->data[2]);
+      |             [01;31m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:1[m[K:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:175:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  175 |             RCLCPP_DEBUG([01;31m[Kthis[m[K->get_logger(), "Received forces: [%.2f, %.2f, %.2f]",
+      |                          [01;31m[K^~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:175:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:175:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  175 |             [01;31m[KRCLCPP_DEBUG[m[K(this->get_logger(), "Received forces: [%.2f, %.2f, %.2f]",
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:175:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  175 |             [01;31m[KRCLCPP_DEBUG[m[K(this->get_logger(), "Received forces: [%.2f, %.2f, %.2f]",
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:175:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  175 |             [01;31m[KRCLCPP_DEBUG[m[K(this->get_logger(), "Received forces: [%.2f, %.2f, %.2f]",
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:1[m[K:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:175:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  175 |             RCLCPP_DEBUG([01;31m[Kthis[m[K->get_logger(), "Received forces: [%.2f, %.2f, %.2f]",
+      |                          [01;31m[K^~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:175:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  175 |             RCLCPP_DEBUG([01;31m[Kthis[m[K->get_logger(), "Received forces: [%.2f, %.2f, %.2f]",
+      |                          [01;31m[K^~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K At global scope:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:181:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_direction_index[m[K’ does not name a type
+  181 |         [01;31m[Kcurrent_direction_index[m[K++;
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:182:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kif[m[K’
+  182 |         [01;31m[Kif[m[K (current_direction_index >= movement_directions.size()) {
+      |         [01;31m[K^~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:188:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_direction_index[m[K’ was not declared in this scope
+  188 |         const auto& new_direction = movement_directions[[01;31m[Kcurrent_direction_index[m[K];
+      |                                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:189:25:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+  189 |         setMoveDirection[01;31m[K([m[Knew_direction.x(), new_direction.y(), new_direction.z());
+      |                         [01;31m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:191:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kif[m[K’
+  191 |         [01;31m[Kif[m[K (current_direction_index == 1) {
+      |         [01;31m[K^~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:205:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_velocity[m[K’ does not name a type
+  205 |         [01;31m[Kcurrent_velocity[m[K = 1.0;
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:206:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_acceleration[m[K’ does not name a type
+  206 |         [01;31m[Kcurrent_acceleration[m[K = 1.0;
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:207:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_moving[m[K’ does not name a type
+  207 |         [01;31m[Kis_moving[m[K = true;
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:209:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kinitial_forces_set[m[K’ does not name a type
+  209 |         [01;31m[Kinitial_forces_set[m[K = false;
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:210:34:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+  210 |         disableForceMeasurement()[01;31m[K;[m[K
+      |                                  [01;31m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:211:33:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+  211 |         enableForceMeasurement()[01;31m[K;[m[K
+      |                                 [01;31m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:212:26:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+  212 |         rclcpp::sleep_for[01;31m[K([m[Kstd::chrono::milliseconds(100));
+      |                          [01;31m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:213:27:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+  213 |         setInitialForces()[01;31m[K;[m[K
+      |                           [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:1[m[K:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:215:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kdo[m[K’
+  215 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Switching to direction %ld: [%.1f, %.1f, %.1f]",
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:215:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+  215 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Switching to direction %ld: [%.1f, %.1f, %.1f]",
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:218:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+  218 |         [01;31m[Kreturn[m[K true;
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:219:5:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  219 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In function ‘[01m[Kvoid moveFixedDistance(double)[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:222:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group[m[K’ was not declared in this scope
+  222 |         geometry_msgs::msg::PoseStamped current_pose = [01;31m[Kmove_group[m[K->getCurrentPose();
+      |                                                        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:225:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_direction[m[K’ was not declared in this scope; did you mean ‘[01m[Knew_direction[m[K’?
+  225 |         target_pose.position.x += [01;31m[Kmove_direction[m[K.x() * distance;
+      |                                   [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                   [32m[Knew_direction[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:229:9:[m[K [01;31m[Kerror: [m[K‘[01m[KplanAndExecute[m[K’ was not declared in this scope
+  229 |         [01;31m[KplanAndExecute[m[K("Fixed Distance Movement", [&]() {
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:234:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose0[m[K’ was not declared in this scope
+  234 |         [01;31m[Kpose0[m[K = current_pose.pose;
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In function ‘[01m[Kvoid timerCallback()[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:238:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kinitial_forces_set[m[K’ was not declared in this scope
+  238 |         if (![01;31m[Kinitial_forces_set[m[K) return;
+      |              [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:240:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kforces[m[K’ was not declared in this scope
+  240 |         tf2::Vector3 force_diff = [01;31m[Kforces[m[K - initial_forces;
+      |                                   [01;31m[K^~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:240:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kinitial_forces[m[K’ was not declared in this scope
+  240 |         tf2::Vector3 force_diff = forces - [01;31m[Kinitial_forces[m[K;
+      |                                            [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:245:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kforce_threshold[m[K’ was not declared in this scope; did you mean ‘[01m[KsetForceThreshold[m[K’?
+  245 |         if (total_force_diff > [01;31m[Kforce_threshold[m[K) {
+      |                                [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                                [32m[KsetForceThreshold[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:1[m[K:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:246:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  246 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(),
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:246:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:246:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  246 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(),
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:246:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  246 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(),
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:246:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  246 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(),
+      |             [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:1[m[K:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:246:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  246 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(),
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:246:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  246 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(),
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:249:13:[m[K [01;31m[Kerror: [m[K‘[01m[KdecelerateAndMove[m[K’ was not declared in this scope
+  249 |             [01;31m[KdecelerateAndMove[m[K();
+      |             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:251:13:[m[K [01;31m[Kerror: [m[K‘[01m[KresetSpeedAndMove[m[K’ was not declared in this scope
+  251 |             [01;31m[KresetSpeedAndMove[m[K();
+      |             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In function ‘[01m[Kvoid moveInDirection(double)[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:256:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose0[m[K’ was not declared in this scope
+  256 |         tf2::Vector3 current_pos([01;31m[Kpose0[m[K.position.x, pose0.position.y, pose0.position.z);
+      |                                  [01;31m[K^~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:257:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_direction[m[K’ was not declared in this scope; did you mean ‘[01m[KmoveInDirection[m[K’?
+  257 |         tf2::Vector3 new_pos = current_pos + [01;31m[Kmove_direction[m[K * distance;
+      |                                              [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                              [32m[KmoveInDirection[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In lambda function:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:264:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group[m[K’ was not declared in this scope
+  264 |             [01;31m[Kmove_group[m[K->setPoseTarget(pose0);
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In function ‘[01m[Kvoid moveInDirection(double)[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:265:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_velocity[m[K’ was not declared in this scope
+  265 |         }, [01;31m[Kcurrent_velocity[m[K, current_acceleration);
+      |            [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:265:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_acceleration[m[K’ was not declared in this scope
+  265 |         }, current_velocity, [01;31m[Kcurrent_acceleration[m[K);
+      |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:263:9:[m[K [01;31m[Kerror: [m[K‘[01m[KplanAndExecute[m[K’ was not declared in this scope
+  263 |         [01;31m[KplanAndExecute[m[K("Directional Movement", [&]() {
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In function ‘[01m[Kvoid enableForceMeasurement()[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:269:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_subscriber[m[K’ was not declared in this scope
+  269 |         [01;31m[Ksensor_subscriber[m[K = this->create_subscription<std_msgs::msg::Float64MultiArray>(
+      |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:269:29:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  269 |         sensor_subscriber = [01;31m[Kthis[m[K->create_subscription<std_msgs::msg::Float64MultiArray>(
+      |                             [01;31m[K^~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:269:87:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  269 |         sensor_subscriber = this->create_subscription<std_msgs::msg::Float64MultiArray[01;31m[K>[m[K(
+      |                                                                                       [01;31m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:270:13:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  270 |             [01;35m[K"/sensor_data"[m[K, 10,
+      |             [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:271:36:[m[K [01;31m[Kerror: [m[K‘[01m[KsensorCallback[m[K’ is not a member of ‘[01m[KUR5Control[m[K’
+  271 |             std::bind(&UR5Control::[01;31m[KsensorCallback[m[K, this, std::placeholders::_1));
+      |                                    [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:271:52:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  271 |             std::bind(&UR5Control::sensorCallback, [01;31m[Kthis[m[K, std::placeholders::_1));
+      |                                                    [01;31m[K^~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In function ‘[01m[Kvoid disableForceMeasurement()[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:275:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_subscriber[m[K’ was not declared in this scope
+  275 |         [01;31m[Ksensor_subscriber[m[K.reset();
+      |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K At global scope:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:279:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_moving[m[K’ does not name a type
+  279 |         [01;31m[Kis_moving[m[K = true;
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:280:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_velocity[m[K’ does not name a type
+  280 |         [01;31m[Kcurrent_velocity[m[K = std::max(0.0, current_velocity - 0.5);
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:281:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_acceleration[m[K’ does not name a type
+  281 |         [01;31m[Kcurrent_acceleration[m[K = std::max(0.0, current_acceleration - 0.5);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:283:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kif[m[K’
+  283 |         [01;31m[Kif[m[K (current_velocity > 0.0) {
+      |         [01;31m[K^~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:287:11:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+  287 |         } [01;31m[Kelse[m[K {
+      |           [01;31m[K^~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:325:5:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  325 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:328:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group[m[K’ was not declared in this scope
+  328 |         geometry_msgs::msg::PoseStamped current_pose = [01;31m[Kmove_group[m[K->getCurrentPose();
+      |                                                        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:330:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kif[m[K’
+  330 |         [01;31m[Kif[m[K (current_direction_index == 2 || current_direction_index == 3) {
+      |         [01;31m[K^~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:343:11:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+  343 |         } [01;31m[Kelse[m[K if (current_direction_index == 4 || current_direction_index == 5) {
+      |           [01;31m[K^~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:357:5:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  357 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:360:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose1[m[K’ does not name a type
+  360 |         [01;31m[Kpose1[m[K.position.x = (x_positive_pose.position.x + x_negative_pose.position.x) / 2.0;
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:361:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose1[m[K’ does not name a type
+  361 |         [01;31m[Kpose1[m[K.position.y = (x_positive_pose.position.y + x_negative_pose.position.y) / 2.0;
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:362:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose1[m[K’ does not name a type
+  362 |         [01;31m[Kpose1[m[K.position.z = (x_positive_pose.position.z + x_negative_pose.position.z) / 2.0;
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:364:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose1[m[K’ does not name a type
+  364 |         [01;31m[Kpose1[m[K.orientation.x = (x_positive_pose.orientation.x + x_negative_pose.orientation.x) / 2.0;
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:365:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose1[m[K’ does not name a type
+  365 |         [01;31m[Kpose1[m[K.orientation.y = (x_positive_pose.orientation.y + x_negative_pose.orientation.y) / 2.0;
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:366:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose1[m[K’ does not name a type
+  366 |         [01;31m[Kpose1[m[K.orientation.z = (x_positive_pose.orientation.z + x_negative_pose.orientation.z) / 2.0;
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:367:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose1[m[K’ does not name a type
+  367 |         [01;31m[Kpose1[m[K.orientation.w = (x_positive_pose.orientation.w + x_negative_pose.orientation.w) / 2.0;
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:369:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose1[m[K’ was not declared in this scope
+  369 |         double norm = sqrt([01;31m[Kpose1[m[K.orientation.x * pose1.orientation.x +
+      |                            [01;31m[K^~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:369:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose1[m[K’ was not declared in this scope
+  369 |         double norm = sqrt(pose1.orientation.x * [01;31m[Kpose1[m[K.orientation.x +
+      |                                                  [01;31m[K^~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:370:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose1[m[K’ was not declared in this scope
+  370 |                          [01;31m[Kpose1[m[K.orientation.y * pose1.orientation.y +
+      |                          [01;31m[K^~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:370:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose1[m[K’ was not declared in this scope
+  370 |                          pose1.orientation.y * [01;31m[Kpose1[m[K.orientation.y +
+      |                                                [01;31m[K^~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:371:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose1[m[K’ was not declared in this scope
+  371 |                          [01;31m[Kpose1[m[K.orientation.z * pose1.orientation.z +
+      |                          [01;31m[K^~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:371:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose1[m[K’ was not declared in this scope
+  371 |                          pose1.orientation.z * [01;31m[Kpose1[m[K.orientation.z +
+      |                                                [01;31m[K^~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:372:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose1[m[K’ was not declared in this scope
+  372 |                          [01;31m[Kpose1[m[K.orientation.w * pose1.orientation.w);
+      |                          [01;31m[K^~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:372:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose1[m[K’ was not declared in this scope
+  372 |                          pose1.orientation.w * [01;31m[Kpose1[m[K.orientation.w);
+      |                                                [01;31m[K^~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:374:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose1[m[K’ does not name a type
+  374 |         [01;31m[Kpose1[m[K.orientation.x /= norm;
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:375:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose1[m[K’ does not name a type
+  375 |         [01;31m[Kpose1[m[K.orientation.y /= norm;
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:376:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose1[m[K’ does not name a type
+  376 |         [01;31m[Kpose1[m[K.orientation.z /= norm;
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:377:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose1[m[K’ does not name a type
+  377 |         [01;31m[Kpose1[m[K.orientation.w /= norm;
+      |         [01;31m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:1[m[K:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:379:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kdo[m[K’
+  379 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Calculated pose1");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:379:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+  379 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Calculated pose1");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:380:22:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+  380 |         moveToPose1()[01;31m[K;[m[K
+      |                      [01;31m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:381:5:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  381 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:384:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose2[m[K’ does not name a type
+  384 |         [01;31m[Kpose2[m[K.position.x = (y_positive_pose.position.x + y_negative_pose.position.x) / 2.0;
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:385:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose2[m[K’ does not name a type
+  385 |         [01;31m[Kpose2[m[K.position.y = (y_positive_pose.position.y + y_negative_pose.position.y) / 2.0;
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:386:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose2[m[K’ does not name a type
+  386 |         [01;31m[Kpose2[m[K.position.z = (y_positive_pose.position.z + y_negative_pose.position.z) / 2.0;
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:388:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose2[m[K’ does not name a type
+  388 |         [01;31m[Kpose2[m[K.orientation = pose1.orientation;
+      |         [01;31m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:1[m[K:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:390:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kdo[m[K’
+  390 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Calculated pose2");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:390:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+  390 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Calculated pose2");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:391:31:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+  391 |         completeMoveSequence()[01;31m[K;[m[K
+      |                               [01;31m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:392:5:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  392 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In lambda function:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:396:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group[m[K’ was not declared in this scope
+  396 |             [01;31m[Kmove_group[m[K->setPoseTarget(pose1);
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:396:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose1[m[K’ was not declared in this scope
+  396 |             move_group->setPoseTarget([01;31m[Kpose1[m[K);
+      |                                       [01;31m[K^~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In function ‘[01m[Kvoid moveToPose1()[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:395:9:[m[K [01;31m[Kerror: [m[K‘[01m[KplanAndExecute[m[K’ was not declared in this scope
+  395 |         [01;31m[KplanAndExecute[m[K("Pose 1", [&]() {
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:399:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group[m[K’ was not declared in this scope
+  399 |         geometry_msgs::msg::PoseStamped current_pose = [01;31m[Kmove_group[m[K->getCurrentPose();
+      |                                                        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:400:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose0[m[K’ was not declared in this scope
+  400 |         [01;31m[Kpose0[m[K = current_pose.pose;
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:402:9:[m[K [01;31m[Kerror: [m[K‘[01m[KsetInitialForces[m[K’ was not declared in this scope
+  402 |         [01;31m[KsetInitialForces[m[K();
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:404:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_velocity[m[K’ was not declared in this scope
+  404 |         [01;31m[Kcurrent_velocity[m[K = 0.1;
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K At global scope:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:408:34:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ at top level
+  408 |         auto gripper_publisher = [01;31m[Kthis[m[K->create_publisher<std_msgs::msg::Int32MultiArray>("custom_gripper", 10);
+      |                                  [01;31m[K^~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:408:87:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  408 |         auto gripper_publisher = this->create_publisher<std_msgs::msg::Int32MultiArray[01;31m[K>[m[K("custom_gripper", 10);
+      |                                                                                       [01;31m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:408:89:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  408 |         auto gripper_publisher = this->create_publisher<std_msgs::msg::Int32MultiArray>([01;35m[K"custom_gripper"[m[K, 10);
+      |                                                                                         [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:410:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kgripper_command[m[K’ does not name a type
+  410 |         [01;31m[Kgripper_command[m[K.data.push_back(width);
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:411:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kgripper_command[m[K’ does not name a type
+  411 |         [01;31m[Kgripper_command[m[K.data.push_back(force);
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:1[m[K:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:413:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kdo[m[K’
+  413 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing Gripper Command: width=%d, force=%d", width, force);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:413:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+  413 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing Gripper Command: width=%d, force=%d", width, force);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:414:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kgripper_publisher[m[K’ does not name a type
+  414 |         [01;31m[Kgripper_publisher[m[K->publish(gripper_command);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:416:36:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+  416 |         std::this_thread::sleep_for[01;31m[K([m[Kstd::chrono::seconds(2));
+      |                                    [01;31m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:417:5:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  417 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:420:23:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+  420 |         planAndExecute[01;31m[K([m[K"Pose 2", [&]() {
+      |                       [01;31m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:422:10:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K,[m[K’ token
+  422 |         }[01;31m[K,[m[K 0.5, 0.5);
+      |          [01;31m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:422:12:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before numeric constant
+  422 |         }, [01;31m[K0.5[m[K, 0.5);
+      |            [01;31m[K^~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:424:23:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+  424 |         controlGripper[01;31m[K([m[K10, 10);
+      |                       [01;31m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:426:41:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kgeometry_msgs::msg::PoseStamped current_pose[m[K’
+  426 |         geometry_msgs::msg::PoseStamped [01;31m[Kcurrent_pose[m[K = move_group->getCurrentPose();
+      |                                         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:328:41:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped current_pose[m[K’ previously declared here
+  328 |         geometry_msgs::msg::PoseStamped [01;36m[Kcurrent_pose[m[K = move_group->getCurrentPose();
+      |                                         [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:426:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group[m[K’ was not declared in this scope
+  426 |         geometry_msgs::msg::PoseStamped current_pose = [01;31m[Kmove_group[m[K->getCurrentPose();
+      |                                                        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:428:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_pose[m[K’ does not name a type
+  428 |         [01;31m[Ktarget_pose[m[K.position.z -= 0.03;
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:430:23:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+  430 |         planAndExecute[01;31m[K([m[K"Z-axis Movement", [&]() {
+      |                       [01;31m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:432:10:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K,[m[K’ token
+  432 |         }[01;31m[K,[m[K 0.2, 0.2);
+      |          [01;31m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:432:12:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before numeric constant
+  432 |         }, [01;31m[K0.2[m[K, 0.2);
+      |            [01;31m[K^~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:434:23:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+  434 |         controlGripper[01;31m[K([m[K0, 10);
+      |                       [01;31m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:436:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_pose[m[K’ does not name a type
+  436 |         [01;31m[Kcurrent_pose[m[K = move_group->getCurrentPose();
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:437:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_pose[m[K’ does not name a type
+  437 |         [01;31m[Ktarget_pose[m[K = current_pose.pose;
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:438:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_pose[m[K’ does not name a type
+  438 |         [01;31m[Ktarget_pose[m[K.position.z += 0.08;
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:440:23:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+  440 |         planAndExecute[01;31m[K([m[K"Z+ Movement", [&]() {
+      |                       [01;31m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:442:10:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K,[m[K’ token
+  442 |         }[01;31m[K,[m[K 0.2, 0.2);
+      |          [01;31m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:442:12:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before numeric constant
+  442 |         }, [01;31m[K0.2[m[K, 0.2);
+      |            [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:1[m[K:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:444:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kdo[m[K’
+  444 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Final pose: "
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:444:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+  444 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Final pose: "
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:455:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kdo[m[K’
+  455 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Movement sequence completed");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:455:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+  455 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Movement sequence completed");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:456:27:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+  456 |         rclcpp::shutdown()[01;31m[K;[m[K
+      |                           [01;31m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:457:5:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  457 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:460:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kif[m[K’
+  460 |         [01;31m[Kif[m[K (!is_moving) {
+      |         [01;31m[K^~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:465:11:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+  465 |         } [01;31m[Kelse[m[K if (current_velocity < 1.0) {
+      |           [01;31m[K^~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:469:24:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+  469 |         moveInDirection[01;31m[K([m[K0.0005);
+      |                        [01;31m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:470:5:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  470 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In lambda function:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:475:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group[m[K’ was not declared in this scope
+  475 |             [01;31m[Kmove_group[m[K->setJointValueTarget(homejoints);
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In function ‘[01m[Kvoid moveToHome()[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:474:9:[m[K [01;31m[Kerror: [m[K‘[01m[KplanAndExecute[m[K’ was not declared in this scope
+  474 |         [01;31m[KplanAndExecute[m[K("Home", [&]() {
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In lambda function:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:481:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group[m[K’ was not declared in this scope
+  481 |             [01;31m[Kmove_group[m[K->setPoseTarget(pose0);
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:481:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose0[m[K’ was not declared in this scope
+  481 |             move_group->setPoseTarget([01;31m[Kpose0[m[K);
+      |                                       [01;31m[K^~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In function ‘[01m[Kvoid moveToPose0()[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:480:9:[m[K [01;31m[Kerror: [m[K‘[01m[KplanAndExecute[m[K’ was not declared in this scope
+  480 |         [01;31m[KplanAndExecute[m[K("Pose 0", [&]() {
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In function ‘[01m[Kvoid planAndExecute(const string&, const std::function<void()>&, double, double)[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:501:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group[m[K’ was not declared in this scope
+  501 |         [01;31m[Kmove_group[m[K->setMaxVelocityScalingFactor(velocity_factor);
+      |         [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:1[m[K:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:519:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  519 |             RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Failed to plan movement to %s after %d attempts",
+      |                          [01;31m[K^~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:519:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:519:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  519 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Failed to plan movement to %s after %d attempts",
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:519:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  519 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Failed to plan movement to %s after %d attempts",
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:519:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  519 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Failed to plan movement to %s after %d attempts",
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:1[m[K:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:519:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  519 |             RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Failed to plan movement to %s after %d attempts",
+      |                          [01;31m[K^~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:519:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  519 |             RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Failed to plan movement to %s after %d attempts",
+      |                          [01;31m[K^~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K At global scope:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:524:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+  524 | [01;31m[Kprivate[m[K:
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:539:30:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kgeometry_msgs::msg::Pose target_pose[m[K’
+  539 |     geometry_msgs::msg::Pose [01;31m[Ktarget_pose[m[K;
+      |                              [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:427:34:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::Pose target_pose[m[K’ previously declared here
+  427 |         geometry_msgs::msg::Pose [01;36m[Ktarget_pose[m[K = current_pose.pose;
+      |                                  [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:554:31:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kstd::vector<tf2::Vector3> movement_directions[m[K’
+  554 |     std::vector<tf2::Vector3> [01;31m[Kmovement_directions[m[K;
+      |                               [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:91:9:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[KUR5Control movement_directions[m[K’
+   91 |         [01;36m[Kmovement_directions[m[K = {
+      |         [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:559:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  559 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:566:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class UR5Control[m[K’ {aka ‘[01m[Kclass UR5Control[m[K’} has no member named ‘[01m[KsetForceThreshold[m[K’
+  566 |     node->[01;31m[KsetForceThreshold[m[K(20.0);
+      |           [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/steven/Documents/IIIIIIIII_TEST/command_endeffector_cartesian/src/ur5_endeffector_cartesian/src/ur5_ros2_cartesian.cpp:567:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class UR5Control[m[K’ {aka ‘[01m[Kclass UR5Control[m[K’} has no member named ‘[01m[KexecuteSequence[m[K’
+  567 |     node->[01;31m[KexecuteSequence[m[K();
+      |           [01;31m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ur5_ros2_cartesian.dir/build.make:76：CMakeFiles/ur5_ros2_cartesian.dir/src/ur5_ros2_cartesian.cpp.o] 錯誤 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ur5_ros2_cartesian.dir/all] 錯誤 2
+gmake: *** [Makefile:146：all] 錯誤 2
