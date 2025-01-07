@@ -1,0 +1,25 @@
+[0.308s] Invoking command in '/home/steven/ros2_ws/src/zed_camera_publisher': PYTHONPATH=/home/steven/ros2_ws/src/zed_camera_publisher/build/zed_camera_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/ros2_ws/src/zed_camera_publisher/install/zed_camera_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/zed_camera_publisher build --build-base /home/steven/ros2_ws/src/zed_camera_publisher/build/zed_camera_publisher/build install --record /home/steven/ros2_ws/src/zed_camera_publisher/build/zed_camera_publisher/install.log --single-version-externally-managed install_data
+[0.421s] running egg_info
+[0.422s] creating build/zed_camera_publisher/zed_camera_publisher.egg-info
+[0.422s] writing build/zed_camera_publisher/zed_camera_publisher.egg-info/PKG-INFO
+[0.422s] writing dependency_links to build/zed_camera_publisher/zed_camera_publisher.egg-info/dependency_links.txt
+[0.422s] writing entry points to build/zed_camera_publisher/zed_camera_publisher.egg-info/entry_points.txt
+[0.422s] writing requirements to build/zed_camera_publisher/zed_camera_publisher.egg-info/requires.txt
+[0.422s] writing top-level names to build/zed_camera_publisher/zed_camera_publisher.egg-info/top_level.txt
+[0.422s] writing manifest file 'build/zed_camera_publisher/zed_camera_publisher.egg-info/SOURCES.txt'
+[0.422s] reading manifest file 'build/zed_camera_publisher/zed_camera_publisher.egg-info/SOURCES.txt'
+[0.423s] writing manifest file 'build/zed_camera_publisher/zed_camera_publisher.egg-info/SOURCES.txt'
+[0.423s] running build
+[0.423s] running install
+[0.423s] running install_data
+[0.423s] creating /home/steven/ros2_ws/src/zed_camera_publisher/install/zed_camera_publisher/share/ament_index
+[0.423s] creating /home/steven/ros2_ws/src/zed_camera_publisher/install/zed_camera_publisher/share/ament_index/resource_index
+[0.423s] creating /home/steven/ros2_ws/src/zed_camera_publisher/install/zed_camera_publisher/share/ament_index/resource_index/packages
+[0.423s] copying resource/zed_camera_publisher -> /home/steven/ros2_ws/src/zed_camera_publisher/install/zed_camera_publisher/share/ament_index/resource_index/packages
+[0.423s] copying package.xml -> /home/steven/ros2_ws/src/zed_camera_publisher/install/zed_camera_publisher/share/zed_camera_publisher
+[0.423s] running install_egg_info
+[0.424s] Copying build/zed_camera_publisher/zed_camera_publisher.egg-info to /home/steven/ros2_ws/src/zed_camera_publisher/install/zed_camera_publisher/lib/python3.10/site-packages/zed_camera_publisher-0.0.0-py3.10.egg-info
+[0.424s] running install_scripts
+[0.434s] Installing zed_camera_node script to /home/steven/ros2_ws/src/zed_camera_publisher/install/zed_camera_publisher/lib/zed_camera_publisher
+[0.435s] writing list of installed files to '/home/steven/ros2_ws/src/zed_camera_publisher/build/zed_camera_publisher/install.log'
+[0.444s] Invoked command in '/home/steven/ros2_ws/src/zed_camera_publisher' returned '0': PYTHONPATH=/home/steven/ros2_ws/src/zed_camera_publisher/build/zed_camera_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/ros2_ws/src/zed_camera_publisher/install/zed_camera_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/zed_camera_publisher build --build-base /home/steven/ros2_ws/src/zed_camera_publisher/build/zed_camera_publisher/build install --record /home/steven/ros2_ws/src/zed_camera_publisher/build/zed_camera_publisher/install.log --single-version-externally-managed install_data

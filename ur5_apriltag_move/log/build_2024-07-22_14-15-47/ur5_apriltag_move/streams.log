@@ -1,0 +1,125 @@
+[0.009s] Invoking command in '/home/steven/ros2_ws/src/ur5_apriltag_move/build/ur5_apriltag_move': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/install/rg2:/home/steven/Documents/資料備份區/arws-main (參考專案)/src/gripper_control/install/gripper_control:/home/steven/ros2_ws/install/zed_receiver:/home/steven/ros2_ws/install/zed_camera_publisher:/home/steven/ros2_ws/install/yolov8_realsense:/home/steven/ros2_ws/install/ur5_control:/home/steven/ros2_ws/install/ur5:/home/steven/ros2_ws/install/udp_publisher:/home/steven/ros2_ws/install/rg2:/home/steven/ros2_ws/install/moveit_configs_utils:/home/steven/ros2_ws/install/first_stage_rg2:/home/steven/ros2_ws/src/command_everyjoints/install/ur5:/home/steven/ros2_ws/src/rg2_ros2/install/rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/steven/ros2_ws/src/ur5_apriltag_move -DCMAKE_INSTALL_PREFIX=/home/steven/ros2_ws/src/ur5_apriltag_move/install/ur5_apriltag_move
+[0.050s] -- The C compiler identification is GNU 11.4.0
+[0.080s] -- The CXX compiler identification is GNU 11.4.0
+[0.084s] -- Detecting C compiler ABI info
+[0.134s] -- Detecting C compiler ABI info - done
+[0.137s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.137s] -- Detecting C compile features
+[0.137s] -- Detecting C compile features - done
+[0.139s] -- Detecting CXX compiler ABI info
+[0.194s] -- Detecting CXX compiler ABI info - done
+[0.197s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.198s] -- Detecting CXX compile features
+[0.198s] -- Detecting CXX compile features - done
+[0.204s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.311s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.413s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.475s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.484s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.495s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.512s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.534s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.607s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.614s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.700s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.725s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.769s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.785s] -- Looking for pthread.h
+[0.839s] -- Looking for pthread.h - found
+[0.839s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.890s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.891s] -- Found Threads: TRUE  
+[1.028s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time thread 
+[1.032s] -- Found control_msgs: 4.6.0 (/opt/ros/humble/share/control_msgs/cmake)
+[1.287s] -- Found moveit_common: 2.5.5 (/home/steven/ros2_ws/install/moveit_common/share/moveit_common/cmake)
+[1.289s] -- Found moveit_core: 2.5.5 (/home/steven/ros2_ws/install/moveit_core/share/moveit_core/cmake)
+[1.315s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.373s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.391s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.396s] -- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.443s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.538s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.668s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.208s] -- Found moveit_ros_planning: 2.5.5 (/home/steven/ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[2.211s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[2.421s] -- Found moveit_ros_planning_interface: 2.5.5 (/home/steven/ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+[2.424s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[2.515s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[2.635s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[2.844s] -- Found moveit_servo: 2.5.5 (/home/steven/ros2_ws/install/moveit_servo/share/moveit_servo/cmake)
+[3.153s] -- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+[3.163s] -- Found rviz_visual_tools: 4.1.4 (/opt/ros/humble/share/rviz_visual_tools/cmake)
+[3.243s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[3.243s] -- Found OGRE
+[3.243s] --   static     : OFF
+[3.243s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[3.243s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.243s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[3.243s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[3.243s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[3.243s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.243s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[3.243s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.243s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.243s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.243s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.245s] -- Could not find freeimage library
+[3.262s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[3.268s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[3.358s] -- Found X11: /usr/include   
+[3.358s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[3.410s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[3.410s] -- Looking for gethostbyname
+[3.462s] -- Looking for gethostbyname - found
+[3.463s] -- Looking for connect
+[3.513s] -- Looking for connect - found
+[3.513s] -- Looking for remove
+[3.567s] -- Looking for remove - found
+[3.567s] -- Looking for shmat
+[3.620s] -- Looking for shmat - found
+[3.620s] -- Looking for IceConnectionNumber in ICE
+[3.672s] -- Looking for IceConnectionNumber in ICE - found
+[3.674s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[3.674s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[3.981s] -- Found moveit_visual_tools: 4.1.0 (/home/steven/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/cmake)
+[4.253s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.324s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.324s] -- Configured cppcheck include dirs: 
+[4.324s] -- Configured cppcheck exclude dirs and/or files: 
+[4.325s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.326s] -- Added test 'lint_cmake' to check CMake code style
+[4.327s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.329s] -- Added test 'uncrustify' to check C / C++ code style
+[4.329s] -- Configured uncrustify additional arguments: 
+[4.331s] -- Added test 'xmllint' to check XML markup files
+[4.332s] -- Configuring done
+[4.352s] -- Generating done
+[4.353s] -- Build files have been written to: /home/steven/ros2_ws/src/ur5_apriltag_move/build/ur5_apriltag_move
+[4.362s] Invoked command in '/home/steven/ros2_ws/src/ur5_apriltag_move/build/ur5_apriltag_move' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/install/rg2:/home/steven/Documents/資料備份區/arws-main (參考專案)/src/gripper_control/install/gripper_control:/home/steven/ros2_ws/install/zed_receiver:/home/steven/ros2_ws/install/zed_camera_publisher:/home/steven/ros2_ws/install/yolov8_realsense:/home/steven/ros2_ws/install/ur5_control:/home/steven/ros2_ws/install/ur5:/home/steven/ros2_ws/install/udp_publisher:/home/steven/ros2_ws/install/rg2:/home/steven/ros2_ws/install/moveit_configs_utils:/home/steven/ros2_ws/install/first_stage_rg2:/home/steven/ros2_ws/src/command_everyjoints/install/ur5:/home/steven/ros2_ws/src/rg2_ros2/install/rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/steven/ros2_ws/src/ur5_apriltag_move -DCMAKE_INSTALL_PREFIX=/home/steven/ros2_ws/src/ur5_apriltag_move/install/ur5_apriltag_move
+[4.364s] Invoking command in '/home/steven/ros2_ws/src/ur5_apriltag_move/build/ur5_apriltag_move': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/install/rg2:/home/steven/Documents/資料備份區/arws-main (參考專案)/src/gripper_control/install/gripper_control:/home/steven/ros2_ws/install/zed_receiver:/home/steven/ros2_ws/install/zed_camera_publisher:/home/steven/ros2_ws/install/yolov8_realsense:/home/steven/ros2_ws/install/ur5_control:/home/steven/ros2_ws/install/ur5:/home/steven/ros2_ws/install/udp_publisher:/home/steven/ros2_ws/install/rg2:/home/steven/ros2_ws/install/moveit_configs_utils:/home/steven/ros2_ws/install/first_stage_rg2:/home/steven/ros2_ws/src/command_everyjoints/install/ur5:/home/steven/ros2_ws/src/rg2_ros2/install/rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/ur5_apriltag_move/build/ur5_apriltag_move -- -j32 -l32
+[4.409s] [ 50%] [32mBuilding CXX object CMakeFiles/ur5_apriltag_move.dir/src/apriltag.cpp.o[0m
+[9.476s] [100%] [32m[1mLinking CXX executable ur5_apriltag_move[0m
+[9.696s] [100%] Built target ur5_apriltag_move
+[9.706s] Invoked command in '/home/steven/ros2_ws/src/ur5_apriltag_move/build/ur5_apriltag_move' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/install/rg2:/home/steven/Documents/資料備份區/arws-main (參考專案)/src/gripper_control/install/gripper_control:/home/steven/ros2_ws/install/zed_receiver:/home/steven/ros2_ws/install/zed_camera_publisher:/home/steven/ros2_ws/install/yolov8_realsense:/home/steven/ros2_ws/install/ur5_control:/home/steven/ros2_ws/install/ur5:/home/steven/ros2_ws/install/udp_publisher:/home/steven/ros2_ws/install/rg2:/home/steven/ros2_ws/install/moveit_configs_utils:/home/steven/ros2_ws/install/first_stage_rg2:/home/steven/ros2_ws/src/command_everyjoints/install/ur5:/home/steven/ros2_ws/src/rg2_ros2/install/rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/steven/ros2_ws/src/ur5_apriltag_move/build/ur5_apriltag_move -- -j32 -l32
+[9.738s] Invoking command in '/home/steven/ros2_ws/src/ur5_apriltag_move/build/ur5_apriltag_move': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/install/rg2:/home/steven/Documents/資料備份區/arws-main (參考專案)/src/gripper_control/install/gripper_control:/home/steven/ros2_ws/install/zed_receiver:/home/steven/ros2_ws/install/zed_camera_publisher:/home/steven/ros2_ws/install/yolov8_realsense:/home/steven/ros2_ws/install/ur5_control:/home/steven/ros2_ws/install/ur5:/home/steven/ros2_ws/install/udp_publisher:/home/steven/ros2_ws/install/rg2:/home/steven/ros2_ws/install/moveit_configs_utils:/home/steven/ros2_ws/install/first_stage_rg2:/home/steven/ros2_ws/src/command_everyjoints/install/ur5:/home/steven/ros2_ws/src/rg2_ros2/install/rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/steven/ros2_ws/src/ur5_apriltag_move/build/ur5_apriltag_move
+[9.746s] -- Install configuration: ""
+[9.746s] -- Installing: /home/steven/ros2_ws/src/ur5_apriltag_move/install/ur5_apriltag_move/lib/ur5_apriltag_move/ur5_apriltag_move
+[9.747s] -- Set runtime path of "/home/steven/ros2_ws/src/ur5_apriltag_move/install/ur5_apriltag_move/lib/ur5_apriltag_move/ur5_apriltag_move" to ""
+[9.747s] -- Installing: /home/steven/ros2_ws/src/ur5_apriltag_move/install/ur5_apriltag_move/share/ur5_apriltag_move/launch
+[9.747s] -- Installing: /home/steven/ros2_ws/src/ur5_apriltag_move/install/ur5_apriltag_move/share/ur5_apriltag_move/launch/ur5_ros2_apriltag.launch.py
+[9.747s] -- Installing: /home/steven/ros2_ws/src/ur5_apriltag_move/install/ur5_apriltag_move/share/ament_index/resource_index/package_run_dependencies/ur5_apriltag_move
+[9.747s] -- Installing: /home/steven/ros2_ws/src/ur5_apriltag_move/install/ur5_apriltag_move/share/ament_index/resource_index/parent_prefix_path/ur5_apriltag_move
+[9.747s] -- Installing: /home/steven/ros2_ws/src/ur5_apriltag_move/install/ur5_apriltag_move/share/ur5_apriltag_move/environment/ament_prefix_path.sh
+[9.747s] -- Installing: /home/steven/ros2_ws/src/ur5_apriltag_move/install/ur5_apriltag_move/share/ur5_apriltag_move/environment/ament_prefix_path.dsv
+[9.747s] -- Installing: /home/steven/ros2_ws/src/ur5_apriltag_move/install/ur5_apriltag_move/share/ur5_apriltag_move/environment/path.sh
+[9.747s] -- Installing: /home/steven/ros2_ws/src/ur5_apriltag_move/install/ur5_apriltag_move/share/ur5_apriltag_move/environment/path.dsv
+[9.748s] -- Installing: /home/steven/ros2_ws/src/ur5_apriltag_move/install/ur5_apriltag_move/share/ur5_apriltag_move/local_setup.bash
+[9.748s] -- Installing: /home/steven/ros2_ws/src/ur5_apriltag_move/install/ur5_apriltag_move/share/ur5_apriltag_move/local_setup.sh
+[9.748s] -- Installing: /home/steven/ros2_ws/src/ur5_apriltag_move/install/ur5_apriltag_move/share/ur5_apriltag_move/local_setup.zsh
+[9.748s] -- Installing: /home/steven/ros2_ws/src/ur5_apriltag_move/install/ur5_apriltag_move/share/ur5_apriltag_move/local_setup.dsv
+[9.748s] -- Installing: /home/steven/ros2_ws/src/ur5_apriltag_move/install/ur5_apriltag_move/share/ur5_apriltag_move/package.dsv
+[9.748s] -- Installing: /home/steven/ros2_ws/src/ur5_apriltag_move/install/ur5_apriltag_move/share/ament_index/resource_index/packages/ur5_apriltag_move
+[9.748s] -- Installing: /home/steven/ros2_ws/src/ur5_apriltag_move/install/ur5_apriltag_move/share/ur5_apriltag_move/cmake/ur5_apriltag_moveConfig.cmake
+[9.748s] -- Installing: /home/steven/ros2_ws/src/ur5_apriltag_move/install/ur5_apriltag_move/share/ur5_apriltag_move/cmake/ur5_apriltag_moveConfig-version.cmake
+[9.748s] -- Installing: /home/steven/ros2_ws/src/ur5_apriltag_move/install/ur5_apriltag_move/share/ur5_apriltag_move/package.xml
+[9.749s] Invoked command in '/home/steven/ros2_ws/src/ur5_apriltag_move/build/ur5_apriltag_move' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/steven/Documents/IIIIIIIII_TEST/rg2_ros2/install/rg2:/home/steven/Documents/資料備份區/arws-main (參考專案)/src/gripper_control/install/gripper_control:/home/steven/ros2_ws/install/zed_receiver:/home/steven/ros2_ws/install/zed_camera_publisher:/home/steven/ros2_ws/install/yolov8_realsense:/home/steven/ros2_ws/install/ur5_control:/home/steven/ros2_ws/install/ur5:/home/steven/ros2_ws/install/udp_publisher:/home/steven/ros2_ws/install/rg2:/home/steven/ros2_ws/install/moveit_configs_utils:/home/steven/ros2_ws/install/first_stage_rg2:/home/steven/ros2_ws/src/command_everyjoints/install/ur5:/home/steven/ros2_ws/src/rg2_ros2/install/rg2:/home/steven/ws_moveit2/install/moveit_configs_utils:/home/steven/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/steven/ros2_ws/src/ur5_apriltag_move/build/ur5_apriltag_move

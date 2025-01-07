@@ -1,0 +1,42 @@
+running egg_info
+creating ../../../build/blob_detector/blob_detector.egg-info
+writing ../../../build/blob_detector/blob_detector.egg-info/PKG-INFO
+writing dependency_links to ../../../build/blob_detector/blob_detector.egg-info/dependency_links.txt
+writing entry points to ../../../build/blob_detector/blob_detector.egg-info/entry_points.txt
+writing requirements to ../../../build/blob_detector/blob_detector.egg-info/requires.txt
+writing top-level names to ../../../build/blob_detector/blob_detector.egg-info/top_level.txt
+writing manifest file '../../../build/blob_detector/blob_detector.egg-info/SOURCES.txt'
+reading manifest file '../../../build/blob_detector/blob_detector.egg-info/SOURCES.txt'
+writing manifest file '../../../build/blob_detector/blob_detector.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/steven/ros2_ws/src/blob_ws_1207/build/blob_detector/build
+creating /home/steven/ros2_ws/src/blob_ws_1207/build/blob_detector/build/lib
+creating /home/steven/ros2_ws/src/blob_ws_1207/build/blob_detector/build/lib/blob_detector
+copying blob_detector/__init__.py -> /home/steven/ros2_ws/src/blob_ws_1207/build/blob_detector/build/lib/blob_detector
+copying blob_detector/visual_particle.py -> /home/steven/ros2_ws/src/blob_ws_1207/build/blob_detector/build/lib/blob_detector
+copying blob_detector/blob_detector_node.py -> /home/steven/ros2_ws/src/blob_ws_1207/build/blob_detector/build/lib/blob_detector
+copying blob_detector/particle_try.py -> /home/steven/ros2_ws/src/blob_ws_1207/build/blob_detector/build/lib/blob_detector
+running install
+running install_lib
+creating /home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/lib/python3.10/site-packages/blob_detector
+copying /home/steven/ros2_ws/src/blob_ws_1207/build/blob_detector/build/lib/blob_detector/__init__.py -> /home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/lib/python3.10/site-packages/blob_detector
+copying /home/steven/ros2_ws/src/blob_ws_1207/build/blob_detector/build/lib/blob_detector/visual_particle.py -> /home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/lib/python3.10/site-packages/blob_detector
+copying /home/steven/ros2_ws/src/blob_ws_1207/build/blob_detector/build/lib/blob_detector/blob_detector_node.py -> /home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/lib/python3.10/site-packages/blob_detector
+copying /home/steven/ros2_ws/src/blob_ws_1207/build/blob_detector/build/lib/blob_detector/particle_try.py -> /home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/lib/python3.10/site-packages/blob_detector
+byte-compiling /home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/lib/python3.10/site-packages/blob_detector/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/lib/python3.10/site-packages/blob_detector/visual_particle.py to visual_particle.cpython-310.pyc
+byte-compiling /home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/lib/python3.10/site-packages/blob_detector/blob_detector_node.py to blob_detector_node.cpython-310.pyc
+byte-compiling /home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/lib/python3.10/site-packages/blob_detector/particle_try.py to particle_try.cpython-310.pyc
+running install_data
+creating /home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/share/ament_index
+creating /home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/share/ament_index/resource_index
+creating /home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/share/ament_index/resource_index/packages
+copying resource/blob_detector -> /home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/share/ament_index/resource_index/packages
+copying package.xml -> /home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/share/blob_detector
+running install_egg_info
+Copying ../../../build/blob_detector/blob_detector.egg-info to /home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/lib/python3.10/site-packages/blob_detector-0.0.1-py3.10.egg-info
+running install_scripts
+Installing blob_detector_node script to /home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/lib/blob_detector
+Installing visual_particle script to /home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/lib/blob_detector
+writing list of installed files to '/home/steven/ros2_ws/src/blob_ws_1207/build/blob_detector/install.log'

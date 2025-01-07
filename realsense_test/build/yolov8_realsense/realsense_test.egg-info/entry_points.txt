@@ -1,0 +1,3 @@
+[console_scripts]
+test_realsense = realsense_test.realsense_yolo:main
+

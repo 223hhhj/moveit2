@@ -1,0 +1,40 @@
+[0.313s] Invoking command in '/home/steven/ros2_ws/src/command_everyjoints/build/ur5': PYTHONPATH=/home/steven/ros2_ws/src/command_everyjoints/build/ur5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/ros2_ws/src/command_everyjoints/install/ur5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/steven/ros2_ws/src/command_everyjoints/build/ur5/build
+[0.431s] running develop
+[0.431s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.431s]   warnings.warn(
+[0.534s] Removing /home/steven/ros2_ws/src/command_everyjoints/install/ur5/lib/python3.10/site-packages/ur5.egg-link (link to .)
+[0.534s] Link points to ['/home/steven/Documents/IIIIIIIII_TEST/command_everyjoints/build/ur5', '.']: uninstall aborted
+[0.548s] Invoked command in '/home/steven/ros2_ws/src/command_everyjoints/build/ur5' returned '0': PYTHONPATH=/home/steven/ros2_ws/src/command_everyjoints/build/ur5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/ros2_ws/src/command_everyjoints/install/ur5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/steven/ros2_ws/src/command_everyjoints/build/ur5/build
+[0.548s] Invoking command in '/home/steven/ros2_ws/src/command_everyjoints/src/ur5': PYTHONPATH=/home/steven/ros2_ws/src/command_everyjoints/build/ur5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/ros2_ws/src/command_everyjoints/install/ur5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ur5 build --build-base /home/steven/ros2_ws/src/command_everyjoints/build/ur5/build install --record /home/steven/ros2_ws/src/command_everyjoints/build/ur5/install.log --single-version-externally-managed install_data --force
+[0.657s] running egg_info
+[0.657s] writing ../../build/ur5/ur5.egg-info/PKG-INFO
+[0.657s] writing dependency_links to ../../build/ur5/ur5.egg-info/dependency_links.txt
+[0.657s] writing entry points to ../../build/ur5/ur5.egg-info/entry_points.txt
+[0.657s] writing requirements to ../../build/ur5/ur5.egg-info/requires.txt
+[0.657s] writing top-level names to ../../build/ur5/ur5.egg-info/top_level.txt
+[0.658s] reading manifest file '../../build/ur5/ur5.egg-info/SOURCES.txt'
+[0.658s] adding license file 'LICENSE'
+[0.658s] writing manifest file '../../build/ur5/ur5.egg-info/SOURCES.txt'
+[0.659s] running build
+[0.659s] running build_py
+[0.659s] creating /home/steven/ros2_ws/src/command_everyjoints/build/ur5/build
+[0.659s] creating /home/steven/ros2_ws/src/command_everyjoints/build/ur5/build/lib
+[0.659s] creating /home/steven/ros2_ws/src/command_everyjoints/build/ur5/build/lib/ur5
+[0.659s] copying ur5/__init__.py -> /home/steven/ros2_ws/src/command_everyjoints/build/ur5/build/lib/ur5
+[0.659s] copying ur5/test.py -> /home/steven/ros2_ws/src/command_everyjoints/build/ur5/build/lib/ur5
+[0.659s] running install
+[0.659s] running install_lib
+[0.659s] creating /home/steven/ros2_ws/src/command_everyjoints/install/ur5/lib/python3.10/site-packages/ur5
+[0.659s] copying /home/steven/ros2_ws/src/command_everyjoints/build/ur5/build/lib/ur5/__init__.py -> /home/steven/ros2_ws/src/command_everyjoints/install/ur5/lib/python3.10/site-packages/ur5
+[0.659s] copying /home/steven/ros2_ws/src/command_everyjoints/build/ur5/build/lib/ur5/test.py -> /home/steven/ros2_ws/src/command_everyjoints/install/ur5/lib/python3.10/site-packages/ur5
+[0.659s] byte-compiling /home/steven/ros2_ws/src/command_everyjoints/install/ur5/lib/python3.10/site-packages/ur5/__init__.py to __init__.cpython-310.pyc
+[0.660s] byte-compiling /home/steven/ros2_ws/src/command_everyjoints/install/ur5/lib/python3.10/site-packages/ur5/test.py to test.cpython-310.pyc
+[0.660s] running install_data
+[0.660s] copying resource/ur5 -> /home/steven/ros2_ws/src/command_everyjoints/install/ur5/share/ament_index/resource_index/packages
+[0.660s] copying package.xml -> /home/steven/ros2_ws/src/command_everyjoints/install/ur5/share/ur5
+[0.660s] running install_egg_info
+[0.661s] Copying ../../build/ur5/ur5.egg-info to /home/steven/ros2_ws/src/command_everyjoints/install/ur5/lib/python3.10/site-packages/ur5-0.0.0-py3.10.egg-info
+[0.661s] running install_scripts
+[0.671s] Installing test_node script to /home/steven/ros2_ws/src/command_everyjoints/install/ur5/lib/ur5
+[0.671s] writing list of installed files to '/home/steven/ros2_ws/src/command_everyjoints/build/ur5/install.log'
+[0.682s] Invoked command in '/home/steven/ros2_ws/src/command_everyjoints/src/ur5' returned '0': PYTHONPATH=/home/steven/ros2_ws/src/command_everyjoints/build/ur5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/ros2_ws/src/command_everyjoints/install/ur5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ur5 build --build-base /home/steven/ros2_ws/src/command_everyjoints/build/ur5/build install --record /home/steven/ros2_ws/src/command_everyjoints/build/ur5/install.log --single-version-externally-managed install_data --force

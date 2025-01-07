@@ -1,0 +1,44 @@
+[0.299s] Invoking command in '/home/steven/ros2_ws/src/blob_ws_1207/blob_ws/src/blob_detector': PYTHONPATH=/home/steven/ros2_ws/src/blob_ws_1207/build/blob_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/blob_detector build --build-base /home/steven/ros2_ws/src/blob_ws_1207/build/blob_detector/build install --record /home/steven/ros2_ws/src/blob_ws_1207/build/blob_detector/install.log --single-version-externally-managed install_data
+[0.405s] running egg_info
+[0.405s] creating ../../../build/blob_detector/blob_detector.egg-info
+[0.405s] writing ../../../build/blob_detector/blob_detector.egg-info/PKG-INFO
+[0.406s] writing dependency_links to ../../../build/blob_detector/blob_detector.egg-info/dependency_links.txt
+[0.406s] writing entry points to ../../../build/blob_detector/blob_detector.egg-info/entry_points.txt
+[0.406s] writing requirements to ../../../build/blob_detector/blob_detector.egg-info/requires.txt
+[0.406s] writing top-level names to ../../../build/blob_detector/blob_detector.egg-info/top_level.txt
+[0.406s] writing manifest file '../../../build/blob_detector/blob_detector.egg-info/SOURCES.txt'
+[0.406s] reading manifest file '../../../build/blob_detector/blob_detector.egg-info/SOURCES.txt'
+[0.407s] writing manifest file '../../../build/blob_detector/blob_detector.egg-info/SOURCES.txt'
+[0.407s] running build
+[0.407s] running build_py
+[0.407s] creating /home/steven/ros2_ws/src/blob_ws_1207/build/blob_detector/build
+[0.407s] creating /home/steven/ros2_ws/src/blob_ws_1207/build/blob_detector/build/lib
+[0.407s] creating /home/steven/ros2_ws/src/blob_ws_1207/build/blob_detector/build/lib/blob_detector
+[0.407s] copying blob_detector/__init__.py -> /home/steven/ros2_ws/src/blob_ws_1207/build/blob_detector/build/lib/blob_detector
+[0.407s] copying blob_detector/visual_particle.py -> /home/steven/ros2_ws/src/blob_ws_1207/build/blob_detector/build/lib/blob_detector
+[0.407s] copying blob_detector/blob_detector_node.py -> /home/steven/ros2_ws/src/blob_ws_1207/build/blob_detector/build/lib/blob_detector
+[0.407s] copying blob_detector/particle_try.py -> /home/steven/ros2_ws/src/blob_ws_1207/build/blob_detector/build/lib/blob_detector
+[0.407s] running install
+[0.407s] running install_lib
+[0.407s] creating /home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/lib/python3.10/site-packages/blob_detector
+[0.407s] copying /home/steven/ros2_ws/src/blob_ws_1207/build/blob_detector/build/lib/blob_detector/__init__.py -> /home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/lib/python3.10/site-packages/blob_detector
+[0.408s] copying /home/steven/ros2_ws/src/blob_ws_1207/build/blob_detector/build/lib/blob_detector/visual_particle.py -> /home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/lib/python3.10/site-packages/blob_detector
+[0.408s] copying /home/steven/ros2_ws/src/blob_ws_1207/build/blob_detector/build/lib/blob_detector/blob_detector_node.py -> /home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/lib/python3.10/site-packages/blob_detector
+[0.408s] copying /home/steven/ros2_ws/src/blob_ws_1207/build/blob_detector/build/lib/blob_detector/particle_try.py -> /home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/lib/python3.10/site-packages/blob_detector
+[0.408s] byte-compiling /home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/lib/python3.10/site-packages/blob_detector/__init__.py to __init__.cpython-310.pyc
+[0.408s] byte-compiling /home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/lib/python3.10/site-packages/blob_detector/visual_particle.py to visual_particle.cpython-310.pyc
+[0.409s] byte-compiling /home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/lib/python3.10/site-packages/blob_detector/blob_detector_node.py to blob_detector_node.cpython-310.pyc
+[0.409s] byte-compiling /home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/lib/python3.10/site-packages/blob_detector/particle_try.py to particle_try.cpython-310.pyc
+[0.410s] running install_data
+[0.410s] creating /home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/share/ament_index
+[0.410s] creating /home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/share/ament_index/resource_index
+[0.410s] creating /home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/share/ament_index/resource_index/packages
+[0.410s] copying resource/blob_detector -> /home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/share/ament_index/resource_index/packages
+[0.410s] copying package.xml -> /home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/share/blob_detector
+[0.410s] running install_egg_info
+[0.411s] Copying ../../../build/blob_detector/blob_detector.egg-info to /home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/lib/python3.10/site-packages/blob_detector-0.0.1-py3.10.egg-info
+[0.411s] running install_scripts
+[0.420s] Installing blob_detector_node script to /home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/lib/blob_detector
+[0.420s] Installing visual_particle script to /home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/lib/blob_detector
+[0.420s] writing list of installed files to '/home/steven/ros2_ws/src/blob_ws_1207/build/blob_detector/install.log'
+[0.430s] Invoked command in '/home/steven/ros2_ws/src/blob_ws_1207/blob_ws/src/blob_detector' returned '0': PYTHONPATH=/home/steven/ros2_ws/src/blob_ws_1207/build/blob_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/blob_detector build --build-base /home/steven/ros2_ws/src/blob_ws_1207/build/blob_detector/build install --record /home/steven/ros2_ws/src/blob_ws_1207/build/blob_detector/install.log --single-version-externally-managed install_data

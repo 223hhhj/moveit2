@@ -1,0 +1,21 @@
+[0.300s] Invoking command in '/home/steven/ros2_ws/src/yolov8_realsense': PYTHONPATH=/home/steven/ros2_ws/src/yolov8_realsense/build/yolov8_realsense/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/ros2_ws/src/yolov8_realsense/install/yolov8_realsense/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/yolov8_realsense build --build-base /home/steven/ros2_ws/src/yolov8_realsense/build/yolov8_realsense/build install --record /home/steven/ros2_ws/src/yolov8_realsense/build/yolov8_realsense/install.log --single-version-externally-managed install_data
+[0.405s] running egg_info
+[0.405s] writing build/yolov8_realsense/yolov8_realsense.egg-info/PKG-INFO
+[0.405s] writing dependency_links to build/yolov8_realsense/yolov8_realsense.egg-info/dependency_links.txt
+[0.405s] writing entry points to build/yolov8_realsense/yolov8_realsense.egg-info/entry_points.txt
+[0.405s] writing requirements to build/yolov8_realsense/yolov8_realsense.egg-info/requires.txt
+[0.406s] writing top-level names to build/yolov8_realsense/yolov8_realsense.egg-info/top_level.txt
+[0.406s] reading manifest file 'build/yolov8_realsense/yolov8_realsense.egg-info/SOURCES.txt'
+[0.407s] writing manifest file 'build/yolov8_realsense/yolov8_realsense.egg-info/SOURCES.txt'
+[0.407s] running build
+[0.407s] running build_py
+[0.407s] running install
+[0.407s] running install_lib
+[0.407s] running install_data
+[0.407s] running install_egg_info
+[0.408s] removing '/home/steven/ros2_ws/src/yolov8_realsense/install/yolov8_realsense/lib/python3.10/site-packages/yolov8_realsense-0.0.0-py3.10.egg-info' (and everything under it)
+[0.408s] Copying build/yolov8_realsense/yolov8_realsense.egg-info to /home/steven/ros2_ws/src/yolov8_realsense/install/yolov8_realsense/lib/python3.10/site-packages/yolov8_realsense-0.0.0-py3.10.egg-info
+[0.408s] running install_scripts
+[0.417s] Installing realsense_yolo script to /home/steven/ros2_ws/src/yolov8_realsense/install/yolov8_realsense/lib/yolov8_realsense
+[0.418s] writing list of installed files to '/home/steven/ros2_ws/src/yolov8_realsense/build/yolov8_realsense/install.log'
+[0.427s] Invoked command in '/home/steven/ros2_ws/src/yolov8_realsense' returned '0': PYTHONPATH=/home/steven/ros2_ws/src/yolov8_realsense/build/yolov8_realsense/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/ros2_ws/src/yolov8_realsense/install/yolov8_realsense/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/yolov8_realsense build --build-base /home/steven/ros2_ws/src/yolov8_realsense/build/yolov8_realsense/build install --record /home/steven/ros2_ws/src/yolov8_realsense/build/yolov8_realsense/install.log --single-version-externally-managed install_data

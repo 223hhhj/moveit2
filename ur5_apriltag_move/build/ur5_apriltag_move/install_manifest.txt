@@ -1,0 +1,17 @@
+/home/steven/ros2_ws/src/ur5_apriltag_move/install/ur5_apriltag_move/lib/ur5_apriltag_move/ur5_apriltag_move
+/home/steven/ros2_ws/src/ur5_apriltag_move/install/ur5_apriltag_move/share/ur5_apriltag_move/launch/ur5_ros2_apriltag.launch.py
+/home/steven/ros2_ws/src/ur5_apriltag_move/install/ur5_apriltag_move/share/ament_index/resource_index/package_run_dependencies/ur5_apriltag_move
+/home/steven/ros2_ws/src/ur5_apriltag_move/install/ur5_apriltag_move/share/ament_index/resource_index/parent_prefix_path/ur5_apriltag_move
+/home/steven/ros2_ws/src/ur5_apriltag_move/install/ur5_apriltag_move/share/ur5_apriltag_move/environment/ament_prefix_path.sh
+/home/steven/ros2_ws/src/ur5_apriltag_move/install/ur5_apriltag_move/share/ur5_apriltag_move/environment/ament_prefix_path.dsv
+/home/steven/ros2_ws/src/ur5_apriltag_move/install/ur5_apriltag_move/share/ur5_apriltag_move/environment/path.sh
+/home/steven/ros2_ws/src/ur5_apriltag_move/install/ur5_apriltag_move/share/ur5_apriltag_move/environment/path.dsv
+/home/steven/ros2_ws/src/ur5_apriltag_move/install/ur5_apriltag_move/share/ur5_apriltag_move/local_setup.bash
+/home/steven/ros2_ws/src/ur5_apriltag_move/install/ur5_apriltag_move/share/ur5_apriltag_move/local_setup.sh
+/home/steven/ros2_ws/src/ur5_apriltag_move/install/ur5_apriltag_move/share/ur5_apriltag_move/local_setup.zsh
+/home/steven/ros2_ws/src/ur5_apriltag_move/install/ur5_apriltag_move/share/ur5_apriltag_move/local_setup.dsv
+/home/steven/ros2_ws/src/ur5_apriltag_move/install/ur5_apriltag_move/share/ur5_apriltag_move/package.dsv
+/home/steven/ros2_ws/src/ur5_apriltag_move/install/ur5_apriltag_move/share/ament_index/resource_index/packages/ur5_apriltag_move
+/home/steven/ros2_ws/src/ur5_apriltag_move/install/ur5_apriltag_move/share/ur5_apriltag_move/cmake/ur5_apriltag_moveConfig.cmake
+/home/steven/ros2_ws/src/ur5_apriltag_move/install/ur5_apriltag_move/share/ur5_apriltag_move/cmake/ur5_apriltag_moveConfig-version.cmake
+/home/steven/ros2_ws/src/ur5_apriltag_move/install/ur5_apriltag_move/share/ur5_apriltag_move/package.xml

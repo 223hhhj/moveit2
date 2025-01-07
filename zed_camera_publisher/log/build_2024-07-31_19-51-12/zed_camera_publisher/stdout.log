@@ -1,0 +1,17 @@
+running egg_info
+writing build/zed_camera_publisher/zed_camera_publisher.egg-info/PKG-INFO
+writing dependency_links to build/zed_camera_publisher/zed_camera_publisher.egg-info/dependency_links.txt
+writing entry points to build/zed_camera_publisher/zed_camera_publisher.egg-info/entry_points.txt
+writing requirements to build/zed_camera_publisher/zed_camera_publisher.egg-info/requires.txt
+writing top-level names to build/zed_camera_publisher/zed_camera_publisher.egg-info/top_level.txt
+reading manifest file 'build/zed_camera_publisher/zed_camera_publisher.egg-info/SOURCES.txt'
+writing manifest file 'build/zed_camera_publisher/zed_camera_publisher.egg-info/SOURCES.txt'
+running build
+running install
+running install_data
+running install_egg_info
+removing '/home/steven/ros2_ws/src/zed_camera_publisher/install/zed_camera_publisher/lib/python3.10/site-packages/zed_camera_publisher-0.0.0-py3.10.egg-info' (and everything under it)
+Copying build/zed_camera_publisher/zed_camera_publisher.egg-info to /home/steven/ros2_ws/src/zed_camera_publisher/install/zed_camera_publisher/lib/python3.10/site-packages/zed_camera_publisher-0.0.0-py3.10.egg-info
+running install_scripts
+Installing zed_camera_node script to /home/steven/ros2_ws/src/zed_camera_publisher/install/zed_camera_publisher/lib/zed_camera_publisher
+writing list of installed files to '/home/steven/ros2_ws/src/zed_camera_publisher/build/zed_camera_publisher/install.log'

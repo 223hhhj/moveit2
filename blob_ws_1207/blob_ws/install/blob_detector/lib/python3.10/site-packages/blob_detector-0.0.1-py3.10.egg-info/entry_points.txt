@@ -1,0 +1,5 @@
+[console_scripts]
+blob_detector_node = blob_detector.blob_detector_node:main
+ur5_z_blob = blob_detector.ur5_z_blob:main
+visual_particle = blob_detector.visual_particle:main
+

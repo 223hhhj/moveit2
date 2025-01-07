@@ -1,0 +1,22 @@
+[0.326s] Invoking command in '/home/steven/ros2_ws/src/command_everyjoints/src/ur5': PYTHONPATH=/home/steven/ros2_ws/src/command_everyjoints/build/ur5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/ros2_ws/src/command_everyjoints/install/ur5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ur5 build --build-base /home/steven/ros2_ws/src/command_everyjoints/build/ur5/build install --record /home/steven/ros2_ws/src/command_everyjoints/build/ur5/install.log --single-version-externally-managed install_data
+[0.442s] running egg_info
+[0.442s] writing ../../build/ur5/ur5.egg-info/PKG-INFO
+[0.442s] writing dependency_links to ../../build/ur5/ur5.egg-info/dependency_links.txt
+[0.442s] writing entry points to ../../build/ur5/ur5.egg-info/entry_points.txt
+[0.442s] writing requirements to ../../build/ur5/ur5.egg-info/requires.txt
+[0.442s] writing top-level names to ../../build/ur5/ur5.egg-info/top_level.txt
+[0.443s] reading manifest file '../../build/ur5/ur5.egg-info/SOURCES.txt'
+[0.443s] adding license file 'LICENSE'
+[0.443s] writing manifest file '../../build/ur5/ur5.egg-info/SOURCES.txt'
+[0.443s] running build
+[0.443s] running build_py
+[0.444s] running install
+[0.444s] running install_lib
+[0.444s] running install_data
+[0.444s] running install_egg_info
+[0.445s] removing '/home/steven/ros2_ws/src/command_everyjoints/install/ur5/lib/python3.10/site-packages/ur5-0.0.0-py3.10.egg-info' (and everything under it)
+[0.445s] Copying ../../build/ur5/ur5.egg-info to /home/steven/ros2_ws/src/command_everyjoints/install/ur5/lib/python3.10/site-packages/ur5-0.0.0-py3.10.egg-info
+[0.445s] running install_scripts
+[0.455s] Installing test_node script to /home/steven/ros2_ws/src/command_everyjoints/install/ur5/lib/ur5
+[0.455s] writing list of installed files to '/home/steven/ros2_ws/src/command_everyjoints/build/ur5/install.log'
+[0.466s] Invoked command in '/home/steven/ros2_ws/src/command_everyjoints/src/ur5' returned '0': PYTHONPATH=/home/steven/ros2_ws/src/command_everyjoints/build/ur5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/ros2_ws/src/command_everyjoints/install/ur5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ur5 build --build-base /home/steven/ros2_ws/src/command_everyjoints/build/ur5/build install --record /home/steven/ros2_ws/src/command_everyjoints/build/ur5/install.log --single-version-externally-managed install_data

@@ -1,0 +1,26 @@
+[0.334s] Invoking command in '/home/steven/ros2_ws/src/blob_ws_1207/blob_ws/src/blob_detector': PYTHONPATH=/home/steven/ros2_ws/src/blob_ws_1207/build/blob_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/blob_detector build --build-base /home/steven/ros2_ws/src/blob_ws_1207/build/blob_detector/build install --record /home/steven/ros2_ws/src/blob_ws_1207/build/blob_detector/install.log --single-version-externally-managed install_data
+[0.452s] running egg_info
+[0.452s] writing ../../../build/blob_detector/blob_detector.egg-info/PKG-INFO
+[0.452s] writing dependency_links to ../../../build/blob_detector/blob_detector.egg-info/dependency_links.txt
+[0.452s] writing entry points to ../../../build/blob_detector/blob_detector.egg-info/entry_points.txt
+[0.452s] writing requirements to ../../../build/blob_detector/blob_detector.egg-info/requires.txt
+[0.452s] writing top-level names to ../../../build/blob_detector/blob_detector.egg-info/top_level.txt
+[0.453s] reading manifest file '../../../build/blob_detector/blob_detector.egg-info/SOURCES.txt'
+[0.454s] writing manifest file '../../../build/blob_detector/blob_detector.egg-info/SOURCES.txt'
+[0.454s] running build
+[0.454s] running build_py
+[0.454s] copying blob_detector/ur5_z_blob.py -> /home/steven/ros2_ws/src/blob_ws_1207/build/blob_detector/build/lib/blob_detector
+[0.454s] running install
+[0.454s] running install_lib
+[0.454s] copying /home/steven/ros2_ws/src/blob_ws_1207/build/blob_detector/build/lib/blob_detector/ur5_z_blob.py -> /home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/lib/python3.10/site-packages/blob_detector
+[0.455s] byte-compiling /home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/lib/python3.10/site-packages/blob_detector/ur5_z_blob.py to ur5_z_blob.cpython-310.pyc
+[0.456s] running install_data
+[0.456s] running install_egg_info
+[0.457s] removing '/home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/lib/python3.10/site-packages/blob_detector-0.0.1-py3.10.egg-info' (and everything under it)
+[0.457s] Copying ../../../build/blob_detector/blob_detector.egg-info to /home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/lib/python3.10/site-packages/blob_detector-0.0.1-py3.10.egg-info
+[0.457s] running install_scripts
+[0.467s] Installing blob_detector_node script to /home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/lib/blob_detector
+[0.467s] Installing ur5_z_blob script to /home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/lib/blob_detector
+[0.467s] Installing visual_particle script to /home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/lib/blob_detector
+[0.467s] writing list of installed files to '/home/steven/ros2_ws/src/blob_ws_1207/build/blob_detector/install.log'
+[0.478s] Invoked command in '/home/steven/ros2_ws/src/blob_ws_1207/blob_ws/src/blob_detector' returned '0': PYTHONPATH=/home/steven/ros2_ws/src/blob_ws_1207/build/blob_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/blob_detector build --build-base /home/steven/ros2_ws/src/blob_ws_1207/build/blob_detector/build install --record /home/steven/ros2_ws/src/blob_ws_1207/build/blob_detector/install.log --single-version-externally-managed install_data

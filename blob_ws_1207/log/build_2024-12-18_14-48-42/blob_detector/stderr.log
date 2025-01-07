@@ -1,0 +1,2 @@
+/home/steven/ros2_ws/src/blob_ws_1207/install/blob_detector/lib/python3.10/site-packages/blob_detector/visual_particle.py:126: SyntaxWarning: list indices must be integers or slices, not tuple; perhaps you missed a comma?
+  [-2.74127057e-04 ,-3.78219012e-05 , 0.00000000e+00 , 4.83430294e-01]
